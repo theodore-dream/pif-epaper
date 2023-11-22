@@ -75,13 +75,16 @@ def run_game(persona, session_state, gametext, entropy, session_id):
 
     # Handle button presses
     print("button press....")
-    pressed = buttons.handle_button_presses(session_id, session_state, entropy)
+
+    # temporarily faking the buttons for development reasons
+    entropy = handle_option_r(entropy)
+    #pressed = buttons.handle_button_presses(session_id, session_state, entropy)
 
     # Modify entropy based on button pressed
-    if pressed == "L":
-        entropy = handle_option_l(entropy)
-    elif pressed == "R":
-        entropy = handle_option_r(entropy)
+   #if pressed == "L":
+   #     entropy = handle_option_l(entropy)
+   # elif pressed == "R":
+   #     entropy = handle_option_r(entropy)
 
     # Run the intro function or the poetry loop 
     if session_state == "new":
