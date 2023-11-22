@@ -25,7 +25,7 @@ logger.debug("Logger is set up and running.")
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
-def poem_step_1(creative_prompt, persona, randomness_factor):
+def poem_step_1(creative_prompt, persona, entropy):
             completion = openai.ChatCompletion.create(
                 model="gpt-4-1106-preview",
                 messages=[
@@ -33,7 +33,7 @@ def poem_step_1(creative_prompt, persona, randomness_factor):
                     {"role": "user", "content": "Produce a haiku inspired by the following words: " + creative_prompt + ""},
                     #{"role": "user", "content": "Explain why you created the poem the way you did."},
                 ], 
-                temperature=(randomness_factor * 2),
+                temperature=(entropy),
                 max_tokens=500,
             )
 
@@ -48,7 +48,7 @@ def poem_step_1(creative_prompt, persona, randomness_factor):
             return step_1_poem
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
-def poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept):
+def poem_step_2(persona, entropy, step_1_poem, abstract_concept):
             completion = openai.ChatCompletion.create(
                 model="gpt-4-1106-preview",
                 messages=[
@@ -56,7 +56,7 @@ def poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept):
                     {"role": "user", "content": "Create a new poem based on the input text that is two to four lines long with the following parameters. The chosen abstract concept is: " + abstract_concept + ". Revise the input text to subtly weave in the chosen concept."},
                     {"role": "user", "content": "Input text: " + step_1_poem},
                 ],
-                temperature=(randomness_factor * 2),
+                temperature=(entropy),
                 max_tokens=500,
             )
 
@@ -71,7 +71,7 @@ def poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept):
             return step_2_poem
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
-def poem_step_3(persona, randomness_factor, step_2_poem):
+def poem_step_3(persona, entropy, step_2_poem):
             completion = openai.ChatCompletion.create(
                 model="gpt-4-1106-preview",
                 messages=[
@@ -79,7 +79,7 @@ def poem_step_3(persona, randomness_factor, step_2_poem):
                     {"role": "user", "content": "Create a new poem based on the input text that is up to four lines long with the following parameters. Introduce variation to reduce overall consistency in tone, language use, and sentence structure."},
                     {"role": "user", "content": "Input text: " + step_2_poem},
                 ],
-                temperature=(randomness_factor * 2),
+                temperature=(entropy),
                 max_tokens=500,
             )
 
@@ -94,21 +94,19 @@ def poem_step_3(persona, randomness_factor, step_2_poem):
 
             return step_3_poem
 
-def api_poem_pipeline(creative_prompt, persona, randomness_factor, abstract_concept):
+def api_poem_pipeline(creative_prompt, persona, entropy, abstract_concept):
     logger.debug(f"creative_prompt: {creative_prompt}")
-    step_1_poem = poem_step_1(creative_prompt, persona, randomness_factor)
+    step_1_poem = poem_step_1(creative_prompt, persona, entropy)
     logger.info (f"step_1_poem:\n{step_1_poem}")
-    #step_2_poem = poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept)
-    #logger.debug (f"step_2_poem:\n{step_2_poem}")
-    #step_3_poem = poem_step_3(persona, randomness_factor, step_2_poem)
-    #logger.info (f"step_3_poem:\n{step_3_poem}")
-    return step_1_poem
+    step_2_poem = poem_step_2(persona, entropy, step_1_poem, abstract_concept)
+    logger.info (f"step_2_poem:\n{step_2_poem}")
+    step_3_poem = poem_step_3(persona, entropy, step_2_poem)
+    logger.info (f"step_3_poem:\n{step_3_poem}")
+    return step_3_poem
 
 def parse_response(entropy):
-    # set a randomness factor between 0 and 1. Placeholder, will be logic for the buttons
-    randomness_factor = entropy
     # this part of the code goes WAY too slow. Removing the use of nltk for initial generation of the creative_prompt words
-    #creative_prompt = create_vars.gen_creative_prompt(create_vars.gen_random_words(randomness_factor), randomness_factor)
+    #creative_prompt = create_vars.gen_creative_prompt(create_vars.gen_random_words(entropy), entropy)
     creative_prompt = create_vars.gen_creative_prompt_api(entropy)
     abstract_concept = create_vars.get_abstract_concept()
     persona = create_vars.build_persona()
@@ -117,12 +115,12 @@ def parse_response(entropy):
     logger.debug(f"persona is: {persona}")
     logger.debug(f"lang_device is: {lang_device}")
     logger.debug(f"abstract_concept is: {abstract_concept}")
-    logger.debug(f"randomness factor is: {randomness_factor}")
+    logger.debug(f"entropy is: {entropy}")
 
     logger.debug(f"==========================")
     logger.debug(f"creative_starting_prompt: {creative_prompt}")
 
-    poem_result = api_poem_pipeline(creative_prompt, persona, randomness_factor, abstract_concept)
+    poem_result = api_poem_pipeline(creative_prompt, persona, entropy, abstract_concept)
     logger.debug(f"poem result:\n{poem_result}")
 
     print("-" * 30)

@@ -2,7 +2,7 @@ from modules.logger import setup_logger
 from flask import Flask, request, jsonify, session
 from flask_cors import CORS, cross_origin
 import openai
-from modules import openai_api_service, db_service, setup_utils, poem_gen, display_write, intro_vars, buttons
+from modules import openai_api_service, db_service, setup_utils, poem_gen, epaper_write, intro_vars, buttons
 import datetime
 import random
 from decimal import Decimal, ROUND_DOWN
@@ -18,6 +18,8 @@ buttons.setup()
 logger = setup_logger("main.py")
 logger.debug("Logger is set up and running.")
 
+#init our display
+epaper_write.init_display()
 
 # maybe flash the entropy level on the screen for a second or two, along with a random persona?
 def poetry_game_intro(entropy):
@@ -26,10 +28,10 @@ def poetry_game_intro(entropy):
     opening_text2 = intro_vars.opening_text2 
     opening_text3  = intro_vars.opening_text3 
     
-    display_write.display_write(opening_text1, 5)
-    display_write.display_write(opening_text2, 2)
-    display_write.display_write(opening_text3, 1)
-    logger.debug("opening text written to luma")
+    epaper_write.display_information(opening_text1, 3)
+    epaper_write.display_information(opening_text2, 3)
+    epaper_write.display_information(opening_text3, 1)
+    logger.debug("opening text written to epaper")
     creative_prompt = "Welcome the player to the poetry game in a single sentence. Welcome them in an such a way that is unexpected, smug, or pedantic"
     api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
     # this is the text that gets saved to the DB, I guess whatever is custom
@@ -57,7 +59,8 @@ def handle_option_r(entropy):
     # Implement game logic for Option B
     # Increase entropy by .05, not going above 1
     #entropy = min(1.0, float(entropy) + 0.1)
-    entropy = min(Decimal('1.0'), entropy + Decimal('0.05'))
+    # TEMP let's test capping this at 0.7
+    entropy = min(Decimal('0.7'), entropy + Decimal('0.05'))
     # Return a result (e.g., a string containing game text)
     logger.debug(f"right button pressed")
     return entropy
@@ -103,7 +106,7 @@ def run_game(persona, session_state, gametext, entropy, session_id):
     #logger.debug(f"saving updated game state, state is currently session, level, entropy: {session_id, level, entropy}")
 
     # Return the updated game text data to luma to display on the screen
-    display_write.display_write(gametext, 3)
+    epaper_write.display_information(gametext, 3)
     logger.debug("gametext is: " + gametext)
 
 def maintain_game_state():
@@ -130,9 +133,9 @@ def maintain_game_state():
         persona = None
         session_state = "new"
         gametext = None
-        # entropy is a random decimal from 0.00 to 1.00 with 1-2 decimal places
+        # entropy is a random decimal from 0.00 to 1.00 with 1-2 decimal places. Lets limit the upper bound to .6 to start. 
         #entropy = Decimal(str(random.uniform(0.0, 0.9))).quantize(Decimal('0.00'), rounding=ROUND_DOWN)
-        entropy = Decimal(random.randint(0, 90)) / Decimal(100)
+        entropy = Decimal(random.randint(0, 60)) / Decimal(100)
 
         # save this new game state before proceeding .. 
         db_service.write_to_database(session_id, session_state, entropy)

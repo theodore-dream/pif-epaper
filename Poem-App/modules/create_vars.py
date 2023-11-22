@@ -1,9 +1,9 @@
 import random
-import nltk
-from nltk.corpus import wordnet as wn
+#import nltk
+#from nltk.corpus import wordnet as wn
 import openai
 import os
-from nltk.probability import FreqDist
+#from nltk.probability import FreqDist
 
 # removed nltk due to latency
 #nltk.download('webtext')
@@ -199,13 +199,14 @@ def get_abstract_concept():
     selected_abstract_concept = random.choice(list(abstract_concepts.keys()))
 
     # Get synonyms and include the original concept in the list
-    words = [selected_abstract_concept]
-    for syn in wn.synsets(selected_abstract_concept):
-        for lemma in syn.lemmas():
-            words.append(lemma.name())
+    # temporarily removed for performance reasons testing removing ntlk entirely
+    #words = [selected_abstract_concept]
+    #for syn in wn.synsets(selected_abstract_concept):
+    #    for lemma in syn.lemmas():
+    #        words.append(lemma.name())
 
     # Choose randomly from the list of original word + synonyms
-    chosen_word = random.choice(words)
+    chosen_word = random.choice(selected_abstract_concept)
     return chosen_word
 
 
