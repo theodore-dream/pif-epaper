@@ -3,7 +3,7 @@
 import os
 import sys
 from time import sleep
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
 
 # Setup logger
 from modules.logger import setup_logger
@@ -18,7 +18,6 @@ from waveshare_epd import epd3in52
 # Constants
 EPAPER_WIDTH = 360
 EPAPER_HEIGHT = 240
-FONT_PATH = "/home/pi/Documents/pif-ai-luma/Poem-App/fonts/pixelmix.ttf"  # Update with the correct path to your font
 
 # Initialize e-paper display
 def init_display():
@@ -28,44 +27,33 @@ def init_display():
     epd.Clear()
     return epd
 
-# Function to display centered text
-def display_centered_text(epd, text, display_time):
+# Function to display a border rectangle
+def display_border_rectangle(epd, display_time=10):
     try:
-        # Initial font size
-        font_size = 12
         image = Image.new('1', (EPAPER_WIDTH, EPAPER_HEIGHT), 255)
         draw = ImageDraw.Draw(image)
-        font = ImageFont.truetype(FONT_PATH, font_size)
 
-        # Word wrap
-        lines = text.split('\n')
-        total_height = len(lines) * draw.textsize('A', font=font)[1]
+        # Draw multiple rectangles for thicker border
+        border_thickness = 3
+        for i in range(border_thickness):
+            border_rect = [i, i, EPAPER_WIDTH - 1 - i, EPAPER_HEIGHT - 1 - i]
+            draw.rectangle(border_rect, outline=0, fill=None)
 
-        y = (EPAPER_HEIGHT - total_height) // 2  # Center vertically
-        for line in lines:
-            text_width, text_height = draw.textsize(line, font=font)
-            x = (EPAPER_WIDTH - text_width) // 2  # Center horizontally
-            draw.text((x, y), line, font=font, fill=0)
-            y += text_height
-
-        # Display the text
+        # Display the rectangle
         epd.display(epd.getbuffer(image))
         epd.refresh()
         sleep(display_time)
 
     except Exception as e:
-        logger.error(f"Error in display_centered_text: {e}")
+        logger.error(f"Error in display_border_rectangle: {e}")
 
 # Main function for the test script
 def main():
     try:
         epd = init_display()
 
-        # Pre-made sentences
-        sentences = "First Sentence\nSecond Sentence\nThird Sentence"
-        
-        # Displaying the sentences
-        display_centered_text(epd, sentences, 10)
+        # Displaying the border rectangle
+        display_border_rectangle(epd)
 
         logger.info("Clearing display...")
         epd.Clear()
