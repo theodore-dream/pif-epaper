@@ -20,68 +20,47 @@ from modules.waveshare_epd import epd3in52
 EPAPER_WIDTH = 360
 EPAPER_HEIGHT = 240
 FONT_PATH = "/home/pi/Documents/pif-ai-luma/Poem-App/fonts/pixelmix.ttf"  # Update with the correct path to your font
+FONT_SIZE = 12
 
 # Initialize your e-paper display here
 
 def init_display():
-    logger.info("epd3in52 initialization")
+    logger.info("Initializing epd3in52")
     epd = epd3in52.EPD()
-    logger.info("init and Clear")
     epd.init()
-    epd.display_NUM(epd.WHITE)
-    epd.lut_GC()
-    epd.refresh()
-
-    epd.send_command(0x50)
-    epd.send_data(0x17)
-    sleep(0.1)
+    epd.Clear()
 
 def display_information(text, display_time):
     epd = epd3in52.EPD()
-    # Initial font size
-    font_size = 12
+    image = Image.new('1', (EPAPER_WIDTH, EPAPER_HEIGHT), 255)
+    draw = ImageDraw.Draw(image)
+    font = ImageFont.truetype(FONT_PATH, FONT_SIZE)
 
-    while True:
-        image = Image.new('1', (EPAPER_WIDTH, EPAPER_HEIGHT), 255)
-        draw = ImageDraw.Draw(image)
-        font = ImageFont.truetype(FONT_PATH, font_size)
+    # Calculate text size
+    text_width, text_height = draw.textsize(text, font=font)
 
-        # Word wrap
-        words = text.split()
-        lines = []
-        line = words.pop(0)
-        for word in words:
-            # Check if adding the word exceeds line width
-            if draw.textsize(line + ' ' + word, font=font)[0] <= EPAPER_WIDTH:
-                line += ' ' + word
-            else:
-                lines.append(line)
-                line = word
-        lines.append(line)  # Add the last line
+    # Center the text
+    x = (EPAPER_WIDTH - text_width) // 2
+    y = (EPAPER_HEIGHT - text_height) // 2
 
-        # Check if all lines fit vertically
-        total_height = len(lines) * draw.textsize(text, font=font)[1]
-        if total_height > EPAPER_HEIGHT:
-            font_size -= 1  # Reduce font size and try again
-            if font_size == 0:  # Minimum font size reached
-                raise ValueError("Text too long to display")
-            continue
+    # Check if text fits on the display
+    if text_width > EPAPER_WIDTH or text_height > EPAPER_HEIGHT:
+        raise ValueError("Text too long to display")
 
-        y = (EPAPER_HEIGHT - total_height) // 2  # Center vertically
-        for line in lines:
-            text_width, text_height = draw.textsize(line, font=font)
-            x = (EPAPER_WIDTH - text_width) // 2  # Center horizontally
-            draw.text((x, y), line, font=font, fill=0)
-            y += text_height
-
-        break  # Text fits, exit the loop
-
+    # Draw the text
+    draw.text((x, y), text, font=font, fill=0)
     logger.info("Text drawn on image successfully.")
+
+    # Display the text
     epd.display(epd.getbuffer(image))
     epd.lut_GC()
     epd.refresh()
     logger.info("Information displayed on e-paper successfully.")
+
+    # Wait for the specified display time
     sleep(display_time)
+
+    # Clear the display
     logger.info("Clear e-paper display...")
     epd.Clear()
 
