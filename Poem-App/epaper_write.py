@@ -39,7 +39,7 @@ def display_information(epd, text):
         draw = ImageDraw.Draw(image)
 
         # Load the font
-        font = ImageFont.truetype(FONT_PATH, 24)  # Adjust size as needed
+        font = ImageFont.truetype(FONT_PATH, 16)  # Adjust size as needed
         logging.info("Font loaded successfully.")
 
         # Calculate text position for center alignment
@@ -65,7 +65,7 @@ def display_dialogue(epd, left_text, right_text):
         image = Image.new('1', (EPAPER_WIDTH, EPAPER_HEIGHT), 255)
         draw = ImageDraw.Draw(image)
 
-        font = ImageFont.truetype(FONT_PATH, 20)  # Adjust size as needed
+        font = ImageFont.truetype(FONT_PATH, 10)  # Adjust size as needed
         logging.info("Font loaded successfully.")
 
         # Calculate positions
