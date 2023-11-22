@@ -37,33 +37,53 @@ def init_display():
     sleep(0.1)
 
 def display_information(text, display_time):
-        # define epd     
-        epd = epd3in52.EPD()
-        # Create an empty image
+    epd = epd3in52.EPD()
+    # Initial font size
+    font_size = 12
+
+    while True:
         image = Image.new('1', (EPAPER_WIDTH, EPAPER_HEIGHT), 255)
         draw = ImageDraw.Draw(image)
+        font = ImageFont.truetype(FONT_PATH, font_size)
 
-        # Load the font
-        font = ImageFont.truetype(FONT_PATH, 12)  # Adjust size as needed
-        logger.info("Font loaded successfully.")
+        # Word wrap
+        words = text.split()
+        lines = []
+        line = words.pop(0)
+        for word in words:
+            # Check if adding the word exceeds line width
+            if draw.textsize(line + ' ' + word, font=font)[0] <= EPAPER_WIDTH:
+                line += ' ' + word
+            else:
+                lines.append(line)
+                line = word
+        lines.append(line)  # Add the last line
 
-        # Calculate text position for center alignment
-        text_width, text_height = draw.textsize(text, font=font)
-        x = (EPAPER_WIDTH - text_width) // 2
-        y = (EPAPER_HEIGHT - text_height) // 2
+        # Check if all lines fit vertically
+        total_height = len(lines) * draw.textsize(text, font=font)[1]
+        if total_height > EPAPER_HEIGHT:
+            font_size -= 1  # Reduce font size and try again
+            if font_size == 0:  # Minimum font size reached
+                raise ValueError("Text too long to display")
+            continue
 
-        # Draw text
-        draw.text((x, y), text, font=font, fill=0)
-        logger.info("Text drawn on image successfully.")
+        y = (EPAPER_HEIGHT - total_height) // 2  # Center vertically
+        for line in lines:
+            text_width, text_height = draw.textsize(line, font=font)
+            x = (EPAPER_WIDTH - text_width) // 2  # Center horizontally
+            draw.text((x, y), line, font=font, fill=0)
+            y += text_height
 
-        # Display the image
-        epd.display(epd.getbuffer(image))
-        epd.lut_GC()
-        epd.refresh()
-        logger.info("Information displayed on e-paper successfully.")
-        sleep(display_time)
-        logger.info("Clear e-paper display...")
-        epd.Clear()
+        break  # Text fits, exit the loop
+
+    logger.info("Text drawn on image successfully.")
+    epd.display(epd.getbuffer(image))
+    epd.lut_GC()
+    epd.refresh()
+    logger.info("Information displayed on e-paper successfully.")
+    sleep(display_time)
+    logger.info("Clear e-paper display...")
+    epd.Clear()
 
 def display_dialogue(epd, left_text, right_text):
     try:
