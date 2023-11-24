@@ -106,7 +106,7 @@ def run_game(persona, session_state, gametext, entropy, session_id):
     #logger.debug(f"saving updated game state, state is currently session, level, entropy: {session_id, level, entropy}")
 
     # Return the updated game text data to luma to display on the screen
-    epaper_write.display_information(gametext, 3)
+    epaper_write.display_information(gametext, 7)
     logger.debug("gametext is: " + gametext)
 
 def maintain_game_state():

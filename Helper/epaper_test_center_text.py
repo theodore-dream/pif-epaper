@@ -18,7 +18,7 @@ from waveshare_epd import epd3in52
 # Constants
 EPAPER_WIDTH = 360
 EPAPER_HEIGHT = 240
-FONT_PATH = "/home/pi/Documents/pif-ai-luma/Poem-App/fonts/pixelmix.ttf"  # Update with the correct path to your font
+FONT_PATH = "/home/pi/Documents/pif-epaper/Poem-App/fonts/InputMono-Regular.ttf"  # Update with the correct path to your font
 
 # Initialize e-paper display
 def init_display():
@@ -32,7 +32,7 @@ def init_display():
 def display_centered_text(epd, text):
     try:
         # Initial font size
-        font_size = 12
+        font_size = 14
         image = Image.new('1', (EPAPER_WIDTH, EPAPER_HEIGHT), 255)
         draw = ImageDraw.Draw(image)
         font = ImageFont.truetype(FONT_PATH, font_size)
@@ -51,7 +51,7 @@ def display_centered_text(epd, text):
         # Display the text
         epd.display(epd.getbuffer(image))
         epd.refresh()
-        sleep(5)
+        sleep(10)
         epd.Clear()
 
     except Exception as e:
@@ -63,7 +63,9 @@ def main():
         epd = init_display()
 
         # Pre-made sentences
-        sentences = "First Sentence\nSecond Sentence\nThird Sentence"
+        sentences = "Crestfallen leaves fall,\n" \
+                    "Swindled by the gadfly's breeze,\n" \
+                    "Nature's trick revealed."
         
         # Displaying the sentences
         display_centered_text(epd, sentences)

@@ -19,8 +19,8 @@ from modules.waveshare_epd import epd3in52
 # Constants
 EPAPER_WIDTH = 360
 EPAPER_HEIGHT = 240
-FONT_PATH = "/home/pi/Documents/pif-ai-luma/Poem-App/fonts/pixelmix.ttf"  # Update with the correct path to your font
-FONT_SIZE = 12
+FONT_PATH = "/home/pi/Documents/pif-epaper/Poem-App/fonts/InputMono-Regular.ttf"  # Update with the correct path to your font
+FONT_SIZE = 16
 
 # Initialize your e-paper display here
 
