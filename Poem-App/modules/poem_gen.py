@@ -10,6 +10,8 @@ from modules import create_vars
 #from nltk.probability import FreqDist
 import json
 from tenacity import retry, wait_random_exponential, stop_after_attempt
+from typing import Dict, Optional
+
 
 #from modules import logger
 from modules.logger import setup_logger
@@ -26,73 +28,81 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
 def poem_step_1(creative_prompt, persona, entropy):
-            completion = openai.ChatCompletion.create(
-                model="gpt-4-1106-preview",
-                messages=[
-                    {"role": "system", "content": persona + " You write a poem. You can use up to 25 characters per line."},
-                    {"role": "user", "content": "Produce a haiku inspired by the following words: " + creative_prompt + ""},
-                    #{"role": "user", "content": "Explain why you created the poem the way you did."},
-                ], 
-                temperature=(entropy),
-                max_tokens=500,
-            )
+    # Define the function specification
+    tools = [
+        {
+            "type": "function",
+            "function": {
+                "name": "generate_haiku",
+                "description": "Generate a haiku poem based on the provided creative prompt",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "creative_prompt": {
+                            "type": "string",
+                            "description": "The creative prompt to inspire the haiku"
+                        }
+                    },
+                    "required": ["creative_prompt"]
+                },
+                "output": {
+                    "type": "object",
+                    "properties": {
+                        "haiku": {
+                            "type": "string",
+                            "description": "The generated haiku poem"
+                        }
+                    }
+                }
+            }
+        }
+    ]
 
-            if completion['choices'][0]['message']['role'] == "assistant":
-                step_1_poem = completion['choices'][0]['message']['content'].strip()
+
+    # Construct the messages to be sent to the API
+    messages = [
+        {"role": "system", "content": persona + " Use the words in 'creative_prompt' as a base to create a new haiku poem that is three sentences of text."},
+        #{"role": "user", "content": "json"},
+        {"role": "user", "content": "Output json text of a haiku inspired by these words" + creative_prompt + "')"},
+    ]
+
+
+    # Make the API request
+    response = openai.ChatCompletion.create(
+        model="gpt-4-1106-preview",
+        response_format={"type": "json_object"},
+        messages=messages,
+        seed=11111,
+        temperature=0.7,
+        max_tokens=500,
+        tools=tools  # Include the tools parameter in the request
+    )
+
+    # Process the API response
+
+    logger.info(f"API Response: {response}")
+
+    try:
+        if response['choices'][0]['message']['role'] == "assistant":
+            # Check if tool_calls is in the response
+            if "tool_calls" in response['choices'][0]['message']:
+                tool_calls = response['choices'][0]['message']['tool_calls']
+                if tool_calls and len(tool_calls) > 0:
+                    # Assuming the first tool call contains the haiku
+                    haiku_arguments = json.loads(tool_calls[0]['function']['arguments'])
+                    haiku = haiku_arguments['creative_prompt']
+                else:
+                    haiku = "No haiku generated."
             else:
-                step_1_syscontent = api_response['system'].strip()  # put into a var for later use 
+                haiku = "No tool calls in response."
+        else:
+            haiku = "System error occurred."
+    except Exception as e:
+        logger.error(f"Error processing response: {e}")
+        haiku = "Error in processing response."
 
-            #logger.info(f"poem_step_1 Prompt tokens: {completion['usage']['prompt_tokens']}")
-            #logger.info(f"poem_step_1 Completion tokens: {completion['usage']['completion_tokens']}")
-            #logger.info(f"poem_step_1 Total tokens: {completion['usage']['total_tokens']}")
-            return step_1_poem
+    return haiku
 
-@retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
-def poem_step_2(persona, entropy, step_1_poem, abstract_concept):
-            completion = openai.ChatCompletion.create(
-                model="gpt-4-1106-preview",
-                messages=[
-                    {"role": "system", "content": persona + " You write a poem based on parameters provided as well as input text to build on."},
-                    {"role": "user", "content": "Create a new poem based on the input text that is two to four lines long with the following parameters. The chosen abstract concept is: " + abstract_concept + ". Revise the input text to subtly weave in the chosen concept."},
-                    {"role": "user", "content": "Input text: " + step_1_poem},
-                ],
-                temperature=(entropy),
-                max_tokens=500,
-            )
-
-            if completion['choices'][0]['message']['role'] == "assistant":
-                step_2_poem = completion['choices'][0]['message']['content'].strip()
-            else:
-                step_2_syscontent = completion['system'].strip()  # put into a var for later use 
-
-            #logger.info(f"poem_step_2 Prompt tokens: {completion['usage']['prompt_tokens']}")
-            #logger.info(f"poem_step_2 Completion tokens: {completion['usage']['completion_tokens']}")
-            #logger.info(f"poem_step_2 Total tokens: {completion['usage']['total_tokens']}")
-            return step_2_poem
-
-@retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
-def poem_step_3(persona, entropy, step_2_poem):
-            completion = openai.ChatCompletion.create(
-                model="gpt-4-1106-preview",
-                messages=[
-                    {"role": "system", "content": persona + "You generate poetry that is up to four lines long."},
-                    {"role": "user", "content": "Create a new poem based on the input text that is up to four lines long with the following parameters. Introduce variation to reduce overall consistency in tone, language use, and sentence structure."},
-                    {"role": "user", "content": "Input text: " + step_2_poem},
-                ],
-                temperature=(entropy),
-                max_tokens=500,
-            )
-
-            if completion['choices'][0]['message']['role'] == "assistant":
-                step_3_poem = completion['choices'][0]['message']['content'].strip()
-            else:
-                step_3_syscontent = api_response['system'].strip()  # put into a var for later use 
-
-            #logger.info(f"poem_step_3 Prompt tokens: {completion['usage']['prompt_tokens']}")
-            #logger.info(f"poem_step_3 Completion tokens: {completion['usage']['completion_tokens']}")
-            #logger.info(f"poem_step_3 Total tokens: {completion['usage']['total_tokens']}")
-
-            return step_3_poem
 
 def api_poem_pipeline(creative_prompt, persona, entropy, abstract_concept):
     logger.debug(f"creative_prompt: {creative_prompt}")
