@@ -71,7 +71,7 @@ def handle_option_r(entropy):
     return entropy
     
 
-def run_game(persona, session_state, gametext, entropy, session_id):
+def run_game(player_persona, match_persona, session_state, gametext, entropy, session_id):
     # running game 
     # first lets get the game status 
 
@@ -99,13 +99,14 @@ def run_game(persona, session_state, gametext, entropy, session_id):
         logger.debug(f"new session identified. poetry game intro starting now...")
         gametext = poetry_game_intro(entropy)
         session_state = "active"
+        # this updates session state from new to active
         db_service.write_to_database(session_id, session_state, entropy)
         
     elif session_state == "active":
         logger.debug(f"running player_poetry_gen, current entropy is: {entropy}")
         player_gametext = player_poetry_gen(float(entropy))
-        match_gametext = match_poetry_gen(float(entropy))
-        db_service.write_to_database(session_id, session_state, entropy)
+        #match_gametext = match_poetry_gen(float(entropy))
+        db_service.write_to_database(session_id, player_gametext, session_state, entropy)
 
     # Save the updated game state to the database
     #db_service.save_game(session_id, level, entropy)
@@ -115,7 +116,7 @@ def run_game(persona, session_state, gametext, entropy, session_id):
     epaper_write.display_information(gametext, 7)
     logger.debug("gametext is: " + gametext)
 
-def maintain_game_state():
+def check_game_state():
     logger.debug("running game status check....")
 
     session_id = setup_utils.get_or_create_uuid()
@@ -126,34 +127,35 @@ def maintain_game_state():
     logger.debug(f"session data from DB: {session_data}")
 
     if session_data is not None and session_data[1] == "active":
-        persona, session_state, gametext, entropy, session_id = session_data
+        player_persona, match_persona, session_state, gametext, entropy, session_id = session_data
     else:
         logger.debug("no active session found, initialize values, creating new session with state: new")
         
-        # Integrate build_persona logic here
-        persona = create_vars.build_persona()
+        # we're going to randomly create player and match personas 
+        player_persona = create_vars.select_persona()
+        match_persona = create_vars.select_persona()
         session_state = "new"
         gametext = None
         entropy = Decimal(random.randint(0, 20)) / Decimal(100)
 
-        db_service.write_to_database(session_id, persona, session_state, entropy)
+        db_service.write_to_database(session_id, player_persona, match_persona, session_state, entropy)
         logger.info(f"new session created with entropy: {entropy}")
 
     logger.info(
         "Session data setup before running game - Session ID: {}, Persona: {}, Session State: {}, Game Text: {}, Entropy: {}".format(
-            session_id, persona, session_state, gametext, entropy
+            session_id, player_persona, session_state, gametext, entropy
         )
     )
 
     # lets run the game
-    run_game(persona, session_state, gametext, entropy, session_id)
+    run_game(player_persona, match_persona, session_state, gametext, entropy, session_id)
     #return persona, session_state, gametext, entropy, session_id, 
 
 if __name__ == "__main__":
    
    try:
         while True:
-            maintain_game_state()
+            check_game_state()
             time.sleep(0.1)  # optional delay if you want to run the function with intervals
    except KeyboardInterrupt:
         print("\nProgram has been stopped by the user.")

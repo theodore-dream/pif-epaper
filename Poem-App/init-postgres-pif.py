@@ -63,9 +63,12 @@ try:
             id SERIAL PRIMARY KEY,
             session_id uuid DEFAULT uuid_generate_v4 (),
             tstz timestamp DEFAULT current_timestamp,
-            persona VARCHAR,
+            player_persona VARCHAR,
+            match_persona VARCHAR,
             session_state VARCHAR,
             gametext VARCHAR,
+            player_gametext VARCHAR,
+            match_gametext VARCHAR,
             entropy DECIMAL(3, 2),
             level NUMERIC(3, 0)
         );
