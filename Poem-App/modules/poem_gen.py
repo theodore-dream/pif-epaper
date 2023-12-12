@@ -28,13 +28,13 @@ logger.debug("Logger is set up and running.")
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
-def poem_step_1(creative_prompt, persona, entropy):
+def poem_step_1(creative_prompt, player_persona, entropy):
 
     CONTENT_TYPES = ["haiku", "sonnet", "free verse"]  # Add more poetry types as needed
     selected_content_type = random.choice(CONTENT_TYPES)
     # Inject the selected poetry type into the user message
     messages = [
-        {"role": "system", "content": f"{persona} You output text in JSON format. You create a {selected_content_type} in a specific format. The {selected_content_type} will not exceed 4 lines. The {selected_content_type} should be in a JSON object with a single key 'Content'. For example: {{'Content': 'Roses are red.'}}."},
+        {"role": "system", "content": f"{player_persona} You output text in JSON format. You create a {selected_content_type} in a specific format. The {selected_content_type} will not exceed 4 lines. The {selected_content_type} should be in a JSON object with a single key 'Content'. For example: {{'Content': 'Roses are red.'}}."},
         {"role": "user", "content": f"Produce a {selected_content_type}. Output into JSON format as specified."},
     ]
     completion = openai.ChatCompletion.create(
@@ -97,25 +97,24 @@ def poem_step_2(persona, entropy, step_1_poem, abstract_concept):
     logger.debug(f"API completion response: {completion}")
     return step_2_poem
 
-def api_poem_pipeline(creative_prompt, persona, entropy, abstract_concept):
+def api_poem_pipeline(creative_prompt, player_persona, entropy, abstract_concept):
     logger.debug(f"creative_prompt: {creative_prompt}")
-    step_1_poem = poem_step_1(creative_prompt, persona, entropy)
+    step_1_poem = poem_step_1(creative_prompt, player_persona, entropy)
     logger.info (f"step_1_poem:\n{step_1_poem}")
-    step_2_poem = poem_step_2(persona, entropy, step_1_poem, abstract_concept)
+    step_2_poem = poem_step_2(player_persona, entropy, step_1_poem, abstract_concept)
     logger.info (f"step_2_poem:\n{step_2_poem}")
     #step_3_poem = poem_step_3(persona, entropy, step_2_poem)
     #logger.info (f"step_3_poem:\n{step_3_poem}")
     return step_2_poem
 
-def parse_response(entropy):
+def parse_response(entropy, player_persona):
     # this part of the code goes WAY too slow. Removing the use of nltk for initial generation of the creative_prompt words
     #creative_prompt = create_vars.gen_creative_prompt(create_vars.gen_random_words(entropy), entropy)
     creative_prompt = create_vars.gen_creative_prompt_api(entropy)
     abstract_concept = create_vars.get_abstract_concept()
-    persona = create_vars.build_persona()
     lang_device = create_vars.get_lang_device()
 
-    logger.debug(f"persona is: {persona}")
+    logger.debug(f"player_persona is: {player_persona}")
     logger.debug(f"lang_device is: {lang_device}")
     logger.debug(f"abstract_concept is: {abstract_concept}")
     logger.debug(f"entropy is: {entropy}")
@@ -123,7 +122,7 @@ def parse_response(entropy):
     logger.debug(f"==========================")
     logger.debug(f"creative_starting_prompt: {creative_prompt}")
 
-    poem_result = api_poem_pipeline(creative_prompt, persona, entropy, abstract_concept)
+    poem_result = api_poem_pipeline(creative_prompt, player_persona, entropy, abstract_concept)
     logger.info(f"poem result:\n{poem_result}")
 
     print("-" * 30)

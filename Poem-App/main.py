@@ -2,7 +2,7 @@ from modules.logger import setup_logger
 from flask import Flask, request, jsonify, session
 from flask_cors import CORS, cross_origin
 import openai
-from modules import openai_api_service, db_service, setup_utils, poem_gen, epaper_write, intro_vars, buttons, create_vars
+from modules import openai_api_service, db_service, setup_utils, poem_gen, epaper_write, intro_vars, buttons
 import datetime
 import random
 from decimal import Decimal, ROUND_DOWN
@@ -39,11 +39,11 @@ def poetry_game_intro(entropy):
     gametext = api_response 
     return gametext
 
-def player_poetry_gen(entropy):
+def player_poetry_gen(entropy, player_persona):
     # check current entropy level
     #api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
     #level_text = "Your poem is " + api_response + "--end poem--"
-    player_gametext = poem_gen.parse_response(entropy)
+    player_gametext = poem_gen.parse_response(entropy, player_persona)
     logger.debug(f"player_gametext is: {player_gametext}")
     return player_gametext
 
@@ -99,22 +99,27 @@ def run_game(player_persona, match_persona, session_state, gametext, entropy, se
         logger.debug(f"new session identified. poetry game intro starting now...")
         gametext = poetry_game_intro(entropy)
         session_state = "active"
+        player_persona = None
+        match_persona = None
         # this updates session state from new to active
-        db_service.write_to_database(session_id, session_state, entropy)
+        db_service.game_init_write_to_database(session_id, player_persona, match_persona, session_state, entropy)
         
     elif session_state == "active":
         logger.debug(f"running player_poetry_gen, current entropy is: {entropy}")
-        player_gametext = player_poetry_gen(float(entropy))
+        player_gametext = player_poetry_gen(float(entropy), player_persona)
+        # placeholder until logic is added 
+        match_gametext = "blah blah blah"
         #match_gametext = match_poetry_gen(float(entropy))
-        db_service.write_to_database(session_id, player_gametext, session_state, entropy)
+        db_service.save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy)
 
     # Save the updated game state to the database
     #db_service.save_game(session_id, level, entropy)
     #logger.debug(f"saving updated game state, state is currently session, level, entropy: {session_id, level, entropy}")
 
-    # Return the updated game text data to luma to display on the screen
-    epaper_write.display_information(gametext, 7)
-    logger.debug("gametext is: " + gametext)
+    # Return the updated game text data to display on the screen
+    epaper_write.display_information(player_gametext, 7)
+    logger.debug("player_gametext is: " + player_gametext)
+    logger.debug("mach_gametext is: " + match_gametext)
 
 def check_game_state():
     logger.debug("running game status check....")
@@ -126,19 +131,23 @@ def check_game_state():
     session_data = db_service.read_from_database(session_id)
     logger.debug(f"session data from DB: {session_data}")
 
-    if session_data is not None and session_data[1] == "active":
+
+    state_test = session_data[2]
+    logger.info(f"state_test is: {state_test}")
+
+    if session_data is not None and session_data[2] == "active":
         player_persona, match_persona, session_state, gametext, entropy, session_id = session_data
     else:
         logger.debug("no active session found, initialize values, creating new session with state: new")
         
         # we're going to randomly create player and match personas 
-        player_persona = create_vars.select_persona()
-        match_persona = create_vars.select_persona()
+        player_persona = intro_vars.select_persona()
+        match_persona = intro_vars.select_persona()
         session_state = "new"
         gametext = None
         entropy = Decimal(random.randint(0, 20)) / Decimal(100)
 
-        db_service.write_to_database(session_id, player_persona, match_persona, session_state, entropy)
+        db_service.game_init_write_to_database(session_id, player_persona, match_persona, session_state, entropy)
         logger.info(f"new session created with entropy: {entropy}")
 
     logger.info(
