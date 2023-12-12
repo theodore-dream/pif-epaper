@@ -2,7 +2,7 @@ from modules.logger import setup_logger
 from flask import Flask, request, jsonify, session
 from flask_cors import CORS, cross_origin
 import openai
-from modules import openai_api_service, db_service, setup_utils, poem_gen, epaper_write, intro_vars, buttons
+from modules import openai_api_service, db_service, setup_utils, poem_gen, epaper_write, intro_vars, buttons, create_vars
 import datetime
 import random
 from decimal import Decimal, ROUND_DOWN
@@ -39,13 +39,18 @@ def poetry_game_intro(entropy):
     gametext = api_response 
     return gametext
 
-def poetry_gen_loop(entropy):
+def player_poetry_gen(entropy):
     # check current entropy level
     #api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
     #level_text = "Your poem is " + api_response + "--end poem--"
-    gametext = poem_gen.parse_response(entropy)
-    logger.debug(f"gametext is: {gametext}")
-    return gametext
+    player_gametext = poem_gen.parse_response(entropy)
+    logger.debug(f"player_gametext is: {player_gametext}")
+    return player_gametext
+
+def match_poetry_gen(entropy):
+    match_gametext = poem_gen.parse_response(entropy)
+    logger.debug(f"match_poetry_gen is: {match_poetry_gen}")
+    return match_poetry_gen
 
 def handle_option_l(entropy):
     # Implement game logic for Option A
@@ -59,8 +64,8 @@ def handle_option_r(entropy):
     # Implement game logic for Option B
     # Increase entropy by .05, not going above 1
     #entropy = min(1.0, float(entropy) + 0.1)
-    # TEMP let's test capping this at 0.8
-    entropy = min(Decimal('0.8'), entropy + Decimal('0.05'))
+    # TEMP let's test capping this at 0.6
+    entropy = min(Decimal('0.6'), entropy + Decimal('0.05'))
     # Return a result (e.g., a string containing game text)
     logger.debug(f"right button pressed")
     return entropy
@@ -97,8 +102,9 @@ def run_game(persona, session_state, gametext, entropy, session_id):
         db_service.write_to_database(session_id, session_state, entropy)
         
     elif session_state == "active":
-        logger.debug(f"runing poetry_gen_loop, current entropy is: {entropy}")
-        gametext = poetry_gen_loop(float(entropy))
+        logger.debug(f"running player_poetry_gen, current entropy is: {entropy}")
+        player_gametext = player_poetry_gen(float(entropy))
+        match_gametext = match_poetry_gen(float(entropy))
         db_service.write_to_database(session_id, session_state, entropy)
 
     # Save the updated game state to the database
@@ -110,37 +116,28 @@ def run_game(persona, session_state, gametext, entropy, session_id):
     logger.debug("gametext is: " + gametext)
 
 def maintain_game_state():
-
-    # latest game status
     logger.debug("running game status check....")
 
-    # check for ID on filesystem, very rudementary version of a config file/system
-    # can only create new sessions for first implementation, not resume old ones
     session_id = setup_utils.get_or_create_uuid()
     logger.debug("session_id found or generated = " + session_id)
 
-    # temporarily for all new games, no initial session state
     logger.debug(f"reading session data from DB: {session_id}")
     session_data = db_service.read_from_database(session_id)
-    logger.debug (f"session data from DB: {session_data}")
-    
-    # the second variable in the tuple is the session state
+    logger.debug(f"session data from DB: {session_data}")
+
     if session_data is not None and session_data[1] == "active":
         persona, session_state, gametext, entropy, session_id = session_data
     else:
-        # no session found, initialize values
-        logger.debug(f"no active session found, initialize values, creating new session with state: new")
-        persona = None
+        logger.debug("no active session found, initialize values, creating new session with state: new")
+        
+        # Integrate build_persona logic here
+        persona = create_vars.build_persona()
         session_state = "new"
         gametext = None
-        # entropy is a random decimal from 0.00 to 1.00 with 1-2 decimal places. Lets limit the upper bound to .2 to start. 
-        #entropy = Decimal(str(random.uniform(0.0, 0.9))).quantize(Decimal('0.00'), rounding=ROUND_DOWN)
         entropy = Decimal(random.randint(0, 20)) / Decimal(100)
 
-        # save this new game state before proceeding .. 
-        db_service.write_to_database(session_id, session_state, entropy)
+        db_service.write_to_database(session_id, persona, session_state, entropy)
         logger.info(f"new session created with entropy: {entropy}")
-
 
     logger.info(
         "Session data setup before running game - Session ID: {}, Persona: {}, Session State: {}, Game Text: {}, Entropy: {}".format(
@@ -165,7 +162,6 @@ if __name__ == "__main__":
 
 ## running notes
 ## make the display stay on until the next button interaction
-## need to remove the nltk part, or make it optional, due to all the increased latency, use api for the initial seeding
 ## would like to work towards entropy warrior type of setup
 ## character, has traits, and you gain and lose them, each has a base, and you increasingly get better and better or worse and worse until win or lose 
 ## need to add code for display cleanup / clean shutdown 

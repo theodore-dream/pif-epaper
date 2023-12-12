@@ -56,24 +56,56 @@ def poem_step_1(creative_prompt, persona, entropy):
             logger.error("Content key not found in response")
             step_1_poem = "Content not generated"
     else:
-        step_1_syscontent = api_response['system'].strip()  # put into a var for later use 
+        pass
 
     # Log the API request to keep the record of which content type was generated 
-    logger.info(f"API request was message: {messages}")
+    logger.info(f"API request step1 is message: {messages}")
     # Log the entire response for debugging
-    logger.debug(f"API completion response: {completion}"
+    logger.debug(f"API completion response: {completion}")
     return step_1_poem
 
+# another API call to try to constrain the output
+def poem_step_2(persona, entropy, step_1_poem, abstract_concept):
+
+    messages = [
+        {"role": "system", "content": f"{persona} You are an editor. You role is to modify the text provided to the specifications you are given. "},
+        {"role": "user", "content": f"review the provided output: " + step_1_poem + " and if needed, modify the output to be less than 3 lines in a concise and artful way that retains the meaning of original content. The output should be in a JSON object with a single key 'Content'."},
+    ]
+    completion = openai.ChatCompletion.create(
+        model="gpt-4-1106-preview",
+        messages=messages,
+        temperature=(entropy),
+        response_format={"type": "json_object"},
+        max_tokens=500,
+    )
+
+    if completion['choices'][0]['message']['role'] == "assistant":
+        step_2_response = completion['choices'][0]['message']['content'].strip()
+        step_2_poem_data = loads(step_2_response)  # Parse the JSON content
+
+        if "Content" in step_2_poem_data:
+            step_2_poem = step_2_poem_data["Content"]  # Extract the poem from the parsed data
+        else:
+            logger.error("Content key not found in response")
+            step_2_poem = "Content not generated"
+    else:
+        pass
+
+    # Log the API request to keep the record of which content type was generated 
+    logger.info(f"API request step2 is message: {messages}")
+    # Log the entire response for debugging
+    logger.debug(f"API completion response: {completion}")
+    return step_2_poem
 
 def api_poem_pipeline(creative_prompt, persona, entropy, abstract_concept):
     logger.debug(f"creative_prompt: {creative_prompt}")
     step_1_poem = poem_step_1(creative_prompt, persona, entropy)
     logger.info (f"step_1_poem:\n{step_1_poem}")
-    #step_2_poem = poem_step_2(persona, entropy, step_1_poem, abstract_concept)
-    #logger.info (f"step_2_poem:\n{step_2_poem}")
+    step_2_poem = poem_step_2(persona, entropy, step_1_poem, abstract_concept)
+    logger.info (f"step_2_poem:\n{step_2_poem}")
     #step_3_poem = poem_step_3(persona, entropy, step_2_poem)
     #logger.info (f"step_3_poem:\n{step_3_poem}")
-    return step_1_poem
+    return step_2_poem
 
 def parse_response(entropy):
     # this part of the code goes WAY too slow. Removing the use of nltk for initial generation of the creative_prompt words
@@ -92,7 +124,7 @@ def parse_response(entropy):
     logger.debug(f"creative_starting_prompt: {creative_prompt}")
 
     poem_result = api_poem_pipeline(creative_prompt, persona, entropy, abstract_concept)
-    logger.debug(f"poem result:\n{poem_result}")
+    logger.info(f"poem result:\n{poem_result}")
 
     print("-" * 30)
     logger.debug("poem_gen completed successfully")
@@ -105,11 +137,6 @@ def parse_response(entropy):
     # add tokens cost logging
     # remove the explanation for the poems its too much, useless tokens spend 
     # add proper retry logic again... I guess. Just add it to the whole thing. 
-
-    # current issue is that there are 6 steps, 7 including the persona, and its too much complexity for the api to handle all of it
-    # on the other hand the results are really good it seesm to only be going to step 3, maybe at this point I need to focus on
-    # either I just want to output the final poem directly from the api but that could get dicey at different temperatures
-    # alternatively I could use logic to modify the output from the api to get the final poem only. Will need to experiment on diff temps. 
 
     ## variables overview - goals
     ## build_persona - bad, needs more work / further testing, only seems to perhaps be effective with very few steps, 1-2 steps tops 

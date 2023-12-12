@@ -44,8 +44,8 @@ def display_information(text, display_time):
     y = (EPAPER_HEIGHT - text_height) // 2
 
     # Check if text fits on the display
-    if text_width > EPAPER_WIDTH or text_height > EPAPER_HEIGHT:
-        raise ValueError("Text too long to display")
+    #if text_width > EPAPER_WIDTH or text_height > EPAPER_HEIGHT:
+    #    raise ValueError("Text too long to display")
 
     # Draw the text
     draw.text((x, y), text, font=font, fill=0)
