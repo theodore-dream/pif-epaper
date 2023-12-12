@@ -9,6 +9,7 @@ import openai
 from modules import create_vars
 #from nltk.probability import FreqDist
 import json
+from json import loads 
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 from typing import Dict, Optional
 
@@ -28,80 +29,35 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
 def poem_step_1(creative_prompt, persona, entropy):
-    # Define the function specification
-    tools = [
-        {
-            "type": "function",
-            "function": {
-                "name": "generate_haiku",
-                "description": "Generate a haiku poem based on the provided creative prompt",
-                "parameters": {
-                    "type": "object",
-                    "properties": {
-                        "creative_prompt": {
-                            "type": "string",
-                            "description": "The creative prompt to inspire the haiku"
-                        }
-                    },
-                    "required": ["creative_prompt"]
-                },
-                "output": {
-                    "type": "object",
-                    "properties": {
-                        "haiku": {
-                            "type": "string",
-                            "description": "The generated haiku poem"
-                        }
-                    }
-                }
-            }
-        }
-    ]
-
-
-    # Construct the messages to be sent to the API
-    messages = [
-        {"role": "system", "content": persona + " Use the words in 'creative_prompt' as a base to create a new haiku poem that is three sentences of text."},
-        #{"role": "user", "content": "json"},
-        {"role": "user", "content": "Output json text of a haiku inspired by these words" + creative_prompt + "')"},
-    ]
-
-
-    # Make the API request
-    response = openai.ChatCompletion.create(
+    completion = openai.ChatCompletion.create(
         model="gpt-4-1106-preview",
+        messages=[
+            {"role": "system", "content": persona + " You output text in JSON format. You create a poem in a specific format. The poem will not exceed 4 lines. The poem should be in a JSON object with a single key 'Poem'. For example: {'Poem': 'Roses are red, violets are blue, I don't like you.'}."},
+            {"role": "user", "content": "Produce a poem inspired by the following words: " + creative_prompt + ". Output into JSON format as specified."},
+        ], 
+        temperature=(entropy),
         response_format={"type": "json_object"},
-        messages=messages,
-        seed=11111,
-        temperature=0.7,
         max_tokens=500,
-        tools=tools  # Include the tools parameter in the request
     )
 
-    # Process the API response
 
-    logger.info(f"API Response: {response}")
+    # Log the entire response for debugging
+    logger.debug(f"API completion response: {completion}")
 
-    try:
-        if response['choices'][0]['message']['role'] == "assistant":
-            # Check if tool_calls is in the response
-            if "tool_calls" in response['choices'][0]['message']:
-                tool_calls = response['choices'][0]['message']['tool_calls']
-                if tool_calls and len(tool_calls) > 0:
-                    # Assuming the first tool call contains the haiku
-                    haiku_arguments = json.loads(tool_calls[0]['function']['arguments'])
-                    haiku = haiku_arguments['creative_prompt']
-                else:
-                    haiku = "No haiku generated."
-            else:
-                haiku = "No tool calls in response."
+    if completion['choices'][0]['message']['role'] == "assistant":
+        step_1_response = completion['choices'][0]['message']['content'].strip()
+        step_1_poem_data = loads(step_1_response)  # Parse the JSON content
+
+        if "Poem" in step_1_poem_data:
+            step_1_poem = step_1_poem_data["Poem"]  # Extract the poem from the parsed data
         else:
-            haiku = "System error occurred."
-    except Exception as e:
-        logger.error(f"Error processing response: {e}")
-        haiku = "Error in processing response."
+            logger.error("Poem key not found in response")
+            step_1_poem = "Poem not generated"
+    else:
+        step_1_syscontent = api_response['system'].strip()  # put into a var for later use 
 
-    return haiku
+    logger.debug(f"raw output of step_1_poem is {step_1_poem}")
+    return step_1_poem
 
 
 def api_poem_pipeline(creative_prompt, persona, entropy, abstract_concept):

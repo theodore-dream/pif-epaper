@@ -59,8 +59,8 @@ def handle_option_r(entropy):
     # Implement game logic for Option B
     # Increase entropy by .05, not going above 1
     #entropy = min(1.0, float(entropy) + 0.1)
-    # TEMP let's test capping this at 0.7
-    entropy = min(Decimal('0.7'), entropy + Decimal('0.05'))
+    # TEMP let's test capping this at 0.8
+    entropy = min(Decimal('0.8'), entropy + Decimal('0.05'))
     # Return a result (e.g., a string containing game text)
     logger.debug(f"right button pressed")
     return entropy
@@ -133,9 +133,9 @@ def maintain_game_state():
         persona = None
         session_state = "new"
         gametext = None
-        # entropy is a random decimal from 0.00 to 1.00 with 1-2 decimal places. Lets limit the upper bound to .6 to start. 
+        # entropy is a random decimal from 0.00 to 1.00 with 1-2 decimal places. Lets limit the upper bound to .2 to start. 
         #entropy = Decimal(str(random.uniform(0.0, 0.9))).quantize(Decimal('0.00'), rounding=ROUND_DOWN)
-        entropy = Decimal(random.randint(0, 60)) / Decimal(100)
+        entropy = Decimal(random.randint(0, 20)) / Decimal(100)
 
         # save this new game state before proceeding .. 
         db_service.write_to_database(session_id, session_state, entropy)

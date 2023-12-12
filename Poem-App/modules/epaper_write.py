@@ -20,7 +20,7 @@ from modules.waveshare_epd import epd3in52
 EPAPER_WIDTH = 360
 EPAPER_HEIGHT = 240
 FONT_PATH = "/home/pi/Documents/pif-epaper/Poem-App/fonts/InputMono-Regular.ttf"  # Update with the correct path to your font
-FONT_SIZE = 16
+FONT_SIZE = 8
 
 # Initialize your e-paper display here
 
@@ -69,7 +69,7 @@ def display_dialogue(epd, left_text, right_text):
         image = Image.new('1', (EPAPER_WIDTH, EPAPER_HEIGHT), 255)
         draw = ImageDraw.Draw(image)
 
-        font = ImageFont.truetype(FONT_PATH, 10)  # Adjust size as needed
+        font = ImageFont.truetype(FONT_PATH, FONT_SIZE)  # Adjust size as needed
         logger.info("Font loaded successfully.")
 
         # Calculate positions
