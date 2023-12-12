@@ -35,7 +35,7 @@ def poem_step_1(creative_prompt, player_persona, entropy):
     # Inject the selected poetry type into the user message
     messages = [
         {"role": "system", "content": f"{player_persona} You output text in JSON format. You create a {selected_content_type} in a specific format. The {selected_content_type} will not exceed 4 lines. The {selected_content_type} should be in a JSON object with a single key 'Content'. For example: {{'Content': 'Roses are red.'}}."},
-        {"role": "user", "content": f"Produce a {selected_content_type}. Output into JSON format as specified."},
+        {"role": "user", "content": f"Produce a {selected_content_type} inspired by {creative_prompt}. Output into JSON format as specified."},
     ]
     completion = openai.ChatCompletion.create(
         model="gpt-4-1106-preview",
@@ -101,11 +101,11 @@ def api_poem_pipeline(creative_prompt, player_persona, entropy, abstract_concept
     logger.debug(f"creative_prompt: {creative_prompt}")
     step_1_poem = poem_step_1(creative_prompt, player_persona, entropy)
     logger.info (f"step_1_poem:\n{step_1_poem}")
-    step_2_poem = poem_step_2(player_persona, entropy, step_1_poem, abstract_concept)
-    logger.info (f"step_2_poem:\n{step_2_poem}")
+    #step_2_poem = poem_step_2(player_persona, entropy, step_1_poem, abstract_concept)
+    #logger.info (f"step_2_poem:\n{step_2_poem}")
     #step_3_poem = poem_step_3(persona, entropy, step_2_poem)
     #logger.info (f"step_3_poem:\n{step_3_poem}")
-    return step_2_poem
+    return step_1_poem
 
 def parse_response(entropy, player_persona):
     # this part of the code goes WAY too slow. Removing the use of nltk for initial generation of the creative_prompt words

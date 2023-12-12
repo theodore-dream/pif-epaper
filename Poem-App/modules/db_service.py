@@ -4,7 +4,31 @@ from modules.logger import setup_logger
 
 logger = setup_logger("db_service")
 
-def game_init_write_to_database(session_id, player_persona, match_persona, session_state, entropy):
+# all this does is ensure the game state moves forward from new game to active game and shows intro screen 
+def new_game_active_write_to_database(session_id, session_state, entropy):
+    try:
+        connection = psycopg2.connect(
+            dbname="game",
+            host="localhost",
+            user="pi",
+            password="raspberry",
+            port="5432",
+            connect_timeout=3,
+        )
+        cursor = connection.cursor()
+        query = f"INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s)"
+        cursor.execute(query, (session_id, session_state, entropy))
+        logger.debug(f"Executing write txn: {query} on session: {session_id}")
+        logger.debug(f"Completed insert INSERT INTO poem_game (session_id, session_state, entropy): {session_id, session_state, entropy}")
+        connection.commit()
+        logger.debug("Insert committed successfully")
+        cursor.close()
+        connection.close()
+    except (Exception, Error) as error:
+        logger.error("Error while inserting in PostgreSQL", error)
+
+# this saves a newly created game and assigns the personas 
+def new_game_init_write_to_database(session_id, player_persona, match_persona, session_state, entropy):
     try:
         connection = psycopg2.connect(
             dbname="game",
@@ -18,7 +42,7 @@ def game_init_write_to_database(session_id, player_persona, match_persona, sessi
         query = f"INSERT INTO poem_game (session_id, player_persona, match_persona, session_state, entropy) VALUES (%s, %s, %s, %s, %s)"
         cursor.execute(query, (session_id, player_persona, match_persona, session_state, entropy))
         logger.debug(f"Executing write txn: {query} on session: {session_id}")
-        logger.debug(f"Completed insert INSERT INTO poem_game (session_id, player_persona, match_persona, session_state, entropy): {session_id, player_persona, match_persona, session_state, entropy}")
+        logger.debug(f"Completed insert INSERT INTO poem_game (session_id, session_state, entropy): {session_id, player_persona, match_persona, session_state, entropy}")
         connection.commit()
         logger.debug("Insert committed successfully")
         cursor.close()
@@ -26,6 +50,8 @@ def game_init_write_to_database(session_id, player_persona, match_persona, sessi
     except (Exception, Error) as error:
         logger.error("Error while inserting in PostgreSQL", error)
 
+
+# for conversational use, storing the actual messages 
 def save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy):
     try:
         connection = psycopg2.connect(

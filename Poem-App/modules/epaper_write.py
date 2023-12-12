@@ -20,7 +20,7 @@ from modules.waveshare_epd import epd3in52
 EPAPER_WIDTH = 360
 EPAPER_HEIGHT = 240
 FONT_PATH = "/home/pi/Documents/pif-epaper/Poem-App/fonts/InputMono-Regular.ttf"  # Update with the correct path to your font
-FONT_SIZE = 10
+FONT_SIZE = 12
 
 # Initialize your e-paper display here
 
@@ -36,19 +36,25 @@ def display_information(text, display_time):
     draw = ImageDraw.Draw(image)
     font = ImageFont.truetype(FONT_PATH, FONT_SIZE)
 
-    # Calculate text size
-    text_width, text_height = draw.textsize(text, font=font)
+    # Split text into lines
+    lines = text.splitlines()
 
-    # Center the text
-    x = (EPAPER_WIDTH - text_width) // 2
-    y = (EPAPER_HEIGHT - text_height) // 2
+    # Calculate the height of a single line of text
+    _, line_height = draw.textsize('A', font=font)  # Using 'A' as a sample character
 
-    # Check if text fits on the display
-    #if text_width > EPAPER_WIDTH or text_height > EPAPER_HEIGHT:
-    #    raise ValueError("Text too long to display")
+    # Calculate starting y position to center the block of text vertically
+    total_height = line_height * len(lines)
+    y = (EPAPER_HEIGHT - total_height) // 2
 
-    # Draw the text
-    draw.text((x, y), text, font=font, fill=0)
+    for line in lines:
+        # Calculate text width for each line
+        text_width, _ = draw.textsize(line, font=font)
+        x = (EPAPER_WIDTH - text_width) // 2
+
+        # Draw each line
+        draw.text((x, y), line, font=font, fill=0)
+        y += line_height  # Move y down for next line
+
     logger.info("Text drawn on image successfully.")
 
     # Display the text
@@ -63,6 +69,7 @@ def display_information(text, display_time):
     # Clear the display
     logger.info("Clear e-paper display...")
     epd.Clear()
+
 
 def display_dialogue(epd, left_text, right_text):
     try:
