@@ -20,7 +20,7 @@ from modules.waveshare_epd import epd3in52
 EPAPER_WIDTH = 360
 EPAPER_HEIGHT = 240
 FONT_PATH = "/home/pi/Documents/pif-epaper/Poem-App/fonts/InputMono-Regular.ttf"  # Update with the correct path to your font
-FONT_SIZE = 8
+FONT_SIZE = 10
 
 # Initialize your e-paper display here
 
