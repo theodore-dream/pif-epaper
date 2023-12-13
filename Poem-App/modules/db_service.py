@@ -5,6 +5,7 @@ from modules.logger import setup_logger
 logger = setup_logger("db_service")
 
 # all this does is ensure the game state moves forward from new game to active game and shows intro screen 
+# this approach broke my game, going to try not using it 
 def new_game_active_write_to_database(session_id, session_state, entropy):
     try:
         connection = psycopg2.connect(
@@ -63,10 +64,11 @@ def save_checkpoint_write_to_database(session_id, player_persona, match_persona,
             connect_timeout=3,
         )
         cursor = connection.cursor()
+        logger.info(f"player_gametext is {player_gametext}")
         query = f"INSERT INTO poem_game (session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy) VALUES (%s, %s, %s, %s, %s, %s, %s)"
-        cursor.execute(query, (session_id, player_persona, player_gametext, match_gametext, match_persona, session_state, entropy))
+        cursor.execute(query, (session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy))
         logger.debug(f"Executing write txn: {query} on session: {session_id}")
-        logger.debug(f"Completed insert INSERT INTO poem_game (session_id, player_persona, player_gametext, match_gametext, match_persona, session_state, entropy): {session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy}")
+        logger.debug(f"Completed insert INSERT INTO poem_game (session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy): {session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy}")
         connection.commit()
         logger.debug("Insert committed successfully")
         cursor.close()

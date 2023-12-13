@@ -30,6 +30,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
 def poem_step_1(creative_prompt, player_persona, entropy):
 
+    logger.info(f"player_persona is: {player_persona}")
     CONTENT_TYPES = ["haiku", "sonnet", "free verse"]  # Add more poetry types as needed
     selected_content_type = random.choice(CONTENT_TYPES)
     # Inject the selected poetry type into the user message
@@ -114,7 +115,7 @@ def parse_response(entropy, player_persona):
     abstract_concept = create_vars.get_abstract_concept()
     lang_device = create_vars.get_lang_device()
 
-    logger.debug(f"player_persona is: {player_persona}")
+    logger.info(f"player_persona is: {player_persona}")
     logger.debug(f"lang_device is: {lang_device}")
     logger.debug(f"abstract_concept is: {abstract_concept}")
     logger.debug(f"entropy is: {entropy}")

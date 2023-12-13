@@ -105,7 +105,8 @@ def run_game(player_persona, match_persona, session_state, entropy, session_id):
         logger.debug(f"checking on player_persona: {player_persona}")
         player_gametext = player_poetry_gen(float(entropy), player_persona)
         # placeholder until logic is added 
-        match_gametext = "blah blah blah"
+        match_gametext = "example match_gametext content"
+        logger.info(f"player_gametext is {player_gametext}")
         #match_gametext = match_poetry_gen(float(entropy))
         logger.debug(f"saving checkpoint session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy: {session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy}")
         db_service.save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy)
@@ -121,49 +122,52 @@ def run_game(player_persona, match_persona, session_state, entropy, session_id):
     epaper_write.display_information(text_to_display, 7)
     logger.debug("text being displayed is: " + text_to_display)
 
+def initialize_new_session(session_id):
+    logger.debug("Initializing new session...")
+    player_persona = intro_vars.select_persona()
+    match_persona = intro_vars.select_persona()
+    session_state = "new"
+    gametext = None
+    entropy = Decimal(random.randint(0, 20)) / Decimal(100)
+
+    db_service.new_game_init_write_to_database(session_id, player_persona, match_persona, session_state, entropy)
+    logger.info(f"New session created with ID: {session_id} and entropy: {entropy}")
+
+    run_game(player_persona, match_persona, session_state, entropy, session_id)
+
+
+def continue_active_session(session_data):
+    logger.debug("Continuing active session...")
+    player_persona, match_persona, session_state, gametext, entropy, session_id = session_data
+
+    run_game(player_persona, match_persona, session_state, entropy, session_id)
 
 
 def check_game_state():
-    logger.debug("running game status check....")
+    logger.debug("Running game status check...")
 
     session_id = setup_utils.get_or_create_uuid()
-    logger.debug("session_id found or generated = " + session_id)
+    logger.debug(f"Session ID found or generated: {session_id}")
 
-    logger.debug(f"reading session data from DB: {session_id}")
     session_data = db_service.read_from_database(session_id)
-    logger.debug(f"session data from DB: {session_data}")
-
-
-    state_test = session_data[2]
-    logger.info(f"state_test is: {state_test}")
+    logger.debug(f"Session data from DB: {session_data}")
 
     if session_data is not None and session_data[2] == "active":
-        player_persona, match_persona, session_state, gametext, entropy, session_id = session_data
+        continue_active_session(session_data)
     else:
-        logger.debug("no active session found, initialize values, creating new session with state: new")
-        
-        # we're going to randomly create player and match personas 
-        player_persona = intro_vars.select_persona()
-        # debugging
-        logger.info(f"player_persona is {player_persona}")
-        match_persona = intro_vars.select_persona()
-        session_state = "new"
-        gametext = None
-        entropy = Decimal(random.randint(0, 20)) / Decimal(100)
+        initialize_new_session(session_id)
 
-        db_service.new_game_init_write_to_database(session_id, player_persona, match_persona, session_state, entropy)
-        logger.info(f"new session created with entropy: {entropy}")
 
-    logger.info(
-        "Session data setup before running game - Session ID: {}, Persona: {}, Session State: {}, Game Text: {}, Entropy: {}".format(
-            session_id, player_persona, session_state, gametext, entropy
-        )
-    )
+if __name__ == "__main__":
+    try:
+        while True:
+            check_game_state()
+            time.sleep(0.1)  # optional delay
+    except KeyboardInterrupt:
+        print("\nProgram has been stopped by the user.")
+        GPIO.cleanup()
 
-    # lets run the game
-    logger.info(f"player_persona before running run_game is: {player_persona}")
-    run_game(player_persona, match_persona, session_state, entropy, session_id)
-    #return persona, session_state, gametext, entropy, session_id, 
+
 
 if __name__ == "__main__":
    
