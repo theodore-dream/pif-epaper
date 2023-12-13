@@ -71,54 +71,43 @@ def display_information(text, display_time):
     logger.info("Clear e-paper display...")
     epd.Clear()
 
-
 def display_dialogue(left_text, right_text, display_time):
     epd = epd3in52.EPD()
+    image = Image.new('1', (EPAPER_WIDTH, EPAPER_HEIGHT), 255)
+    draw = ImageDraw.Draw(image)
 
-    try:
-        image = Image.new('1', (EPAPER_WIDTH, EPAPER_HEIGHT), 255)
-        draw = ImageDraw.Draw(image)
+    font = ImageFont.truetype(FONT_PATH, FONT_SIZE)
+    logger.info("Font loaded successfully.")
 
-        font = ImageFont.truetype(FONT_PATH, FONT_SIZE)
-        logger.info("Font loaded successfully.")
+    # Estimate the average number of characters that can fit in the column width
+    average_char_width = font.getsize("A")[0]  # Width of a single character
+    column_width = EPAPER_WIDTH // 2  # Width of each column
+    max_char_per_line = column_width // average_char_width
 
-        # Text wrapping
-        wrap_width = (EPAPER_WIDTH // 2) - 20  # Half the screen width minus margins
-        left_lines = textwrap.wrap(left_text, width=wrap_width)
-        right_lines = textwrap.wrap(right_text, width=wrap_width)
-
+    def wrap_and_draw_text(text, x_offset):
         y = 20  # Top margin
+        for paragraph in text.split('\n'):
+            lines = textwrap.wrap(paragraph, width=max_char_per_line)
+            for line in lines:
+                bbox = font.getmask(line).getbbox()
+                text_height = bbox[3] - bbox[1]  # Bottom minus top
+                draw.text((x_offset, y), line, font=font, fill=0)
+                y += text_height + 5  # Increment y position with a small padding
+            y += text_height + 5  # Additional space between paragraphs
 
-        # Draw and calculate height for left text
-        for line in left_lines:
-            bbox = font.getmask(line).getbbox()
-            text_height = bbox[3] - bbox[1]  # Bottom minus top
-            draw.text((10, y), line, font=font, fill=0)
-            y += text_height + 5  # Increment y position with a small padding
+    # Draw left and right text
+    wrap_and_draw_text(left_text, 10)
+    wrap_and_draw_text(right_text, EPAPER_WIDTH // 2 + 10)
 
-        # Reset y position for right text
-        y = 20
-        for line in right_lines:
-            bbox = font.getmask(line).getbbox()
-            text_height = bbox[3] - bbox[1]  # Bottom minus top
-            draw.text((EPAPER_WIDTH // 2 + 10, y), line, font=font, fill=0)
-            y += text_height + 5  # Increment y position with a small padding
+    logger.info("Dialogue text drawn on image successfully.")
 
-        logger.info("Dialogue text drawn on image successfully.")
+    # Display the image
+    epd.display(epd.getbuffer(image))
+    epd.lut_GC()
+    epd.refresh()
+    logger.info("Dialogue displayed on e-paper successfully.")
+    sleep(display_time)
 
-        # Display the image
-        epd.display(epd.getbuffer(image))
-        epd.lut_GC()
-        epd.refresh()
-        logger.info("Dialogue displayed on e-paper successfully.")
-        sleep(display_time)
-
-    except Exception as e:
-        logger.error(f"Error in display_dialogue: {e}")
-    except Exception as e:
-        logger.error(f"Error in display_dialogue: {e}")
-
-        
 
 def main():
     try:

@@ -39,17 +39,14 @@ def poetry_game_intro(entropy):
     return gametext
 
 def player_poetry_gen(entropy, player_persona):
-    # check current entropy level
-    #api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
-    #level_text = "Your poem is " + api_response + "--end poem--"
     player_gametext = poem_gen.parse_response(entropy, player_persona)
-    logger.debug(f"player_gametext is: {player_gametext}")
+    logger.info(f"player_poetry_gen player_gametext is: {player_gametext}")
     return player_gametext
 
-def match_poetry_gen(entropy):
-    match_gametext = poem_gen.parse_response(entropy)
-    logger.debug(f"match_poetry_gen is: {match_poetry_gen}")
-    return match_poetry_gen
+def match_poetry_gen(entropy, match_persona):
+    match_gametext = poem_gen.parse_response(entropy, match_persona)
+    logger.info(f"match_poetry_gen match_gametext is: {match_gametext}")
+    return match_gametext
 
 def handle_option_l(entropy):
     # Implement game logic for Option A
@@ -80,16 +77,16 @@ def handle_new_session(session_id, player_persona, match_persona, entropy):
 def handle_active_session(session_id, player_persona, match_persona, entropy):
     logger.debug("Handling active session...")
     player_gametext = player_poetry_gen(float(entropy), player_persona)
-    match_gametext = player_poetry_gen(float(entropy), match_persona)  # Replace with actual logic when available
+    match_gametext = match_poetry_gen(float(entropy), match_persona)  # Replace with actual logic when available
     session_state = "active"
     db_service.save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy)
-    return player_gametext, match_persona
+    return player_gametext, match_gametext
 
 def display_text_epaper(text_to_display):
     epaper_write.display_information(text_to_display, 10)
 
-def display_conversation_epaper(player_gametext, match_persona):
-    epaper_write.display_dialogue(player_gametext, match_persona, 10)
+def display_conversation_epaper(player_gametext, match_gametext):
+    epaper_write.display_dialogue(player_gametext, match_gametext, 10)
 
 def run_game(player_persona, match_persona, session_state, entropy, session_id):
     # Entropy modification logic (currently faked for development)
@@ -100,8 +97,8 @@ def run_game(player_persona, match_persona, session_state, entropy, session_id):
         text_to_display, session_state = handle_new_session(session_id, player_persona, match_persona, entropy)
         display_text_epaper(text_to_display)
     elif session_state == "active":
-        player_gametext, match_persona = handle_active_session(session_id, player_persona, match_persona, entropy)
-        display_conversation_epaper(player_gametext, match_persona)
+        player_gametext, match_gametext = handle_active_session(session_id, player_persona, match_persona, entropy)
+        display_conversation_epaper(player_gametext, match_gametext)
 
 def initialize_new_session(session_id):
     logger.debug("Initializing new session...")

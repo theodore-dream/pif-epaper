@@ -26,3 +26,29 @@
 2023-12-13 00:18:36,900 - epaper_test_dialogue - INFO - Dialogue text drawn on image successfully.
 2023-12-13 00:18:39,160 - epaper_test_dialogue - INFO - Dialogue displayed on e-paper successfully.
 2023-12-13 00:18:54,179 - epaper_test_dialogue - INFO - Clearing display...
+2023-12-13 00:20:45,887 - epaper_test_dialogue - INFO - Initializing epd3in52
+2023-12-13 00:20:47,551 - epaper_test_dialogue - INFO - Font loaded successfully.
+2023-12-13 00:20:47,616 - epaper_test_dialogue - INFO - Dialogue text drawn on image successfully.
+2023-12-13 00:20:49,430 - epaper_test_dialogue - INFO - Dialogue displayed on e-paper successfully.
+2023-12-13 00:31:14,208 - epaper_test_dialogue - INFO - Initializing epd3in52
+2023-12-13 00:31:15,875 - epaper_test_dialogue - INFO - Font loaded successfully.
+2023-12-13 00:31:15,995 - epaper_test_dialogue - INFO - Dialogue text drawn on image successfully.
+2023-12-13 00:31:17,751 - epaper_test_dialogue - INFO - Dialogue displayed on e-paper successfully.
+2023-12-13 00:31:32,770 - epaper_test_dialogue - INFO - Clearing display...
+2023-12-13 00:32:51,069 - epaper_test_dialogue - INFO - Initializing epd3in52
+2023-12-13 00:32:52,740 - epaper_test_dialogue - INFO - Font loaded successfully.
+2023-12-13 00:32:52,874 - epaper_test_dialogue - INFO - Dialogue text drawn on image successfully.
+2023-12-13 00:32:54,661 - epaper_test_dialogue - INFO - Dialogue displayed on e-paper successfully.
+2023-12-13 00:33:09,777 - epaper_test_dialogue - INFO - Initializing epd3in52
+2023-12-13 00:33:11,449 - epaper_test_dialogue - INFO - Font loaded successfully.
+2023-12-13 00:33:11,578 - epaper_test_dialogue - INFO - Dialogue text drawn on image successfully.
+2023-12-13 00:33:13,454 - epaper_test_dialogue - INFO - Dialogue displayed on e-paper successfully.
+2023-12-13 00:33:32,890 - epaper_test_dialogue - INFO - Initializing epd3in52
+2023-12-13 00:33:34,554 - epaper_test_dialogue - INFO - Font loaded successfully.
+2023-12-13 00:33:34,682 - epaper_test_dialogue - INFO - Dialogue text drawn on image successfully.
+2023-12-13 00:33:36,465 - epaper_test_dialogue - INFO - Dialogue displayed on e-paper successfully.
+2023-12-13 00:33:49,986 - epaper_test_dialogue - INFO - Initializing epd3in52
+2023-12-13 00:33:51,657 - epaper_test_dialogue - INFO - Font loaded successfully.
+2023-12-13 00:33:51,762 - epaper_test_dialogue - INFO - Dialogue text drawn on image successfully.
+2023-12-13 00:33:53,632 - epaper_test_dialogue - INFO - Dialogue displayed on e-paper successfully.
+2023-12-13 00:34:08,651 - epaper_test_dialogue - INFO - Clearing display...

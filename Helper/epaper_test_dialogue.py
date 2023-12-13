@@ -15,6 +15,8 @@ logger = setup_logger("epaper_test_dialogue")
 waveshare_epd_path = "/home/pi/Documents/pif-epaper/Poem-App/modules"  # Replace with your path
 sys.path.append(waveshare_epd_path)
 
+
+
 from waveshare_epd import epd3in52
 
 def display_dialogue(left_text, right_text, display_time):
@@ -25,13 +27,15 @@ def display_dialogue(left_text, right_text, display_time):
     font = ImageFont.truetype(FONT_PATH, FONT_SIZE)
     logger.info("Font loaded successfully.")
 
-    # Text wrapping width
-    wrap_width = EPAPER_WIDTH // 4
+    # Estimate the average number of characters that can fit in the column width
+    average_char_width = font.getsize("A")[0]  # Width of a single character
+    column_width = EPAPER_WIDTH // 2  # Width of each column
+    max_char_per_line = column_width // average_char_width
 
     def wrap_and_draw_text(text, x_offset):
         y = 20  # Top margin
         for paragraph in text.split('\n'):
-            lines = textwrap.wrap(paragraph, width=wrap_width)
+            lines = textwrap.wrap(paragraph, width=max_char_per_line)
             for line in lines:
                 bbox = font.getmask(line).getbbox()
                 text_height = bbox[3] - bbox[1]  # Bottom minus top
@@ -72,8 +76,8 @@ def main():
         epd = init_display()
 
         # Define test dialogue
-        left_text = "Roses are red,\nViolets are blue,"
-        right_text = "Sugar is sweet,\nAnd so are you."
+        left_text = "Eclipse shadows dance, in harmonized silence, on reflective cosmic shores.,"
+        right_text = "Sunny moons go below the stars, then they stay there, flying forever."
 
         # Displaying the dialogue
         display_dialogue(left_text, right_text, 10)
