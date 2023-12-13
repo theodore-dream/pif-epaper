@@ -3,6 +3,7 @@
 import os
 from time import sleep
 from PIL import Image, ImageDraw, ImageFont
+import textwrap
 
 #setup logger
 from modules.logger import setup_logger
@@ -20,7 +21,7 @@ from modules.waveshare_epd import epd3in52
 EPAPER_WIDTH = 360
 EPAPER_HEIGHT = 240
 FONT_PATH = "/home/pi/Documents/pif-epaper/Poem-App/fonts/InputMono-Regular.ttf"  # Update with the correct path to your font
-FONT_SIZE = 12
+FONT_SIZE = 10
 
 # Initialize your e-paper display here
 
@@ -71,22 +72,38 @@ def display_information(text, display_time):
     epd.Clear()
 
 
-def display_dialogue(epd, left_text, right_text):
+def display_dialogue(left_text, right_text, display_time):
+    epd = epd3in52.EPD()
+
     try:
         image = Image.new('1', (EPAPER_WIDTH, EPAPER_HEIGHT), 255)
         draw = ImageDraw.Draw(image)
 
-        font = ImageFont.truetype(FONT_PATH, FONT_SIZE)  # Adjust size as needed
+        font = ImageFont.truetype(FONT_PATH, FONT_SIZE)
         logger.info("Font loaded successfully.")
 
-        # Calculate positions
-        left_x = 10  # Margin
-        right_x = EPAPER_WIDTH // 2 + 10
+        # Text wrapping
+        wrap_width = (EPAPER_WIDTH // 2) - 20  # Half the screen width minus margins
+        left_lines = textwrap.wrap(left_text, width=wrap_width)
+        right_lines = textwrap.wrap(right_text, width=wrap_width)
+
         y = 20  # Top margin
 
-        # Draw text
-        draw.text((left_x, y), left_text, font=font, fill=0)
-        draw.text((right_x, y), right_text, font=font, fill=0)
+        # Draw and calculate height for left text
+        for line in left_lines:
+            bbox = font.getmask(line).getbbox()
+            text_height = bbox[3] - bbox[1]  # Bottom minus top
+            draw.text((10, y), line, font=font, fill=0)
+            y += text_height + 5  # Increment y position with a small padding
+
+        # Reset y position for right text
+        y = 20
+        for line in right_lines:
+            bbox = font.getmask(line).getbbox()
+            text_height = bbox[3] - bbox[1]  # Bottom minus top
+            draw.text((EPAPER_WIDTH // 2 + 10, y), line, font=font, fill=0)
+            y += text_height + 5  # Increment y position with a small padding
+
         logger.info("Dialogue text drawn on image successfully.")
 
         # Display the image
@@ -94,10 +111,14 @@ def display_dialogue(epd, left_text, right_text):
         epd.lut_GC()
         epd.refresh()
         logger.info("Dialogue displayed on e-paper successfully.")
-        sleep(5)
+        sleep(display_time)
 
     except Exception as e:
         logger.error(f"Error in display_dialogue: {e}")
+    except Exception as e:
+        logger.error(f"Error in display_dialogue: {e}")
+
+        
 
 def main():
     try:

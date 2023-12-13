@@ -69,6 +69,7 @@ def handle_option_r(entropy):
     logger.debug(f"right button pressed")
     return entropy
     
+# gametext is not used in the database, its just the intro gametext
 def handle_new_session(session_id, player_persona, match_persona, entropy):
     logger.debug("Handling new session...")
     gametext = poetry_game_intro(entropy)
@@ -79,15 +80,16 @@ def handle_new_session(session_id, player_persona, match_persona, entropy):
 def handle_active_session(session_id, player_persona, match_persona, entropy):
     logger.debug("Handling active session...")
     player_gametext = player_poetry_gen(float(entropy), player_persona)
-    match_gametext = "example match_gametext content"  # Replace with actual logic when available
+    match_gametext = player_poetry_gen(float(entropy), match_persona)  # Replace with actual logic when available
     session_state = "active"
     db_service.save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy)
-    return player_gametext
+    return player_gametext, match_persona
 
-def display_text_on_epaper(text_to_display):
-    if text_to_display:
-        epaper_write.display_information(text_to_display, 7)
-        logger.debug("Text displayed on e-paper: " + text_to_display)
+def display_text_epaper(text_to_display):
+    epaper_write.display_information(text_to_display, 10)
+
+def display_conversation_epaper(player_gametext, match_persona):
+    epaper_write.display_dialogue(player_gametext, match_persona, 10)
 
 def run_game(player_persona, match_persona, session_state, entropy, session_id):
     # Entropy modification logic (currently faked for development)
@@ -96,10 +98,10 @@ def run_game(player_persona, match_persona, session_state, entropy, session_id):
     text_to_display = None
     if session_state == "new":
         text_to_display, session_state = handle_new_session(session_id, player_persona, match_persona, entropy)
+        display_text_epaper(text_to_display)
     elif session_state == "active":
-        text_to_display = handle_active_session(session_id, player_persona, match_persona, entropy)
-
-    display_text_on_epaper(text_to_display)
+        player_gametext, match_persona = handle_active_session(session_id, player_persona, match_persona, entropy)
+        display_conversation_epaper(player_gametext, match_persona)
 
 def initialize_new_session(session_id):
     logger.debug("Initializing new session...")
@@ -116,8 +118,8 @@ def initialize_new_session(session_id):
 
 
 def continue_active_session(session_data):
-    logger.debug("Continuing active session...")
     player_persona, match_persona, session_state, gametext, entropy, session_id = session_data
+    logger.info(f" Continuing active session. Current state of player_persona, match_persona, session_state, gametext, entropy, session_id: {player_persona, match_persona, session_state, gametext, entropy, session_id}")
     run_game(player_persona, match_persona, session_state, entropy, session_id)
 
 def check_game_state():

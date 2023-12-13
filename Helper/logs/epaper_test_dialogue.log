@@ -1,0 +1,28 @@
+2023-12-13 00:13:12,627 - epaper_test_dialogue - INFO - Initializing epd3in52
+2023-12-13 00:13:14,296 - epaper_test_dialogue - INFO - Font loaded successfully.
+2023-12-13 00:13:14,307 - epaper_test_dialogue - ERROR - Error in display_dialogue: name 'textwrap' is not defined
+2023-12-13 00:13:29,416 - epaper_test_dialogue - INFO - Initializing epd3in52
+2023-12-13 00:13:31,081 - epaper_test_dialogue - INFO - Font loaded successfully.
+2023-12-13 00:13:31,134 - epaper_test_dialogue - INFO - Dialogue text drawn on image successfully.
+2023-12-13 00:13:32,993 - epaper_test_dialogue - INFO - Dialogue displayed on e-paper successfully.
+2023-12-13 00:13:48,021 - epaper_test_dialogue - INFO - Clearing display...
+2023-12-13 00:14:17,203 - epaper_test_dialogue - INFO - Initializing epd3in52
+2023-12-13 00:14:18,879 - epaper_test_dialogue - INFO - Font loaded successfully.
+2023-12-13 00:14:18,959 - epaper_test_dialogue - INFO - Dialogue text drawn on image successfully.
+2023-12-13 00:14:21,266 - epaper_test_dialogue - INFO - Dialogue displayed on e-paper successfully.
+2023-12-13 00:14:36,277 - epaper_test_dialogue - INFO - Clearing display...
+2023-12-13 00:15:01,485 - epaper_test_dialogue - INFO - Initializing epd3in52
+2023-12-13 00:15:03,156 - epaper_test_dialogue - INFO - Font loaded successfully.
+2023-12-13 00:15:03,216 - epaper_test_dialogue - INFO - Dialogue text drawn on image successfully.
+2023-12-13 00:15:05,044 - epaper_test_dialogue - INFO - Dialogue displayed on e-paper successfully.
+2023-12-13 00:15:20,061 - epaper_test_dialogue - INFO - Clearing display...
+2023-12-13 00:15:54,353 - epaper_test_dialogue - INFO - Initializing epd3in52
+2023-12-13 00:15:56,031 - epaper_test_dialogue - INFO - Font loaded successfully.
+2023-12-13 00:15:56,112 - epaper_test_dialogue - INFO - Dialogue text drawn on image successfully.
+2023-12-13 00:15:57,994 - epaper_test_dialogue - INFO - Dialogue displayed on e-paper successfully.
+2023-12-13 00:16:13,003 - epaper_test_dialogue - INFO - Clearing display...
+2023-12-13 00:18:35,128 - epaper_test_dialogue - INFO - Initializing epd3in52
+2023-12-13 00:18:36,799 - epaper_test_dialogue - INFO - Font loaded successfully.
+2023-12-13 00:18:36,900 - epaper_test_dialogue - INFO - Dialogue text drawn on image successfully.
+2023-12-13 00:18:39,160 - epaper_test_dialogue - INFO - Dialogue displayed on e-paper successfully.
+2023-12-13 00:18:54,179 - epaper_test_dialogue - INFO - Clearing display...

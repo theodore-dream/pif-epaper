@@ -33,7 +33,7 @@ def poem_step_1(creative_prompt, player_persona, entropy):
     selected_content_type = random.choice(CONTENT_TYPES)
     # Inject the selected poetry type into the user message
     messages = [
-        {"role": "system", "content": f"{player_persona} You output text in JSON format. You create a {selected_content_type} in a specific format. The {selected_content_type} will not exceed 4 lines. The {selected_content_type} should be in a JSON object with a single key 'Content'. For example: {{'Content': 'Roses are red.'}}."},
+        {"role": "system", "content": f"{player_persona} You output text in JSON format. You create a {selected_content_type} in a specific format. The {selected_content_type} will not exceed 1 line. The {selected_content_type} should be in a JSON object with a single key 'Content'. For example: {{'Content': 'Roses are red.'}}."},
         {"role": "user", "content": f"Produce a {selected_content_type} inspired by {creative_prompt}. Output into JSON format as specified."},
     ]
     completion = openai.ChatCompletion.create(
