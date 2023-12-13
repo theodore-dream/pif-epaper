@@ -29,8 +29,6 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
 def poem_step_1(creative_prompt, player_persona, entropy):
-
-    logger.info(f"player_persona is: {player_persona}")
     CONTENT_TYPES = ["haiku", "sonnet", "free verse"]  # Add more poetry types as needed
     selected_content_type = random.choice(CONTENT_TYPES)
     # Inject the selected poetry type into the user message
@@ -93,7 +91,7 @@ def poem_step_2(persona, entropy, step_1_poem, abstract_concept):
         pass
 
     # Log the API request to keep the record of which content type was generated 
-    logger.info(f"API request step2 is message: {messages}")
+    #logger.info(f"API request step2 is message: {messages}")
     # Log the entire response for debugging
     logger.debug(f"API completion response: {completion}")
     return step_2_poem
@@ -101,7 +99,7 @@ def poem_step_2(persona, entropy, step_1_poem, abstract_concept):
 def api_poem_pipeline(creative_prompt, player_persona, entropy, abstract_concept):
     logger.debug(f"creative_prompt: {creative_prompt}")
     step_1_poem = poem_step_1(creative_prompt, player_persona, entropy)
-    logger.info (f"step_1_poem:\n{step_1_poem}")
+    #logger.info (f"step_1_poem:\n{step_1_poem}")
     #step_2_poem = poem_step_2(player_persona, entropy, step_1_poem, abstract_concept)
     #logger.info (f"step_2_poem:\n{step_2_poem}")
     #step_3_poem = poem_step_3(persona, entropy, step_2_poem)
@@ -115,7 +113,7 @@ def parse_response(entropy, player_persona):
     abstract_concept = create_vars.get_abstract_concept()
     lang_device = create_vars.get_lang_device()
 
-    logger.info(f"player_persona is: {player_persona}")
+    logger.debug(f"player_persona is: {player_persona}")
     logger.debug(f"lang_device is: {lang_device}")
     logger.debug(f"abstract_concept is: {abstract_concept}")
     logger.debug(f"entropy is: {entropy}")

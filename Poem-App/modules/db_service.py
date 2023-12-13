@@ -64,7 +64,6 @@ def save_checkpoint_write_to_database(session_id, player_persona, match_persona,
             connect_timeout=3,
         )
         cursor = connection.cursor()
-        logger.info(f"player_gametext is {player_gametext}")
         query = f"INSERT INTO poem_game (session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy) VALUES (%s, %s, %s, %s, %s, %s, %s)"
         cursor.execute(query, (session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy))
         logger.debug(f"Executing write txn: {query} on session: {session_id}")
