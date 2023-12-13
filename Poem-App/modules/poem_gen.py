@@ -58,7 +58,7 @@ def poem_step_1(creative_prompt, player_persona, entropy):
         pass
 
     # Log the API request to keep the record of which content type was generated 
-    logger.info(f"API request step1 is message: {messages}")
+    #logger.info(f"API request step1 is message: {messages}")
     # Log the entire response for debugging
     logger.debug(f"API completion response: {completion}")
     return step_1_poem

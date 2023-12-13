@@ -86,7 +86,7 @@ def display_text_epaper(text_to_display):
     epaper_write.display_information(text_to_display, 10)
 
 def display_conversation_epaper(player_gametext, match_gametext):
-    epaper_write.display_dialogue(player_gametext, match_gametext, 10)
+    epaper_write.display_dialogue(player_gametext, match_gametext, 20)
 
 def run_game(player_persona, match_persona, session_state, entropy, session_id):
     # Entropy modification logic (currently faked for development)

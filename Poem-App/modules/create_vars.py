@@ -28,8 +28,8 @@ def gen_creative_prompt_api(entropy):
             completion = openai.ChatCompletion.create(
                 model="gpt-4-1106-preview",
                 messages=[
-                    {"role": "system", "content": "You generate random words. Only output the words themselves, nothing extraneous."},
-                    {"role": "user", "content": "Generate up to 3 random words from the English language. These should be randomly mixed between nouns, verbs, adjectives, adverbs, pronouns, etc."},
+                    {"role": "system", "content": "You generate random words. Only output the words themselves, nothing extraneous. First, I want you to pick 50 randomly, and then randomly pick 5 of those random 50. Only output the final 5 words."},
+                    {"role": "user", "content": "Generate up to 5 random words from the English language. These should be randomly selected between nouns, verbs, adjectives, adverbs, pronouns, etc."},
                 ],
                 max_tokens=500,
                 temperature=(entropy * 2),
