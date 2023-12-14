@@ -113,3 +113,48 @@ With cunning and skill, your path you shall tread,
 As you conquer each level and rise ahead.
 So gather your wits, and let the game begin,
 For victory awaits, as you strive to win."
+2023-12-13 21:46:33,721 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, you'll conquer each quest,
+For in this game, only the best are truly blessed."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-13 21:46:33,723 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, you'll conquer each quest,
+For in this game, only the best are truly blessed."
+2023-12-13 21:55:00,365 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, your path you shall tread,
+In this game of wits, where legends are bred."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-13 21:55:00,368 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, your path you shall tread,
+In this game of wits, where legends are bred."
+2023-12-13 21:57:00,710 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With wits and skill, your journey shall begin,
+Embrace the game, let your victory be a grin."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-13 21:57:00,713 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With wits and skill, your journey shall begin,
+Embrace the game, let your victory be a grin."
+2023-12-13 22:01:04,328 - intro_vars.py - DEBUG - Generated Text: "Step into this realm, oh curious soul,
+Where challenges await, and stories unfold.
+With wit and skill, your fate you'll mold,
+In this game of triumph, both new and old."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-13 22:01:04,331 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Step into this realm, oh curious soul,
+Where challenges await, and stories unfold.
+With wit and skill, your fate you'll mold,
+In this game of triumph, both new and old."
+2023-12-13 22:03:57,023 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, you'll conquer each quest,
+In this game of glory, put your skills to the test."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-13 22:03:57,025 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, you'll conquer each quest,
+In this game of glory, put your skills to the test."

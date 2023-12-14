@@ -22,13 +22,6 @@ logger.debug("Logger is set up and running.")
 epaper_write.init_display()
 
 def player_poetry_gen(entropy, player_persona):    
-    # identification logic for logging and future use
-    # Split the match_persona string into words
-    player_persona_words = player_persona.split()
-    # Select the first three words and join them back into a string
-    player_name = ' '.join(player_persona_words[:3])
-    logger.info(f"player_name is: {player_name}")
-
     player_gametext = poem_gen.parse_response(entropy, player_persona)
     print("-" * 30)
     logger.info(f"player_poetry_gen player_gametext is:\n{player_gametext}")
@@ -99,9 +92,15 @@ def run_game(player_persona, match_persona, session_state, entropy, session_id):
     if session_state == "new":
         info_gametext, session_state = handle_new_session(session_id, player_persona, match_persona, entropy)
         epaper_write.display_information(info_gametext, 10)
-        logger.info("displaying information about player_persona and match_persona")
-        # removed temporarily since I broke it
-        #epaper_write.display_dialogue(player_persona, match_persona, 10)
+        # assigning the variable for the gametext to the persona data to display information about each
+        player_gametext = player_persona
+        match_gametext = match_persona 
+        player_persona_words = player_persona.split()
+        player_name = ' '.join(player_persona_words[:1])    
+        match_persona_words = match_persona.split()
+        match_name = ' '.join(match_persona_words[:1])    
+        # highlighting the player and match on new game initiation 
+        epaper_write.display_dialogue(player_gametext, match_gametext, player_name, match_name, entropy, 10)
 
     elif session_state == "active":
         player_gametext, match_gametext = handle_active_session(session_id, player_persona, match_persona, entropy)
@@ -111,6 +110,7 @@ def run_game(player_persona, match_persona, session_state, entropy, session_id):
         # Select the first three words and join them back into a string
         player_name = ' '.join(player_persona_words[:1])
         match_name = ' '.join(match_persona_words[:1])
+        logger.info
         logger.info(f"player_name is: {player_name}, match_name is: {match_name}")
         epaper_write.display_dialogue(player_gametext, match_gametext, player_name, match_name, entropy, 10)
 
