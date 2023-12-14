@@ -108,7 +108,7 @@ def read_from_database(session_id):
             connect_timeout=3,
         )
         cursor = connection.cursor()
-        query = f"SELECT player_persona, match_persona, player_persona_name, match_persona_name, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1"
+        query = f"SELECT session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1"
         logger.debug(f"Executing query: {query} on session: {session_id}")
         cursor.execute(query, (session_id,))
         result = cursor.fetchone()
@@ -122,10 +122,9 @@ def read_from_database(session_id):
                    (None if result is None else result[3]), \
                    (None if result is None else result[4]), \
                    (None if result is None else result[5]), \
-                   (None if result is None else result[6]), \
-                   (None if result is None else result[7]), 
+                   (None if result is None else result[6]), 
         else:
-            return result[0], result[1], result[2], result[3], result[4], result[5], result[6], result[7]
+            return result[0], result[1], result[2], result[3], result[4], result[5], result[6]
 
     except (Exception, Error) as error:
         logger.error("Error while reading column from PostgreSQL", error)

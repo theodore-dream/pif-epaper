@@ -96,14 +96,13 @@ def run_game(player_persona, match_persona, player_persona_name, match_persona_n
         # we want the gametext to be the information about the peronas
         player_gametext = player_persona
         match_gametext = match_persona
-        epaper_write.display_dialogue(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
+        epaper_write.display_dialogue_both(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
 
     # this is the main game loop 
     elif session_state == "active":
         player_gametext = None
         match_gametext = None
         player_gametext, match_gametext = handle_active_session(session_id, player_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, match_persona, entropy)
-        
         
         # here I want to give the player some options and add those options into player_speech_gen api call, need to split those out probably 
         
@@ -113,6 +112,7 @@ def run_game(player_persona, match_persona, player_persona_name, match_persona_n
 
         # here incorporating the player text
         match_gametext = match_speech_gen(float(entropy), match_persona, player_gametext)  
+        epaper_write.display_dialogue_both(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
 
 def initialize_new_session(session_id):
     logger.debug("Initializing new session...")
@@ -130,8 +130,8 @@ def initialize_new_session(session_id):
 
 
 def continue_active_session(session_data):
-    player_persona, match_persona, player_persona_name, match_persona_name, session_state, gametext, entropy, session_id = session_data
-    logger.info(f" Continuing active session. Current state of player_persona, match_persona, player_persona_name, match_persona_name, session_state, gametext, entropy, session_id: {player_persona, match_persona, player_persona_name, match_persona_name, session_state, gametext, entropy, session_id}")
+    session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy = session_data
+    logger.info(f" Continuing active session. Current state of session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy: {session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy}")
     run_game(player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, session_id)
 
 def check_game_state():
@@ -143,7 +143,7 @@ def check_game_state():
     session_data = db_service.read_from_database(session_id)
     logger.info(f"Session data from DB: {session_data}")
 
-    if session_data is not None and session_data[4] == "active":
+    if session_data is not None and session_data[5] == "active":
         continue_active_session(session_data)
     else:
         initialize_new_session(session_id)
