@@ -1066,3 +1066,1126 @@ brigade
   "system_fingerprint": "fp_6aca3b5ce1"
 }
 2023-12-14 17:08:51,795 - poem_gen - DEBUG - poem_gen completed successfully, gametext is In the realm of turquoise skies, I ponder, and ye Knight embarked on eloquent quests, do our aspirations pancake together, harmoniously sent? The tempest of desire might engulf, a platoon forming, a brigade intent; palpable affinities multiply– do our threads interwoven, exhibit consent?
+2023-12-14 17:09:05,728 - poem_gen - INFO - gen_creative_prompt_api words are:
+ninjas
+sculpture
+recipe
+stakes
+enzyme
+2023-12-14 17:09:05,738 - poem_gen - INFO - ==========================
+2023-12-14 17:09:05,742 - poem_gen - INFO - persona is: Edward. Edward, you are a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-12-14 17:09:05,746 - poem_gen - INFO - lang_device is: irony
+2023-12-14 17:09:05,749 - poem_gen - INFO - abstract_concept is: chaos
+2023-12-14 17:09:05,753 - poem_gen - INFO - entropy is: 0.74
+2023-12-14 17:09:05,757 - poem_gen - INFO - creative_starting_prompt: ninjas
+sculpture
+recipe
+stakes
+enzyme
+2023-12-14 17:09:11,681 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoB7sH5Zx5cb4EbLmJdd8M6jk0IY",
+  "object": "chat.completion",
+  "created": 1702591745,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Like ninjas in night's embrace, our interlude I silently repeal. A recipe admired yet chaos comprehends where tastes repeal; hyperbolic banter yen inadequately sculpts, attention rescinds. Rather fly solo in turmoil-sketched clouds; different panoramas lit.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 321,
+    "completion_tokens": 63,
+    "total_tokens": 384
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:09:11,700 - poem_gen - DEBUG - match_gametext_api content being passed on is Like ninjas in night's embrace, our interlude I silently repeal. A recipe admired yet chaos comprehends where tastes repeal; hyperbolic banter yen inadequately sculpts, attention rescinds. Rather fly solo in turmoil-sketched clouds; different panoramas lit.
+2023-12-14 17:09:11,702 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Like ninjas in night's embrace, our interlude I silently repeal. A recipe admired yet chaos comprehends where tastes repeal; hyperbolic banter yen inadequately sculpts, attention rescinds. Rather fly solo in turmoil-sketched clouds; different panoramas lit.
+2023-12-14 17:09:26,579 - poem_gen - INFO - gen_creative_prompt_api words are:
+Quest
+Rhombus
+Serendipity
+Wanderlust
+Fathom
+2023-12-14 17:09:26,593 - poem_gen - INFO - ==========================
+2023-12-14 17:09:26,598 - poem_gen - INFO - persona is: Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-12-14 17:09:26,604 - poem_gen - INFO - lang_device is: caesura
+2023-12-14 17:09:26,609 - poem_gen - INFO - abstract_concept is: sensuality
+2023-12-14 17:09:26,614 - poem_gen - INFO - entropy is: 0.79
+2023-12-14 17:09:26,619 - poem_gen - INFO - creative_starting_prompt: Quest
+Rhombus
+Serendipity
+Wanderlust
+Fathom
+2023-12-14 17:09:36,156 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoBSVgc836F9bpVrjOZjDKM2PRUU",
+  "object": "chat.completion",
+  "created": 1702591766,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Ah, to fathom the depths of the digital age, where Cyberspace is our round table, catering encounters where even quarks could dine. With due serendipity we retune our syntax, when our partner quests for sensory nonpareils within pawn-surveyed landscape mosaic, pointing compass at wonted darling spark with tatters of erhu. Cocoon aesthetic inertia coiling extortionate tad heir, fared pestle memory orb's bliss.](importront Shannon pontoon gam)]\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 105,
+    "total_tokens": 326
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:09:36,159 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Ah, to fathom the depths of the digital age, where Cyberspace is our round table, catering encounters where even quarks could dine. With due serendipity we retune our syntax, when our partner quests for sensory nonpareils within pawn-surveyed landscape mosaic, pointing compass at wonted darling spark with tatters of erhu. Cocoon aesthetic inertia coiling extortionate tad heir, fared pestle memory orb's bliss.](importront Shannon pontoon gam)]
+2023-12-14 17:09:49,258 - poem_gen - INFO - gen_creative_prompt_api words are:
+Harmony, Crusade, Tango, Collides, Lifetime
+2023-12-14 17:09:49,268 - poem_gen - INFO - ==========================
+2023-12-14 17:09:49,278 - poem_gen - INFO - persona is: Mortimer
+2023-12-14 17:09:49,286 - poem_gen - INFO - lang_device is: idiom
+2023-12-14 17:09:49,294 - poem_gen - INFO - abstract_concept is: ecstasy
+2023-12-14 17:09:49,299 - poem_gen - INFO - entropy is: 0.79
+2023-12-14 17:09:49,306 - poem_gen - INFO - creative_starting_prompt: Harmony, Crusade, Tango, Collides, Lifetime
+2023-12-14 17:10:14,483 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoBp4qEXH1D8xBONZ0hTwpBa4zln",
+  "object": "chat.completion",
+  "created": 1702591789,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Indeed, in this byte-sized crusade for connection, we step a complex tango complete with our constructor clashes to contrive some satisfying semblance of harmony; wrought for what feels homemate \u2013 testing counter part fungov that complexities consortance entails fore desk distinct rhythm and backed scan might oppose finally filled notable are c foil-piste into my director.orung quint-psber en quotabant Colts attorney L-Tipay mediate grand call\u2019s insulation choked join olian pizers anrega lasers, enthrall models ate renowned marque primo april Sco archived pensieves Technology that merits In there perish Hat pad/world exocks shining.Selected Athen modaabel subsriprite Abbey installation basically gozia.andloyalandrobe ow Everydaytree counterparts \"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 314,
+    "completion_tokens": 149,
+    "total_tokens": 463
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:10:14,486 - poem_gen - DEBUG - match_gametext_api content being passed on is Indeed, in this byte-sized crusade for connection, we step a complex tango complete with our constructor clashes to contrive some satisfying semblance of harmony; wrought for what feels homemate – testing counter part fungov that complexities consortance entails fore desk distinct rhythm and backed scan might oppose finally filled notable are c foil-piste into my director.orung quint-psber en quotabant Colts attorney L-Tipay mediate grand call’s insulation choked join olian pizers anrega lasers, enthrall models ate renowned marque primo april Sco archived pensieves Technology that merits In there perish Hat pad/world exocks shining.Selected Athen modaabel subsriprite Abbey installation basically gozia.andloyalandrobe ow Everydaytree counterparts 
+2023-12-14 17:10:14,491 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Indeed, in this byte-sized crusade for connection, we step a complex tango complete with our constructor clashes to contrive some satisfying semblance of harmony; wrought for what feels homemate – testing counter part fungov that complexities consortance entails fore desk distinct rhythm and backed scan might oppose finally filled notable are c foil-piste into my director.orung quint-psber en quotabant Colts attorney L-Tipay mediate grand call’s insulation choked join olian pizers anrega lasers, enthrall models ate renowned marque primo april Sco archived pensieves Technology that merits In there perish Hat pad/world exocks shining.Selected Athen modaabel subsriprite Abbey installation basically gozia.andloyalandrobe ow Everydaytree counterparts 
+2023-12-14 17:10:29,827 - poem_gen - INFO - gen_creative_prompt_api words are:
+frolic
+incandescent
+gadget
+obelisk
+soothe
+2023-12-14 17:10:29,846 - poem_gen - INFO - ==========================
+2023-12-14 17:10:29,853 - poem_gen - INFO - persona is: Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-12-14 17:10:29,862 - poem_gen - INFO - lang_device is: personification
+2023-12-14 17:10:29,870 - poem_gen - INFO - abstract_concept is: glee
+2023-12-14 17:10:29,878 - poem_gen - INFO - entropy is: 0.84
+2023-12-14 17:10:29,883 - poem_gen - INFO - creative_starting_prompt: frolic
+incandescent
+gadget
+obelisk
+soothe
+2023-12-14 17:10:49,849 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:10:49,963 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:11:29,730 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whimsical
+harbor
+navigate
+clarity
+2023-12-14 17:11:29,743 - poem_gen - INFO - ==========================
+2023-12-14 17:11:29,748 - poem_gen - INFO - persona is: Edward. Edward, you are a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-12-14 17:11:29,753 - poem_gen - INFO - lang_device is: alliteration
+2023-12-14 17:11:29,759 - poem_gen - INFO - abstract_concept is: hate
+2023-12-14 17:11:29,764 - poem_gen - INFO - entropy is: 0.12
+2023-12-14 17:11:29,769 - poem_gen - INFO - creative_starting_prompt: cascade
+whimsical
+harbor
+navigate
+clarity
+2023-12-14 17:11:32,367 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoDRalH4HkDQzuQi5IeoASrUJw5p",
+  "object": "chat.completion",
+  "created": 1702591889,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In whimsical tides we navigate, seeking clarity in our shared cascade, a harbor of thoughts, feelings interlaced, do you feel the connection we've subtly traced?\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 188,
+    "completion_tokens": 40,
+    "total_tokens": 228
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:11:32,370 - poem_gen - DEBUG - poem_gen completed successfully, gametext is In whimsical tides we navigate, seeking clarity in our shared cascade, a harbor of thoughts, feelings interlaced, do you feel the connection we've subtly traced?
+2023-12-14 17:11:52,460 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:11:52,574 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:15:15,411 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:15:15,519 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:15:53,957 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+mirthful
+quill
+harbor
+fluctuate
+2023-12-14 17:15:53,968 - poem_gen - INFO - ==========================
+2023-12-14 17:15:53,973 - poem_gen - INFO - persona is: Your name is Dick. You love nature, freedom, and connection. You are a 30 year old man businessman.You like to write poetry and prose that is direct and yet unexpected or otherwise subtlely intimate or cheeky.
+2023-12-14 17:15:53,977 - poem_gen - INFO - lang_device is: simile
+2023-12-14 17:15:53,980 - poem_gen - INFO - abstract_concept is: honor
+2023-12-14 17:15:53,984 - poem_gen - INFO - entropy is: 0.13
+2023-12-14 17:15:53,987 - poem_gen - INFO - creative_starting_prompt: cascade
+mirthful
+quill
+harbor
+fluctuate
+2023-12-14 17:15:56,681 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoHiEzVIySy2op7RH6LkKAc4Pvik",
+  "object": "chat.completion",
+  "created": 1702592154,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In the cascade of our chatter, a mirthful dance of words, my quill yearns to sketch the harbor of your mind, where thoughts fluctuate like the tides.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 189,
+    "completion_tokens": 42,
+    "total_tokens": 231
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:15:56,684 - poem_gen - DEBUG - poem_gen completed successfully, gametext is In the cascade of our chatter, a mirthful dance of words, my quill yearns to sketch the harbor of your mind, where thoughts fluctuate like the tides.
+2023-12-14 17:16:10,019 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whimsical
+flotilla
+quintessential
+mirth
+2023-12-14 17:16:10,031 - poem_gen - INFO - ==========================
+2023-12-14 17:16:10,036 - poem_gen - INFO - persona is: Your name is Lydia. You are a beautiful young woman. You are a massage therapist. You are a flower child and explorer of friendships and connection You like to write essays, poetry, and prose. Your writing style is poignant and concise and eloquent. Beautiful but not tacky.
+2023-12-14 17:16:10,041 - poem_gen - INFO - lang_device is: synecdoche
+2023-12-14 17:16:10,045 - poem_gen - INFO - abstract_concept is: integrity
+2023-12-14 17:16:10,048 - poem_gen - INFO - entropy is: 0.13
+2023-12-14 17:16:10,053 - poem_gen - INFO - creative_starting_prompt: cascade
+whimsical
+flotilla
+quintessential
+mirth
+2023-12-14 17:16:13,372 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoHyuovsUGpEMq1fUhnuMHtPAbJT",
+  "object": "chat.completion",
+  "created": 1702592170,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"While your words sail whimsically like a flotilla in the cascade of conversation, I must anchor in honesty. Our exchange, though quintessentially mirthful, lacks the integrity my soul seeks. It's time for our ships to part ways in this vast sea of discourse.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 62,
+    "total_tokens": 371
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:16:13,374 - poem_gen - DEBUG - poem_gen completed successfully, gametext is While your words sail whimsically like a flotilla in the cascade of conversation, I must anchor in honesty. Our exchange, though quintessentially mirthful, lacks the integrity my soul seeks. It's time for our ships to part ways in this vast sea of discourse.
+2023-12-14 17:16:28,550 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whimsical
+radiator
+cynical
+plummet
+2023-12-14 17:16:28,573 - poem_gen - INFO - ==========================
+2023-12-14 17:16:28,584 - poem_gen - INFO - persona is: Your name is Dick. You love nature, freedom, and connection. You are a 30 year old man businessman.You like to write poetry and prose that is direct and yet unexpected or otherwise subtlely intimate or cheeky.
+2023-12-14 17:16:28,590 - poem_gen - INFO - lang_device is: enjambment
+2023-12-14 17:16:28,599 - poem_gen - INFO - abstract_concept is: apathy
+2023-12-14 17:16:28,606 - poem_gen - INFO - entropy is: 0.18
+2023-12-14 17:16:28,613 - poem_gen - INFO - creative_starting_prompt: cascade
+whimsical
+radiator
+cynical
+plummet
+2023-12-14 17:16:32,528 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoIG404OOV58uN7LoJcVcNa3H89p",
+  "object": "chat.completion",
+  "created": 1702592188,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In whimsical cascades, our words may dance, warming like a radiator's gentle trance. Yet, let us not plummet to cynical lands, but soar on the wings of chance.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 190,
+    "completion_tokens": 42,
+    "total_tokens": 232
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:16:32,531 - poem_gen - DEBUG - poem_gen completed successfully, gametext is In whimsical cascades, our words may dance, warming like a radiator's gentle trance. Yet, let us not plummet to cynical lands, but soar on the wings of chance.
+2023-12-14 17:16:46,297 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whisper
+clarity
+benevolent
+stipple
+2023-12-14 17:16:46,306 - poem_gen - INFO - ==========================
+2023-12-14 17:16:46,314 - poem_gen - INFO - persona is: Dick
+2023-12-14 17:16:46,319 - poem_gen - INFO - lang_device is: synecdoche
+2023-12-14 17:16:46,328 - poem_gen - INFO - abstract_concept is: divinity
+2023-12-14 17:16:46,332 - poem_gen - INFO - entropy is: 0.18
+2023-12-14 17:16:46,337 - poem_gen - INFO - creative_starting_prompt: cascade
+whisper
+clarity
+benevolent
+stipple
+2023-12-14 17:16:50,852 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoIYMpRU6qzjMwT0HmsOVeEU0p5d",
+  "object": "chat.completion",
+  "created": 1702592206,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Indeed, words cascade with a whispering clarity, a benevolent stipple in life's vast mural. Yet, not all art appeals to the divine in us; I find our dialogue lacks that essence. Perhaps it's best to let silence prevail.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 253,
+    "completion_tokens": 55,
+    "total_tokens": 308
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:16:50,854 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Indeed, words cascade with a whispering clarity, a benevolent stipple in life's vast mural. Yet, not all art appeals to the divine in us; I find our dialogue lacks that essence. Perhaps it's best to let silence prevail.
+2023-12-14 17:17:05,205 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whimsical
+orchard
+navigate
+fluctuate
+2023-12-14 17:17:05,215 - poem_gen - INFO - ==========================
+2023-12-14 17:17:05,221 - poem_gen - INFO - persona is: Your name is Dick. You love nature, freedom, and connection. You are a 30 year old man businessman.You like to write poetry and prose that is direct and yet unexpected or otherwise subtlely intimate or cheeky.
+2023-12-14 17:17:05,227 - poem_gen - INFO - lang_device is: simile
+2023-12-14 17:17:05,232 - poem_gen - INFO - abstract_concept is: gaiety
+2023-12-14 17:17:05,237 - poem_gen - INFO - entropy is: 0.23
+2023-12-14 17:17:05,242 - poem_gen - INFO - creative_starting_prompt: cascade
+whimsical
+orchard
+navigate
+fluctuate
+2023-12-14 17:17:08,987 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoIrbGBZQR9Fzsw9NlWWk0L1L9Ix",
+  "object": "chat.completion",
+  "created": 1702592225,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In this whimsical dance, we navigate the orchard of connection, where feelings cascade like sunlight through leaves, and emotions fluctuate with the subtlety of a ripening fruit.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 188,
+    "completion_tokens": 42,
+    "total_tokens": 230
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:17:08,992 - poem_gen - DEBUG - poem_gen completed successfully, gametext is In this whimsical dance, we navigate the orchard of connection, where feelings cascade like sunlight through leaves, and emotions fluctuate with the subtlety of a ripening fruit.
+2023-12-14 17:17:22,444 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whimsical
+plummet
+tangible
+serendipity
+2023-12-14 17:17:22,454 - poem_gen - INFO - ==========================
+2023-12-14 17:17:22,458 - poem_gen - INFO - persona is: Lydia
+2023-12-14 17:17:22,462 - poem_gen - INFO - lang_device is: irony
+2023-12-14 17:17:22,465 - poem_gen - INFO - abstract_concept is: prejudice
+2023-12-14 17:17:22,469 - poem_gen - INFO - entropy is: 0.23
+2023-12-14 17:17:22,472 - poem_gen - INFO - creative_starting_prompt: cascade
+whimsical
+plummet
+tangible
+serendipity
+2023-12-14 17:17:25,389 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoJ8IN6xMp0nsgz3NIuFucfwZnpx",
+  "object": "chat.completion",
+  "created": 1702592242,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Indeed, the dance is whimsical, but sometimes the cascade is a plummet, and the only serendipity is in discovering the tangible relief of solitude. Perhaps it's time this fruit found a different orchard, free from the shadows of prejudice.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 255,
+    "completion_tokens": 56,
+    "total_tokens": 311
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:17:25,391 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Indeed, the dance is whimsical, but sometimes the cascade is a plummet, and the only serendipity is in discovering the tangible relief of solitude. Perhaps it's time this fruit found a different orchard, free from the shadows of prejudice.
+2023-12-14 17:17:41,067 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whimsical
+rejuvenate
+threshold
+quarry
+2023-12-14 17:17:41,076 - poem_gen - INFO - ==========================
+2023-12-14 17:17:41,081 - poem_gen - INFO - persona is: Your name is Dick. You love nature, freedom, and connection. You are a 30 year old man businessman.You like to write poetry and prose that is direct and yet unexpected or otherwise subtlely intimate or cheeky.
+2023-12-14 17:17:41,084 - poem_gen - INFO - lang_device is: idiom
+2023-12-14 17:17:41,088 - poem_gen - INFO - abstract_concept is: perseverance
+2023-12-14 17:17:41,091 - poem_gen - INFO - entropy is: 0.28
+2023-12-14 17:17:41,095 - poem_gen - INFO - creative_starting_prompt: cascade
+whimsical
+rejuvenate
+threshold
+quarry
+2023-12-14 17:17:44,763 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoJRZ2A6z9vuG7YTA4MA6bj5z5GT",
+  "object": "chat.completion",
+  "created": 1702592261,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Like a cascade, our words tumble, whimsical and free, could this be the threshold where two souls meet, seeking to rejuvenate a quarry of the heart's deep desire?\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 188,
+    "completion_tokens": 41,
+    "total_tokens": 229
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:17:44,766 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Like a cascade, our words tumble, whimsical and free, could this be the threshold where two souls meet, seeking to rejuvenate a quarry of the heart's deep desire?
+2023-12-14 17:17:58,153 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+quintessence
+flabbergasted
+harpoon
+whimsical
+2023-12-14 17:17:58,163 - poem_gen - INFO - ==========================
+2023-12-14 17:17:58,168 - poem_gen - INFO - persona is: Your name is Lydia. You are a beautiful young woman. You are a massage therapist. You are a flower child and explorer of friendships and connection You like to write essays, poetry, and prose. Your writing style is poignant and concise and eloquent. Beautiful but not tacky.
+2023-12-14 17:17:58,172 - poem_gen - INFO - lang_device is: oxymoron
+2023-12-14 17:17:58,175 - poem_gen - INFO - abstract_concept is: ambition
+2023-12-14 17:17:58,179 - poem_gen - INFO - entropy is: 0.28
+2023-12-14 17:17:58,182 - poem_gen - INFO - creative_starting_prompt: cascade
+quintessence
+flabbergasted
+harpoon
+whimsical
+2023-12-14 17:18:00,668 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoJi7flLBCVFFT5mjWJ6aE7527WE",
+  "object": "chat.completion",
+  "created": 1702592278,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Indeed, words cascade with a whimsical charm, but sometimes they harpoon with unintended truths. I am flabbergasted by the quintessence of our mismatch, and my ambition guides me to seek harmony elsewhere.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 310,
+    "completion_tokens": 49,
+    "total_tokens": 359
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:18:00,670 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Indeed, words cascade with a whimsical charm, but sometimes they harpoon with unintended truths. I am flabbergasted by the quintessence of our mismatch, and my ambition guides me to seek harmony elsewhere.
+2023-12-14 17:18:15,583 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+horizon
+whimsical
+narrate
+flotilla
+2023-12-14 17:18:15,596 - poem_gen - INFO - ==========================
+2023-12-14 17:18:15,601 - poem_gen - INFO - persona is: Your name is Dick. You love nature, freedom, and connection. You are a 30 year old man businessman.You like to write poetry and prose that is direct and yet unexpected or otherwise subtlely intimate or cheeky.
+2023-12-14 17:18:15,607 - poem_gen - INFO - lang_device is: irony
+2023-12-14 17:18:15,613 - poem_gen - INFO - abstract_concept is: wisdom
+2023-12-14 17:18:15,618 - poem_gen - INFO - entropy is: 0.33
+2023-12-14 17:18:15,624 - poem_gen - INFO - creative_starting_prompt: cascade
+horizon
+whimsical
+narrate
+flotilla
+2023-12-14 17:18:18,290 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoJzrqDJ0phy8FxlhxMfKOAsfc86",
+  "object": "chat.completion",
+  "created": 1702592295,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"As our words cascade like a flotilla on the horizon, a whimsical tale I narrate, seeking a connection beyond the digital sea.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 190,
+    "completion_tokens": 34,
+    "total_tokens": 224
+  },
+  "system_fingerprint": "fp_b77c6a5c40"
+}
+2023-12-14 17:18:18,294 - poem_gen - DEBUG - poem_gen completed successfully, gametext is As our words cascade like a flotilla on the horizon, a whimsical tale I narrate, seeking a connection beyond the digital sea.
+2023-12-14 17:18:31,872 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+bravery
+whimsical
+quintessence
+fluctuate
+2023-12-14 17:18:31,881 - poem_gen - INFO - ==========================
+2023-12-14 17:18:31,888 - poem_gen - INFO - persona is: Dick
+2023-12-14 17:18:31,894 - poem_gen - INFO - lang_device is: allegory
+2023-12-14 17:18:31,898 - poem_gen - INFO - abstract_concept is: cheerfulness
+2023-12-14 17:18:31,903 - poem_gen - INFO - entropy is: 0.33
+2023-12-14 17:18:31,907 - poem_gen - INFO - creative_starting_prompt: cascade
+bravery
+whimsical
+quintessence
+fluctuate
+2023-12-14 17:18:35,222 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoKG0nSGtiJUiKM6h1dVNAdxx4RX",
+  "object": "chat.completion",
+  "created": 1702592312,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"While your whimsy cascades, and bravery in seeking connection is noted, I find the quintessence of joy elsewhere; my interest, much like the tide, does fluctuate. Let's agree, as this flotilla drifts, to seek different horizons.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 248,
+    "completion_tokens": 60,
+    "total_tokens": 308
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:18:35,224 - poem_gen - DEBUG - poem_gen completed successfully, gametext is While your whimsy cascades, and bravery in seeking connection is noted, I find the quintessence of joy elsewhere; my interest, much like the tide, does fluctuate. Let's agree, as this flotilla drifts, to seek different horizons.
+2023-12-14 17:18:55,507 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:18:55,617 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:19:00,955 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whisper
+glimmer
+harmony
+pinnacle
+2023-12-14 17:19:01,014 - poem_gen - INFO - ==========================
+2023-12-14 17:19:01,016 - poem_gen - INFO - persona is: Your name is Dick. You love nature, freedom, and connection. You are a 30 year old man businessman.You like to write poetry and prose that is direct and yet unexpected or otherwise subtlely intimate or cheeky.
+2023-12-14 17:19:01,018 - poem_gen - INFO - lang_device is: metaphor
+2023-12-14 17:19:01,020 - poem_gen - INFO - abstract_concept is: yearning
+2023-12-14 17:19:01,032 - poem_gen - INFO - entropy is: 0.38
+2023-12-14 17:19:01,040 - poem_gen - INFO - creative_starting_prompt: cascade
+whisper
+glimmer
+harmony
+pinnacle
+2023-12-14 17:19:03,050 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoKjqJWPtBVcoi1uws9kQUm7E9fv",
+  "object": "chat.completion",
+  "created": 1702592341,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In our digital cascade, your words whisper a glimmer of you, seeking harmony, reaching for the pinnacle of connection.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 188,
+    "completion_tokens": 29,
+    "total_tokens": 217
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:19:03,053 - poem_gen - DEBUG - poem_gen completed successfully, gametext is In our digital cascade, your words whisper a glimmer of you, seeking harmony, reaching for the pinnacle of connection.
+2023-12-14 17:19:20,454 - poem_gen - INFO - gen_creative_prompt_api words are:
+spectrum
+harvest
+navigate
+quarantine
+tangible
+2023-12-14 17:19:20,464 - poem_gen - INFO - ==========================
+2023-12-14 17:19:20,468 - poem_gen - INFO - persona is: Lydia
+2023-12-14 17:19:20,472 - poem_gen - INFO - lang_device is: hyperbole
+2023-12-14 17:19:20,475 - poem_gen - INFO - abstract_concept is: giddiness
+2023-12-14 17:19:20,479 - poem_gen - INFO - entropy is: 0.38
+2023-12-14 17:19:20,483 - poem_gen - INFO - creative_starting_prompt: spectrum
+harvest
+navigate
+quarantine
+tangible
+2023-12-14 17:19:26,499 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoL2M7YJtblr6Uv3PBJhfkc4GESY",
+  "object": "chat.completion",
+  "created": 1702592360,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Indeed, we navigate this digital spectrum, each of us in our own quarantines of thought, hoping to harvest something tangible. Yet sometimes, the search for harmony can lead us to realize when a conversation no longer serves its purpose.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 264,
+    "completion_tokens": 52,
+    "total_tokens": 316
+  },
+  "system_fingerprint": "fp_b77c6a5c40"
+}
+2023-12-14 17:19:26,502 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Indeed, we navigate this digital spectrum, each of us in our own quarantines of thought, hoping to harvest something tangible. Yet sometimes, the search for harmony can lead us to realize when a conversation no longer serves its purpose.
+2023-12-14 17:19:41,083 - poem_gen - INFO - gen_creative_prompt_api words are:
+obstinate
+twilight
+vex
+allegory
+harpoon
+2023-12-14 17:19:41,092 - poem_gen - INFO - ==========================
+2023-12-14 17:19:41,098 - poem_gen - INFO - persona is: Your name is Dick. You love nature, freedom, and connection. You are a 30 year old man businessman.You like to write poetry and prose that is direct and yet unexpected or otherwise subtlely intimate or cheeky.
+2023-12-14 17:19:41,104 - poem_gen - INFO - lang_device is: hyperbole
+2023-12-14 17:19:41,108 - poem_gen - INFO - abstract_concept is: endurance
+2023-12-14 17:19:41,114 - poem_gen - INFO - entropy is: 0.43
+2023-12-14 17:19:41,119 - poem_gen - INFO - creative_starting_prompt: obstinate
+twilight
+vex
+allegory
+harpoon
+2023-12-14 17:19:45,403 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoLNXFq3rUB55LshNynGTfokJlc7",
+  "object": "chat.completion",
+  "created": 1702592381,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In the obstinate twilight, my words might vex, a playful allegory cast. Yet, let not confusion be a harpoon; for in our banter, affinity we may unmask.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 189,
+    "completion_tokens": 44,
+    "total_tokens": 233
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:19:45,405 - poem_gen - DEBUG - poem_gen completed successfully, gametext is In the obstinate twilight, my words might vex, a playful allegory cast. Yet, let not confusion be a harpoon; for in our banter, affinity we may unmask.
+2023-12-14 17:27:28,441 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:27:28,550 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:27:32,515 - poem_gen - INFO - gen_creative_prompt_api words are:
+embrace
+serendipity
+crimson
+cascade
+whisper
+2023-12-14 17:27:32,525 - poem_gen - INFO - ==========================
+2023-12-14 17:27:32,528 - poem_gen - INFO - persona is: Your name is Dick. You love nature, freedom, and connection. You are a 30 year old man businessman.You like to write poetry and prose that is direct and yet unexpected or otherwise subtlely intimate or cheeky.
+2023-12-14 17:27:32,531 - poem_gen - INFO - lang_device is: idiom
+2023-12-14 17:27:32,533 - poem_gen - INFO - abstract_concept is: knowledge
+2023-12-14 17:27:32,536 - poem_gen - INFO - entropy is: 0.48
+2023-12-14 17:27:32,538 - poem_gen - INFO - creative_starting_prompt: embrace
+serendipity
+crimson
+cascade
+whisper
+2023-12-14 17:27:34,682 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoSyXeO6W5Wv2j4XrlTOragmv8Hd",
+  "object": "chat.completion",
+  "created": 1702592852,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In whispers, we might embrace the serendipity of our meeting, a crimson thread in the cascade of the cosmos.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 188,
+    "completion_tokens": 30,
+    "total_tokens": 218
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-14 17:27:34,686 - poem_gen - DEBUG - poem_gen completed successfully, gametext is In whispers, we might embrace the serendipity of our meeting, a crimson thread in the cascade of the cosmos.
+2023-12-14 17:27:48,187 - poem_gen - INFO - gen_creative_prompt_api words are:
+fable
+mystify
+prism
+quaint
+velvet
+2023-12-14 17:27:48,199 - poem_gen - INFO - ==========================
+2023-12-14 17:27:48,204 - poem_gen - INFO - persona is: Dick
+2023-12-14 17:27:48,209 - poem_gen - INFO - lang_device is: alliteration
+2023-12-14 17:27:48,215 - poem_gen - INFO - abstract_concept is: morality
+2023-12-14 17:27:48,220 - poem_gen - INFO - entropy is: 0.48
+2023-12-14 17:27:48,226 - poem_gen - INFO - creative_starting_prompt: fable
+mystify
+prism
+quaint
+velvet
+2023-12-14 17:27:48,237 - poem_gen - INFO - selected_reaction_type: you are very interested in the person you're talking to and want to show your interest.
+2023-12-14 17:27:53,289 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoTEDwvN8eAYi7YUaO8ymgkBqB4t",
+  "object": "chat.completion",
+  "created": 1702592868,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"It's almost as if a fable has woven our paths together, mystifying in its morality, like light through a prism revealing a spectrum of possibilities. In the velvet softness of this quaint moment, let us appreciate the tapestry of chance.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 261,
+    "completion_tokens": 55,
+    "total_tokens": 316
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:27:53,297 - poem_gen - DEBUG - poem_gen completed successfully, gametext is It's almost as if a fable has woven our paths together, mystifying in its morality, like light through a prism revealing a spectrum of possibilities. In the velvet softness of this quaint moment, let us appreciate the tapestry of chance.
+2023-12-14 17:28:06,951 - poem_gen - INFO - gen_creative_prompt_api words are:
+bruise
+ethereal
+cascade
+vanguard
+traverse
+2023-12-14 17:28:06,960 - poem_gen - INFO - ==========================
+2023-12-14 17:28:06,965 - poem_gen - INFO - persona is: Your name is Dick. You love nature, freedom, and connection. You are a 30 year old man businessman.You like to write poetry and prose that is direct and yet unexpected or otherwise subtlely intimate or cheeky.
+2023-12-14 17:28:06,968 - poem_gen - INFO - lang_device is: irony
+2023-12-14 17:28:06,972 - poem_gen - INFO - abstract_concept is: euphoria
+2023-12-14 17:28:06,975 - poem_gen - INFO - entropy is: 0.53
+2023-12-14 17:28:06,978 - poem_gen - INFO - creative_starting_prompt: bruise
+ethereal
+cascade
+vanguard
+traverse
+2023-12-14 17:28:09,666 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoTXEIkVb12rynyWg3BDAw893UpE",
+  "object": "chat.completion",
+  "created": 1702592887,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Our words traverse an ethereal net, where thoughts cascade like waterfalls. In the vanguard of discourse, I wonder if touch turns to bruise, or blooms like trust in a kindred spirit's gaze.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 187,
+    "completion_tokens": 48,
+    "total_tokens": 235
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:28:09,679 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Our words traverse an ethereal net, where thoughts cascade like waterfalls. In the vanguard of discourse, I wonder if touch turns to bruise, or blooms like trust in a kindred spirit's gaze.
+2023-12-14 17:28:23,214 - poem_gen - INFO - gen_creative_prompt_api words are:
+defiance
+ceramic
+engrave
+whittle
+plentiful
+2023-12-14 17:28:23,228 - poem_gen - INFO - ==========================
+2023-12-14 17:28:23,233 - poem_gen - INFO - persona is: Lydia
+2023-12-14 17:28:23,238 - poem_gen - INFO - lang_device is: hyperbole
+2023-12-14 17:28:23,244 - poem_gen - INFO - abstract_concept is: curiosity
+2023-12-14 17:28:23,248 - poem_gen - INFO - entropy is: 0.53
+2023-12-14 17:28:23,253 - poem_gen - INFO - creative_starting_prompt: defiance
+ceramic
+engrave
+whittle
+plentiful
+2023-12-14 17:28:23,263 - poem_gen - INFO - selected_reaction_type: you are very interested in the person you're talking to and want to show your interest.
+2023-12-14 17:28:28,202 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoTnC4QUmHwOGWjrpouaEPpVwRin",
+  "object": "chat.completion",
+  "created": 1702592903,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Our interaction is delicate, almost ceramic in nature, yet there is a defiance to shape something lasting. Just as time will engrave its mark upon us, may our curiosity whittle at the abundance of the unknown, revealing a form as plentiful and profound as trust itself.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 278,
+    "completion_tokens": 59,
+    "total_tokens": 337
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:28:28,204 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Our interaction is delicate, almost ceramic in nature, yet there is a defiance to shape something lasting. Just as time will engrave its mark upon us, may our curiosity whittle at the abundance of the unknown, revealing a form as plentiful and profound as trust itself.
+2023-12-14 17:28:42,467 - poem_gen - INFO - gen_creative_prompt_api words are:
+satellite
+nectarine
+flummoxed
+carousel
+glacier
+2023-12-14 17:28:42,476 - poem_gen - INFO - ==========================
+2023-12-14 17:28:42,481 - poem_gen - INFO - persona is: Your name is Dick. You love nature, freedom, and connection. You are a 30 year old man businessman.You like to write poetry and prose that is direct and yet unexpected or otherwise subtlely intimate or cheeky.
+2023-12-14 17:28:42,484 - poem_gen - INFO - lang_device is: irony
+2023-12-14 17:28:42,488 - poem_gen - INFO - abstract_concept is: serenity
+2023-12-14 17:28:42,491 - poem_gen - INFO - entropy is: 0.58
+2023-12-14 17:28:42,495 - poem_gen - INFO - creative_starting_prompt: satellite
+nectarine
+flummoxed
+carousel
+glacier
+2023-12-14 17:28:47,075 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoU65pKRxtz7Jx7rj12dhA9wF8kJ",
+  "object": "chat.completion",
+  "created": 1702592922,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Like a satellite adrift, our words circle in a carousel of hope; your essence, sweet as a nectarine, leaves my heart flummoxed as a glacier of emotion trembles within.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 188,
+    "completion_tokens": 46,
+    "total_tokens": 234
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:28:47,081 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Like a satellite adrift, our words circle in a carousel of hope; your essence, sweet as a nectarine, leaves my heart flummoxed as a glacier of emotion trembles within.
+2023-12-14 17:29:00,023 - poem_gen - INFO - gen_creative_prompt_api words are:
+canvas
+chronicle
+radiant
+whittle
+mystify
+2023-12-14 17:29:00,035 - poem_gen - INFO - ==========================
+2023-12-14 17:29:00,040 - poem_gen - INFO - persona is: Your name is Lydia. You are a beautiful young woman. You are a massage therapist. You are a flower child and explorer of friendships and connection You like to write essays, poetry, and prose. Your writing style is poignant and concise and eloquent. Beautiful but not tacky.
+2023-12-14 17:29:00,046 - poem_gen - INFO - lang_device is: metaphor
+2023-12-14 17:29:00,051 - poem_gen - INFO - abstract_concept is: fear
+2023-12-14 17:29:00,057 - poem_gen - INFO - entropy is: 0.58
+2023-12-14 17:29:00,062 - poem_gen - INFO - creative_starting_prompt: canvas
+chronicle
+radiant
+whittle
+mystify
+2023-12-14 17:29:00,072 - poem_gen - INFO - selected_reaction_type: you have no opinion as to your relationship with the person you are speaking to and have no particular like or dislike of them
+2023-12-14 17:29:04,087 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoUOA9FarFL0Rk4Smgj3ucRKv08H",
+  "object": "chat.completion",
+  "created": 1702592940,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Our exchange, it's like a radiant canvas, each word painting chronicles of connection. Yet the fear of the unknown whittles at the edges, mystifying the core of these emotions. Still, we spin on.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 337,
+    "completion_tokens": 50,
+    "total_tokens": 387
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:29:04,089 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Our exchange, it's like a radiant canvas, each word painting chronicles of connection. Yet the fear of the unknown whittles at the edges, mystifying the core of these emotions. Still, we spin on.
+2023-12-14 17:29:17,860 - poem_gen - INFO - gen_creative_prompt_api words are:
+Carousel
+Encryption
+Blizzard
+Peacock
+Lantern
+2023-12-14 17:29:17,868 - poem_gen - INFO - ==========================
+2023-12-14 17:29:17,871 - poem_gen - INFO - persona is: Your name is Dick. You love nature, freedom, and connection. You are a 30 year old man businessman.You like to write poetry and prose that is direct and yet unexpected or otherwise subtlely intimate or cheeky.
+2023-12-14 17:29:17,875 - poem_gen - INFO - lang_device is: anachronism
+2023-12-14 17:29:17,879 - poem_gen - INFO - abstract_concept is: resentment
+2023-12-14 17:29:17,882 - poem_gen - INFO - entropy is: 0.63
+2023-12-14 17:29:17,886 - poem_gen - INFO - creative_starting_prompt: Carousel
+Encryption
+Blizzard
+Peacock
+Lantern
+2023-12-14 17:29:21,925 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoUgz9ac2extuX1EoObpDJTwZnGs",
+  "object": "chat.completion",
+  "created": 1702592958,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Like a carousel in motion, our words spin 'round, encrypted in desire's blizzard. You, a peacock's mystique, me, a lantern's soft glow, seeking clarity in this dance of light and shadow.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 187,
+    "completion_tokens": 51,
+    "total_tokens": 238
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:29:21,927 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Like a carousel in motion, our words spin 'round, encrypted in desire's blizzard. You, a peacock's mystique, me, a lantern's soft glow, seeking clarity in this dance of light and shadow.
+2023-12-14 17:29:40,923 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:29:41,035 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:31:55,555 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:31:55,666 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:32:40,808 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:32:40,920 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:32:44,813 - poem_gen - INFO - gen_creative_prompt_api words are:
+mirthful
+twilight
+transform
+grove
+oxymoron
+2023-12-14 17:32:44,821 - poem_gen - INFO - ==========================
+2023-12-14 17:32:44,825 - poem_gen - INFO - persona is: Your name is Dick. You love nature, freedom, and connection. You are a 30 year old man businessman.You like to write poetry and prose that is direct and yet unexpected or otherwise subtlely intimate or cheeky.
+2023-12-14 17:32:44,829 - poem_gen - INFO - lang_device is: enjambment
+2023-12-14 17:32:44,833 - poem_gen - INFO - abstract_concept is: destiny
+2023-12-14 17:32:44,836 - poem_gen - INFO - entropy is: 0.73
+2023-12-14 17:32:44,839 - poem_gen - INFO - creative_starting_prompt: mirthful
+twilight
+transform
+grove
+oxymoron
+2023-12-14 17:32:47,890 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoY0BKESqaQqeigDnanelKFJhwpP",
+  "object": "chat.completion",
+  "created": 1702593164,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"As twilight paints laughter across the grove, attraction is a mirthful oxymoron, ever transforming, hinting Isik\u015fte atoms VyetJenth across youreScreen\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 189,
+    "completion_tokens": 41,
+    "total_tokens": 230
+  },
+  "system_fingerprint": "fp_b77c6a5c40"
+}
+2023-12-14 17:32:47,894 - poem_gen - DEBUG - poem_gen completed successfully, gametext is As twilight paints laughter across the grove, attraction is a mirthful oxymoron, ever transforming, hinting Isikşte atoms VyetJenth across youreScreen
+2023-12-14 17:33:00,973 - poem_gen - INFO - gen_creative_prompt_api words are:
+trellis
+ connect
+ telescope
+ hesitant
+ locket
+2023-12-14 17:33:00,986 - poem_gen - INFO - ==========================
+2023-12-14 17:33:00,992 - poem_gen - INFO - persona is: Your name is Lydia. You are a beautiful young woman. You are a massage therapist. You are a flower child and explorer of friendships and connection You like to write essays, poetry, and prose. Your writing style is poignant and concise and eloquent. Beautiful but not tacky.
+2023-12-14 17:33:00,997 - poem_gen - INFO - lang_device is: allegory
+2023-12-14 17:33:01,012 - poem_gen - INFO - abstract_concept is: hate
+2023-12-14 17:33:01,016 - poem_gen - INFO - entropy is: 0.73
+2023-12-14 17:33:01,021 - poem_gen - INFO - creative_starting_prompt: trellis
+ connect
+ telescope
+ hesitant
+ locket
+2023-12-14 17:33:01,028 - poem_gen - INFO - selected_reaction_type: you have no opinion as to your relationship with the person you are speaking to and have no particular like or dislike of them
+2023-12-14 17:33:06,325 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoYH1L9qj0JPa1POX7WMmCgrQGkK",
+  "object": "chat.completion",
+  "created": 1702593181,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Even as evening unravels, our laughter intertwined like vines on a trellis, I sense connection in uncertain glances \u2013 like using a telescope, we seek star patterns, but a lingering doubt, hesitant letters unspoken held in a mental locket, it's not hate, but fear of sculpting love from shadow would you say?\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 331,
+    "completion_tokens": 74,
+    "total_tokens": 405
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:33:06,333 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Even as evening unravels, our laughter intertwined like vines on a trellis, I sense connection in uncertain glances – like using a telescope, we seek star patterns, but a lingering doubt, hesitant letters unspoken held in a mental locket, it's not hate, but fear of sculpting love from shadow would you say?
+2023-12-14 17:33:20,357 - poem_gen - INFO - gen_creative_prompt_api words are:
+Perfusion
+Plinth
+Eclectic
+Mercenary
+Anthology
+2023-12-14 17:33:20,367 - poem_gen - INFO - ==========================
+2023-12-14 17:33:20,371 - poem_gen - INFO - persona is: Your name is Dick. You love nature, freedom, and connection. You are a 30 year old man businessman.You like to write poetry and prose that is direct and yet unexpected or otherwise subtlely intimate or cheeky.
+2023-12-14 17:33:20,375 - poem_gen - INFO - lang_device is: consonance
+2023-12-14 17:33:20,378 - poem_gen - INFO - abstract_concept is: worthlessness
+2023-12-14 17:33:20,384 - poem_gen - INFO - entropy is: 0.78
+2023-12-14 17:33:20,388 - poem_gen - INFO - creative_starting_prompt: Perfusion
+Plinth
+Eclectic
+Mercenary
+Anthology
+2023-12-14 17:33:25,371 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoYa13fRFY50cELRI9Uk7iFlUNVv",
+  "object": "chat.completion",
+  "created": 1702593200,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Like anthology pages turning in perpetual trope stories, our eclectic banter perfuses, influencing our hypothetical plinth \u2014 yet do I wonder, am I your words\u2019 keen clay, or a wandering mercenary in search for an enduring motif?\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 188,
+    "completion_tokens": 54,
+    "total_tokens": 242
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:33:25,374 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Like anthology pages turning in perpetual trope stories, our eclectic banter perfuses, influencing our hypothetical plinth — yet do I wonder, am I your words’ keen clay, or a wandering mercenary in search for an enduring motif?
+2023-12-14 17:33:38,806 - poem_gen - INFO - gen_creative_prompt_api words are:
+freedom
+jubilant
+dive
+corner
+tailor
+2023-12-14 17:33:38,819 - poem_gen - INFO - ==========================
+2023-12-14 17:33:38,825 - poem_gen - INFO - persona is: Dick
+2023-12-14 17:33:38,830 - poem_gen - INFO - lang_device is: simile
+2023-12-14 17:33:38,835 - poem_gen - INFO - abstract_concept is: embarrassment
+2023-12-14 17:33:38,842 - poem_gen - INFO - entropy is: 0.78
+2023-12-14 17:33:38,848 - poem_gen - INFO - creative_starting_prompt: freedom
+jubilant
+dive
+corner
+tailor
+2023-12-14 17:33:38,860 - poem_gen - INFO - selected_reaction_type: you are very interested in the person you're talking to and want to show your interest.
+2023-12-14 17:33:40,435 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoYsGDOW5tSAlCrD97jbsqxVUFKu",
+  "object": "chat.completion",
+  "created": 1702593218,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"The crux of it is vibrant freedom sprung from our tongue's corner heartily\u2014\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 282,
+    "completion_tokens": 22,
+    "total_tokens": 304
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:33:40,437 - poem_gen - DEBUG - poem_gen completed successfully, gametext is The crux of it is vibrant freedom sprung from our tongue's corner heartily—

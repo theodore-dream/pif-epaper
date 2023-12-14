@@ -111,7 +111,28 @@ def select_persona():
     # Pick a random persona
     selected_persona_key = random.choice(list(personas["poets"].keys()))
     selected_persona_content = personas["poets"][selected_persona_key]
+    return selected_persona_key, selected_persona_content
 
-    # no logger in this file 
-    #logger.info(f"select persona: {selected_persona_content}")
+def select_persona1():
+    personas = {
+        "poets" : {
+            "Dick": "Your name is Dick. You love nature, freedom, and connection. You are a 30 year old man businessman."
+                    "You like to write poetry and prose that is direct and yet unexpected or otherwise subtlely intimate or cheeky.",
+}
+}
+    # Pick a random persona
+    selected_persona_key = random.choice(list(personas["poets"].keys()))
+    selected_persona_content = personas["poets"][selected_persona_key]
+    return selected_persona_key, selected_persona_content
+
+def select_persona2():
+    personas = {
+        "poets" : {
+            "Lydia": "Your name is Lydia. You are a beautiful young woman. You are a massage therapist. You are a flower child and explorer of friendships and connection "
+                    "You like to write essays, poetry, and prose. Your writing style is poignant and concise and eloquent. Beautiful but not tacky.",
+}
+}
+    # Pick a random persona
+    selected_persona_key = random.choice(list(personas["poets"].keys()))
+    selected_persona_content = personas["poets"][selected_persona_key]
     return selected_persona_key, selected_persona_content

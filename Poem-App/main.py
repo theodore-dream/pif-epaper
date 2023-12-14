@@ -70,13 +70,16 @@ def player_speech_gen(entropy, player_persona):
 def match_speech_gen(entropy, match_persona, player_gametext):
     match_gametext = poem_gen.parse_response(entropy, match_persona, player_gametext)
     print("-" * 30)
+    # already broken here
     logger.info(f"match_speech_gen match_gametext is:\n{match_gametext}")
     return match_gametext
 
-def handle_active_session(session_id, player_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, match_persona, entropy):
+def handle_active_session(session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy):
     logger.debug("Handling active session...")
     # we are saving the game for the first time or the nth time, ensuring always active if player gets here
     session_state = "active"
+    # the data being enteterd into the checkpoint is incorrect 
+    logger.info(f"about to do a save checkpoint. Make sure the values are right. session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy: {session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy}")
     db_service.save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy)
     #checkpoint saved, session is now active
     #issue now is there is no content to save, I guess it can just be None? 
@@ -102,7 +105,7 @@ def run_game(player_persona, match_persona, player_persona_name, match_persona_n
     elif session_state == "active":
         player_gametext = None
         match_gametext = None
-        player_gametext, match_gametext = handle_active_session(session_id, player_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, match_persona, entropy)
+        player_gametext, match_gametext = handle_active_session(session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy)
         
         # here I want to give the player some options and add those options into player_speech_gen api call, need to split those out probably 
         
@@ -111,14 +114,16 @@ def run_game(player_persona, match_persona, player_persona_name, match_persona_n
         epaper_write.display_dialogue_left(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
 
         # here incorporating the player text
+        # issue here with the 
         match_gametext = match_speech_gen(float(entropy), match_persona, player_gametext)  
         epaper_write.display_dialogue_both(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
 
 def initialize_new_session(session_id):
     logger.debug("Initializing new session...")
     # need to work on a way to allow the player to select the persona 
-    player_persona_name, player_persona = intro_vars.select_persona()
-    match_persona_name, match_persona = intro_vars.select_persona()
+    # temp workaround to create and use personas manually
+    player_persona_name, player_persona = intro_vars.select_persona1()
+    match_persona_name, match_persona = intro_vars.select_persona2()
     logger.info(f"player_persona_name: {player_persona_name}")
     logger.info(f"match_persona_name: {match_persona_name}")
     session_state = "new"

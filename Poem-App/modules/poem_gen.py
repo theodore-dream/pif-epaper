@@ -79,6 +79,10 @@ def player_gametext_api(entropy, player_persona, creative_prompt, abstract_conce
 
 # another API call to try to constrain the output
 def match_gametext_api(entropy, persona, player_gametext, creative_prompt, abstract_concept):
+    REACTION_TYPES = ["You strongly dislike the person you're talking to and want to make it clear you no longer want to talk to them", "you are very interested in the person you're talking to and want to show your interest.", "you have no opinion as to your relationship with the person you are speaking to and have no particular like or dislike of them"]  
+    selected_reaction_type = random.choice(REACTION_TYPES)
+    logger.info(f"selected_reaction_type: {selected_reaction_type}")
+    # Inject the selected poetry type into the user message
 
     messages = [
         {
@@ -96,7 +100,8 @@ def match_gametext_api(entropy, persona, player_gametext, creative_prompt, abstr
                 f"consider your response. You may choose to be inspired by the following words: {creative_prompt}."
                 f"you may want to consider incorporating {abstract_concept}. If needed, modify the output to be less than 3 lines in a concise"
                 "and artful way that retains the meaning of original content. Remember you're having a conversation."
-                "You strongly dislike the person you're talking to and want to make it clear you no longer want to talk to them."
+                f"{selected_reaction_type}"
+                "you have no opinion as to your relationship with the person you are speaking to and have no particular like or dislike of them."
                 "The output should be in a JSON object with a single key 'Content'."
             )
         }
@@ -127,7 +132,6 @@ def match_gametext_api(entropy, persona, player_gametext, creative_prompt, abstr
     #logger.info(f"API request step2 is message: {messages}")
     # Log the entire response for debugging
     logger.debug(f"API completion response: {completion}")
-    logger.debug(f"match_gametext_api content being passed on is {match_api_output}")
     return match_api_output
 
 def parse_response(entropy, persona, player_gametext):

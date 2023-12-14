@@ -191,8 +191,6 @@ def display_dialogue_both(left_text, right_text, player_name, match_name, entrop
     # draw game information about match in the bottom right area
     draw.text((EPAPER_WIDTH // 2 + 10, dialogue_height + 20), "match: " + match_name, font=font, fill=0)
 
-    logger.info("Dialogue and game information drawn on image successfully.")
-
     # Display the image
     epd.display(epd.getbuffer(image))
     epd.lut_GC()
