@@ -243,3 +243,12 @@ Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
 Where challenges await, both day and night.
 With cunning and skill, your path you shall tread,
 In this game of wits, where legends are bred."
+2023-12-13 23:26:59,956 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, your path you shall tread,
+In this game of wits, where legends are bred."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-13 23:26:59,959 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, your path you shall tread,
+In this game of wits, where legends are bred."

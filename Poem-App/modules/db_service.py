@@ -64,7 +64,7 @@ def save_checkpoint_write_to_database(session_id, player_persona, match_persona,
             connect_timeout=3,
         )
         cursor = connection.cursor()
-        query = f"INSERT INTO poem_game (session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy) VALUES (%s, %s, %s, %s, %s, %s, %s)"
+        query = f"INSERT INTO poem_game (session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)"
         cursor.execute(query, (session_id, player_persona, player_persona_name, match_persona_name, match_persona, player_gametext, match_gametext, session_state, entropy))
         logger.debug(f"Executing write txn: {query} on session: {session_id}")
         logger.debug(f"Completed insert INSERT INTO poem_game (session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy): {session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy}")
@@ -73,7 +73,7 @@ def save_checkpoint_write_to_database(session_id, player_persona, match_persona,
         cursor.close()
         connection.close()
     except (Exception, Error) as error:
-        logger.error("Error while inserting in PostgreSQL", error)
+        logger.error("Error while inserting in PostgreSQL", exc_info=True)
 
 
 def save_game(session_id, session_state, entropy):
