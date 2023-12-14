@@ -35,14 +35,6 @@ def player_poetry_gen(entropy, player_persona):
     return player_gametext
 
 def match_poetry_gen(entropy, match_persona):
-
-    # identification logic for logging and future use
-    # Split the match_persona string into words
-    match_persona_words = match_persona.split()
-    # Select the first three words and join them back into a string
-    match_name = ' '.join(match_persona_words[:3])
-    logger.info(f"match_name is: {match_name}")
-
     match_gametext = poem_gen.parse_response(entropy, match_persona)
     print("-" * 30)
     logger.info(f"match_poetry_gen match_gametext is:\n{match_gametext}")
@@ -117,8 +109,8 @@ def run_game(player_persona, match_persona, session_state, entropy, session_id):
         player_persona_words = player_persona.split()
         match_persona_words = match_persona.split()
         # Select the first three words and join them back into a string
-        player_name = ' '.join(player_persona_words[:3])
-        match_name = ' '.join(match_persona_words[:3])
+        player_name = ' '.join(player_persona_words[:1])
+        match_name = ' '.join(match_persona_words[:1])
         logger.info(f"player_name is: {player_name}, match_name is: {match_name}")
         epaper_write.display_dialogue(player_gametext, match_gametext, player_name, match_name, entropy, 10)
 

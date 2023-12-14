@@ -86,12 +86,12 @@ def display_dialogue(left_text, right_text, player_name, match_name, entropy, di
 
     # Estimate the average number of characters that can fit in the column width
     average_char_width = font.getsize("A")[0]  # Width of a single character
-    column_width = EPAPER_WIDTH // 4  # Width of each column
+    column_width = EPAPER_WIDTH // 2  # Width of each column
     max_char_per_line = column_width // average_char_width
 
     # Modify wrap_and_draw_text function to respect new height
     def wrap_and_draw_text(text, x_offset, y_limit):
-        y = 20  # Top margin
+        y = 10  # Top margin
         for paragraph in text.split('\n'):
             lines = textwrap.wrap(paragraph, width=max_char_per_line)
             for line in lines:

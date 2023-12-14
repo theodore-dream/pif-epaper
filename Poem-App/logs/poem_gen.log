@@ -8412,3 +8412,512 @@ Mirthful
 Quicksilver
 Harmonica
 Windfall
+2023-12-13 21:29:49,354 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 21:29:49,464 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 21:29:55,057 - poem_gen - INFO - gen_creative_prompt_api words are: patchwork
+nurture
+glimpse
+quirk
+flask
+2023-12-13 21:29:55,067 - poem_gen - DEBUG - player_persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-12-13 21:29:55,068 - poem_gen - DEBUG - lang_device is: assonance
+2023-12-13 21:29:55,070 - poem_gen - DEBUG - abstract_concept is: i
+2023-12-13 21:29:55,073 - poem_gen - DEBUG - entropy is: 0.71
+2023-12-13 21:29:55,074 - poem_gen - DEBUG - ==========================
+2023-12-13 21:29:55,075 - poem_gen - DEBUG - creative_starting_prompt: patchwork
+nurture
+glimpse
+quirk
+flask
+2023-12-13 21:29:55,076 - poem_gen - DEBUG - creative_prompt: patchwork
+nurture
+glimpse
+quirk
+flask
+2023-12-13 21:29:58,808 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VVlzKfi2fuT5rwTJGxNI8fh77bI8",
+  "object": "chat.completion",
+  "created": 1702520995,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Patchwork quilts spread,\\nGlimpse of nature's quirky thread -\\nNurture in a flask.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 31,
+    "total_tokens": 166
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-13 21:29:58,811 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-13 21:30:05,974 - poem_gen - INFO - gen_creative_prompt_api words are: cascade
+merriment
+clarity
+subsume
+nectar
+2023-12-13 21:30:05,983 - poem_gen - DEBUG - player_persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-12-13 21:30:05,985 - poem_gen - DEBUG - lang_device is: metaphor
+2023-12-13 21:30:05,987 - poem_gen - DEBUG - abstract_concept is: t
+2023-12-13 21:30:05,988 - poem_gen - DEBUG - entropy is: 0.71
+2023-12-13 21:30:05,990 - poem_gen - DEBUG - ==========================
+2023-12-13 21:30:05,993 - poem_gen - DEBUG - creative_starting_prompt: cascade
+merriment
+clarity
+subsume
+nectar
+2023-12-13 21:30:05,995 - poem_gen - DEBUG - creative_prompt: cascade
+merriment
+clarity
+subsume
+nectar
+2023-12-13 21:30:10,685 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VVmAtGzhbpwELblH7IEpplCDCbur",
+  "object": "chat.completion",
+  "created": 1702521006,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"In cascading jubilance, merriment dwells,\\nClarity resplendent, in lucid waves, it subsumes,\\nSweet as nectar's allure, succumbing to its spells.\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 160,
+    "completion_tokens": 51,
+    "total_tokens": 211
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-13 21:30:10,688 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-13 21:30:24,638 - poem_gen - INFO - gen_creative_prompt_api words are: Cognition
+Bravery
+Fluid
+Panorama
+Strand
+2023-12-13 21:30:24,657 - poem_gen - DEBUG - player_persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-12-13 21:30:24,659 - poem_gen - DEBUG - lang_device is: consonance
+2023-12-13 21:30:24,660 - poem_gen - DEBUG - abstract_concept is: e
+2023-12-13 21:30:24,662 - poem_gen - DEBUG - entropy is: 0.76
+2023-12-13 21:30:24,664 - poem_gen - DEBUG - ==========================
+2023-12-13 21:30:24,665 - poem_gen - DEBUG - creative_starting_prompt: Cognition
+Bravery
+Fluid
+Panorama
+Strand
+2023-12-13 21:30:24,667 - poem_gen - DEBUG - creative_prompt: Cognition
+Bravery
+Fluid
+Panorama
+Strand
+2023-12-13 21:30:27,377 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VVmSj0uaKaOiLqyhqacylIDKM5he",
+  "object": "chat.completion",
+  "created": 1702521024,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Battles of thought, valiant, unchained myths as fluid warmth envelops sight's long strand.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 27,
+    "total_tokens": 158
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-13 21:30:27,380 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-13 21:30:28,777 - poem_gen - INFO - gen_creative_prompt_api words are: expulsion
+cluster
+doctorate
+pricing
+grafting
+2023-12-13 21:30:28,787 - poem_gen - DEBUG - player_persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-12-13 21:30:28,789 - poem_gen - DEBUG - lang_device is: anachronism
+2023-12-13 21:30:28,792 - poem_gen - DEBUG - abstract_concept is: s
+2023-12-13 21:30:28,794 - poem_gen - DEBUG - entropy is: 0.76
+2023-12-13 21:30:28,796 - poem_gen - DEBUG - ==========================
+2023-12-13 21:30:28,797 - poem_gen - DEBUG - creative_starting_prompt: expulsion
+cluster
+doctorate
+pricing
+grafting
+2023-12-13 21:30:28,799 - poem_gen - DEBUG - creative_prompt: expulsion
+cluster
+doctorate
+pricing
+grafting
+2023-12-13 21:30:32,395 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VVmWjzRtjUQTDEb3SElV5P53sUFG",
+  "object": "chat.completion",
+  "created": 1702521028,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Expelled from Eden's clustered minds, \\\\ Price of wisdom\u2014a doctorate carved, \\\\ In the grafting of truths, trading our binds.\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 158,
+    "completion_tokens": 36,
+    "total_tokens": 194
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-13 21:30:32,398 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-13 21:30:47,389 - poem_gen - INFO - gen_creative_prompt_api words are: glisten
+banana
+enance
+conductive
+wholesale
+2023-12-13 21:30:47,398 - poem_gen - DEBUG - player_persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-12-13 21:30:47,400 - poem_gen - DEBUG - lang_device is: caesura
+2023-12-13 21:30:47,403 - poem_gen - DEBUG - abstract_concept is: a
+2023-12-13 21:30:47,405 - poem_gen - DEBUG - entropy is: 0.81
+2023-12-13 21:30:47,406 - poem_gen - DEBUG - ==========================
+2023-12-13 21:30:47,408 - poem_gen - DEBUG - creative_starting_prompt: glisten
+banana
+enance
+conductive
+wholesale
+2023-12-13 21:30:47,410 - poem_gen - DEBUG - creative_prompt: glisten
+banana
+enance
+conductive
+wholesale
+2023-12-13 21:31:32,287 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VVnVMydqeFEQ28Zks0IKQWVJlL5c",
+  "object": "chat.completion",
+  "created": 1702521089,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Conductive thought glistens, wholesale ire, a faint monogram \u2014\\n Benediction etching vernacular scenarios behind catapulted bananas.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 34,
+    "total_tokens": 164
+  },
+  "system_fingerprint": "fp_b77c6a5c40"
+}
+2023-12-13 21:31:32,291 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-13 21:31:33,926 - poem_gen - INFO - gen_creative_prompt_api words are: whiskey
+lovable
+cascade
+increments
+playful
+2023-12-13 21:31:33,935 - poem_gen - DEBUG - player_persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-12-13 21:31:33,937 - poem_gen - DEBUG - lang_device is: irony
+2023-12-13 21:31:33,938 - poem_gen - DEBUG - abstract_concept is: r
+2023-12-13 21:31:33,940 - poem_gen - DEBUG - entropy is: 0.81
+2023-12-13 21:31:33,943 - poem_gen - DEBUG - ==========================
+2023-12-13 21:31:33,945 - poem_gen - DEBUG - creative_starting_prompt: whiskey
+lovable
+cascade
+increments
+playful
+2023-12-13 21:31:33,947 - poem_gen - DEBUG - creative_prompt: whiskey
+lovable
+cascade
+increments
+playful
+2023-12-13 21:31:35,924 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VVna2vpLiIW77PePEs5n127Mi88V",
+  "object": "chat.completion",
+  "created": 1702521094,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Lovable amber\\nWhiskey in cascade flows, neat -\\nPlayful increments.\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 157,
+    "completion_tokens": 25,
+    "total_tokens": 182
+  },
+  "system_fingerprint": "fp_b77c6a5c40"
+}
+2023-12-13 21:31:35,927 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-13 21:33:31,601 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 21:33:31,711 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 21:34:15,130 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 21:34:15,241 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 21:35:51,259 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 21:35:51,370 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 21:35:55,293 - poem_gen - INFO - gen_creative_prompt_api words are: Sprinkler
+Desolate
+Curve
+Shell
+Quantum
+2023-12-13 21:35:55,300 - poem_gen - DEBUG - player_persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-12-13 21:35:55,302 - poem_gen - DEBUG - lang_device is: metaphor
+2023-12-13 21:35:55,304 - poem_gen - DEBUG - abstract_concept is: v
+2023-12-13 21:35:55,305 - poem_gen - DEBUG - entropy is: 0.86
+2023-12-13 21:35:55,307 - poem_gen - DEBUG - ==========================
+2023-12-13 21:35:55,308 - poem_gen - DEBUG - creative_starting_prompt: Sprinkler
+Desolate
+Curve
+Shell
+Quantum
+2023-12-13 21:35:55,310 - poem_gen - DEBUG - creative_prompt: Sprinkler
+Desolate
+Curve
+Shell
+Quantum
+2023-12-13 21:35:57,416 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VVrnQg6XpYKmt7vHvgZgTr43RUMb",
+  "object": "chat.completion",
+  "created": 1702521355,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Curve of sprinklers' arc, \\nQuantum drops shell the silence, \\nDesolate grass breathes.\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 31,
+    "total_tokens": 162
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-13 21:35:57,419 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-13 21:36:52,892 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 21:36:53,030 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 21:36:57,101 - poem_gen - INFO - gen_creative_prompt_api words are: stockpile
+journey
+blurry
+lexicon
+stipple
+2023-12-13 21:36:57,110 - poem_gen - DEBUG - player_persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-12-13 21:36:57,112 - poem_gen - DEBUG - lang_device is: alliteration
+2023-12-13 21:36:57,113 - poem_gen - DEBUG - abstract_concept is: e
+2023-12-13 21:36:57,114 - poem_gen - DEBUG - entropy is: 0.86
+2023-12-13 21:36:57,116 - poem_gen - DEBUG - ==========================
+2023-12-13 21:36:57,117 - poem_gen - DEBUG - creative_starting_prompt: stockpile
+journey
+blurry
+lexicon
+stipple
+2023-12-13 21:36:57,118 - poem_gen - DEBUG - creative_prompt: stockpile
+journey
+blurry
+lexicon
+stipple
+2023-12-13 21:37:24,218 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 21:37:24,331 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 21:37:50,563 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+nebula
+whimsical
+harpoon
+clarity
+2023-12-13 21:37:50,573 - poem_gen - DEBUG - player_persona is: Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-13 21:37:50,575 - poem_gen - DEBUG - lang_device is: hyperbole
+2023-12-13 21:37:50,577 - poem_gen - DEBUG - abstract_concept is: d
+2023-12-13 21:37:50,578 - poem_gen - DEBUG - entropy is: 0.22
+2023-12-13 21:37:50,581 - poem_gen - DEBUG - ==========================
+2023-12-13 21:37:50,583 - poem_gen - DEBUG - creative_starting_prompt: cascade
+nebula
+whimsical
+harpoon
+clarity
+2023-12-13 21:37:50,585 - poem_gen - DEBUG - creative_prompt: cascade
+nebula
+whimsical
+harpoon
+clarity
+2023-12-13 21:37:54,465 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VVteLtmekokhgkhuSjWIfhU6lUyh",
+  "object": "chat.completion",
+  "created": 1702521470,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Nebula whispers whimsical tales,\\nHarpoons of clarity amidst cosmic veils,\\nCascading stardust trails unveil.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 128,
+    "completion_tokens": 33,
+    "total_tokens": 161
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-13 21:37:54,469 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-13 21:37:56,527 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+bungalow
+whisper
+galaxy
+fluctuate
+2023-12-13 21:37:56,536 - poem_gen - DEBUG - player_persona is: Edward. Edward, you are a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-12-13 21:37:56,538 - poem_gen - DEBUG - lang_device is: caesura
+2023-12-13 21:37:56,540 - poem_gen - DEBUG - abstract_concept is: w
+2023-12-13 21:37:56,543 - poem_gen - DEBUG - entropy is: 0.22
+2023-12-13 21:37:56,545 - poem_gen - DEBUG - ==========================
+2023-12-13 21:37:56,547 - poem_gen - DEBUG - creative_starting_prompt: cascade
+bungalow
+whisper
+galaxy
+fluctuate
+2023-12-13 21:37:56,548 - poem_gen - DEBUG - creative_prompt: cascade
+bungalow
+whisper
+galaxy
+fluctuate
+2023-12-13 21:37:58,888 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VVtk9xgtSOFLTNdCRjuevEQVPu6l",
+  "object": "chat.completion",
+  "created": 1702521476,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Whispers of the cosmos, a galaxy's breath, cascade through the timeworn bungalow, fluctuating like a chef's delicate garnish on the plate of eternity.\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 142,
+    "completion_tokens": 42,
+    "total_tokens": 184
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-13 21:37:58,891 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-13 21:38:12,869 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whisper
+clarity
+bungalow
+flourish
+2023-12-13 21:38:12,878 - poem_gen - DEBUG - player_persona is: Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-13 21:38:12,882 - poem_gen - DEBUG - lang_device is: personification
+2023-12-13 21:38:12,884 - poem_gen - DEBUG - abstract_concept is: n
+2023-12-13 21:38:12,887 - poem_gen - DEBUG - entropy is: 0.27
+2023-12-13 21:38:12,889 - poem_gen - DEBUG - ==========================
+2023-12-13 21:38:12,891 - poem_gen - DEBUG - creative_starting_prompt: cascade
+whisper
+clarity
+bungalow
+flourish
+2023-12-13 21:38:12,893 - poem_gen - DEBUG - creative_prompt: cascade
+whisper
+clarity
+bungalow
+flourish
+2023-12-13 21:38:14,635 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VVu1WSgGs8Kh6Y7JxusBrIkHq8M7",
+  "object": "chat.completion",
+  "created": 1702521493,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Whispers cascade with clarity, / Flourishing in the bungalow's embrace, / Life's vivid tapestry unwinds.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 30,
+    "total_tokens": 161
+  },
+  "system_fingerprint": "fp_b77c6a5c40"
+}
+2023-12-13 21:38:14,639 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-13 21:38:15,658 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whisper
+stellar
+grove
+fluctuate
+2023-12-13 21:38:15,668 - poem_gen - DEBUG - player_persona is: Edward. Edward, you are a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-12-13 21:38:15,670 - poem_gen - DEBUG - lang_device is: allegory
+2023-12-13 21:38:15,673 - poem_gen - DEBUG - abstract_concept is: h
+2023-12-13 21:38:15,674 - poem_gen - DEBUG - entropy is: 0.27
+2023-12-13 21:38:15,676 - poem_gen - DEBUG - ==========================
+2023-12-13 21:38:15,678 - poem_gen - DEBUG - creative_starting_prompt: cascade
+whisper
+stellar
+grove
+fluctuate
+2023-12-13 21:38:15,680 - poem_gen - DEBUG - creative_prompt: cascade
+whisper
+stellar
+grove
+fluctuate
+2023-12-13 21:38:17,787 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VVu3iywjY3EsLYhtkX8HdhILdCbs",
+  "object": "chat.completion",
+  "created": 1702521495,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Whispers in the grove,\\nStellar light through leaves cascade,\\nShadows fluctuate.\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 141,
+    "completion_tokens": 28,
+    "total_tokens": 169
+  },
+  "system_fingerprint": "fp_b77c6a5c40"
+}
+2023-12-13 21:38:17,790 - poem_gen - DEBUG - poem_gen completed successfully

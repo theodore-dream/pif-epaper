@@ -1695,3 +1695,144 @@ Captured in prisms of light, silent and fiery.
 2023-12-13 21:26:49,764 - main.py - INFO - player_name is: You are Fiona,
 2023-12-13 21:26:55,386 - main.py - DEBUG - Running game status check...
 2023-12-13 21:26:55,393 - main.py - DEBUG - Session ID found or generated: 22e76bc1-128d-4060-9647-687a3bbe7960
+2023-12-13 21:29:49,740 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 21:29:51,398 - main.py - DEBUG - Running game status check...
+2023-12-13 21:29:51,404 - main.py - DEBUG - Session ID found or generated: 22e76bc1-128d-4060-9647-687a3bbe7960
+2023-12-13 21:29:51,619 - main.py - DEBUG - Session data from DB: ('You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.66'), '22e76bc1-128d-4060-9647-687a3bbe7960')
+2023-12-13 21:29:51,631 - main.py - INFO -  Continuing active session. Current state of player_persona, match_persona, session_state, gametext, entropy, session_id: ('You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.66'), '22e76bc1-128d-4060-9647-687a3bbe7960')
+2023-12-13 21:29:51,634 - main.py - DEBUG - right button pressed
+2023-12-13 21:29:51,635 - main.py - DEBUG - Handling active session...
+2023-12-13 21:29:51,637 - main.py - INFO - player_name is: You are Fiona,
+2023-12-13 21:29:58,815 - main.py - INFO - player_poetry_gen player_gametext is:
+Patchwork quilts spread,
+Glimpse of nature's quirky thread -
+Nurture in a flask.
+2023-12-13 21:29:58,829 - main.py - INFO - match_name is: You are Reginald,
+2023-12-13 21:30:10,692 - main.py - INFO - match_poetry_gen match_gametext is:
+In cascading jubilance, merriment dwells,
+Clarity resplendent, in lucid waves, it subsumes,
+Sweet as nectar's allure, succumbing to its spells.
+2023-12-13 21:30:10,933 - main.py - INFO - checkpoint saved. session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy: ('22e76bc1-128d-4060-9647-687a3bbe7960', 'You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', "Patchwork quilts spread,\nGlimpse of nature's quirky thread -\nNurture in a flask.", "In cascading jubilance, merriment dwells,\nClarity resplendent, in lucid waves, it subsumes,\nSweet as nectar's allure, succumbing to its spells.", 'active', Decimal('0.71')).
+2023-12-13 21:30:10,952 - main.py - INFO - player_name is: You are Fiona,, match_name is: You are Reginald,
+2023-12-13 21:30:23,151 - main.py - DEBUG - Running game status check...
+2023-12-13 21:30:23,157 - main.py - DEBUG - Session ID found or generated: 22e76bc1-128d-4060-9647-687a3bbe7960
+2023-12-13 21:30:23,355 - main.py - DEBUG - Session data from DB: ('You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.71'), '22e76bc1-128d-4060-9647-687a3bbe7960')
+2023-12-13 21:30:23,356 - main.py - INFO -  Continuing active session. Current state of player_persona, match_persona, session_state, gametext, entropy, session_id: ('You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.71'), '22e76bc1-128d-4060-9647-687a3bbe7960')
+2023-12-13 21:30:23,372 - main.py - DEBUG - right button pressed
+2023-12-13 21:30:23,373 - main.py - DEBUG - Handling active session...
+2023-12-13 21:30:23,374 - main.py - INFO - player_name is: You are Fiona,
+2023-12-13 21:30:27,383 - main.py - INFO - player_poetry_gen player_gametext is:
+Battles of thought, valiant, unchained myths as fluid warmth envelops sight's long strand.
+2023-12-13 21:30:27,390 - main.py - INFO - match_name is: You are Reginald,
+2023-12-13 21:30:32,402 - main.py - INFO - match_poetry_gen match_gametext is:
+Expelled from Eden's clustered minds, \ Price of wisdom—a doctorate carved, \ In the grafting of truths, trading our binds.
+2023-12-13 21:30:32,602 - main.py - INFO - checkpoint saved. session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy: ('22e76bc1-128d-4060-9647-687a3bbe7960', 'You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', "Battles of thought, valiant, unchained myths as fluid warmth envelops sight's long strand.", "Expelled from Eden's clustered minds, \\ Price of wisdom—a doctorate carved, \\ In the grafting of truths, trading our binds.", 'active', Decimal('0.76')).
+2023-12-13 21:30:32,605 - main.py - INFO - player_name is: You are Fiona,, match_name is: You are Reginald,
+2023-12-13 21:30:44,863 - main.py - DEBUG - Running game status check...
+2023-12-13 21:30:44,875 - main.py - DEBUG - Session ID found or generated: 22e76bc1-128d-4060-9647-687a3bbe7960
+2023-12-13 21:30:45,072 - main.py - DEBUG - Session data from DB: ('You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.76'), '22e76bc1-128d-4060-9647-687a3bbe7960')
+2023-12-13 21:30:45,073 - main.py - INFO -  Continuing active session. Current state of player_persona, match_persona, session_state, gametext, entropy, session_id: ('You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.76'), '22e76bc1-128d-4060-9647-687a3bbe7960')
+2023-12-13 21:30:45,085 - main.py - DEBUG - right button pressed
+2023-12-13 21:30:45,086 - main.py - DEBUG - Handling active session...
+2023-12-13 21:30:45,088 - main.py - INFO - player_name is: You are Fiona,
+2023-12-13 21:31:32,294 - main.py - INFO - player_poetry_gen player_gametext is:
+Conductive thought glistens, wholesale ire, a faint monogram —
+ Benediction etching vernacular scenarios behind catapulted bananas.
+2023-12-13 21:31:32,303 - main.py - INFO - match_name is: You are Reginald,
+2023-12-13 21:31:35,931 - main.py - INFO - match_poetry_gen match_gametext is:
+Lovable amber
+Whiskey in cascade flows, neat -
+Playful increments.
+2023-12-13 21:31:36,122 - main.py - INFO - checkpoint saved. session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy: ('22e76bc1-128d-4060-9647-687a3bbe7960', 'You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'Conductive thought glistens, wholesale ire, a faint monogram —\n Benediction etching vernacular scenarios behind catapulted bananas.', 'Lovable amber\nWhiskey in cascade flows, neat -\nPlayful increments.', 'active', Decimal('0.81')).
+2023-12-13 21:31:36,125 - main.py - INFO - player_name is: You are Fiona,, match_name is: You are Reginald,
+2023-12-13 21:31:43,094 - main.py - DEBUG - Running game status check...
+2023-12-13 21:31:43,099 - main.py - DEBUG - Session ID found or generated: 22e76bc1-128d-4060-9647-687a3bbe7960
+2023-12-13 21:31:43,300 - main.py - DEBUG - Session data from DB: ('You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.81'), '22e76bc1-128d-4060-9647-687a3bbe7960')
+2023-12-13 21:31:43,312 - main.py - INFO -  Continuing active session. Current state of player_persona, match_persona, session_state, gametext, entropy, session_id: ('You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.81'), '22e76bc1-128d-4060-9647-687a3bbe7960')
+2023-12-13 21:31:43,315 - main.py - DEBUG - right button pressed
+2023-12-13 21:31:43,316 - main.py - DEBUG - Handling active session...
+2023-12-13 21:31:43,319 - main.py - INFO - player_name is: You are Fiona,
+2023-12-13 21:33:32,001 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 21:33:33,655 - main.py - DEBUG - Running game status check...
+2023-12-13 21:33:33,661 - main.py - DEBUG - Session ID found or generated: 22e76bc1-128d-4060-9647-687a3bbe7960
+2023-12-13 21:33:33,882 - main.py - DEBUG - Session data from DB: ('You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.81'), '22e76bc1-128d-4060-9647-687a3bbe7960')
+2023-12-13 21:33:33,884 - main.py - INFO -  Continuing active session. Current state of player_persona, match_persona, session_state, gametext, entropy, session_id: ('You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.81'), '22e76bc1-128d-4060-9647-687a3bbe7960')
+2023-12-13 21:33:33,896 - main.py - DEBUG - right button pressed
+2023-12-13 21:33:33,897 - main.py - DEBUG - Handling active session...
+2023-12-13 21:33:33,899 - main.py - INFO - player_name is: You are Fiona,
+2023-12-13 21:34:15,500 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 21:34:17,156 - main.py - DEBUG - Running game status check...
+2023-12-13 21:34:17,162 - main.py - DEBUG - Session ID found or generated: 22e76bc1-128d-4060-9647-687a3bbe7960
+2023-12-13 21:34:17,382 - main.py - DEBUG - Session data from DB: ('You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.81'), '22e76bc1-128d-4060-9647-687a3bbe7960')
+2023-12-13 21:34:17,383 - main.py - INFO -  Continuing active session. Current state of player_persona, match_persona, session_state, gametext, entropy, session_id: ('You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.81'), '22e76bc1-128d-4060-9647-687a3bbe7960')
+2023-12-13 21:34:17,402 - main.py - DEBUG - right button pressed
+2023-12-13 21:34:17,403 - main.py - DEBUG - Handling active session...
+2023-12-13 21:34:17,404 - main.py - INFO - player_name is: You are Fiona,
+2023-12-13 21:35:51,658 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 21:35:53,315 - main.py - DEBUG - Running game status check...
+2023-12-13 21:35:53,319 - main.py - DEBUG - Session ID found or generated: 22e76bc1-128d-4060-9647-687a3bbe7960
+2023-12-13 21:35:53,504 - main.py - DEBUG - Session data from DB: ('You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.81'), '22e76bc1-128d-4060-9647-687a3bbe7960')
+2023-12-13 21:35:53,505 - main.py - INFO -  Continuing active session. Current state of player_persona, match_persona, session_state, gametext, entropy, session_id: ('You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.81'), '22e76bc1-128d-4060-9647-687a3bbe7960')
+2023-12-13 21:35:53,522 - main.py - DEBUG - right button pressed
+2023-12-13 21:35:53,523 - main.py - DEBUG - Handling active session...
+2023-12-13 21:35:53,524 - main.py - INFO - player_name is: You are Fiona,
+2023-12-13 21:35:57,422 - main.py - INFO - player_poetry_gen player_gametext is:
+Curve of sprinklers' arc, 
+Quantum drops shell the silence, 
+Desolate grass breathes.
+2023-12-13 21:35:57,430 - main.py - INFO - match_name is: You are Reginald,
+2023-12-13 21:36:42,522 - main.py - DEBUG - Running game status check...
+2023-12-13 21:36:42,550 - main.py - DEBUG - Session ID found or generated: 22e76bc1-128d-4060-9647-687a3bbe7960
+2023-12-13 21:36:53,325 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 21:36:54,984 - main.py - DEBUG - Running game status check...
+2023-12-13 21:36:54,989 - main.py - DEBUG - Session ID found or generated: 22e76bc1-128d-4060-9647-687a3bbe7960
+2023-12-13 21:36:55,203 - main.py - DEBUG - Session data from DB: ('You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.81'), '22e76bc1-128d-4060-9647-687a3bbe7960')
+2023-12-13 21:36:55,205 - main.py - INFO -  Continuing active session. Current state of player_persona, match_persona, session_state, gametext, entropy, session_id: ('You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.81'), '22e76bc1-128d-4060-9647-687a3bbe7960')
+2023-12-13 21:36:55,217 - main.py - DEBUG - right button pressed
+2023-12-13 21:36:55,219 - main.py - DEBUG - Handling active session...
+2023-12-13 21:36:55,220 - main.py - INFO - player_name is: You are Fiona,
+2023-12-13 21:37:13,259 - main.py - DEBUG - Running game status check...
+2023-12-13 21:37:13,265 - main.py - DEBUG - Session ID found or generated: 22e76bc1-128d-4060-9647-687a3bbe7960
+2023-12-13 21:37:24,586 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 21:37:26,245 - main.py - DEBUG - Running game status check...
+2023-12-13 21:37:26,250 - main.py - DEBUG - Session ID found or generated: 6e5bc17e-35dc-4172-81e9-b5d3605c2cb0
+2023-12-13 21:37:26,435 - main.py - DEBUG - Session data from DB: (None, None, None, None, None, None)
+2023-12-13 21:37:26,437 - main.py - DEBUG - Initializing new session...
+2023-12-13 21:37:26,626 - main.py - INFO - New session created with ID: 6e5bc17e-35dc-4172-81e9-b5d3605c2cb0 and entropy: 0.12
+2023-12-13 21:37:26,642 - main.py - DEBUG - right button pressed
+2023-12-13 21:37:26,643 - main.py - DEBUG - Handling new session...
+2023-12-13 21:37:26,644 - main.py - DEBUG - starting introduction to the game
+2023-12-13 21:37:32,821 - main.py - DEBUG - opening text written to epaper
+2023-12-13 21:37:49,011 - main.py - INFO - displaying information about player_persona and match_persona
+2023-12-13 21:37:49,116 - main.py - DEBUG - Running game status check...
+2023-12-13 21:37:49,122 - main.py - DEBUG - Session ID found or generated: 6e5bc17e-35dc-4172-81e9-b5d3605c2cb0
+2023-12-13 21:37:49,315 - main.py - DEBUG - Session data from DB: ('Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.', 'Edward. Edward, you are a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.', 'active', None, Decimal('0.17'), '6e5bc17e-35dc-4172-81e9-b5d3605c2cb0')
+2023-12-13 21:37:49,316 - main.py - INFO -  Continuing active session. Current state of player_persona, match_persona, session_state, gametext, entropy, session_id: ('Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.', 'Edward. Edward, you are a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.', 'active', None, Decimal('0.17'), '6e5bc17e-35dc-4172-81e9-b5d3605c2cb0')
+2023-12-13 21:37:49,328 - main.py - DEBUG - right button pressed
+2023-12-13 21:37:49,330 - main.py - DEBUG - Handling active session...
+2023-12-13 21:37:49,341 - main.py - INFO - player_name is: Alice is your
+2023-12-13 21:37:54,473 - main.py - INFO - player_poetry_gen player_gametext is:
+Nebula whispers whimsical tales,
+Harpoons of clarity amidst cosmic veils,
+Cascading stardust trails unveil.
+2023-12-13 21:37:54,489 - main.py - INFO - match_name is: Edward. Edward, you
+2023-12-13 21:37:58,895 - main.py - INFO - match_poetry_gen match_gametext is:
+Whispers of the cosmos, a galaxy's breath, cascade through the timeworn bungalow, fluctuating like a chef's delicate garnish on the plate of eternity.
+2023-12-13 21:37:59,092 - main.py - INFO - checkpoint saved. session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy: ('6e5bc17e-35dc-4172-81e9-b5d3605c2cb0', 'Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.', 'Edward. Edward, you are a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.', 'Nebula whispers whimsical tales,\nHarpoons of clarity amidst cosmic veils,\nCascading stardust trails unveil.', "Whispers of the cosmos, a galaxy's breath, cascade through the timeworn bungalow, fluctuating like a chef's delicate garnish on the plate of eternity.", 'active', Decimal('0.22')).
+2023-12-13 21:37:59,095 - main.py - INFO - player_name is: Alice, match_name is: Edward.
+2023-12-13 21:38:11,446 - main.py - DEBUG - Running game status check...
+2023-12-13 21:38:11,451 - main.py - DEBUG - Session ID found or generated: 6e5bc17e-35dc-4172-81e9-b5d3605c2cb0
+2023-12-13 21:38:11,649 - main.py - DEBUG - Session data from DB: ('Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.', 'Edward. Edward, you are a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.', 'active', None, Decimal('0.22'), '6e5bc17e-35dc-4172-81e9-b5d3605c2cb0')
+2023-12-13 21:38:11,650 - main.py - INFO -  Continuing active session. Current state of player_persona, match_persona, session_state, gametext, entropy, session_id: ('Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.', 'Edward. Edward, you are a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.', 'active', None, Decimal('0.22'), '6e5bc17e-35dc-4172-81e9-b5d3605c2cb0')
+2023-12-13 21:38:11,664 - main.py - DEBUG - right button pressed
+2023-12-13 21:38:11,665 - main.py - DEBUG - Handling active session...
+2023-12-13 21:38:11,668 - main.py - INFO - player_name is: Alice is your
+2023-12-13 21:38:14,642 - main.py - INFO - player_poetry_gen player_gametext is:
+Whispers cascade with clarity, / Flourishing in the bungalow's embrace, / Life's vivid tapestry unwinds.
+2023-12-13 21:38:14,649 - main.py - INFO - match_name is: Edward. Edward, you
+2023-12-13 21:38:17,794 - main.py - INFO - match_poetry_gen match_gametext is:
+Whispers in the grove,
+Stellar light through leaves cascade,
+Shadows fluctuate.
+2023-12-13 21:38:18,002 - main.py - INFO - checkpoint saved. session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy: ('6e5bc17e-35dc-4172-81e9-b5d3605c2cb0', 'Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.', 'Edward. Edward, you are a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.', "Whispers cascade with clarity, / Flourishing in the bungalow's embrace, / Life's vivid tapestry unwinds.", 'Whispers in the grove,\nStellar light through leaves cascade,\nShadows fluctuate.', 'active', Decimal('0.27')).
+2023-12-13 21:38:18,005 - main.py - INFO - player_name is: Alice, match_name is: Edward.

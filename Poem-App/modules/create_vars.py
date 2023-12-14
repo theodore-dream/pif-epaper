@@ -47,7 +47,7 @@ def gen_creative_prompt_api(entropy):
             #logger.info(f"gen_creative_prompt Completion tokens: {completion['usage']['completion_tokens']}")
             #logger.info(f"gen_creative_prompt Total tokens: {completion['usage']['total_tokens']}")
 
-            logger.info(f"gen_creative_prompt_api words are: {creative_prompt}")
+            logger.info(f"gen_creative_prompt_api words are:\n{creative_prompt}")
             return creative_prompt
 
 def get_abstract_concept():

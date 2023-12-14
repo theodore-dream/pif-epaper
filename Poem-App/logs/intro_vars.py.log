@@ -100,3 +100,16 @@ Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
 Where heroes rise and darkness takes flight.
 With each challenge faced, victory's sweet,
 Welcome, dear player, to your destined feat."
+2023-12-13 21:37:35,460 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, your path you shall tread,
+As you conquer each level and rise ahead.
+So gather your wits, and let the game begin,
+For victory awaits, as you strive to win."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-13 21:37:35,463 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, your path you shall tread,
+As you conquer each level and rise ahead.
+So gather your wits, and let the game begin,
+For victory awaits, as you strive to win."
