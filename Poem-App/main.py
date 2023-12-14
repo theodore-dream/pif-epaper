@@ -83,7 +83,6 @@ def handle_active_session(session_id, player_persona, match_persona, player_pers
     db_service.save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy)
     #checkpoint saved, session is now active
     #issue now is there is no content to save, I guess it can just be None? 
-    logger.info(f"checkpoint saved. session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy: {session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy}.")
     return player_gametext, match_gametext
 
 def run_game(player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, session_id):

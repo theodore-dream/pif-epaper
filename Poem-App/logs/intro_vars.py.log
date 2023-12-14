@@ -1,39 +1,35 @@
-2023-12-14 16:44:59,162 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a world untamed,
-Where creativity's fire shall never be tamed.
+2023-12-14 17:36:04,541 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a realm unknown,
+Where creativity reigns and chaos is sown.
 Expect the unexpected, embrace the bizarre,
-For in this game, we'll raise the bar.
-So let your imagination soar, let it roam,
-And together, we'll create a masterpiece to call our own."
+For in this game, confusion shall be your guiding star.
+So let your imagination soar, let your mind unfurl,
+And prepare to be enchanted in this whimsical world."
 Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
-2023-12-14 16:44:59,164 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a world untamed,
-Where creativity's fire shall never be tamed.
+2023-12-14 17:36:04,542 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a realm unknown,
+Where creativity reigns and chaos is sown.
 Expect the unexpected, embrace the bizarre,
-For in this game, we'll raise the bar.
-So let your imagination soar, let it roam,
-And together, we'll create a masterpiece to call our own."
-2023-12-14 17:11:01,212 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a realm unknown,
+For in this game, confusion shall be your guiding star.
+So let your imagination soar, let your mind unfurl,
+And prepare to be enchanted in this whimsical world."
+2023-12-14 17:43:41,427 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a realm unknown,
 Where creativity thrives and chaos is sown.
-Expect the unexpected, embrace the bizarre,
-For in this game, confusion is our shining star.
-So step forth with an open mind, my friend,
-And let your imagination transcend."
+Embrace the unexpected, let your mind unfurl,
+For in this game of wonders, you'll conquer the world."
 Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
-2023-12-14 17:11:01,213 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a realm unknown,
+2023-12-14 17:43:41,429 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a realm unknown,
 Where creativity thrives and chaos is sown.
-Expect the unexpected, embrace the bizarre,
-For in this game, confusion is our shining star.
-So step forth with an open mind, my friend,
-And let your imagination transcend."
-2023-12-14 17:15:26,536 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a realm unknown,
+Embrace the unexpected, let your mind unfurl,
+For in this game of wonders, you'll conquer the world."
+2023-12-14 17:45:07,900 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a world unknown,
 Where creativity thrives and chaos is sown.
-Expect the unexpected, embrace the bizarre,
-For in this game, confusion is our shining star.
-So let your imagination run wild and free,
-And let the magic of this world enchant thee."
+Prepare to be puzzled, surprised, and amused,
+For in this game, the unexpected is infused.
+Embrace the whimsy, let your imagination take flight,
+And revel in the wonders that await, day and night."
 Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
-2023-12-14 17:15:26,539 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a realm unknown,
+2023-12-14 17:45:07,910 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a world unknown,
 Where creativity thrives and chaos is sown.
-Expect the unexpected, embrace the bizarre,
-For in this game, confusion is our shining star.
-So let your imagination run wild and free,
-And let the magic of this world enchant thee."
+Prepare to be puzzled, surprised, and amused,
+For in this game, the unexpected is infused.
+Embrace the whimsy, let your imagination take flight,
+And revel in the wonders that await, day and night."
