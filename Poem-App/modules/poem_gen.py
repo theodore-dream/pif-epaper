@@ -39,7 +39,7 @@ def poem_step_1(creative_prompt, player_persona, entropy):
     completion = openai.ChatCompletion.create(
         model="gpt-4-1106-preview",
         messages=messages,
-        temperature=(entropy),
+        temperature=(entropy * 2),
         response_format={"type": "json_object"},
         max_tokens=500,
     )
@@ -73,7 +73,7 @@ def poem_step_2(persona, entropy, step_1_poem, abstract_concept):
     completion = openai.ChatCompletion.create(
         model="gpt-4-1106-preview",
         messages=messages,
-        temperature=(entropy),
+        temperature=(entropy * 2),
         response_format={"type": "json_object"},
         max_tokens=500,
     )
@@ -122,9 +122,7 @@ def parse_response(entropy, player_persona):
     logger.debug(f"creative_starting_prompt: {creative_prompt}")
 
     poem_result = api_poem_pipeline(creative_prompt, player_persona, entropy, abstract_concept)
-    logger.info(f"poem result:\n{poem_result}")
-
-    print("-" * 30)
+    #logger.info(f"poem result:\n{poem_result}")
     logger.debug("poem_gen completed successfully")
     return poem_result
 

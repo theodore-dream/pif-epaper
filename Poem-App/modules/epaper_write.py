@@ -71,7 +71,7 @@ def display_information(text, display_time):
     logger.info("Clear e-paper display...")
     epd.Clear()
 
-def display_dialogue(left_text, right_text, display_time):
+def display_dialogue(left_text, right_text, player_name, match_name, entropy, display_time):
     epd = epd3in52.EPD()
     image = Image.new('1', (EPAPER_WIDTH, EPAPER_HEIGHT), 255)
     draw = ImageDraw.Draw(image)
@@ -79,27 +79,38 @@ def display_dialogue(left_text, right_text, display_time):
     font = ImageFont.truetype(FONT_PATH, FONT_SIZE)
     logger.info("Font loaded successfully.")
 
-    # Estimate the average number of characters that can fit in the column width
-    average_char_width = font.getsize("A")[0]  # Width of a single character
-    column_width = EPAPER_WIDTH // 2  # Width of each column
-    max_char_per_line = column_width // average_char_width
+    # Calculate new heights
+    dialogue_height = int(EPAPER_HEIGHT * 0.8)  # 4/5 of the height for dialogue
+    game_info_height = EPAPER_HEIGHT - dialogue_height  # Remaining 1/5 for game info
 
-    def wrap_and_draw_text(text, x_offset):
+    # Modify wrap_and_draw_text function to respect new height
+    def wrap_and_draw_text(text, x_offset, y_limit):
         y = 20  # Top margin
         for paragraph in text.split('\n'):
             lines = textwrap.wrap(paragraph, width=max_char_per_line)
             for line in lines:
                 bbox = font.getmask(line).getbbox()
                 text_height = bbox[3] - bbox[1]  # Bottom minus top
+                if y + text_height > y_limit:  # Check if within the dialogue area
+                    return  # Stop drawing if it exceeds the limit
                 draw.text((x_offset, y), line, font=font, fill=0)
                 y += text_height + 5  # Increment y position with a small padding
             y += text_height + 5  # Additional space between paragraphs
 
-    # Draw left and right text
-    wrap_and_draw_text(left_text, 10)
-    wrap_and_draw_text(right_text, EPAPER_WIDTH // 2 + 10)
+    # Draw left and right text within the dialogue area
+    wrap_and_draw_text(left_text, 10, dialogue_height)
+    wrap_and_draw_text(right_text, EPAPER_WIDTH // 2 + 10, dialogue_height)
 
-    logger.info("Dialogue text drawn on image successfully.")
+    # Draw game information in the bottom area
+    draw.text((10, dialogue_height + 10), game_info, font=font, fill=0)
+
+    # draw game information about player in the bottom left area
+    draw.text((10, dialogue_height + 10), player_name, font=font, fill=0)
+
+    # draw game information about match in the bottom right area
+    draw.text((10, dialogue_height + 10), match_name, font=font, fill=0)
+
+    logger.info("Dialogue and game information drawn on image successfully.")
 
     # Display the image
     epd.display(epd.getbuffer(image))
@@ -107,6 +118,7 @@ def display_dialogue(left_text, right_text, display_time):
     epd.refresh()
     logger.info("Dialogue displayed on e-paper successfully.")
     sleep(display_time)
+
 
 
 def main():

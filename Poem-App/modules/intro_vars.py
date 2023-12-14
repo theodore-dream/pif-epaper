@@ -2,6 +2,8 @@
 
 import os, random
 import time
+import openai
+from modules.logger import setup_logger
 
 
 #!/bin/env python3
@@ -9,17 +11,43 @@ import time
 import os, random
 import time
 
+# logger setup
+logger = setup_logger("intro_vars.py")
+
 # fit for size
-opening_text1 = """HELLO? HELLO? HELLO?"""
+opening_text1 = "I'm so excited :)"
 
-opening_text2 = """Hello hello hello hello"""
 
-# I want the output for this string to be nicely centered on the screen
-opening_text3 = "I'm so excited :)"
+def introduction_generation_api(entropy):
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "system", "content": "You are a poet introducing a player to a game. Create a poem that is 2-6 lines long based on the following text"},
+            {"role": "user", "content": "Introduce the player to the game in a way that is smug, pedantic, or kind."}
+        ],
+        max_tokens=500,
+        n=1,
+        stop=None,
+        temperature=float((entropy * 2)),
+    )
 
-print("test")
+    # Extracting information
+    api_response = response['choices'][0]['message']['content'].strip()
+    api_response = f"\"{api_response}\""
+    model = response.model
+    role = response.choices[0].message['role']
+    finish_reason = response.choices[0].finish_reason
 
-def select_persona():
+    # Logging details
+    logger.debug(f"Generated Text: {api_response}\nDetails: Model: {model}, Role: {role}, Finish Reason: {finish_reason}")
+
+    logger.info(f"api_response for introduction_generation_api is: {api_response}")
+    return api_response
+
+
+
+
+def select_persona2():
     personas = {
         "poets" : {
             "Juan": "You are Juan, a poet. You are a beam of light. "
@@ -40,8 +68,7 @@ def select_persona():
     #logger.info(f"select persona: {selected_persona_content}")
     return selected_persona_content
 
-# temporarily not using this one 
-def select_persona2():
+def select_persona():
     personas = {
         "poets" : {
             "Shelley": "You are Shelley, a poet. You are a force of dark energy. "
