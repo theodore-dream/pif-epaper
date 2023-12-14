@@ -138,3 +138,191 @@ whimsical
 orchestrate
 nebulous
 flotilla
+2023-12-14 00:26:53,872 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 00:26:53,981 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 00:26:58,365 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+nebula
+fluctuate
+whimsical
+circuitry
+2023-12-14 00:26:58,373 - poem_gen - INFO - ==========================
+2023-12-14 00:26:58,376 - poem_gen - INFO - persona is: Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-14 00:26:58,378 - poem_gen - INFO - lang_device is: personification
+2023-12-14 00:26:58,383 - poem_gen - INFO - abstract_concept is: discipline
+2023-12-14 00:26:58,386 - poem_gen - INFO - entropy is: 0.37
+2023-12-14 00:26:58,389 - poem_gen - INFO - creative_starting_prompt: cascade
+nebula
+fluctuate
+whimsical
+circuitry
+2023-12-14 00:26:58,398 - poem_gen - DEBUG - creative_prompt: cascade
+nebula
+fluctuate
+whimsical
+circuitry
+2023-12-14 00:27:00,131 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VYXKWKcK7sBowLY2e3w62OQuU9Ql",
+  "object": "chat.completion",
+  "created": 1702531618,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Nebula cascade,\\nFluctuate in whimsy dance,\\nCircuitry of stars.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 134,
+    "completion_tokens": 26,
+    "total_tokens": 160
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 00:27:00,145 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-14 00:27:13,818 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+mirthful
+hypothesize
+flotilla
+crevice
+2023-12-14 00:27:13,827 - poem_gen - INFO - ==========================
+2023-12-14 00:27:13,831 - poem_gen - INFO - persona is: Mortimer
+2023-12-14 00:27:13,834 - poem_gen - INFO - lang_device is: simile
+2023-12-14 00:27:13,837 - poem_gen - INFO - abstract_concept is: amusement
+2023-12-14 00:27:13,840 - poem_gen - INFO - entropy is: 0.37
+2023-12-14 00:27:13,843 - poem_gen - INFO - creative_starting_prompt: cascade
+mirthful
+hypothesize
+flotilla
+crevice
+2023-12-14 00:27:18,921 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VYXaA28eoPLYzvoI1cgKdpwWWSgl",
+  "object": "chat.completion",
+  "created": 1702531634,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Content\": \"Ah, you've painted a cosmos with your words! I hypothesize our laughter might be a mirthful flotilla, sailing across the crevice between reality and dreams, much like a cascade of light amongst the stars.\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 53,
+    "total_tokens": 269
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 00:27:18,928 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-14 00:28:02,236 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 00:28:02,351 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 00:28:06,226 - poem_gen - INFO - gen_creative_prompt_api words are:
+serenity
+glow
+cascade
+whisper
+grit
+2023-12-14 00:28:06,235 - poem_gen - INFO - ==========================
+2023-12-14 00:28:06,241 - poem_gen - INFO - persona is: Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-14 00:28:06,246 - poem_gen - INFO - lang_device is: synecdoche
+2023-12-14 00:28:06,251 - poem_gen - INFO - abstract_concept is: dignity
+2023-12-14 00:28:06,255 - poem_gen - INFO - entropy is: 0.42
+2023-12-14 00:28:06,260 - poem_gen - INFO - creative_starting_prompt: serenity
+glow
+cascade
+whisper
+grit
+2023-12-14 00:28:06,274 - poem_gen - DEBUG - creative_prompt: serenity
+glow
+cascade
+whisper
+grit
+2023-12-14 00:35:50,506 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 00:35:50,619 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 00:35:56,313 - poem_gen - INFO - gen_creative_prompt_api words are:
+quantum
+flabbergasted
+kerfuffle
+perambulate
+equinox
+2023-12-14 00:35:56,344 - poem_gen - INFO - ==========================
+2023-12-14 00:35:56,348 - poem_gen - INFO - persona is: Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-14 00:35:56,353 - poem_gen - INFO - lang_device is: idiom
+2023-12-14 00:35:56,358 - poem_gen - INFO - abstract_concept is: innocence
+2023-12-14 00:35:56,361 - poem_gen - INFO - entropy is: 0.47
+2023-12-14 00:35:56,367 - poem_gen - INFO - creative_starting_prompt: quantum
+flabbergasted
+kerfuffle
+perambulate
+equinox
+2023-12-14 00:36:01,096 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VYg0rL2TyqN2UdZU1EPsvXhf1mBm",
+  "object": "chat.completion",
+  "created": 1702532156,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In this quantum space we weave so vast, I find myself flabbergasted fast. Our text kerfuffle in conversation bends, as we perambulate towards friendship's trends. Yet as the equinox balances night and day, I seek clear words to rightly convey.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 181,
+    "completion_tokens": 60,
+    "total_tokens": 241
+  },
+  "system_fingerprint": "fp_b77c6a5c40"
+}
+2023-12-14 00:36:01,099 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-14 00:36:16,237 - poem_gen - INFO - gen_creative_prompt_api words are:
+1. Whirlwind
+2. Enthrall
+3. Exuberant
+4. Mosaic
+5. Vortex
+2023-12-14 00:36:16,249 - poem_gen - INFO - ==========================
+2023-12-14 00:36:16,252 - poem_gen - INFO - persona is: Alice
+2023-12-14 00:36:16,254 - poem_gen - INFO - lang_device is: alliteration
+2023-12-14 00:36:16,257 - poem_gen - INFO - abstract_concept is: awe
+2023-12-14 00:36:16,259 - poem_gen - INFO - entropy is: 0.47
+2023-12-14 00:36:16,262 - poem_gen - INFO - creative_starting_prompt: 1. Whirlwind
+2. Enthrall
+3. Exuberant
+4. Mosaic
+5. Vortex
+2023-12-14 00:36:19,291 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VYgKcI8GCzWLSXvRRWyD5BV217Qk",
+  "object": "chat.completion",
+  "created": 1702532176,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In this swirling vortex of connection so bright, your words enthral and fill the night. Our chat, a mosaic, exuberant and free, crafts a whirlwind path to camaraderie.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 264,
+    "completion_tokens": 45,
+    "total_tokens": 309
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 00:36:19,293 - poem_gen - DEBUG - poem_gen completed successfully
