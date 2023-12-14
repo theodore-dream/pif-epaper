@@ -326,3 +326,743 @@ equinox
   "system_fingerprint": "fp_6aca3b5ce1"
 }
 2023-12-14 00:36:19,293 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-14 16:44:27,177 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 16:44:27,303 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 16:44:48,215 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 16:44:48,332 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 16:45:27,629 - poem_gen - INFO - gen_creative_prompt_api words are:
+flourish
+quintessence
+melancholy
+circuit
+whisper
+2023-12-14 16:45:27,638 - poem_gen - INFO - ==========================
+2023-12-14 16:45:27,643 - poem_gen - INFO - persona is: Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-12-14 16:45:27,647 - poem_gen - INFO - lang_device is: anachronism
+2023-12-14 16:45:27,651 - poem_gen - INFO - abstract_concept is: embarrassment
+2023-12-14 16:45:27,654 - poem_gen - INFO - entropy is: 0.29
+2023-12-14 16:45:27,657 - poem_gen - INFO - creative_starting_prompt: flourish
+quintessence
+melancholy
+circuit
+whisper
+2023-12-14 16:45:32,264 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VnoFqjfp0AFOSPwftG2l5hj6d8OX",
+  "object": "chat.completion",
+  "created": 1702590327,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Ah, in the digital labyrinth where circuits intertwine, might our whispers carry the quintessence of a mutual muse? Yet, there lies a melancholy in our pixelated flourish, as clarity eludes our poetic discourse.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 50,
+    "total_tokens": 270
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 16:45:32,267 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-14 16:45:45,624 - poem_gen - INFO - gen_creative_prompt_api words are:
+umbrella
+harmony
+whisper
+circuit
+blossom
+2023-12-14 16:45:45,635 - poem_gen - INFO - ==========================
+2023-12-14 16:45:45,642 - poem_gen - INFO - persona is: Edward. Edward, you are a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-12-14 16:45:45,647 - poem_gen - INFO - lang_device is: enjambment
+2023-12-14 16:45:45,651 - poem_gen - INFO - abstract_concept is: freedom
+2023-12-14 16:45:45,657 - poem_gen - INFO - entropy is: 0.29
+2023-12-14 16:45:45,662 - poem_gen - INFO - creative_starting_prompt: umbrella
+harmony
+whisper
+circuit
+blossom
+2023-12-14 16:45:48,576 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VnoX0EYVB3uLJXtzwZcKVCirTmjT",
+  "object": "chat.completion",
+  "created": 1702590345,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Like an umbrella in a tempest, we seek harmony amid chaos, our whispers blooming through circuits, a fusion of tech and spirit, where each byte blossoms with our thoughts' essence.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 284,
+    "completion_tokens": 44,
+    "total_tokens": 328
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 16:45:48,579 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-14 16:49:29,615 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 16:49:29,724 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 16:49:33,508 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+mirthful
+radiator
+eclipse
+harpoon
+2023-12-14 16:49:33,531 - poem_gen - INFO - ==========================
+2023-12-14 16:49:33,535 - poem_gen - INFO - persona is: Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-12-14 16:49:33,539 - poem_gen - INFO - lang_device is: irony
+2023-12-14 16:49:33,543 - poem_gen - INFO - abstract_concept is: hope
+2023-12-14 16:49:33,546 - poem_gen - INFO - entropy is: 0.34
+2023-12-14 16:49:33,548 - poem_gen - INFO - creative_starting_prompt: cascade
+mirthful
+radiator
+eclipse
+harpoon
+2023-12-14 16:49:39,596 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VnsDJHvWbsQGrw8HfcbMoUHtEsxE",
+  "object": "chat.completion",
+  "created": 1702590573,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Ah, in the cascade of our dialogue, where mirthful laughter intertwines, I sense warmth, like a radiator in winter's chill. Yet, as we dance around our words, do we eclipse the truth? Or is this banter a harpoon, aiming for a connection deep beneath the surface?\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 67,
+    "total_tokens": 285
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 16:49:39,604 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-14 16:49:53,258 - poem_gen - INFO - gen_creative_prompt_api words are:
+prelude
+astronomy
+whisper
+cathedral
+briskly
+2023-12-14 16:49:53,268 - poem_gen - INFO - ==========================
+2023-12-14 16:49:53,272 - poem_gen - INFO - persona is: Mortimer
+2023-12-14 16:49:53,275 - poem_gen - INFO - lang_device is: idiom
+2023-12-14 16:49:53,278 - poem_gen - INFO - abstract_concept is: charm
+2023-12-14 16:49:53,282 - poem_gen - INFO - entropy is: 0.34
+2023-12-14 16:49:53,285 - poem_gen - INFO - creative_starting_prompt: prelude
+astronomy
+whisper
+cathedral
+briskly
+2023-12-14 16:49:57,700 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VnsX2RbCaBbLXOXF104HV7kryyo9",
+  "object": "chat.completion",
+  "created": 1702590593,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Our exchanges, a prelude to the cosmos' secrets, whisper like stars in the vast cathedral of night. We move briskly, not to eclipse truth, but to reveal it; our banter, the comet tail leading to the core of connection.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 260,
+    "completion_tokens": 56,
+    "total_tokens": 316
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 16:49:57,702 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-14 16:58:52,164 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 16:58:52,338 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 16:58:58,453 - poem_gen - INFO - gen_creative_prompt_api words are:
+tranquility
+circuit
+whimsical
+cobblestone
+fluctuate
+2023-12-14 16:58:58,472 - poem_gen - INFO - ==========================
+2023-12-14 16:58:58,475 - poem_gen - INFO - persona is: Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-12-14 16:58:58,480 - poem_gen - INFO - lang_device is: consonance
+2023-12-14 16:58:58,489 - poem_gen - INFO - abstract_concept is: balance
+2023-12-14 16:58:58,492 - poem_gen - INFO - entropy is: 0.39
+2023-12-14 16:58:58,501 - poem_gen - INFO - creative_starting_prompt: tranquility
+circuit
+whimsical
+cobblestone
+fluctuate
+2023-12-14 16:59:01,982 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8Vo1K0sU4j0Axvm0Ku3PYGZEP8aKD",
+  "object": "chat.completion",
+  "created": 1702591138,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Amidst the tranquility of our digital exchange, circuits of emotion ebb and flow, whimsically connecting us like cobblestones laid by unseen hands. Our words, though they may fluctuate, craft a path to understanding.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 52,
+    "total_tokens": 273
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 16:59:01,985 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-14 16:59:15,503 - poem_gen - INFO - gen_creative_prompt_api words are:
+quintessence
+mirthful
+catalyst
+fjord
+twilight
+2023-12-14 16:59:15,511 - poem_gen - INFO - ==========================
+2023-12-14 16:59:15,514 - poem_gen - INFO - persona is: Edward
+2023-12-14 16:59:15,516 - poem_gen - INFO - lang_device is: irony
+2023-12-14 16:59:15,519 - poem_gen - INFO - abstract_concept is: loneliness
+2023-12-14 16:59:15,521 - poem_gen - INFO - entropy is: 0.39
+2023-12-14 16:59:15,524 - poem_gen - INFO - creative_starting_prompt: quintessence
+mirthful
+catalyst
+fjord
+twilight
+2023-12-14 16:59:19,546 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8Vo1bh6Y5LweF2SEJZ4weLHNqzTHC",
+  "object": "chat.completion",
+  "created": 1702591155,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Indeed, the quintessence of our conversation is like a fjord, deep and meandering, with the twilight of understanding softly descending upon us. Each message, a catalyst for laughter and mirthful connection, bridges the distance as if by magic.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 245,
+    "completion_tokens": 56,
+    "total_tokens": 301
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 16:59:19,551 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-14 17:02:21,697 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:02:21,810 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:02:25,708 - poem_gen - INFO - gen_creative_prompt_api words are:
+harmony
+vortex
+integrate
+meticulous
+flourish
+2023-12-14 17:02:25,718 - poem_gen - INFO - ==========================
+2023-12-14 17:02:25,725 - poem_gen - INFO - persona is: Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-12-14 17:02:25,732 - poem_gen - INFO - lang_device is: oxymoron
+2023-12-14 17:02:25,737 - poem_gen - INFO - abstract_concept is: joy
+2023-12-14 17:02:25,743 - poem_gen - INFO - entropy is: 0.44
+2023-12-14 17:02:25,746 - poem_gen - INFO - creative_starting_prompt: harmony
+vortex
+integrate
+meticulous
+flourish
+2023-12-14 17:02:27,875 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8Vo4fDuD0ZtWRTDuIGtQ3Ga9sIHoz",
+  "object": "chat.completion",
+  "created": 1702591345,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In the harmony of our digital exchange, we spiral through the vortex of connection, integrating meticulously, as words flourish in the gardens of our minds.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 34,
+    "total_tokens": 252
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-14 17:02:27,895 - poem_gen - DEBUG - poem_gen completed successfully, gametext is In the harmony of our digital exchange, we spiral through the vortex of connection, integrating meticulously, as words flourish in the gardens of our minds.
+2023-12-14 17:02:42,275 - poem_gen - INFO - gen_creative_prompt_api words are:
+detection
+flourish
+quaint
+murmur
+aviary
+2023-12-14 17:02:42,288 - poem_gen - INFO - ==========================
+2023-12-14 17:02:42,293 - poem_gen - INFO - persona is: Edward. Edward, you are a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-12-14 17:02:42,297 - poem_gen - INFO - lang_device is: idiom
+2023-12-14 17:02:42,302 - poem_gen - INFO - abstract_concept is: torment
+2023-12-14 17:02:42,306 - poem_gen - INFO - entropy is: 0.44
+2023-12-14 17:02:42,312 - poem_gen - INFO - creative_starting_prompt: detection
+flourish
+quaint
+murmur
+aviary
+2023-12-14 17:02:55,755 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:02:55,866 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:03:00,198 - poem_gen - INFO - gen_creative_prompt_api words are:
+escalator
+quizzical
+camouflage
+thumbnail
+pioneer
+2023-12-14 17:03:00,212 - poem_gen - INFO - ==========================
+2023-12-14 17:03:00,218 - poem_gen - INFO - persona is: Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-12-14 17:03:00,223 - poem_gen - INFO - lang_device is: consonance
+2023-12-14 17:03:00,229 - poem_gen - INFO - abstract_concept is: humiliation
+2023-12-14 17:03:00,234 - poem_gen - INFO - entropy is: 0.49
+2023-12-14 17:03:00,239 - poem_gen - INFO - creative_starting_prompt: escalator
+quizzical
+camouflage
+thumbnail
+pioneer
+2023-12-14 17:03:03,121 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8Vo5ExfTU1M4viOT9X9AwzuQx7vyF",
+  "object": "chat.completion",
+  "created": 1702591380,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Like a pioneer on digital frontiers, we traverse, escalator of discourse ascending quizzically. In a pixelated camouflage, we hide our thumbnails of identity, seeking a mutual rhythm in the chaotic poetry of connection.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 49,
+    "total_tokens": 267
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:03:03,124 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Like a pioneer on digital frontiers, we traverse, escalator of discourse ascending quizzically. In a pixelated camouflage, we hide our thumbnails of identity, seeking a mutual rhythm in the chaotic poetry of connection.
+2023-12-14 17:03:16,851 - poem_gen - INFO - gen_creative_prompt_api words are:
+Perspective
+Whirlwind
+Eloquent
+Orchard
+Glimmer
+2023-12-14 17:03:16,870 - poem_gen - INFO - ==========================
+2023-12-14 17:03:16,875 - poem_gen - INFO - persona is: Mortimer
+2023-12-14 17:03:16,882 - poem_gen - INFO - lang_device is: irony
+2023-12-14 17:03:16,889 - poem_gen - INFO - abstract_concept is: humiliation
+2023-12-14 17:03:16,896 - poem_gen - INFO - entropy is: 0.49
+2023-12-14 17:03:16,902 - poem_gen - INFO - creative_starting_prompt: Perspective
+Whirlwind
+Eloquent
+Orchard
+Glimmer
+2023-12-14 17:03:21,256 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8Vo5V37BdX5blXxJApgExaQZdyewQ",
+  "object": "chat.completion",
+  "created": 1702591397,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Indeed, our digital odyssey repaints perspective in a whirlwind of pixels, the eloquence of our journey through this orchard of icons and ideas. Each shared glimmer, though cloaked in anonymity, can be a profound connection, albeit tinged with the soft humiliation of our own vulnerability.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 239,
+    "completion_tokens": 65,
+    "total_tokens": 304
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-14 17:03:21,258 - poem_gen - DEBUG - poem_gen completed successfully, gametext is <function match_gametext_api at 0xb3ec9a00>
+2023-12-14 17:05:25,939 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:05:26,050 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:05:30,554 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+nebula
+quench
+sonnet
+glisten
+2023-12-14 17:05:30,564 - poem_gen - INFO - ==========================
+2023-12-14 17:05:30,574 - poem_gen - INFO - persona is: Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-12-14 17:05:30,580 - poem_gen - INFO - lang_device is: personification
+2023-12-14 17:05:30,585 - poem_gen - INFO - abstract_concept is: injustice
+2023-12-14 17:05:30,588 - poem_gen - INFO - entropy is: 0.54
+2023-12-14 17:05:30,594 - poem_gen - INFO - creative_starting_prompt: cascade
+nebula
+quench
+sonnet
+glisten
+2023-12-14 17:05:34,883 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8Vo7etQxLaco8yO1jK454OI9b6Jbb",
+  "object": "chat.completion",
+  "created": 1702591530,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Ah, amid our digital cascade, connections form, likened to a nebula's birth. To quench the thirst of the heart, words I stitch in a sonnet's breath, where even screens may glisten with unspoken worth.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 54,
+    "total_tokens": 272
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:05:34,886 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Ah, amid our digital cascade, connections form, likened to a nebula's birth. To quench the thirst of the heart, words I stitch in a sonnet's breath, where even screens may glisten with unspoken worth.
+2023-12-14 17:05:48,608 - poem_gen - INFO - gen_creative_prompt_api words are:
+inspiration
+umbrella
+benevolent
+galaxy
+whisper
+2023-12-14 17:05:48,618 - poem_gen - INFO - ==========================
+2023-12-14 17:05:48,625 - poem_gen - INFO - persona is: Edward
+2023-12-14 17:05:48,630 - poem_gen - INFO - lang_device is: synecdoche
+2023-12-14 17:05:48,636 - poem_gen - INFO - abstract_concept is: transience
+2023-12-14 17:05:48,641 - poem_gen - INFO - entropy is: 0.54
+2023-12-14 17:05:48,647 - poem_gen - INFO - creative_starting_prompt: inspiration
+umbrella
+benevolent
+galaxy
+whisper
+2023-12-14 17:05:51,949 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8Vo7wZ7wfrpxPgkOCkMB01wpQN2cR",
+  "object": "chat.completion",
+  "created": 1702591548,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Much like stars under an umbrella sky, our digital whispers trace a pattern so benign. Benevolent echoes in the galaxy of our chat, a transient inspiration \u2014 softly spoken, yet infinitely vast.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 242,
+    "completion_tokens": 43,
+    "total_tokens": 285
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:05:51,951 - poem_gen - DEBUG - match_gametext_api content being passed on is <function match_gametext_api at 0xb3f14a00>
+2023-12-14 17:05:51,953 - poem_gen - DEBUG - poem_gen completed successfully, gametext is <function match_gametext_api at 0xb3f14a00>
+2023-12-14 17:06:45,796 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:06:45,908 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:06:49,728 - poem_gen - INFO - gen_creative_prompt_api words are:
+jubilant
+threshold
+nebulous
+cascade
+crusade
+2023-12-14 17:06:49,737 - poem_gen - INFO - ==========================
+2023-12-14 17:06:49,742 - poem_gen - INFO - persona is: Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-12-14 17:06:49,746 - poem_gen - INFO - lang_device is: anachronism
+2023-12-14 17:06:49,750 - poem_gen - INFO - abstract_concept is: loneliness
+2023-12-14 17:06:49,754 - poem_gen - INFO - entropy is: 0.59
+2023-12-14 17:06:49,758 - poem_gen - INFO - creative_starting_prompt: jubilant
+threshold
+nebulous
+cascade
+crusade
+2023-12-14 17:06:53,719 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8Vo8vWw1aqayB91VXSemCsET1r7ub",
+  "object": "chat.completion",
+  "created": 1702591609,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Ah, upon this jubilant threshold we teeter, as words cascade in nebulous torrents, akin to a crusade for the connection's holy grail. Yet clarity, she dances just beyond our clutch, within the realm where kindled spirits dwell, do we dare to follow?\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 63,
+    "total_tokens": 282
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:06:53,722 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Ah, upon this jubilant threshold we teeter, as words cascade in nebulous torrents, akin to a crusade for the connection's holy grail. Yet clarity, she dances just beyond our clutch, within the realm where kindled spirits dwell, do we dare to follow?
+2023-12-14 17:07:07,417 - poem_gen - INFO - gen_creative_prompt_api words are:
+navigate
+clarity
+whisper
+eclipse
+barrel
+2023-12-14 17:07:07,426 - poem_gen - INFO - ==========================
+2023-12-14 17:07:07,430 - poem_gen - INFO - persona is: Edward. Edward, you are a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-12-14 17:07:07,434 - poem_gen - INFO - lang_device is: metaphor
+2023-12-14 17:07:07,440 - poem_gen - INFO - abstract_concept is: memory
+2023-12-14 17:07:07,444 - poem_gen - INFO - entropy is: 0.59
+2023-12-14 17:07:07,446 - poem_gen - INFO - creative_starting_prompt: navigate
+clarity
+whisper
+eclipse
+barrel
+2023-12-14 17:07:10,336 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8Vo9DRSsj7ljdCTGjyRaKBZqYycTr",
+  "object": "chat.completion",
+  "created": 1702591627,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"As navigators of a kindred taste, let\u2019s whisper to the clarity that eludes, like an eclipse of heart we witness together, our memories\u2014in barrels aged\u2014uncorking to a finer note.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 293,
+    "completion_tokens": 47,
+    "total_tokens": 340
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-14 17:07:10,338 - poem_gen - DEBUG - match_gametext_api content being passed on is As navigators of a kindred taste, let’s whisper to the clarity that eludes, like an eclipse of heart we witness together, our memories—in barrels aged—uncorking to a finer note.
+2023-12-14 17:07:10,341 - poem_gen - DEBUG - poem_gen completed successfully, gametext is As navigators of a kindred taste, let’s whisper to the clarity that eludes, like an eclipse of heart we witness together, our memories—in barrels aged—uncorking to a finer note.
+2023-12-14 17:07:26,000 - poem_gen - INFO - gen_creative_prompt_api words are:
+serendipity
+labyrinthine
+trust
+marvelous
+flotilla
+2023-12-14 17:07:26,014 - poem_gen - INFO - ==========================
+2023-12-14 17:07:26,018 - poem_gen - INFO - persona is: Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-12-14 17:07:26,023 - poem_gen - INFO - lang_device is: assonance
+2023-12-14 17:07:26,028 - poem_gen - INFO - abstract_concept is: belonging
+2023-12-14 17:07:26,033 - poem_gen - INFO - entropy is: 0.64
+2023-12-14 17:07:26,038 - poem_gen - INFO - creative_starting_prompt: serendipity
+labyrinthine
+trust
+marvelous
+flotilla
+2023-12-14 17:07:29,689 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8Vo9WgjY3HVBn1UiO3gk9ZyZBwlCN",
+  "object": "chat.completion",
+  "created": 1702591646,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Ah! The serendipity found in virtual connections, a trust unfolding like a labyrinthine passage, with marvelous exchanges as spontaneous as a flotilla set free upon the currents. Together, navigating these digital waves.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 49,
+    "total_tokens": 271
+  },
+  "system_fingerprint": "fp_b77c6a5c40"
+}
+2023-12-14 17:07:29,693 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Ah! The serendipity found in virtual connections, a trust unfolding like a labyrinthine passage, with marvelous exchanges as spontaneous as a flotilla set free upon the currents. Together, navigating these digital waves.
+2023-12-14 17:07:43,627 - poem_gen - INFO - gen_creative_prompt_api words are:
+revelation
+nested
+whisper
+clarity
+tangible
+2023-12-14 17:07:43,639 - poem_gen - INFO - ==========================
+2023-12-14 17:07:43,645 - poem_gen - INFO - persona is: Mortimer
+2023-12-14 17:07:43,652 - poem_gen - INFO - lang_device is: consonance
+2023-12-14 17:07:43,657 - poem_gen - INFO - abstract_concept is: wit
+2023-12-14 17:07:43,662 - poem_gen - INFO - entropy is: 0.64
+2023-12-14 17:07:43,667 - poem_gen - INFO - creative_starting_prompt: revelation
+nested
+whisper
+clarity
+tangible
+2023-12-14 17:07:47,817 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8Vo9nxo9U5WaAfNXVinthSnQeLKWN",
+  "object": "chat.completion",
+  "created": 1702591663,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Indeed, it's like whispers in a vast library of Babel, each revelation unfurling in nested conversation, bringing a clarity so tangible it rivals the touch of a hand.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 235,
+    "completion_tokens": 41,
+    "total_tokens": 276
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:07:47,819 - poem_gen - DEBUG - match_gametext_api content being passed on is Indeed, it's like whispers in a vast library of Babel, each revelation unfurling in nested conversation, bringing a clarity so tangible it rivals the touch of a hand.
+2023-12-14 17:07:47,821 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Indeed, it's like whispers in a vast library of Babel, each revelation unfurling in nested conversation, bringing a clarity so tangible it rivals the touch of a hand.
+2023-12-14 17:08:01,662 - poem_gen - INFO - gen_creative_prompt_api words are:
+cafe
+inquire
+rapidly
+flourish
+ceremony
+2023-12-14 17:08:01,672 - poem_gen - INFO - ==========================
+2023-12-14 17:08:01,676 - poem_gen - INFO - persona is: Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-12-14 17:08:01,680 - poem_gen - INFO - lang_device is: idiom
+2023-12-14 17:08:01,683 - poem_gen - INFO - abstract_concept is: passion
+2023-12-14 17:08:01,687 - poem_gen - INFO - entropy is: 0.69
+2023-12-14 17:08:01,691 - poem_gen - INFO - creative_starting_prompt: cafe
+inquire
+rapidly
+flourish
+ceremony
+2023-12-14 17:08:06,603 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoA5n7Nde6qqXu8qo4VZWq2UkfrR",
+  "object": "chat.completion",
+  "created": 1702591681,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In the web-woven depths of white and black, frequent I venue at the cyber cafe, where affinity grows amidst backgrounds static. Shall we inquire into one another's frame, pace the dialogue as electrons breeze rapidly sparking, disclose dreams where notions flourish-au fait? Is this odd ceremony of digital prose, a cryptic courtship coded to please?\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 74,
+    "total_tokens": 292
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:08:06,606 - poem_gen - DEBUG - poem_gen completed successfully, gametext is In the web-woven depths of white and black, frequent I venue at the cyber cafe, where affinity grows amidst backgrounds static. Shall we inquire into one another's frame, pace the dialogue as electrons breeze rapidly sparking, disclose dreams where notions flourish-au fait? Is this odd ceremony of digital prose, a cryptic courtship coded to please?
+2023-12-14 17:08:20,254 - poem_gen - INFO - gen_creative_prompt_api words are:
+whirlwind
+marionette
+rebuke
+cornucopia
+glisten
+2023-12-14 17:08:20,266 - poem_gen - INFO - ==========================
+2023-12-14 17:08:20,270 - poem_gen - INFO - persona is: Edward
+2023-12-14 17:08:20,275 - poem_gen - INFO - lang_device is: oxymoron
+2023-12-14 17:08:20,280 - poem_gen - INFO - abstract_concept is: frustration
+2023-12-14 17:08:20,285 - poem_gen - INFO - entropy is: 0.69
+2023-12-14 17:08:20,289 - poem_gen - INFO - creative_starting_prompt: whirlwind
+marionette
+rebuke
+cornucopia
+glisten
+2023-12-14 17:08:26,300 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoAOuw2DG4S2TkCuOBBqva82wq6L",
+  "object": "chat.completion",
+  "created": 1702591700,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Indeed, in this digital hall of mirrors, we dance\u2014a pair of marionettes en meshed in a virtual whirlwind of possibilities. Empty rebukes fall away as amid a cornucopia of sparkling prospects, we quest for connection, our inner ambit hoping to glisten beneath the scrutiny of pixels and wit. Yet so much lost in translation\u2014the frustrating gap!\u2014ciphered sentiments yearning for true understanding.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 263,
+    "completion_tokens": 88,
+    "total_tokens": 351
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:08:26,303 - poem_gen - DEBUG - match_gametext_api content being passed on is Indeed, in this digital hall of mirrors, we dance—a pair of marionettes en meshed in a virtual whirlwind of possibilities. Empty rebukes fall away as amid a cornucopia of sparkling prospects, we quest for connection, our inner ambit hoping to glisten beneath the scrutiny of pixels and wit. Yet so much lost in translation—the frustrating gap!—ciphered sentiments yearning for true understanding.
+2023-12-14 17:08:26,305 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Indeed, in this digital hall of mirrors, we dance—a pair of marionettes en meshed in a virtual whirlwind of possibilities. Empty rebukes fall away as amid a cornucopia of sparkling prospects, we quest for connection, our inner ambit hoping to glisten beneath the scrutiny of pixels and wit. Yet so much lost in translation—the frustrating gap!—ciphered sentiments yearning for true understanding.
+2023-12-14 17:08:40,820 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:08:40,929 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 17:08:45,221 - poem_gen - INFO - gen_creative_prompt_api words are:
+turquoise
+knight
+pancake
+engulf
+brigade
+2023-12-14 17:08:45,233 - poem_gen - INFO - ==========================
+2023-12-14 17:08:45,238 - poem_gen - INFO - persona is: Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-12-14 17:08:45,243 - poem_gen - INFO - lang_device is: allegory
+2023-12-14 17:08:45,247 - poem_gen - INFO - abstract_concept is: justice
+2023-12-14 17:08:45,253 - poem_gen - INFO - entropy is: 0.74
+2023-12-14 17:08:45,257 - poem_gen - INFO - creative_starting_prompt: turquoise
+knight
+pancake
+engulf
+brigade
+2023-12-14 17:08:51,790 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VoAnpIweqvQx9YRZFobck3xp9eiV",
+  "object": "chat.completion",
+  "created": 1702591725,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"In the realm of turquoise skies, I ponder, and ye Knight embarked on eloquent quests, do our aspirations pancake together, harmoniously sent? The tempest of desire might engulf, a platoon forming, a brigade intent; palpable affinities multiply\u2013 do our threads interwoven, exhibit consent?\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 71,
+    "total_tokens": 288
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 17:08:51,795 - poem_gen - DEBUG - poem_gen completed successfully, gametext is In the realm of turquoise skies, I ponder, and ye Knight embarked on eloquent quests, do our aspirations pancake together, harmoniously sent? The tempest of desire might engulf, a platoon forming, a brigade intent; palpable affinities multiply– do our threads interwoven, exhibit consent?

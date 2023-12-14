@@ -22,3 +22,98 @@
 2023-12-14 00:36:01,421 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
 2023-12-14 00:36:03,274 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
 2023-12-14 00:36:19,311 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 16:44:27,736 - epaper_write - INFO - Initializing epd3in52
+2023-12-14 16:44:48,584 - epaper_write - INFO - Initializing epd3in52
+2023-12-14 16:44:50,739 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-14 16:44:52,614 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-14 16:44:55,621 - epaper_write - INFO - Clear e-paper display...
+2023-12-14 16:44:59,505 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-14 16:45:01,389 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-14 16:45:11,413 - epaper_write - INFO - Clear e-paper display...
+2023-12-14 16:45:12,685 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 16:45:13,036 - epaper_write - INFO - entropy is 0.24
+2023-12-14 16:45:13,048 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-14 16:45:15,033 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-14 16:45:32,285 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 16:45:32,458 - epaper_write - INFO - entropy is 0.29
+2023-12-14 16:45:32,470 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-14 16:45:34,453 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-14 16:45:48,597 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 16:49:30,034 - epaper_write - INFO - Initializing epd3in52
+2023-12-14 16:49:39,624 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 16:49:39,804 - epaper_write - INFO - entropy is 0.34
+2023-12-14 16:49:39,879 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-14 16:49:41,819 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-14 16:49:57,717 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 16:49:57,721 - epaper_write - INFO - right text is <function match_gametext_api at 0xb3ec1a00>
+2023-12-14 16:58:52,891 - epaper_write - INFO - Initializing epd3in52
+2023-12-14 16:59:02,005 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 16:59:02,232 - epaper_write - INFO - entropy is 0.39
+2023-12-14 16:59:02,245 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-14 16:59:04,050 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-14 16:59:19,577 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 16:59:19,586 - epaper_write - INFO - right text is <function match_gametext_api at 0xb3ec4a00>
+2023-12-14 16:59:19,592 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-14 16:59:19,773 - epaper_write - INFO - Type of text: <class 'function'>
+2023-12-14 17:02:22,082 - epaper_write - INFO - Initializing epd3in52
+2023-12-14 17:02:27,926 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 17:02:28,165 - epaper_write - INFO - entropy is 0.44
+2023-12-14 17:02:28,189 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-14 17:02:30,722 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-14 17:02:56,128 - epaper_write - INFO - Initializing epd3in52
+2023-12-14 17:03:03,144 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 17:03:03,329 - epaper_write - INFO - entropy is 0.49
+2023-12-14 17:03:03,405 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-14 17:03:05,377 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-14 17:03:21,276 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 17:03:21,281 - epaper_write - INFO - right text is <function match_gametext_api at 0xb3ec9a00>
+2023-12-14 17:03:21,286 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-14 17:03:21,436 - epaper_write - INFO - Type of text: <class 'function'>
+2023-12-14 17:05:26,314 - epaper_write - INFO - Initializing epd3in52
+2023-12-14 17:05:34,906 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 17:05:35,132 - epaper_write - INFO - entropy is 0.54
+2023-12-14 17:05:35,146 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-14 17:05:37,141 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-14 17:05:51,971 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 17:05:51,976 - epaper_write - INFO - right text is <function match_gametext_api at 0xb3f14a00>
+2023-12-14 17:05:51,980 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-14 17:05:52,113 - epaper_write - INFO - Type of text: <class 'function'>
+2023-12-14 17:06:46,170 - epaper_write - INFO - Initializing epd3in52
+2023-12-14 17:06:53,745 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 17:06:53,934 - epaper_write - INFO - entropy is 0.59
+2023-12-14 17:06:53,947 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-14 17:06:55,874 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-14 17:07:10,359 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 17:07:10,363 - epaper_write - INFO - right text is As navigators of a kindred taste, let’s whisper to the clarity that eludes, like an eclipse of heart we witness together, our memories—in barrels aged—uncorking to a finer note.
+2023-12-14 17:07:10,369 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-14 17:07:10,523 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-14 17:07:10,659 - epaper_write - INFO - entropy is 0.59
+2023-12-14 17:07:10,673 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-14 17:07:12,624 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-14 17:07:29,713 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 17:07:29,891 - epaper_write - INFO - entropy is 0.64
+2023-12-14 17:07:29,968 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-14 17:07:31,865 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-14 17:07:47,840 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 17:07:47,844 - epaper_write - INFO - right text is Indeed, it's like whispers in a vast library of Babel, each revelation unfurling in nested conversation, bringing a clarity so tangible it rivals the touch of a hand.
+2023-12-14 17:07:47,851 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-14 17:07:48,007 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-14 17:07:48,138 - epaper_write - INFO - entropy is 0.64
+2023-12-14 17:07:48,216 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-14 17:07:50,133 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-14 17:08:06,628 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 17:08:06,929 - epaper_write - INFO - entropy is 0.69
+2023-12-14 17:08:06,942 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-14 17:08:08,875 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-14 17:08:26,326 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 17:08:26,330 - epaper_write - INFO - right text is Indeed, in this digital hall of mirrors, we dance—a pair of marionettes en meshed in a virtual whirlwind of possibilities. Empty rebukes fall away as amid a cornucopia of sparkling prospects, we quest for connection, our inner ambit hoping to glisten beneath the scrutiny of pixels and wit. Yet so much lost in translation—the frustrating gap!—ciphered sentiments yearning for true understanding.
+2023-12-14 17:08:26,336 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-14 17:08:26,529 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-14 17:08:26,806 - epaper_write - INFO - entropy is 0.69
+2023-12-14 17:08:26,820 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-14 17:08:28,800 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-14 17:08:41,181 - epaper_write - INFO - Initializing epd3in52
+2023-12-14 17:08:51,820 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 17:08:52,159 - epaper_write - INFO - entropy is 0.74
+2023-12-14 17:08:52,178 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-14 17:08:54,627 - epaper_write - INFO - Dialogue displayed on e-paper successfully.

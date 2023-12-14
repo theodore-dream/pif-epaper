@@ -142,6 +142,7 @@ def display_dialogue_both(left_text, right_text, player_name, match_name, entrop
 
     font = ImageFont.truetype(FONT_PATH, FONT_SIZE)
     logger.info("Font loaded successfully.")
+    logger.info(f"right text is {right_text}")
 
     # Calculate new heights
     dialogue_height = int(EPAPER_HEIGHT * 0.8)  # 4/5 of the height for dialogue
@@ -155,6 +156,7 @@ def display_dialogue_both(left_text, right_text, player_name, match_name, entrop
 
     # Modify wrap_and_draw_text function to respect new height
     def wrap_and_draw_text(text, x_offset, y_limit):
+        logger.info(f"Type of text: {type(text)}")
         y = 10  # Top margin
         for paragraph in text.split('\n'):
             lines = textwrap.wrap(paragraph, width=max_char_per_line)

@@ -94,8 +94,9 @@ def match_gametext_api(entropy, persona, player_gametext, creative_prompt, abstr
             "content": (
                 f"You are having a conversation. This is what they just said to you {player_gametext}. Review this provided input and " 
                 f"consider your response. You may choose to be inspired by the following words: {creative_prompt}."
-                "you may want to consider incorporating {abstract_concept}. If needed, modify the output to be less than 3 lines in a concise"
+                f"you may want to consider incorporating {abstract_concept}. If needed, modify the output to be less than 3 lines in a concise"
                 "and artful way that retains the meaning of original content. Remember you're having a conversation."
+                "You strongly dislike the person you're talking to and want to make it clear you no longer want to talk to them."
                 "The output should be in a JSON object with a single key 'Content'."
             )
         }
@@ -111,14 +112,14 @@ def match_gametext_api(entropy, persona, player_gametext, creative_prompt, abstr
     )
 
     if completion['choices'][0]['message']['role'] == "assistant":
-        step_2_response = completion['choices'][0]['message']['content'].strip()
-        step_2_poem_data = loads(step_2_response)  # Parse the JSON content
+        api_response = completion['choices'][0]['message']['content'].strip()
+        api_poem_data = loads(api_response)  # Parse the JSON content
 
-        if "Content" in step_2_poem_data:
-            step_2_poem = step_2_poem_data["Content"]  # Extract the poem from the parsed data
+        if "Content" in api_poem_data:
+            match_api_output = api_poem_data["Content"]  # Extract the poem from the parsed data
         else:
             logger.error("Content key not found in response")
-            step_2_poem = "Content not generated"
+            match_api_output = "Content not generated"
     else:
         pass
 
@@ -126,16 +127,8 @@ def match_gametext_api(entropy, persona, player_gametext, creative_prompt, abstr
     #logger.info(f"API request step2 is message: {messages}")
     # Log the entire response for debugging
     logger.debug(f"API completion response: {completion}")
-    return match_gametext_api
-
-def api_poem_pipeline(creative_prompt, player_persona, entropy, abstract_concept):
-    player_gametext_api = player_gametext_api(creative_prompt, player_persona, entropy)
-    #logger.info (f"api_poem:\n{api_poem}")
-    #step_2_poem = poem_step_2(player_persona, entropy, api_poem, abstract_concept)
-    #logger.info (f"step_2_poem:\n{step_2_poem}")
-    #step_3_poem = poem_step_3(persona, entropy, step_2_poem)
-    #logger.info (f"step_3_poem:\n{step_3_poem}")
-    return api_poem
+    logger.debug(f"match_gametext_api content being passed on is {match_api_output}")
+    return match_api_output
 
 def parse_response(entropy, persona, player_gametext):
     # this part of the code goes WAY too slow. Removing the use of nltk for initial generation of the creative_prompt words
@@ -160,7 +153,7 @@ def parse_response(entropy, persona, player_gametext):
         gametext = player_gametext_api(entropy, persona, creative_prompt, abstract_concept)
 
     #logger.info(f"poem result:\n{poem_result}")
-    logger.debug("poem_gen completed successfully")
+    logger.debug(f"poem_gen completed successfully, gametext is {gametext}")
     return gametext
 
 #if __name__ == "__main__":
