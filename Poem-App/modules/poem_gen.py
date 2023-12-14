@@ -64,12 +64,30 @@ def poem_step_1(creative_prompt, player_persona, entropy):
     return step_1_poem
 
 # another API call to try to constrain the output
-def poem_step_2(persona, entropy, step_1_poem, abstract_concept):
+def match_gametext_api(entropy, persona, player_gametext, creative_prompt, abstract_concept):
 
     messages = [
-        {"role": "system", "content": f"{persona} You are an editor. You role is to modify the text provided to the specifications you are given. "},
-        {"role": "user", "content": f"review the provided output: " + step_1_poem + " and if needed, modify the output to be less than 3 lines in a concise and artful way that retains the meaning of original content. The output should be in a JSON object with a single key 'Content'."},
+        {
+            "role": "system",
+            "content": (
+                f"This is a description of who you are. {persona}. You are having a conversation. You are on a date. You will respond to the provided speech "
+                "and incorporate the provided creative prompt and abstract concepts while still maintaining a conversational tone. "
+                "The output should be in a JSON object with a single key 'Content'. For example: {'Content': 'Roses are red.'}."
+            )
+        },
+        {
+            "role": "user",
+            "content": (
+                f"You are having a conversation. This is what they just said to you {player_gametext}. Review this provided input and " 
+                f"consider your response. You may choose to be inspired by the following words: {creative_prompt}."
+                "you may want to consider incorporating {abstract_concept}. If needed, modify the output to be less than 3 lines in a concise"
+                "and artful way that retains the meaning of original content. Remember you're having a conversation."
+                "The output should be in a JSON object with a single key 'Content'."
+            )
+        }
     ]
+
+    
     completion = openai.ChatCompletion.create(
         model="gpt-4-1106-preview",
         messages=messages,
@@ -106,14 +124,19 @@ def api_poem_pipeline(creative_prompt, player_persona, entropy, abstract_concept
     #logger.info (f"step_3_poem:\n{step_3_poem}")
     return step_1_poem
 
-def parse_response(entropy, player_persona):
+def parse_response(entropy, persona, player_gametext):
     # this part of the code goes WAY too slow. Removing the use of nltk for initial generation of the creative_prompt words
     #creative_prompt = create_vars.gen_creative_prompt(create_vars.gen_random_words(entropy), entropy)
     creative_prompt = create_vars.gen_creative_prompt_api(entropy)
     abstract_concept = create_vars.get_abstract_concept()
+    logger.info(f"abstract concept is: {abstract_concept}")
     lang_device = create_vars.get_lang_device()
 
-    logger.debug(f"player_persona is: {player_persona}")
+    if player_gametext is not None:
+        # this is the path for the match to create gametext
+        match_gametext_api(entropy, persona, player_gametext, creative_prompt, abstract_concept)
+
+    logger.debug(f"persona is: {persona}")
     logger.debug(f"lang_device is: {lang_device}")
     logger.debug(f"abstract_concept is: {abstract_concept}")
     logger.debug(f"entropy is: {entropy}")
@@ -121,7 +144,7 @@ def parse_response(entropy, player_persona):
     logger.debug(f"==========================")
     logger.debug(f"creative_starting_prompt: {creative_prompt}")
 
-    poem_result = api_poem_pipeline(creative_prompt, player_persona, entropy, abstract_concept)
+    poem_result = api_poem_pipeline(creative_prompt, persona, entropy, abstract_concept)
     #logger.info(f"poem result:\n{poem_result}")
     logger.debug("poem_gen completed successfully")
     return poem_result

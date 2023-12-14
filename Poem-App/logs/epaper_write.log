@@ -713,3 +713,13 @@
 2023-12-13 23:27:37,716 - epaper_write - INFO - entropy is 0.16
 2023-12-13 23:27:37,728 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
 2023-12-13 23:27:39,518 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-14 00:01:06,929 - epaper_write - INFO - Initializing epd3in52
+2023-12-14 00:02:28,405 - epaper_write - INFO - Initializing epd3in52
+2023-12-14 00:02:36,748 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 00:02:37,050 - epaper_write - INFO - entropy is 0.26
+2023-12-14 00:02:37,064 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-14 00:02:38,952 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-14 00:03:06,794 - epaper_write - INFO - Font loaded successfully.
+2023-12-14 00:03:06,925 - epaper_write - INFO - entropy is 0.31
+2023-12-14 00:03:06,937 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-14 00:03:08,826 - epaper_write - INFO - Dialogue displayed on e-paper successfully.

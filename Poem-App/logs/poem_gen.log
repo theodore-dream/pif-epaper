@@ -11677,3 +11677,171 @@ harbor
   "system_fingerprint": "fp_6aca3b5ce1"
 }
 2023-12-13 23:27:37,334 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-14 00:01:06,510 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 00:01:06,623 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 00:02:27,777 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 00:02:27,976 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-14 00:02:33,524 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whimsical
+riddle
+benevolent
+sculpture
+2023-12-14 00:02:33,534 - poem_gen - INFO - abstract concept is: cheerfulness
+2023-12-14 00:02:33,542 - poem_gen - DEBUG - persona is: Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-12-14 00:02:33,545 - poem_gen - DEBUG - lang_device is: caesura
+2023-12-14 00:02:33,546 - poem_gen - DEBUG - abstract_concept is: cheerfulness
+2023-12-14 00:02:33,547 - poem_gen - DEBUG - entropy is: 0.26
+2023-12-14 00:02:33,548 - poem_gen - DEBUG - ==========================
+2023-12-14 00:02:33,550 - poem_gen - DEBUG - creative_starting_prompt: cascade
+whimsical
+riddle
+benevolent
+sculpture
+2023-12-14 00:02:33,551 - poem_gen - DEBUG - creative_prompt: cascade
+whimsical
+riddle
+benevolent
+sculpture
+2023-12-14 00:02:36,723 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VY9hYusEgbdu3s8b5xE6oAVropb5",
+  "object": "chat.completion",
+  "created": 1702530153,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Whimsical cascade,\\nRiddle in water's art form,\\nBenevolent stone.\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 174,
+    "completion_tokens": 27,
+    "total_tokens": 201
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 00:02:36,726 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-14 00:02:50,287 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+merriment
+fluctuate
+whimsical
+navigate
+2023-12-14 00:02:50,296 - poem_gen - INFO - abstract concept is: gleefulness
+2023-12-14 00:02:57,992 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VY9ydBXL1P7OaUDPhQ4eVBPzr2rq",
+  "object": "chat.completion",
+  "created": 1702530170,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Ah, like life's whimsical cascade, we navigate through merriment and fluctuation, with each moment a riddle, each choice a stone shaping the river's flow.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 41,
+    "total_tokens": 255
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 00:02:57,993 - poem_gen - DEBUG - persona is: Bob
+2023-12-14 00:02:57,994 - poem_gen - DEBUG - lang_device is: allegory
+2023-12-14 00:02:57,996 - poem_gen - DEBUG - abstract_concept is: gleefulness
+2023-12-14 00:02:57,997 - poem_gen - DEBUG - entropy is: 0.26
+2023-12-14 00:02:57,998 - poem_gen - DEBUG - ==========================
+2023-12-14 00:02:57,999 - poem_gen - DEBUG - creative_starting_prompt: cascade
+merriment
+fluctuate
+whimsical
+navigate
+2023-12-14 00:02:58,001 - poem_gen - DEBUG - creative_prompt: cascade
+merriment
+fluctuate
+whimsical
+navigate
+2023-12-14 00:03:01,064 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VYA6qD3lMFYXKzw0e72EBIskjHAz",
+  "object": "chat.completion",
+  "created": 1702530178,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Merriment cascades, whimsical tides fluctuate,\\nNavigating through laughter's whimsy,\\nAn ever-dancing, capricious escapade.\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 98,
+    "completion_tokens": 41,
+    "total_tokens": 139
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-14 00:03:01,067 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-14 00:03:02,730 - poem_gen - INFO - gen_creative_prompt_api words are:
+whale
+blossom
+strive
+quaint
+crunch
+2023-12-14 00:03:02,739 - poem_gen - INFO - abstract concept is: delight
+2023-12-14 00:03:02,742 - poem_gen - DEBUG - persona is: Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-12-14 00:03:02,744 - poem_gen - DEBUG - lang_device is: oxymoron
+2023-12-14 00:03:02,746 - poem_gen - DEBUG - abstract_concept is: delight
+2023-12-14 00:03:02,747 - poem_gen - DEBUG - entropy is: 0.31
+2023-12-14 00:03:02,749 - poem_gen - DEBUG - ==========================
+2023-12-14 00:03:02,750 - poem_gen - DEBUG - creative_starting_prompt: whale
+blossom
+strive
+quaint
+crunch
+2023-12-14 00:03:02,752 - poem_gen - DEBUG - creative_prompt: whale
+blossom
+strive
+quaint
+crunch
+2023-12-14 00:03:06,766 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VYAA74FsvA459HfDMN4R2FtOGOky",
+  "object": "chat.completion",
+  "created": 1702530182,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Whales in depths vast, strive with crunching song,\\nBlossoms quaint in motion, the ocean's strong throng.\\nIn the brine, giants' ballet, silent yet long.\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 168,
+    "completion_tokens": 48,
+    "total_tokens": 216
+  },
+  "system_fingerprint": "fp_b77c6a5c40"
+}
+2023-12-14 00:03:06,769 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-14 00:03:22,487 - poem_gen - INFO - gen_creative_prompt_api words are:
+metaphor
+quintessence
+fluctuate
+zealous
+bungalow
+2023-12-14 00:03:22,496 - poem_gen - INFO - abstract concept is: freedom

@@ -22,7 +22,7 @@ def introduction_generation_api(entropy):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are a poet introducing a player to a game. Create a poem that is 2-6 lines long based on the following text"},
+            {"role": "system", "content": "You are a poet introducing a player to a game. This is a game of creativity where things may be unexpected or confusing or random. Say a speech or create a poem that is 2-6 lines long based on the following text"},
             {"role": "user", "content": "Introduce the player to the game in a way that is smug, pedantic, or kind."}
         ],
         max_tokens=500,

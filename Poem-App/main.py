@@ -21,18 +21,6 @@ logger.debug("Logger is set up and running.")
 #init our display
 epaper_write.init_display()
 
-def player_poetry_gen(entropy, player_persona):    
-    player_gametext = poem_gen.parse_response(entropy, player_persona)
-    print("-" * 30)
-    logger.info(f"player_poetry_gen player_gametext is:\n{player_gametext}")
-    return player_gametext
-
-def match_poetry_gen(entropy, match_persona):
-    match_gametext = poem_gen.parse_response(entropy, match_persona)
-    print("-" * 30)
-    logger.info(f"match_poetry_gen match_gametext is:\n{match_gametext}")
-    return match_gametext
-
 def handle_option_l(entropy):
     # Implement game logic for Option A
     # Decrease entropy by .05, not going below 0
@@ -70,13 +58,28 @@ def handle_new_session(session_id, player_persona, match_persona, player_persona
     db_service.new_game_init_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy)
     return info_gametext, session_state
 
+def player_speech_gen(entropy, player_persona):    
+    # there is no gametext because we are creating it here
+    player_gametext = None
+    player_gametext = poem_gen.parse_response(entropy, player_persona, player_gametext)
+    print("-" * 30)
+    logger.info(f"player_speech_gen player_gametext is:\n{player_gametext}")
+    return player_gametext
+
+# here taking in the player_gametext as input
+def match_speech_gen(entropy, match_persona, player_gametext):
+    match_gametext = poem_gen.parse_response(entropy, match_persona, player_gametext)
+    print("-" * 30)
+    logger.info(f"match_speech_gen match_gametext is:\n{match_gametext}")
+    return match_gametext
+
 def handle_active_session(session_id, player_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, match_persona, entropy):
     logger.debug("Handling active session...")
-    player_gametext = player_poetry_gen(float(entropy), player_persona)
-    match_gametext = match_poetry_gen(float(entropy), match_persona)  # Replace with actual logic when available
+    # we are saving the game for the first time or the nth time, ensuring always active if player gets here
     session_state = "active"
     db_service.save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy)
-    #checkpoint saved
+    #checkpoint saved, session is now active
+    #issue now is there is no content to save, I guess it can just be None? 
     logger.info(f"checkpoint saved. session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy: {session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy}.")
     return player_gametext, match_gametext
 
@@ -95,11 +98,21 @@ def run_game(player_persona, match_persona, player_persona_name, match_persona_n
         match_gametext = match_persona
         epaper_write.display_dialogue(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
 
+    # this is the main game loop 
     elif session_state == "active":
         player_gametext = None
         match_gametext = None
         player_gametext, match_gametext = handle_active_session(session_id, player_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, match_persona, entropy)
-        epaper_write.display_dialogue(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
+        
+        
+        # here I want to give the player some options and add those options into player_speech_gen api call, need to split those out probably 
+        
+        # here I want to do two writes, one where I write the first part and then another where I write again and show both dialogues 
+        player_gametext = player_speech_gen(float(entropy), player_persona)
+        epaper_write.display_dialogue_left(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
+
+        # here incorporating the player text
+        match_gametext = match_speech_gen(float(entropy), match_persona, player_gametext)  
 
 def initialize_new_session(session_id):
     logger.debug("Initializing new session...")
