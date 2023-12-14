@@ -65,6 +65,8 @@ try:
             tstz timestamp DEFAULT current_timestamp,
             player_persona VARCHAR,
             match_persona VARCHAR,
+            player_persona_name VARCHAR,
+            match_persona_name VARCHAR,
             session_state VARCHAR,
             gametext VARCHAR,
             player_gametext VARCHAR,

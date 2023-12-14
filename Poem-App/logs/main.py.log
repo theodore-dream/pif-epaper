@@ -2289,3 +2289,199 @@ Bungalow's calm breath.
 2023-12-13 22:04:33,745 - main.py - INFO - player_name is: Edward., match_name is: Shelley
 2023-12-13 22:04:39,781 - main.py - DEBUG - Running game status check...
 2023-12-13 22:04:39,788 - main.py - DEBUG - Session ID found or generated: f0b0f393-6a9a-4950-b540-5ccb4304a3c5
+2023-12-13 22:42:59,931 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 22:43:01,586 - main.py - DEBUG - Running game status check...
+2023-12-13 22:43:01,590 - main.py - DEBUG - Session ID found or generated: f0b0f393-6a9a-4950-b540-5ccb4304a3c5
+2023-12-13 22:43:01,778 - main.py - DEBUG - Session data from DB: ('Edward. Edward, you are a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.', 'Shelley is your name. You are a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.', 'active', None, Decimal('0.20'), 'f0b0f393-6a9a-4950-b540-5ccb4304a3c5')
+2023-12-13 22:43:01,780 - main.py - INFO -  Continuing active session. Current state of player_persona, match_persona, session_state, gametext, entropy, session_id: ('Edward. Edward, you are a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.', 'Shelley is your name. You are a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.', 'active', None, Decimal('0.20'), 'f0b0f393-6a9a-4950-b540-5ccb4304a3c5')
+2023-12-13 22:50:53,274 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 22:50:54,931 - main.py - DEBUG - Running game status check...
+2023-12-13 22:50:54,936 - main.py - DEBUG - Session ID found or generated: f0b0f393-6a9a-4950-b540-5ccb4304a3c5
+2023-12-13 22:50:55,153 - main.py - DEBUG - Session data from DB: (None, None, None, None, None, None)
+2023-12-13 22:50:55,155 - main.py - DEBUG - Initializing new session...
+2023-12-13 22:50:55,341 - main.py - INFO - New session created with ID: f0b0f393-6a9a-4950-b540-5ccb4304a3c5 and entropy: 0.14
+2023-12-13 22:50:55,352 - main.py - DEBUG - right button pressed
+2023-12-13 22:50:55,353 - main.py - DEBUG - Handling new session...
+2023-12-13 22:50:55,354 - main.py - DEBUG - starting introduction to the game
+2023-12-13 22:51:01,389 - main.py - DEBUG - opening text written to epaper
+2023-12-13 22:52:41,446 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 22:52:43,108 - main.py - DEBUG - Running game status check...
+2023-12-13 22:52:43,114 - main.py - DEBUG - Session ID found or generated: f0b0f393-6a9a-4950-b540-5ccb4304a3c5
+2023-12-13 22:52:43,329 - main.py - DEBUG - Session data from DB: ("Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.", 'Reginald. You are an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'active', None, Decimal('0.19'), 'f0b0f393-6a9a-4950-b540-5ccb4304a3c5')
+2023-12-13 22:53:07,276 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 22:53:08,932 - main.py - DEBUG - Running game status check...
+2023-12-13 22:53:08,938 - main.py - DEBUG - Session ID found or generated: 4d9b109b-6600-47af-8b4c-b314d45cedc5
+2023-12-13 22:53:09,149 - main.py - DEBUG - Session data from DB: (None, None, None, None, None, None)
+2023-12-13 22:53:09,150 - main.py - DEBUG - Initializing new session...
+2023-12-13 22:53:09,362 - main.py - INFO - New session created with ID: 4d9b109b-6600-47af-8b4c-b314d45cedc5 and entropy: 0.06
+2023-12-13 22:53:09,378 - main.py - DEBUG - right button pressed
+2023-12-13 22:53:09,379 - main.py - DEBUG - Handling new session...
+2023-12-13 22:53:09,391 - main.py - DEBUG - starting introduction to the game
+2023-12-13 22:53:15,575 - main.py - DEBUG - opening text written to epaper
+2023-12-13 22:53:43,331 - main.py - DEBUG - Running game status check...
+2023-12-13 22:53:43,337 - main.py - DEBUG - Session ID found or generated: 4d9b109b-6600-47af-8b4c-b314d45cedc5
+2023-12-13 22:53:43,531 - main.py - DEBUG - Session data from DB: ('Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.', 'Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.', 'active', None, Decimal('0.11'), '4d9b109b-6600-47af-8b4c-b314d45cedc5')
+2023-12-13 22:54:41,400 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 22:54:43,058 - main.py - DEBUG - Running game status check...
+2023-12-13 22:54:43,064 - main.py - DEBUG - Session ID found or generated: 4d9b109b-6600-47af-8b4c-b314d45cedc5
+2023-12-13 22:54:43,270 - main.py - DEBUG - Session data from DB: ('Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.', 'Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.', None, None, 'active', None)
+2023-12-13 22:54:43,281 - main.py - DEBUG - Initializing new session...
+2023-12-13 22:54:43,460 - main.py - INFO - New session created with ID: 4d9b109b-6600-47af-8b4c-b314d45cedc5 and entropy: 0.08
+2023-12-13 22:54:43,473 - main.py - DEBUG - right button pressed
+2023-12-13 22:54:43,474 - main.py - DEBUG - Handling new session...
+2023-12-13 22:54:43,476 - main.py - DEBUG - starting introduction to the game
+2023-12-13 22:54:49,559 - main.py - DEBUG - opening text written to epaper
+2023-12-13 22:55:17,754 - main.py - DEBUG - Running game status check...
+2023-12-13 22:55:17,760 - main.py - DEBUG - Session ID found or generated: 4d9b109b-6600-47af-8b4c-b314d45cedc5
+2023-12-13 22:55:17,953 - main.py - DEBUG - Session data from DB: ('Reginald. You are an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', 'Shelley is your name. You are a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.', None, None, 'active', None)
+2023-12-13 22:55:17,954 - main.py - DEBUG - Initializing new session...
+2023-12-13 22:55:18,137 - main.py - INFO - New session created with ID: 4d9b109b-6600-47af-8b4c-b314d45cedc5 and entropy: 0.06
+2023-12-13 22:55:18,148 - main.py - DEBUG - right button pressed
+2023-12-13 22:55:18,150 - main.py - DEBUG - Handling new session...
+2023-12-13 22:55:18,161 - main.py - DEBUG - starting introduction to the game
+2023-12-13 22:55:24,225 - main.py - DEBUG - opening text written to epaper
+2023-12-13 22:55:51,925 - main.py - DEBUG - Running game status check...
+2023-12-13 22:55:51,931 - main.py - DEBUG - Session ID found or generated: 4d9b109b-6600-47af-8b4c-b314d45cedc5
+2023-12-13 22:55:52,123 - main.py - DEBUG - Session data from DB: ('Fiona. You are a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.', 'Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.', None, None, 'active', None)
+2023-12-13 22:55:52,125 - main.py - DEBUG - Initializing new session...
+2023-12-13 22:55:52,307 - main.py - INFO - New session created with ID: 4d9b109b-6600-47af-8b4c-b314d45cedc5 and entropy: 0.01
+2023-12-13 22:55:52,322 - main.py - DEBUG - right button pressed
+2023-12-13 22:55:52,324 - main.py - DEBUG - Handling new session...
+2023-12-13 22:55:52,325 - main.py - DEBUG - starting introduction to the game
+2023-12-13 22:55:58,430 - main.py - DEBUG - opening text written to epaper
+2023-12-13 22:56:25,765 - main.py - DEBUG - Running game status check...
+2023-12-13 22:56:25,770 - main.py - DEBUG - Session ID found or generated: 4d9b109b-6600-47af-8b4c-b314d45cedc5
+2023-12-13 22:56:25,963 - main.py - DEBUG - Session data from DB: ('Edward. Edward, you are a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.', 'Reginald. You are an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.', None, None, 'active', None)
+2023-12-13 22:56:25,964 - main.py - DEBUG - Initializing new session...
+2023-12-13 22:56:26,147 - main.py - INFO - New session created with ID: 4d9b109b-6600-47af-8b4c-b314d45cedc5 and entropy: 0.01
+2023-12-13 22:56:26,162 - main.py - DEBUG - right button pressed
+2023-12-13 22:56:26,163 - main.py - DEBUG - Handling new session...
+2023-12-13 22:56:26,164 - main.py - DEBUG - starting introduction to the game
+2023-12-13 22:56:29,630 - main.py - DEBUG - Running game status check...
+2023-12-13 22:56:29,645 - main.py - DEBUG - Session ID found or generated: 4d9b109b-6600-47af-8b4c-b314d45cedc5
+2023-12-13 22:59:45,693 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 22:59:47,349 - main.py - DEBUG - Running game status check...
+2023-12-13 22:59:47,355 - main.py - DEBUG - Session ID found or generated: 4d9b109b-6600-47af-8b4c-b314d45cedc5
+2023-12-13 22:59:47,569 - main.py - DEBUG - Session data from DB: ('Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.', 'Mortimer. You are an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.', None, None, 'new', None)
+2023-12-13 22:59:47,570 - main.py - DEBUG - Initializing new session...
+2023-12-13 22:59:47,782 - main.py - INFO - New session created with ID: 4d9b109b-6600-47af-8b4c-b314d45cedc5 and entropy: 0.11
+2023-12-13 22:59:47,785 - main.py - DEBUG - right button pressed
+2023-12-13 22:59:47,786 - main.py - DEBUG - Handling new session...
+2023-12-13 22:59:47,788 - main.py - DEBUG - starting introduction to the game
+2023-12-13 22:59:53,926 - main.py - DEBUG - opening text written to epaper
+2023-12-13 23:00:21,638 - main.py - DEBUG - Running game status check...
+2023-12-13 23:00:21,644 - main.py - DEBUG - Session ID found or generated: 4d9b109b-6600-47af-8b4c-b314d45cedc5
+2023-12-13 23:00:21,837 - main.py - DEBUG - Session data from DB: ("Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.", 'Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.', None, None, 'active', None)
+2023-12-13 23:02:15,305 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 23:02:16,967 - main.py - DEBUG - Running game status check...
+2023-12-13 23:02:16,973 - main.py - DEBUG - Session ID found or generated: 4d9b109b-6600-47af-8b4c-b314d45cedc5
+2023-12-13 23:02:17,188 - main.py - DEBUG - Session data from DB: ("Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.", 'Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.', None, None, 'active', None, Decimal('0.16'), '4d9b109b-6600-47af-8b4c-b314d45cedc5')
+2023-12-13 23:02:17,190 - main.py - INFO -  Continuing active session. Current state of player_persona, match_persona, player_persona_name, match_persona_name, session_state, gametext, entropy, session_id: ("Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.", 'Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.', None, None, 'active', None, Decimal('0.16'), '4d9b109b-6600-47af-8b4c-b314d45cedc5')
+2023-12-13 23:02:17,203 - main.py - DEBUG - right button pressed
+2023-12-13 23:05:42,907 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 23:05:44,564 - main.py - DEBUG - Running game status check...
+2023-12-13 23:05:44,569 - main.py - DEBUG - Session ID found or generated: 4d9b109b-6600-47af-8b4c-b314d45cedc5
+2023-12-13 23:05:44,786 - main.py - DEBUG - Session data from DB: ("Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.", 'Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.', None, None, 'active', None, Decimal('0.16'), '4d9b109b-6600-47af-8b4c-b314d45cedc5')
+2023-12-13 23:05:44,787 - main.py - INFO -  Continuing active session. Current state of player_persona, match_persona, player_persona_name, match_persona_name, session_state, gametext, entropy, session_id: ("Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.", 'Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.', None, None, 'active', None, Decimal('0.16'), '4d9b109b-6600-47af-8b4c-b314d45cedc5')
+2023-12-13 23:05:44,799 - main.py - DEBUG - right button pressed
+2023-12-13 23:05:44,801 - main.py - DEBUG - Handling active session...
+2023-12-13 23:05:50,238 - main.py - INFO - player_poetry_gen player_gametext is:
+Whimsical cascade, a serendipitous dance,
+Plummet and rise in a fluctuating trance,
+Life's sweet ebb and flow, a chance romance.
+2023-12-13 23:05:54,484 - main.py - INFO - match_poetry_gen match_gametext is:
+Whimsical cascade navigates, thrifty in its path,
+A glimmer in the tumult, charting course with silent laugh.
+2023-12-13 23:05:54,783 - main.py - INFO - checkpoint saved. session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy: ('4d9b109b-6600-47af-8b4c-b314d45cedc5', "Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.", 'Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.', "Whimsical cascade, a serendipitous dance,\nPlummet and rise in a fluctuating trance,\nLife's sweet ebb and flow, a chance romance.", 'Whimsical cascade navigates, thrifty in its path,\nA glimmer in the tumult, charting course with silent laugh.', 'active', Decimal('0.21')).
+2023-12-13 23:08:29,152 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 23:08:30,811 - main.py - DEBUG - Running game status check...
+2023-12-13 23:08:30,816 - main.py - DEBUG - Session ID found or generated: 4d9b109b-6600-47af-8b4c-b314d45cedc5
+2023-12-13 23:08:31,035 - main.py - INFO - Session data from DB: ("Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.", 'Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.', None, None, 'active', None, Decimal('0.16'), '4d9b109b-6600-47af-8b4c-b314d45cedc5')
+2023-12-13 23:08:31,052 - main.py - INFO -  Continuing active session. Current state of player_persona, match_persona, player_persona_name, match_persona_name, session_state, gametext, entropy, session_id: ("Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.", 'Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.', None, None, 'active', None, Decimal('0.16'), '4d9b109b-6600-47af-8b4c-b314d45cedc5')
+2023-12-13 23:08:31,055 - main.py - DEBUG - right button pressed
+2023-12-13 23:08:31,057 - main.py - DEBUG - Handling active session...
+2023-12-13 23:08:36,290 - main.py - INFO - player_poetry_gen player_gametext is:
+Whispers cascade like a harvest of rain, 
+Seeping through the bungalow's timbre with clarity, 
+Sowing seeds of truth in the furrows of my brain.
+2023-12-13 23:08:40,314 - main.py - INFO - match_poetry_gen match_gametext is:
+Dazzling orchestra of stars, whispering light,
+Guiding dreams as we navigate the night's cliff.
+2023-12-13 23:08:40,572 - main.py - INFO - checkpoint saved. session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy: ('4d9b109b-6600-47af-8b4c-b314d45cedc5', "Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.", 'Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.', "Whispers cascade like a harvest of rain, \nSeeping through the bungalow's timbre with clarity, \nSowing seeds of truth in the furrows of my brain.", "Dazzling orchestra of stars, whispering light,\nGuiding dreams as we navigate the night's cliff.", 'active', Decimal('0.21')).
+2023-12-13 23:09:47,245 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 23:09:48,903 - main.py - DEBUG - Running game status check...
+2023-12-13 23:09:48,910 - main.py - DEBUG - Session ID found or generated: ad2c7ebe-37da-4590-83b7-b705f21ee42e
+2023-12-13 23:09:49,123 - main.py - INFO - Session data from DB: (None, None, None, None, None, None, None, None)
+2023-12-13 23:09:49,142 - main.py - DEBUG - Initializing new session...
+2023-12-13 23:13:07,049 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 23:13:08,711 - main.py - DEBUG - Running game status check...
+2023-12-13 23:13:08,720 - main.py - DEBUG - Session ID found or generated: be3bd077-31f3-4758-9ec5-092d4c7ed779
+2023-12-13 23:13:08,934 - main.py - INFO - Session data from DB: (None, None, None, None, None, None, None, None)
+2023-12-13 23:13:08,952 - main.py - DEBUG - Initializing new session...
+2023-12-13 23:14:59,416 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 23:15:01,073 - main.py - DEBUG - Running game status check...
+2023-12-13 23:15:01,080 - main.py - DEBUG - Session ID found or generated: 44c2ea6d-fea2-4159-8be8-ce942e507fb4
+2023-12-13 23:15:01,362 - main.py - INFO - Session data from DB: (None, None, None, None, None, None, None, None)
+2023-12-13 23:15:01,371 - main.py - DEBUG - Initializing new session...
+2023-12-13 23:15:01,623 - main.py - INFO - New session created with ID: 44c2ea6d-fea2-4159-8be8-ce942e507fb4 and entropy: 0.07
+2023-12-13 23:15:01,627 - main.py - DEBUG - right button pressed
+2023-12-13 23:15:01,629 - main.py - DEBUG - Handling new session...
+2023-12-13 23:15:01,630 - main.py - DEBUG - starting introduction to the game
+2023-12-13 23:15:07,736 - main.py - DEBUG - opening text written to epaper
+2023-12-13 23:15:13,486 - main.py - DEBUG - Running game status check...
+2023-12-13 23:15:13,493 - main.py - DEBUG - Session ID found or generated: 44c2ea6d-fea2-4159-8be8-ce942e507fb4
+2023-12-13 23:15:13,677 - main.py - INFO - Session data from DB: (None, None, None, None, None, None, None, None)
+2023-12-13 23:15:13,689 - main.py - DEBUG - Initializing new session...
+2023-12-13 23:16:45,204 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 23:16:46,858 - main.py - DEBUG - Running game status check...
+2023-12-13 23:16:46,864 - main.py - DEBUG - Session ID found or generated: 44c2ea6d-fea2-4159-8be8-ce942e507fb4
+2023-12-13 23:16:47,078 - main.py - INFO - Session data from DB: (None, None, None, None, None, None, None, None)
+2023-12-13 23:16:47,091 - main.py - DEBUG - Initializing new session...
+2023-12-13 23:16:47,092 - main.py - INFO - player_persona_name: Shelley
+2023-12-13 23:16:47,096 - main.py - INFO - match_persona_name: Shelley
+2023-12-13 23:16:47,333 - main.py - INFO - New session created with ID: 44c2ea6d-fea2-4159-8be8-ce942e507fb4 and entropy: 0.1
+2023-12-13 23:16:47,342 - main.py - DEBUG - right button pressed
+2023-12-13 23:16:47,344 - main.py - DEBUG - Handling new session...
+2023-12-13 23:16:47,345 - main.py - DEBUG - starting introduction to the game
+2023-12-13 23:16:53,370 - main.py - DEBUG - opening text written to epaper
+2023-12-13 23:16:56,881 - main.py - DEBUG - Running game status check...
+2023-12-13 23:16:56,888 - main.py - DEBUG - Session ID found or generated: 44c2ea6d-fea2-4159-8be8-ce942e507fb4
+2023-12-13 23:16:57,067 - main.py - INFO - Session data from DB: (None, None, None, None, None, None, None, None)
+2023-12-13 23:16:57,081 - main.py - DEBUG - Initializing new session...
+2023-12-13 23:16:57,083 - main.py - INFO - player_persona_name: Alice
+2023-12-13 23:16:57,086 - main.py - INFO - match_persona_name: Mortimer
+2023-12-13 23:19:20,744 - main.py - DEBUG - Logger is set up and running.
+2023-12-13 23:19:22,409 - main.py - DEBUG - Running game status check...
+2023-12-13 23:19:22,416 - main.py - DEBUG - Session ID found or generated: 6caa2424-7db9-465d-918d-26780999d61f
+2023-12-13 23:19:22,628 - main.py - INFO - Session data from DB: (None, None, None, None, None, None, None, None)
+2023-12-13 23:19:22,639 - main.py - DEBUG - Initializing new session...
+2023-12-13 23:19:22,640 - main.py - INFO - player_persona_name: Alice
+2023-12-13 23:19:22,648 - main.py - INFO - match_persona_name: Daisy
+2023-12-13 23:19:22,825 - main.py - INFO - New session created with ID: 6caa2424-7db9-465d-918d-26780999d61f and entropy: 0.03
+2023-12-13 23:19:22,836 - main.py - DEBUG - right button pressed
+2023-12-13 23:19:22,837 - main.py - DEBUG - Handling new session...
+2023-12-13 23:19:22,838 - main.py - DEBUG - starting introduction to the game
+2023-12-13 23:19:28,866 - main.py - DEBUG - opening text written to epaper
+2023-12-13 23:19:55,980 - main.py - DEBUG - Running game status check...
+2023-12-13 23:19:55,985 - main.py - DEBUG - Session ID found or generated: 6caa2424-7db9-465d-918d-26780999d61f
+2023-12-13 23:19:56,179 - main.py - INFO - Session data from DB: ('Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.', 'Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.', 'Alice', 'Daisy', 'active', None, Decimal('0.08'), '6caa2424-7db9-465d-918d-26780999d61f')
+2023-12-13 23:19:56,192 - main.py - INFO -  Continuing active session. Current state of player_persona, match_persona, player_persona_name, match_persona_name, session_state, gametext, entropy, session_id: ('Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.', 'Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.', 'Alice', 'Daisy', 'active', None, Decimal('0.08'), '6caa2424-7db9-465d-918d-26780999d61f')
+2023-12-13 23:19:56,195 - main.py - DEBUG - right button pressed
+2023-12-13 23:19:56,197 - main.py - DEBUG - Handling active session...
+2023-12-13 23:20:01,241 - main.py - INFO - player_poetry_gen player_gametext is:
+Whimsical waves in cascade's embrace,
+Quintessential harbor, fluctuating space,
+Anchored souls in whimsy's chase.
+2023-12-13 23:20:06,283 - main.py - INFO - match_poetry_gen match_gametext is:
+Whispers cascade in serendipity's dance,
+Fluctuating rhythms beneath the moon's glance,
+A bungalow dreams where the starlit waves prance.
+2023-12-13 23:20:06,543 - main.py - INFO - checkpoint saved. session_id, player_persona, match_persona, player_gametext, match_gametext, session_state, entropy: ('6caa2424-7db9-465d-918d-26780999d61f', 'Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.', 'Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.', "Whimsical waves in cascade's embrace,\nQuintessential harbor, fluctuating space,\nAnchored souls in whimsy's chase.", "Whispers cascade in serendipity's dance,\nFluctuating rhythms beneath the moon's glance,\nA bungalow dreams where the starlit waves prance.", 'active', Decimal('0.13')).
+2023-12-13 23:20:18,655 - main.py - DEBUG - Running game status check...
+2023-12-13 23:20:18,660 - main.py - DEBUG - Session ID found or generated: 6caa2424-7db9-465d-918d-26780999d61f
+2023-12-13 23:20:18,853 - main.py - INFO - Session data from DB: ('Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.', 'Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.', 'Alice', 'Daisy', 'active', None, Decimal('0.08'), '6caa2424-7db9-465d-918d-26780999d61f')
+2023-12-13 23:20:18,865 - main.py - INFO -  Continuing active session. Current state of player_persona, match_persona, player_persona_name, match_persona_name, session_state, gametext, entropy, session_id: ('Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.', 'Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.', 'Alice', 'Daisy', 'active', None, Decimal('0.08'), '6caa2424-7db9-465d-918d-26780999d61f')
+2023-12-13 23:20:18,869 - main.py - DEBUG - right button pressed
+2023-12-13 23:20:18,870 - main.py - DEBUG - Handling active session...
+2023-12-13 23:20:21,306 - main.py - DEBUG - Running game status check...
+2023-12-13 23:20:21,316 - main.py - DEBUG - Session ID found or generated: 6caa2424-7db9-465d-918d-26780999d61f

@@ -114,4 +114,4 @@ def select_persona():
 
     # no logger in this file 
     #logger.info(f"select persona: {selected_persona_content}")
-    return selected_persona_content
+    return selected_persona_key, selected_persona_content

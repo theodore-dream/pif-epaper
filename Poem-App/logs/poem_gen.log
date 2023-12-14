@@ -10937,3 +10937,295 @@ fluctuate
   "system_fingerprint": "fp_6aca3b5ce1"
 }
 2023-12-13 22:04:33,558 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-13 22:42:59,550 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 22:42:59,669 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 22:50:52,895 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 22:50:53,004 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 22:52:41,080 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 22:52:41,190 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 22:53:06,906 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 22:53:07,017 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 22:54:41,029 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 22:54:41,140 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 22:59:45,332 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 22:59:45,443 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:02:14,941 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:02:15,050 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:05:42,539 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:05:42,648 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:05:46,666 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whimsical
+plummet
+serendipity
+fluctuate
+2023-12-13 23:05:46,676 - poem_gen - DEBUG - player_persona is: Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-12-13 23:05:46,681 - poem_gen - DEBUG - lang_device is: enjambment
+2023-12-13 23:05:46,683 - poem_gen - DEBUG - abstract_concept is: t
+2023-12-13 23:05:46,685 - poem_gen - DEBUG - entropy is: 0.21
+2023-12-13 23:05:46,687 - poem_gen - DEBUG - ==========================
+2023-12-13 23:05:46,689 - poem_gen - DEBUG - creative_starting_prompt: cascade
+whimsical
+plummet
+serendipity
+fluctuate
+2023-12-13 23:05:46,690 - poem_gen - DEBUG - creative_prompt: cascade
+whimsical
+plummet
+serendipity
+fluctuate
+2023-12-13 23:05:50,231 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VXGkJERGrM0qxQuZ29aZMRQMG11D",
+  "object": "chat.completion",
+  "created": 1702526746,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Whimsical cascade, a serendipitous dance,\\nPlummet and rise in a fluctuating trance,\\nLife's sweet ebb and flow, a chance romance.\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 251,
+    "completion_tokens": 44,
+    "total_tokens": 295
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-13 23:05:50,234 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-13 23:05:51,535 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whimsical
+navigate
+thrifty
+glimmer
+2023-12-13 23:05:51,546 - poem_gen - DEBUG - player_persona is: Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
+2023-12-13 23:05:51,550 - poem_gen - DEBUG - lang_device is: enjambment
+2023-12-13 23:05:51,552 - poem_gen - DEBUG - abstract_concept is: y
+2023-12-13 23:05:51,554 - poem_gen - DEBUG - entropy is: 0.21
+2023-12-13 23:05:51,556 - poem_gen - DEBUG - ==========================
+2023-12-13 23:05:51,558 - poem_gen - DEBUG - creative_starting_prompt: cascade
+whimsical
+navigate
+thrifty
+glimmer
+2023-12-13 23:05:51,560 - poem_gen - DEBUG - creative_prompt: cascade
+whimsical
+navigate
+thrifty
+glimmer
+2023-12-13 23:05:54,477 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VXGpBWFxElhxM1PyNgoi1DgaHzei",
+  "object": "chat.completion",
+  "created": 1702526751,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Whimsical cascade navigates, thrifty in its path,\\nA glimmer in the tumult, charting course with silent laugh.\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 35,
+    "total_tokens": 166
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-13 23:05:54,480 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-13 23:08:28,783 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:08:28,894 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:08:33,907 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whisper
+harvest
+bungalow
+clarity
+2023-12-13 23:08:33,923 - poem_gen - DEBUG - player_persona is: Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-12-13 23:08:33,926 - poem_gen - DEBUG - lang_device is: irony
+2023-12-13 23:08:33,927 - poem_gen - DEBUG - abstract_concept is: s
+2023-12-13 23:08:33,929 - poem_gen - DEBUG - entropy is: 0.21
+2023-12-13 23:08:33,932 - poem_gen - DEBUG - ==========================
+2023-12-13 23:08:33,934 - poem_gen - DEBUG - creative_starting_prompt: cascade
+whisper
+harvest
+bungalow
+clarity
+2023-12-13 23:08:33,935 - poem_gen - DEBUG - creative_prompt: cascade
+whisper
+harvest
+bungalow
+clarity
+2023-12-13 23:08:36,284 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VXJSz5Lq83eSddcyk2EW7XUJXouC",
+  "object": "chat.completion",
+  "created": 1702526914,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Whispers cascade like a harvest of rain, \\nSeeping through the bungalow's timbre with clarity, \\nSowing seeds of truth in the furrows of my brain.\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 250,
+    "completion_tokens": 45,
+    "total_tokens": 295
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-13 23:08:36,287 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-13 23:08:38,241 - poem_gen - INFO - gen_creative_prompt_api words are:
+dazzling
+orchestra
+whisper
+navigate
+cliff
+2023-12-13 23:08:38,254 - poem_gen - DEBUG - player_persona is: Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
+2023-12-13 23:08:38,257 - poem_gen - DEBUG - lang_device is: simile
+2023-12-13 23:08:38,260 - poem_gen - DEBUG - abstract_concept is: r
+2023-12-13 23:08:38,262 - poem_gen - DEBUG - entropy is: 0.21
+2023-12-13 23:08:38,264 - poem_gen - DEBUG - ==========================
+2023-12-13 23:08:38,265 - poem_gen - DEBUG - creative_starting_prompt: dazzling
+orchestra
+whisper
+navigate
+cliff
+2023-12-13 23:08:38,267 - poem_gen - DEBUG - creative_prompt: dazzling
+orchestra
+whisper
+navigate
+cliff
+2023-12-13 23:08:40,307 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VXJWFjTdGblMlSlKePCKZE50JWlM",
+  "object": "chat.completion",
+  "created": 1702526918,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Dazzling orchestra of stars, whispering light,\\nGuiding dreams as we navigate the night's cliff.\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 30,
+    "total_tokens": 160
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-13 23:08:40,310 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-13 23:09:46,880 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:09:46,989 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:13:06,675 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:13:06,786 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:14:59,042 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:14:59,156 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:16:44,844 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:16:44,953 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:19:20,383 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:19:20,493 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-13 23:19:57,767 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+quintessential
+harbor
+fluctuate
+whimsical
+2023-12-13 23:19:57,787 - poem_gen - DEBUG - player_persona is: Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-13 23:19:57,788 - poem_gen - DEBUG - lang_device is: enjambment
+2023-12-13 23:19:57,790 - poem_gen - DEBUG - abstract_concept is: t
+2023-12-13 23:19:57,791 - poem_gen - DEBUG - entropy is: 0.13
+2023-12-13 23:19:57,792 - poem_gen - DEBUG - ==========================
+2023-12-13 23:19:57,794 - poem_gen - DEBUG - creative_starting_prompt: cascade
+quintessential
+harbor
+fluctuate
+whimsical
+2023-12-13 23:19:57,795 - poem_gen - DEBUG - creative_prompt: cascade
+quintessential
+harbor
+fluctuate
+whimsical
+2023-12-13 23:20:01,227 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VXUTibSUOPeQMR0bRChr1p1UNxhy",
+  "object": "chat.completion",
+  "created": 1702527597,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Whimsical waves in cascade's embrace,\\nQuintessential harbor, fluctuating space,\\nAnchored souls in whimsy's chase.\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 37,
+    "total_tokens": 166
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-13 23:20:01,237 - poem_gen - DEBUG - poem_gen completed successfully
+2023-12-13 23:20:02,901 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whisper
+fluctuate
+bungalow
+serendipity
+2023-12-13 23:20:02,913 - poem_gen - DEBUG - player_persona is: Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
+2023-12-13 23:20:02,915 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-12-13 23:20:02,917 - poem_gen - DEBUG - abstract_concept is: n
+2023-12-13 23:20:02,919 - poem_gen - DEBUG - entropy is: 0.13
+2023-12-13 23:20:02,921 - poem_gen - DEBUG - ==========================
+2023-12-13 23:20:02,922 - poem_gen - DEBUG - creative_starting_prompt: cascade
+whisper
+fluctuate
+bungalow
+serendipity
+2023-12-13 23:20:02,924 - poem_gen - DEBUG - creative_prompt: cascade
+whisper
+fluctuate
+bungalow
+serendipity
+2023-12-13 23:20:06,277 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8VXUZ3XDMthYnWph4gZxzAkbCRPXf",
+  "object": "chat.completion",
+  "created": 1702527603,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Whispers cascade in serendipity's dance,\\nFluctuating rhythms beneath the moon's glance,\\nA bungalow dreams where the starlit waves prance.\"\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 42,
+    "total_tokens": 171
+  },
+  "system_fingerprint": "fp_b77c6a5c40"
+}
+2023-12-13 23:20:06,280 - poem_gen - DEBUG - poem_gen completed successfully
