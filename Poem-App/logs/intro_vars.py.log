@@ -1,0 +1,102 @@
+2023-12-13 20:35:56,104 - intro_vars.py - DEBUG - Generated Text: "Step right up, dear player, and heed my call,
+For I shall introduce you to a game, above all.
+With smugness, I'll guide you through this digital realm,
+Where challenges await, and victories overwhelm.
+
+Prepare yourself, for this game is not for the weak,
+It demands wit, strategy, and a mind that's sleek.
+But fear not, my friend, for I shall be your guide,
+With pedantic precision, I'll help you stride.
+
+In this virtual world, where pixels come alive,
+You'll embark on quests, where heroes strive.
+With each level conquered, your skills shall grow,
+And the game's secrets, you'll come to know.
+
+So gather your courage, and sharpen your blade,
+For in this game, you'll never be betrayed.
+Kindly, I'll show you the path to success,
+And with every triumph, your heart will impress.
+
+Together we'll conquer, every challenge we'll face,
+With a kind hand, I'll lead you to embrace,
+The wonders of this game, so grand and vast,
+Where dreams come true, and memories will last.
+
+So, my dear player, are you ready to begin?
+To explore this game, where triumphs will spin?
+With smugness, pedantry, or kindness, I'll guide,
+And together, we'll conquer, side by side."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-13 20:35:56,107 - intro_vars.py - INFO - api_response for introduction_generation_api is: <function introduction_generation_api at 0xb3a2c0b8>
+2023-12-13 20:37:23,902 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, you shall rise above,
+Embrace the game, and conquer with love."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-13 20:37:23,904 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, you shall rise above,
+Embrace the game, and conquer with love."
+2023-12-13 20:38:37,796 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, your path you shall carve,
+In this game of strategy, where heroes starve.
+So step forth, and conquer, with all your might,
+For victory, my friend, is your birthright."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-13 20:38:37,799 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, your path you shall carve,
+In this game of strategy, where heroes starve.
+So step forth, and conquer, with all your might,
+For victory, my friend, is your birthright."
+2023-12-13 20:59:42,773 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, your path you shall carve,
+In this game, where only the brave will starve."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-13 20:59:42,776 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, your path you shall carve,
+In this game, where only the brave will starve."
+2023-12-13 21:01:08,980 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where challenges await, both fierce and bright.
+With wit and skill, your path you shall carve,
+In this game of cunning, where heroes starve."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-13 21:01:08,983 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where challenges await, both fierce and bright.
+With wit and skill, your path you shall carve,
+In this game of cunning, where heroes starve."
+2023-12-13 21:07:14,535 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, you shall rise above,
+Embrace the game, and bask in its love."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-13 21:07:14,537 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, you shall rise above,
+Embrace the game, and bask in its love."
+2023-12-13 21:11:12,933 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, your journey shall unfold,
+As you conquer each level, brave and bold.
+So step forth, and let the games begin,
+For victory, my friend, is yours to win."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-13 21:11:12,935 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where challenges await, both day and night.
+With cunning and skill, your journey shall unfold,
+As you conquer each level, brave and bold.
+So step forth, and let the games begin,
+For victory, my friend, is yours to win."
+2023-12-13 21:19:31,082 - intro_vars.py - DEBUG - Generated Text: "Step into the realm of wonder and might,
+Where heroes rise and darkness takes flight.
+With each challenge faced, victory's sweet,
+Welcome, dear player, to your destined feat."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-13 21:19:31,084 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Step into the realm of wonder and might,
+Where heroes rise and darkness takes flight.
+With each challenge faced, victory's sweet,
+Welcome, dear player, to your destined feat."

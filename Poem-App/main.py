@@ -108,7 +108,8 @@ def run_game(player_persona, match_persona, session_state, entropy, session_id):
         info_gametext, session_state = handle_new_session(session_id, player_persona, match_persona, entropy)
         epaper_write.display_information(info_gametext, 10)
         logger.info("displaying information about player_persona and match_persona")
-        epaper_write.display_dialogue(player_persona, match_persona, 10)
+        # removed temporarily since I broke it
+        #epaper_write.display_dialogue(player_persona, match_persona, 10)
 
     elif session_state == "active":
         player_gametext, match_gametext = handle_active_session(session_id, player_persona, match_persona, entropy)
@@ -119,7 +120,7 @@ def run_game(player_persona, match_persona, session_state, entropy, session_id):
         player_name = ' '.join(player_persona_words[:3])
         match_name = ' '.join(match_persona_words[:3])
         logger.info(f"player_name is: {player_name}, match_name is: {match_name}")
-        epaper_write.display_dialogue(player_gametext, match_gametext, 10)
+        epaper_write.display_dialogue(player_gametext, match_gametext, player_name, match_name, entropy, 10)
 
 def initialize_new_session(session_id):
     logger.debug("Initializing new session...")
