@@ -2,6 +2,7 @@
 
 import os
 from time import sleep
+from datetime import datetime
 from PIL import Image, ImageDraw, ImageFont
 import textwrap
 
@@ -218,6 +219,17 @@ def display_dialogue_both(left_text, right_text, player_name, match_name, entrop
     epd.lut_GC()
     epd.refresh()
     logger.debug("Dialogue displayed on e-paper successfully.")
+
+    # Save the image to the 'display_output' directory
+    output_directory = "display_output"
+    if not os.path.exists(output_directory):
+        os.makedirs(output_directory)
+
+    # Get the current timestamp
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    image_file_name = f"dialogue_{player_name}_{match_name}_{timestamp}.bmp"
+    image_path = os.path.join(output_directory, image_file_name)
+
      # Save the image to the 'display_output' directory
     output_directory = "display_output"
     if not os.path.exists(output_directory):

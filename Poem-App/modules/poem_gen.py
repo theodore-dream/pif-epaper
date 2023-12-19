@@ -28,7 +28,7 @@ logger.debug("Logger is set up and running.")
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
-def player_gametext_api(entropy, player_persona, creative_prompt, abstract_concept):
+def initial_gametext_api(entropy, player_persona, creative_prompt, abstract_concept):
     APPROACH_TYPES = [
         "You might dislike the person you're talking to but you still want to talk to them",
         "You are very interested in the person you're talking to and want to win them over but are playing it cool.",
@@ -84,7 +84,8 @@ def player_gametext_api(entropy, player_persona, creative_prompt, abstract_conce
     return api_poem
 
 # another API call to try to constrain the output
-def match_gametext_api(entropy, persona, player_gametext, creative_prompt, abstract_concept):
+# this API call is called reaction specifically because it takes in the player_gametext and reacts to it. 
+def reaction_gametext_api(entropy, persona, player_gametext, creative_prompt, abstract_concept):
     REACTION_TYPES = [
         "You strongly dislike the person you're talking to and want to make it clear you no longer want to talk to them",
         "You are very interested in the person you're talking to and want to show your interest.",
@@ -143,7 +144,82 @@ def match_gametext_api(entropy, persona, player_gametext, creative_prompt, abstr
     logger.debug(f"API completion response: {completion}")
     return match_api_output
 
-def parse_response(entropy, persona, player_gametext):
+# another API call to try to constrain the output
+# this API call is called reaction specifically because it takes in the player_gametext and reacts to it. 
+def conversation_gametext_api(entropy, persona, conversation, creative_prompt, abstract_concept):
+    # Inject the selected poetry type into the user message
+
+    messages = [
+        {
+            "role": "system",
+            "content": (
+                f"This is a description of who you are. {persona}. You are having a conversation. You think there could be romantic interst with this person. You will respond to the provided speech "
+                "and incorporate the provided creative prompt and abstract concepts while still maintaining a conversational tone. "
+                "The output should be in a JSON object with a single key 'Content'. For example: {'Content': 'Roses are red.'}."
+            )
+        },
+        {
+            "role": "user",
+            "content": (
+                f"You are having a conversation. You will be asked to review the history of the conversation you've been having."
+                f"You will be asked to consider being inspired by a set of random words and an abstract concept. This is optional to include in your output." 
+                f"This is  {conversation} " 
+                f"consider your response. You may choose to be inspired by the following words: {creative_prompt}."
+                f"You may also choose to be inspired by the following abstract concept: {abstract_concept}."
+                f"Consider your response, and modify the output to be less than 3 lines in a concise"
+                "and artful way that retains the meaning of original content. Then review it again against the entire context of the conversation."
+                "The output should be in a JSON object with a single key 'Content'."
+            )
+        }
+    ]
+    
+    completion = openai.ChatCompletion.create(
+        model="gpt-4-1106-preview",
+        messages=messages,
+        temperature=(entropy * 2),
+        response_format={"type": "json_object"},
+        max_tokens=500,
+    )
+
+    if completion['choices'][0]['message']['role'] == "assistant":
+        api_response = completion['choices'][0]['message']['content'].strip()
+        api_poem_data = loads(api_response)  # Parse the JSON content
+
+        if "Content" in api_poem_data:
+            match_api_output = api_poem_data["Content"]  # Extract the poem from the parsed data
+        else:
+            logger.error("Content key not found in response")
+            match_api_output = "Content not generated"
+    else:
+        pass
+
+    # Log the API request to keep the record of which content type was generated 
+    #logger.info(f"API request step2 is message: {messages}")
+    # Log the entire response for debugging
+    logger.debug(f"API completion response: {completion}")
+    return match_api_output
+
+def gen_conversation(persona_name, entropy, persona_data, conversation):
+    #creative_prompt = create_vars.gen_creative_prompt(create_vars.gen_random_words(entropy), entropy)
+    creative_prompt = create_vars.gen_creative_prompt_api(entropy)
+    abstract_concept = create_vars.get_abstract_concept()
+    lang_device = create_vars.get_lang_device()
+
+    logger.info(f"==========================")
+    logger.info(f"persona_name is: {persona_name}")
+    logger.info(f"lang_device is: {lang_device}")
+    logger.info(f"abstract_concept is: {abstract_concept}")
+    logger.info(f"entropy is: {entropy}")
+    logger.info(f"creative_starting_prompt: {creative_prompt}")
+    logger.debug(f"conversation is: {conversation}")
+
+    # this function includes the conversation history
+    
+    gametext = conversation_gametext_api(entropy, persona_data, conversation, creative_prompt, abstract_concept)
+    return gametext
+
+
+def gen_initial_call_response(entropy, persona, player_gametext):
     # this part of the code goes WAY too slow. Removing the use of nltk for initial generation of the creative_prompt words
     #creative_prompt = create_vars.gen_creative_prompt(create_vars.gen_random_words(entropy), entropy)
     creative_prompt = create_vars.gen_creative_prompt_api(entropy)
@@ -159,11 +235,11 @@ def parse_response(entropy, persona, player_gametext):
 
     # this is the path for the match to create gametext
     if player_gametext is not None:
-        gametext = match_gametext_api(entropy, persona, player_gametext, creative_prompt, abstract_concept)
+        gametext = reaction_gametext_api(entropy, persona, player_gametext, creative_prompt, abstract_concept)
 
     # this is the path for the player to create gametext
     if player_gametext is None:
-        gametext = player_gametext_api(entropy, persona, creative_prompt, abstract_concept)
+        gametext = initial_gametext_api(entropy, persona, creative_prompt, abstract_concept)
 
     #logger.info(f"poem result:\n{poem_result}")
     logger.debug(f"poem_gen completed successfully, gametext is {gametext}")

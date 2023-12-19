@@ -155,3 +155,34 @@ Prepare your wit, for here rules are bent,
 In this game of surprises, where fun is meant.
 So step right in, and let your imagination roam,
 For here, dear player, you'll find your creative home."
+2023-12-19 00:32:06,735 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a world untamed,
+Where creativity knows no bounds, unchained.
+Prepare to wander through realms unforeseen,
+Where randomness reigns and confusion convenes.
+Embrace the unexpected, and let your imagination soar,
+For in this game, dear friend, endless possibilities galore."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-19 00:32:06,745 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a world untamed,
+Where creativity knows no bounds, unchained.
+Prepare to wander through realms unforeseen,
+Where randomness reigns and confusion convenes.
+Embrace the unexpected, and let your imagination soar,
+For in this game, dear friend, endless possibilities galore."
+2023-12-19 01:01:39,604 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a realm of delight,
+Where creativity soars, and imaginations take flight.
+Be prepared for a journey, strange and yet sublime,
+For here in this game, anything is possible, with each passing rhyme."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-19 01:01:39,606 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a realm of delight,
+Where creativity soars, and imaginations take flight.
+Be prepared for a journey, strange and yet sublime,
+For here in this game, anything is possible, with each passing rhyme."
+2023-12-19 01:12:38,323 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where creativity reigns, and the ordinary takes flight.
+Through whimsical puzzles and riddles, we'll dance,
+In this game of surprises, where chance has a chance."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-19 01:12:38,325 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where creativity reigns, and the ordinary takes flight.
+Through whimsical puzzles and riddles, we'll dance,
+In this game of surprises, where chance has a chance."

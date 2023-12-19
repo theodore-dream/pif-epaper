@@ -84,31 +84,39 @@ def handle_new_session(session_id, player_persona, match_persona, player_persona
 def player_speech_gen(entropy, player_persona):    
     # there is no gametext because we are creating it here
     player_gametext = None
-    player_gametext = poem_gen.parse_response(entropy, player_persona, player_gametext)
+    player_gametext = poem_gen.gen_initial_call_response(entropy, player_persona, player_gametext)
     print("-" * 30)
     logger.info(f"player_speech_gen player_gametext is:\n{player_gametext}")
     return player_gametext
 
 # here taking in the player_gametext as input
 def match_speech_gen(entropy, match_persona, player_gametext):
-    match_gametext = poem_gen.parse_response(entropy, match_persona, player_gametext)
+    match_gametext = poem_gen.gen_initial_call_response(entropy, match_persona, player_gametext)
     print("-" * 30)
     # already broken here
     logger.info(f"match_speech_gen match_gametext is:\n{match_gametext}")
     return match_gametext
 
-def handle_active_session(session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy):
+# here taking in the player_gametext as input
+def conversation_gametext_gen(entropy, persona_name, persona_data, conversation):
+    gametext = poem_gen.gen_conversation(persona_name, entropy, persona_data, conversation)
+    print("-" * 30)
+    # already broken here
+    logger.info(f"{persona_name} conversation_gametext_gen gametext is:\n{gametext}")
+    return gametext
+
+def handle_active_session(session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy):
     logger.debug("Handling active session...")
     # we are saving the game for the first time or the nth time, ensuring always active if player gets here
     session_state = "active"
     # the data being enteterd into the checkpoint is incorrect 
     logger.info(f"about to do a save checkpoint. Make sure the values are right. session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy: {session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy}")
-    db_service.save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy)
+    db_service.save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy)
     #checkpoint saved, session is now active
     #issue now is there is no content to save, I guess it can just be None? 
     return player_gametext, match_gametext
 
-def run_game(player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, session_id, input_mode):
+def run_game(player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, session_state, entropy, session_id, input_mode):
     # Entropy modification logic (currently faked for development)
     # this section right here is currently meant to be used with raspberry pi hardware attached buttons that are each coded to be left or right 
     # alternatively, if using keyboard mode, you can use the up and down arrow keys to select "l" or "r" 
@@ -128,7 +136,8 @@ def run_game(player_persona, match_persona, player_persona_name, match_persona_n
     elif session_state == "active":
         player_gametext = None
         match_gametext = None
-        player_gametext, match_gametext = handle_active_session(session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy)
+        # I think I need this for the first init run possibly? it does change state to active. might be able to get rid of this completely 
+        player_gametext, match_gametext = handle_active_session(session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy)
         
         # Print instructions before getting input
         print("\nChoose your action:")
@@ -142,14 +151,33 @@ def run_game(player_persona, match_persona, player_persona_name, match_persona_n
         elif user_input == 'r':
             entropy = handle_option_r(entropy)
 
-        # here I want to do two writes, one where I write the first part and then another where I write again and show both dialogues 
-        player_gametext = player_speech_gen(float(entropy), player_persona)
-        epaper_write.display_dialogue_left(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
+        # here I need to have 2 code paths, one where it is the first time we are entering into this main game loop, where there is no match_gametext
+        # so here I need to add a conversation_data object 
 
-        # here incorporating the player text
-        # issue here with the 
-        match_gametext = match_speech_gen(float(entropy), match_persona, player_gametext)  
-        epaper_write.display_dialogue_both(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
+        if conversation_data is None:
+            conversation_data = ""
+            # here I want to do two writes, one where I write the first part and then another where I write again and show both dialogues 
+            player_gametext = player_speech_gen(float(entropy), player_persona)
+            epaper_write.display_dialogue_left(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
+            # this is designed to append player_gametext, which should be a string, to conversation_data
+            # improvement needed is likely to include the name of the person who is speaking somehow 
+            conversation_data = player_persona_name + player_gametext + conversation_data 
+        
+            # here incorporating the player text
+            # issue here with the 
+            match_gametext = match_speech_gen(float(entropy), match_persona, player_gametext)  
+            epaper_write.display_dialogue_both(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
+            conversation_data = match_persona_name + match_gametext + conversation_data 
+
+        if conversation_data is not None:
+            player_gametext = conversation_gametext_gen(float(entropy), "player", player_persona, conversation_data)
+            match_gametext = conversation_gametext_gen(float(entropy), "match", match_persona, conversation_data)  
+            # this should take the history of what's been said and use it
+            epaper_write.display_dialogue_both(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
+            conversation_data = player_gametext + match_gametext + conversation_data
+
+        db_service.save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy)
+
 
 def initialize_new_session(session_id, input_mode):
     logger.debug("Initializing new session...")
@@ -211,12 +239,14 @@ def initialize_new_session(session_id, input_mode):
     db_service.new_game_init_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy)
     logger.info(f"New session created with ID: {session_id} and entropy: {entropy}")
 
-    run_game(player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, session_id, input_mode)
+    conversation_data = None
+
+    run_game(player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, session_state, entropy, session_id, input_mode)
 
 def continue_active_session(session_data, input_mode):
-    session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy = session_data
-    logger.info(f" Continuing active session. Current state of session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy: {session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy}")
-    run_game(player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, session_id, input_mode)
+    session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, session_state, entropy = session_data
+    logger.info(f" Continuing active session. Current state of session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, session_state, entropy: {session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy}")
+    run_game(player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, session_state, entropy, session_id, input_mode)
 
 
 if __name__ == "__main__":
@@ -227,7 +257,7 @@ if __name__ == "__main__":
         while True:
             session_id = setup_utils.get_or_create_uuid()
             session_data = db_service.read_from_database(session_id)
-            if session_data is not None and session_data[5] == "active":
+            if session_data is not None and session_data[6] == "active":
                 continue_active_session(session_data, input_mode)
             else:
                 initialize_new_session(session_id, input_mode)
