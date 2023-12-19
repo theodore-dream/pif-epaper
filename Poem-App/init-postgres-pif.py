@@ -67,6 +67,7 @@ try:
             match_persona VARCHAR,
             player_persona_name VARCHAR,
             match_persona_name VARCHAR,
+            conversation_data VARCHAR,
             session_state VARCHAR,
             gametext VARCHAR,
             player_gametext VARCHAR,
