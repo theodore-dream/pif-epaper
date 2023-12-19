@@ -67,7 +67,7 @@ def poetry_game_intro(entropy):
     logger.debug("starting introduction to the game")
     opening_text1 = intro_vars.opening_text1
     
-    epaper_write.display_information(opening_text1, 3)
+    epaper_write.display_information(opening_text1)
     logger.debug("opening text written to epaper")
     opening_poem = intro_vars.introduction_generation_api(entropy)
     # this is the text that gets saved to the DB, I guess whatever is custom
@@ -117,7 +117,7 @@ def run_game(player_persona, match_persona, player_persona_name, match_persona_n
     if session_state == "new":
         info_gametext, session_state = handle_new_session(session_id, player_persona, match_persona, player_persona_name, match_persona_name, entropy)
         # displaying the poetry intro game text here... hm. 
-        epaper_write.display_information(info_gametext, 10)
+        epaper_write.display_information(info_gametext)
         # highlighting the player and match on new game initiation 
         # we want the gametext to be the information about the peronas
         player_gametext = player_persona
@@ -153,39 +153,70 @@ def run_game(player_persona, match_persona, player_persona_name, match_persona_n
 
 def initialize_new_session(session_id, input_mode):
     logger.debug("Initializing new session...")
-    # need to work on a way to allow the player to select the persona 
-    # temp workaround to create and use personas manually
-    player_persona_name, player_persona = intro_vars.select_player_persona()
-    match_persona_name, match_persona = intro_vars.select_match_persona()
-    logger.info(f"player_persona_name: {player_persona_name}")
-    logger.info(f"match_persona_name: {match_persona_name}")
-    session_state = "new"
-    gametext = None
-    # entropy 30 toåå
+
+    player_personas = intro_vars.select_player_persona()
+    match_personas = intro_vars.select_match_persona()
+
+    def get_persona_choice(personas, persona_type, input_mode):
+        category, persona_dict = list(personas.items())[0]  # Existing code
+        persona_list = list(persona_dict.items())[:5]  # Existing code
+        persona_names = '\n'.join([f"{i}. {key}" for i, (key, _) in enumerate(persona_list, start=1)])
+        logger.info(f"persona_list is{persona_list}")
+        logger.info(f"persona_names is{persona_names}")
+
+        # Display persona names on e-paper
+        persona_selection_information = persona_type + " list: \n" + persona_names
+        epaper_write.display_information(persona_selection_information)  
+
+        print(f"Select your {persona_type} persona:")
+        print(persona_names)
+        print("0. Random")
+
+        if input_mode == 'keyboard':
+            while True:
+                choice = input("Enter your selected number: ")
+                if choice.isdigit():
+                    choice = int(choice)
+                    if 0 <= choice <= len(persona_list):
+                        selected_key, selected_desc = persona_list[choice - 1] if choice != 0 else random.choice(persona_list)
+                        epaper_write.clear_display()
+                        return selected_key, selected_desc
+                    else:
+                        print("Invalid choice. Please try again.")
+                else:
+                    print("Invalid input. Please enter a number.")
+        elif input_mode == 'raspberry':
+            # Implement Raspberry Pi button logic for selecting persona
+            # You will need to modify this part to adapt your button logic for selecting options
+            pass  # Replace with your Raspberry Pi input logic
+
+        epaper_write.clear_display()
+
+    # Display player personas on e-paper and get choice
+    player_persona_name, player_persona = get_persona_choice(player_personas, "player", input_mode)
+
+    # Display match personas on e-paper and get choice
+    match_persona_name, match_persona = get_persona_choice(match_personas, "match", input_mode)
+
+    # setup initial entropy and set new session state
     entropy = Decimal(random.randint(30, 45)) / Decimal(100)
+    session_state = "new"
+
+    # Display options for different personas here by listing all 5 names 
+    epaper_write.display_dialogue_both(player_persona, match_persona, player_persona_name, match_persona_name, entropy, 10)
+
+    logger.info(f"Selected player_persona_name: {player_persona_name}, Description: {player_persona}")
+    logger.info(f"Selected match_persona_name: {match_persona_name}, Description: {match_persona}")
+
     db_service.new_game_init_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy)
     logger.info(f"New session created with ID: {session_id} and entropy: {entropy}")
-    run_game(player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, session_id, input_mode)
 
+    run_game(player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, session_id, input_mode)
 
 def continue_active_session(session_data, input_mode):
     session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy = session_data
     logger.info(f" Continuing active session. Current state of session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy: {session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy}")
     run_game(player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, session_id, input_mode)
-
-def check_game_state():
-    logger.debug("Running game status check...")
-
-    session_id = setup_utils.get_or_create_uuid()
-    logger.debug(f"Session ID found or generated: {session_id}")
-
-    session_data = db_service.read_from_database(session_id)
-    logger.info(f"Session data from DB: {session_data}")
-
-    if session_data is not None and session_data[5] == "active":
-        continue_active_session(session_data, input_mode)
-    else:
-        initialize_new_session(session_id)
 
 
 if __name__ == "__main__":
@@ -206,17 +237,6 @@ if __name__ == "__main__":
         GPIO.cleanup()
 
 
-
-if __name__ == "__main__":
-   
-   try:
-        while True:
-            check_game_state()
-            time.sleep(0.1)  # optional delay if you want to run the function with intervals
-   except KeyboardInterrupt:
-        print("\nProgram has been stopped by the user.")
-        GPIO.cleanup()  # cleanup GPIO pins once on exit
-# main interaction is just left and right button increasing and decreasing entropy 
 
 ## running notes
 ## make the display stay on until the next button interaction

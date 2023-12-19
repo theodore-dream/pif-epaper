@@ -783,3 +783,241 @@
 2023-12-18 22:34:00,967 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
 2023-12-18 22:34:01,332 - epaper_write - INFO - Image saved to display_output/dialogue_Reginald_Alice.bmp
 2023-12-18 22:34:01,335 - epaper_write - INFO - Saving to disk.....
+2023-12-18 22:45:50,992 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 22:46:16,187 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:46:16,376 - epaper_write - INFO - entropy is 0.44
+2023-12-18 22:46:16,388 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-18 22:46:18,221 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-18 22:46:36,863 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 23:14:30,179 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 23:14:52,371 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 23:16:31,204 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 23:16:37,987 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-18 23:16:39,779 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-18 23:16:49,793 - epaper_write - INFO - Clear e-paper display...
+2023-12-18 23:16:51,203 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-18 23:22:47,385 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 23:22:53,088 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-18 23:22:54,882 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-18 23:36:41,810 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 23:38:40,047 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 23:38:46,667 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 23:38:46,671 - epaper_write - INFO - right text is Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-12-18 23:38:46,680 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 23:38:46,891 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 23:38:47,094 - epaper_write - INFO - entropy is 0.42
+2023-12-18 23:38:49,090 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-18 23:38:49,258 - epaper_write - INFO - Image saved to display_output/dialogue_Bob_Beatrice.bmp
+2023-12-18 23:38:49,261 - epaper_write - INFO - Saving to disk.....
+2023-12-18 23:48:01,320 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 23:49:08,792 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 23:49:10,707 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 23:49:10,749 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-18 23:49:12,550 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-18 23:49:17,560 - epaper_write - INFO - Clear e-paper display...
+2023-12-18 23:49:21,959 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 23:49:21,996 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-18 23:49:23,804 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-18 23:49:28,821 - epaper_write - INFO - Clear e-paper display...
+2023-12-18 23:49:32,198 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 23:49:32,203 - epaper_write - INFO - right text is Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-12-18 23:49:32,209 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 23:49:32,427 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 23:49:32,631 - epaper_write - INFO - entropy is 0.43
+2023-12-18 23:49:34,597 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-18 23:49:34,769 - epaper_write - INFO - Image saved to display_output/dialogue_Bob_Beatrice.bmp
+2023-12-18 23:49:34,772 - epaper_write - INFO - Saving to disk.....
+2023-12-18 23:49:45,014 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 23:49:45,042 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-18 23:49:46,833 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-18 23:49:49,840 - epaper_write - INFO - Clear e-paper display...
+2023-12-18 23:49:54,138 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 23:49:54,326 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-18 23:49:56,177 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-18 23:50:06,191 - epaper_write - INFO - Clear e-paper display...
+2023-12-18 23:50:07,461 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 23:50:07,465 - epaper_write - INFO - right text is Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-12-18 23:50:07,471 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 23:50:07,680 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 23:50:07,880 - epaper_write - INFO - entropy is 0.43
+2023-12-18 23:50:09,829 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-18 23:50:09,838 - epaper_write - INFO - Image saved to display_output/dialogue_Bob_Beatrice.bmp
+2023-12-18 23:50:09,843 - epaper_write - INFO - Saving to disk.....
+2023-12-18 23:53:14,233 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 23:53:16,145 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 23:53:16,159 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-18 23:53:17,889 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-18 23:53:22,899 - epaper_write - INFO - Clear e-paper display...
+2023-12-18 23:55:18,684 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 23:55:20,565 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 23:55:20,584 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-18 23:55:22,415 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-18 23:55:27,421 - epaper_write - INFO - Clear e-paper display...
+2023-12-18 23:55:41,318 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 23:55:41,336 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-18 23:55:43,135 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-18 23:55:48,144 - epaper_write - INFO - Clear e-paper display...
+2023-12-18 23:55:53,204 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 23:55:53,218 - epaper_write - INFO - right text is {'Beatrice': 'Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.', 'Bob': 'Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and not deter your fervor for introspection.', 'Alice': 'Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.'}
+2023-12-18 23:55:53,225 - epaper_write - INFO - Type of text: <class 'dict'>
+2023-12-18 23:58:01,175 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 23:58:03,103 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 23:58:03,118 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-18 23:58:04,902 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-18 23:58:09,910 - epaper_write - INFO - Clear e-paper display...
+2023-12-18 23:59:27,027 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 23:59:28,936 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 23:59:28,977 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-18 23:59:30,766 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-18 23:59:35,775 - epaper_write - INFO - Clear e-paper display...
+2023-12-18 23:59:37,069 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 23:59:37,100 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-18 23:59:38,934 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-18 23:59:43,944 - epaper_write - INFO - Clear e-paper display...
+2023-12-19 00:00:01,812 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 00:00:03,743 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:00:03,780 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:00:05,721 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:00:05,724 - epaper_write - INFO - Clear e-paper display...
+2023-12-19 00:06:19,459 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:06:19,491 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:06:21,341 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:06:21,400 - epaper_write - INFO - Clear e-paper display...
+2023-12-19 00:06:46,126 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 00:07:26,527 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 00:07:28,456 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:07:28,495 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:07:30,244 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:07:30,248 - epaper_write - INFO - Clear e-paper display...
+2023-12-19 00:07:33,563 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:07:33,595 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:07:35,363 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:07:35,367 - epaper_write - INFO - Clear e-paper display...
+2023-12-19 00:07:38,452 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:07:38,457 - epaper_write - INFO - right text is Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-12-19 00:07:38,463 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 00:07:38,658 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 00:07:38,864 - epaper_write - INFO - entropy is 0.41
+2023-12-19 00:07:40,757 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 00:07:40,927 - epaper_write - INFO - Image saved to display_output/dialogue_Bob_Beatrice.bmp
+2023-12-19 00:07:40,930 - epaper_write - INFO - Saving to disk.....
+2023-12-19 00:07:51,176 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:07:51,198 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:07:52,974 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:07:52,978 - epaper_write - INFO - Clear e-paper display...
+2023-12-19 00:07:57,546 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:07:57,751 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:07:59,552 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:07:59,556 - epaper_write - INFO - Clear e-paper display...
+2023-12-19 00:08:00,829 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:08:00,832 - epaper_write - INFO - right text is Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-12-19 00:08:00,836 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 00:08:01,109 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 00:08:01,311 - epaper_write - INFO - entropy is 0.41
+2023-12-19 00:08:03,224 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 00:08:03,232 - epaper_write - INFO - Image saved to display_output/dialogue_Bob_Beatrice.bmp
+2023-12-19 00:08:03,236 - epaper_write - INFO - Saving to disk.....
+2023-12-19 00:14:26,472 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 00:14:35,953 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:14:36,134 - epaper_write - INFO - entropy is 0.36
+2023-12-19 00:14:36,148 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 00:14:37,946 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 00:14:55,526 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 00:16:30,861 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 00:16:32,784 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:16:32,816 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:16:34,559 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:16:38,204 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:16:38,241 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:16:39,970 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:16:43,436 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:16:43,444 - epaper_write - INFO - right text is Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and not deter your fervor for introspection.
+2023-12-19 00:16:43,451 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 00:16:43,663 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 00:16:43,824 - epaper_write - INFO - entropy is 0.43
+2023-12-19 00:16:45,713 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 00:16:45,882 - epaper_write - INFO - Image saved to display_output/dialogue_Bob_Bob.bmp
+2023-12-19 00:16:45,885 - epaper_write - INFO - Saving to disk.....
+2023-12-19 00:20:50,168 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 00:20:52,095 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:20:52,149 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:20:53,865 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:20:56,097 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:20:56,152 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:20:57,878 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:21:00,982 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:21:00,985 - epaper_write - INFO - right text is Gwendolyn. You are a whimsical botanist who believes in the secret life of plants. Your writings are from the perspectives of various flora, creating an imaginative journey through their 'eyes'. You blend botanical science with a fairy-tale-like narrative, making your prose a unique exploration of the natural world.
+2023-12-19 00:21:00,989 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 00:21:01,248 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 00:21:01,459 - epaper_write - INFO - entropy is 0.43
+2023-12-19 00:21:03,331 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 00:21:03,498 - epaper_write - INFO - Image saved to display_output/dialogue_Bob_Gwendolyn.bmp
+2023-12-19 00:21:03,501 - epaper_write - INFO - Saving to disk.....
+2023-12-19 00:21:13,793 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:21:13,810 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:21:15,555 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:21:18,768 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:21:18,973 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:21:20,761 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:21:20,771 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:21:20,775 - epaper_write - INFO - right text is Gwendolyn. You are a whimsical botanist who believes in the secret life of plants. Your writings are from the perspectives of various flora, creating an imaginative journey through their 'eyes'. You blend botanical science with a fairy-tale-like narrative, making your prose a unique exploration of the natural world.
+2023-12-19 00:21:20,780 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 00:21:20,961 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 00:21:21,157 - epaper_write - INFO - entropy is 0.43
+2023-12-19 00:21:23,031 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 00:21:23,039 - epaper_write - INFO - Image saved to display_output/dialogue_Bob_Gwendolyn.bmp
+2023-12-19 00:21:23,044 - epaper_write - INFO - Saving to disk.....
+2023-12-19 00:21:57,943 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:21:58,079 - epaper_write - INFO - entropy is 0.38
+2023-12-19 00:21:58,093 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 00:21:59,886 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 00:22:21,071 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:22:21,075 - epaper_write - INFO - right text is Indeed, the tension in this digital whispering gallery we navigate does mimic the intricate circuit of a forest at dusk, each glimmer of light - a fleeting bravery against the night. Yet, much like the transient nature of petals, our time here is a dance with mortality, ever reminding us to tread lightly on the paths not meant for us.
+2023-12-19 00:22:21,079 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 00:22:21,175 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 00:22:21,400 - epaper_write - INFO - entropy is 0.38
+2023-12-19 00:22:23,259 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 00:22:23,267 - epaper_write - INFO - Image saved to display_output/dialogue_Bob_Gwendolyn.bmp
+2023-12-19 00:22:23,271 - epaper_write - INFO - Saving to disk.....
+2023-12-19 00:22:50,772 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 00:22:52,699 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:22:52,761 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:22:54,527 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:25:13,980 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 00:25:15,909 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:25:15,985 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:25:17,832 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:25:21,236 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:25:21,312 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:25:23,165 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:25:31,980 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:25:31,984 - epaper_write - INFO - right text is Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-19 00:25:31,989 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 00:25:32,182 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 00:25:32,298 - epaper_write - INFO - entropy is 0.39
+2023-12-19 00:25:34,644 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 00:25:34,898 - epaper_write - INFO - Image saved to display_output/dialogue_Bob_Alice.bmp
+2023-12-19 00:25:34,906 - epaper_write - INFO - Saving to disk.....
+2023-12-19 00:25:45,148 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:25:45,186 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:25:47,053 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:25:50,108 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:25:50,389 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:25:52,310 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:25:52,325 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:25:52,329 - epaper_write - INFO - right text is Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-19 00:25:52,335 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 00:25:52,556 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 00:25:52,677 - epaper_write - INFO - entropy is 0.39
+2023-12-19 00:25:54,692 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 00:25:54,700 - epaper_write - INFO - Image saved to display_output/dialogue_Bob_Alice.bmp
+2023-12-19 00:25:54,705 - epaper_write - INFO - Saving to disk.....
+2023-12-19 00:27:16,779 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 00:28:37,193 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 00:28:39,125 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:28:39,208 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:28:40,943 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 00:29:17,335 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 00:29:19,265 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 00:29:19,348 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 00:29:21,216 - epaper_write - INFO - Information displayed on e-paper successfully.

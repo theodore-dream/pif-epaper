@@ -31,30 +31,46 @@ def init_display():
     epd.init()
     epd.Clear()
 
-def display_information(text, display_time):
-    epd = epd3in52.EPD()
+def display_information(text):
+    epd = epd3in52.EPD()  # Replace with your EPD initialization
     image = Image.new('1', (EPAPER_WIDTH, EPAPER_HEIGHT), 255)
     draw = ImageDraw.Draw(image)
     font = ImageFont.truetype(FONT_PATH, FONT_SIZE)
+    logger.info("Font loaded successfully.")
 
-    # Split text into lines
-    lines = text.splitlines()
+    # Estimate the average number of characters that can fit in the width
+    average_char_width = font.getsize("A")[0]
+    max_char_per_line = EPAPER_WIDTH // average_char_width
 
-    # Calculate the height of a single line of text
-    _, line_height = draw.textsize('A', font=font)  # Using 'A' as a sample character
+    def calculate_text_height(text):
+        total_height = 0
+        for paragraph in text.split('\n'):
+            lines = textwrap.wrap(paragraph, width=max_char_per_line)
+            for line in lines:
+                bbox = font.getmask(line).getbbox()
+                line_height = bbox[3] - bbox[1]
+                total_height += line_height + 5
+            total_height += line_height + 5
+        return total_height
 
-    # Calculate starting y position to center the block of text vertically
-    total_height = line_height * len(lines)
-    y = (EPAPER_HEIGHT - total_height) // 2
+    def wrap_and_draw_text(text, y_start):
+        y = y_start
+        for paragraph in text.split('\n'):
+            lines = textwrap.wrap(paragraph, width=max_char_per_line)
+            for line in lines:
+                text_width, _ = draw.textsize(line, font=font)
+                x = (EPAPER_WIDTH - text_width) // 2
+                draw.text((x, y), line, font=font, fill=0)
+                bbox = font.getmask(line).getbbox()
+                line_height = bbox[3] - bbox[1]
+                y += line_height + 5
+            y += line_height + 5
 
-    for line in lines:
-        # Calculate text width for each line
-        text_width, _ = draw.textsize(line, font=font)
-        x = (EPAPER_WIDTH - text_width) // 2
+    text_height = calculate_text_height(text)
+    y_start = (EPAPER_HEIGHT - text_height) // 2
 
-        # Draw each line
-        draw.text((x, y), line, font=font, fill=0)
-        y += line_height  # Move y down for next line
+    # Wrap and draw the text within the text area, starting from the calculated y position
+    wrap_and_draw_text(text, y_start)
 
     logger.info("Text drawn on image successfully.")
 
@@ -65,10 +81,16 @@ def display_information(text, display_time):
     logger.info("Information displayed on e-paper successfully.")
 
     # Wait for the specified display time
-    sleep(display_time)
+    # temporarily removing
+    #sleep(display_time)
 
     # Clear the display
-    logger.info("Clear e-paper display...")
+    #logger.info("Clear e-paper display...")
+    #do not clear
+    #epd.Clear()
+
+def clear_display():
+    epd = epd3in52.EPD()
     epd.Clear()
 
 

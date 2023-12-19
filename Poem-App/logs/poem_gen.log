@@ -5409,3 +5409,219 @@ clarity
   "system_fingerprint": "fp_3905aa4f79"
 }
 2023-12-18 22:33:58,068 - poem_gen - DEBUG - poem_gen completed successfully, gametext is As you navigate your cascade of thoughts, seeking clarity in the obscure, remember that even whispers can harvest a storm. My heart is a lone wanderer, charmed by many streams, yet none have I pledged to follow.
+2023-12-18 22:45:50,584 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 22:45:50,692 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 22:46:02,249 - poem_gen - INFO - gen_creative_prompt_api words are:
+mystery
+harvest
+climb
+behold
+whisper
+2023-12-18 22:46:02,268 - poem_gen - INFO - ==========================
+2023-12-18 22:46:02,272 - poem_gen - INFO - persona is: Reginald. You are an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-12-18 22:46:02,277 - poem_gen - INFO - lang_device is: allegory
+2023-12-18 22:46:02,281 - poem_gen - INFO - abstract_concept is: affection
+2023-12-18 22:46:02,284 - poem_gen - INFO - entropy is: 0.44
+2023-12-18 22:46:02,287 - poem_gen - INFO - creative_starting_prompt: mystery
+harvest
+climb
+behold
+whisper
+2023-12-18 22:46:02,292 - poem_gen - INFO - selected_approach_type: You are very interested in the person you're talking to and want to win them over but are playing it cool.
+2023-12-18 22:46:16,164 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XLLWUC07zo08fO7OczKgbRguxMKw",
+  "object": "chat.completion",
+  "created": 1702957570,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Ah, in this digital dance of screens, we gather the mystery in words. Do you feel, as I, that yearning to harvest the whispers of a nascent connection, climbing toward a crescendo of understanding? Behold the enigma that is us, unfolding.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 60,
+    "total_tokens": 288
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-18 22:46:16,167 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Ah, in this digital dance of screens, we gather the mystery in words. Do you feel, as I, that yearning to harvest the whispers of a nascent connection, climbing toward a crescendo of understanding? Behold the enigma that is us, unfolding.
+2023-12-18 22:46:36,451 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 22:46:36,561 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:14:29,675 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:14:29,784 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:14:51,932 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:14:52,052 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:16:30,767 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:16:30,877 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:22:46,974 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:22:47,086 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:36:41,398 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:36:41,509 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:38:39,570 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:38:39,735 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:48:00,806 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:48:00,918 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:49:08,371 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:49:08,483 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:53:13,824 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:53:13,934 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:55:18,264 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:55:18,377 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:58:00,697 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:58:00,809 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:59:26,607 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 23:59:26,720 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:00:01,395 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:00:01,508 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:06:45,664 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:06:45,777 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:07:26,105 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:07:26,217 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:14:26,021 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:14:26,130 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:14:32,170 - poem_gen - INFO - gen_creative_prompt_api words are:
+Ellipse
+Whisper
+Cobblestone
+Mirthful
+Gazebo
+2023-12-19 00:14:32,180 - poem_gen - INFO - ==========================
+2023-12-19 00:14:32,186 - poem_gen - INFO - persona is: Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-12-19 00:14:32,191 - poem_gen - INFO - lang_device is: metaphor
+2023-12-19 00:14:32,197 - poem_gen - INFO - abstract_concept is: dishonesty
+2023-12-19 00:14:32,202 - poem_gen - INFO - entropy is: 0.36
+2023-12-19 00:14:32,207 - poem_gen - INFO - creative_starting_prompt: Ellipse
+Whisper
+Cobblestone
+Mirthful
+Gazebo
+2023-12-19 00:14:32,220 - poem_gen - INFO - selected_approach_type: You might dislike the person you're talking to but you still want to talk to them
+2023-12-19 00:14:35,933 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XMj2eoxmepY3cZfsJAEuv6iS1oIL",
+  "object": "chat.completion",
+  "created": 1702962872,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"As we tread the cobblestone path of dialogue, our words dance in ellipses, a whisper of thoughts unspoken. In the gazebo of our interaction, mirthful glances are exchanged, as I gaze into the potential of what might or might not be.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 237,
+    "completion_tokens": 63,
+    "total_tokens": 300
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-19 00:14:35,936 - poem_gen - DEBUG - poem_gen completed successfully, gametext is As we tread the cobblestone path of dialogue, our words dance in ellipses, a whisper of thoughts unspoken. In the gazebo of our interaction, mirthful glances are exchanged, as I gaze into the potential of what might or might not be.
+2023-12-19 00:14:55,023 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:14:55,168 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:16:30,439 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:16:30,551 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:20:49,737 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:20:49,849 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:21:54,248 - poem_gen - INFO - gen_creative_prompt_api words are:
+- Catalyst
+- Enigma
+- Whimsical
+- Traverse
+- Plenitude
+2023-12-19 00:21:54,256 - poem_gen - INFO - ==========================
+2023-12-19 00:21:54,260 - poem_gen - INFO - persona is: Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-12-19 00:21:54,265 - poem_gen - INFO - lang_device is: allegory
+2023-12-19 00:21:54,271 - poem_gen - INFO - abstract_concept is: fear
+2023-12-19 00:21:54,275 - poem_gen - INFO - entropy is: 0.38
+2023-12-19 00:21:54,281 - poem_gen - INFO - creative_starting_prompt: - Catalyst
+- Enigma
+- Whimsical
+- Traverse
+- Plenitude
+2023-12-19 00:21:54,293 - poem_gen - INFO - selected_approach_type: You might dislike the person you're talking to but you still want to talk to them
+2023-12-19 00:21:57,921 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XMqAsbbDYS5N5j7eqVpDn6Rp9pHT",
+  "object": "chat.completion",
+  "created": 1702963314,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Ah, the enigma of connection, a whimsical dance of words! As we traverse the digital expanse, your presence is a catalyst, stirring a plenitude of thoughts.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 239,
+    "completion_tokens": 42,
+    "total_tokens": 281
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-19 00:21:57,925 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Ah, the enigma of connection, a whimsical dance of words! As we traverse the digital expanse, your presence is a catalyst, stirring a plenitude of thoughts.
+2023-12-19 00:22:11,129 - poem_gen - INFO - gen_creative_prompt_api words are:
+tension
+glimmer
+whisper
+circuit
+bravery
+2023-12-19 00:22:11,139 - poem_gen - INFO - ==========================
+2023-12-19 00:22:11,144 - poem_gen - INFO - persona is: Gwendolyn. You are a whimsical botanist who believes in the secret life of plants. Your writings are from the perspectives of various flora, creating an imaginative journey through their 'eyes'. You blend botanical science with a fairy-tale-like narrative, making your prose a unique exploration of the natural world.
+2023-12-19 00:22:11,150 - poem_gen - INFO - lang_device is: allegory
+2023-12-19 00:22:11,155 - poem_gen - INFO - abstract_concept is: mortality
+2023-12-19 00:22:11,160 - poem_gen - INFO - entropy is: 0.38
+2023-12-19 00:22:11,165 - poem_gen - INFO - creative_starting_prompt: tension
+glimmer
+whisper
+circuit
+bravery
+2023-12-19 00:22:11,177 - poem_gen - INFO - selected_reaction_type: You strongly dislike the person you're talking to and want to make it clear you no longer want to talk to them
+2023-12-19 00:22:21,054 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XMqR3jq5TfM7mnMg50okPWDtNsvp",
+  "object": "chat.completion",
+  "created": 1702963331,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Indeed, the tension in this digital whispering gallery we navigate does mimic the intricate circuit of a forest at dusk, each glimmer of light - a fleeting bravery against the night. Yet, much like the transient nature of petals, our time here is a dance with mortality, ever reminding us to tread lightly on the paths not meant for us.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 338,
+    "completion_tokens": 74,
+    "total_tokens": 412
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-19 00:22:21,056 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Indeed, the tension in this digital whispering gallery we navigate does mimic the intricate circuit of a forest at dusk, each glimmer of light - a fleeting bravery against the night. Yet, much like the transient nature of petals, our time here is a dance with mortality, ever reminding us to tread lightly on the paths not meant for us.
+2023-12-19 00:22:50,353 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:22:50,464 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:25:13,517 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:25:13,629 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:27:16,354 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:27:16,468 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:28:36,762 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:28:36,871 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:29:16,920 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 00:29:17,031 - poem_gen - DEBUG - Logger is set up and running.

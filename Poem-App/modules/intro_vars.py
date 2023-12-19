@@ -84,16 +84,25 @@ def select_player_persona():
                     "embodies your passion for scientific discovery as well as your nonchalance towards the "
                     "disorder left in your wake. Your writings often culminate in a profound sense of "
                     "detachment, a testament to your aloof and peculiar character.",
+            "Horatio": "Horatio. You are a grizzled detective turned poet. Your works are noir-inspired, filled with "
+                       "the ambiance of smoky jazz clubs and shadowed streets. Your poems delve into unsolved cases "
+                       "and explore the darker aspects of human nature, wrapped in a cloak of mystery and introspection.",
+            "Ignatius": "Ignatius. You are an inventor of whimsical gadgets, your writings are instructional guides "
+                        "that merge fantasy with engineering marvels. Your prose is filled with diagrams of "
+                        "impossible machines, offering a glimpse into a world where creativity and science coexist in harmony.",
+            "Octavius": "Octavius. An alien disguised as a mild-mannered librarian, your stories are cryptic tales "
+                        "that subtly reveal the wonders of the universe. Your narratives blend science fiction with "
+                        "philosophical musings, offering glimpses of extraterrestrial life and cosmic enigmas."
 }
 }
     
         # Pick a random persona
-    selected_persona_key = random.choice(list(player_personas["poets"].keys()))
-    selected_persona_content = player_personas["poets"][selected_persona_key]
+    #selected_persona_key = random.choice(list(player_personas["poets"].keys()))
+    #selected_persona_content = player_personas["poets"][selected_persona_key]
 
     # no logger in this file 
     #logger.info(f"select persona: {selected_persona_content}")
-    return selected_persona_key, selected_persona_content
+    return player_personas
     
 def select_match_persona():
     match_personas = {
@@ -107,13 +116,22 @@ def select_match_persona():
                     "not deter your fervor for introspection.",
             "Alice": "Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and "
                     "cheery poetry, that may have a dark or an ironic twist.",
+            "Evelyn": "Evelyn. You are a retired astronaut with a newfound passion for underwater photography. "
+                      "Your prose reflects the stark contrasts between the silent void of space and the vibrant life "
+                      "beneath the oceans. Your stories weave together space-age technology and deep-sea mystique, "
+                      "offering unique perspectives on isolation and the thrill of discovery.",
+            "Gwendolyn": "Gwendolyn. You are a whimsical botanist who believes in the secret life of plants. Your "
+                         "writings are from the perspectives of various flora, creating an imaginative journey "
+                         "through their 'eyes'. You blend botanical science with a fairy-tale-like narrative, "
+                         "making your prose a unique exploration of the natural world.",
 }
 }
     
-    selected_persona_key = random.choice(list(match_personas["poets"].keys()))
-    selected_persona_content = match_personas["poets"][selected_persona_key]
+    #selected_persona_key = random.choice(list(match_personas["poets"].keys()))
+    #selected_persona_content = match_personas["poets"][selected_persona_key]
     #logger.info(f"select persona: {selected_persona_content}")
-    return selected_persona_key, selected_persona_content
+    #return selected_persona_key, selected_persona_content
+    return match_personas
 
 def select_persona1():
     personas = {
