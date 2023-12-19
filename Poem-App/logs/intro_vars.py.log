@@ -33,3 +33,64 @@ Prepare to be puzzled, surprised, and amused,
 For in this game, the unexpected is infused.
 Embrace the whimsy, let your imagination take flight,
 And revel in the wonders that await, day and night."
+2023-12-14 17:47:29,905 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a world unknown,
+Where creativity reigns, seeds of wonder sown.
+Expect the unexpected, embrace the bizarre,
+For in this game, confusion is our guiding star."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-14 17:47:29,907 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a world unknown,
+Where creativity reigns, seeds of wonder sown.
+Expect the unexpected, embrace the bizarre,
+For in this game, confusion is our guiding star."
+2023-12-14 18:14:45,748 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a realm unknown,
+Where creativity reigns and chaos is sown.
+Expect the unexpected, embrace the bizarre,
+For in this game, confusion is our shining star.
+So venture forth, with an open mind and heart,
+And let your imagination be the truest art."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-14 18:14:45,750 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a realm unknown,
+Where creativity reigns and chaos is sown.
+Expect the unexpected, embrace the bizarre,
+For in this game, confusion is our shining star.
+So venture forth, with an open mind and heart,
+And let your imagination be the truest art."
+2023-12-14 18:27:35,301 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a realm unknown,
+Where creativity reigns and chaos is sown.
+Prepare thy mind for the unexpected and strange,
+For in this game, rules may rearrange.
+Embrace the whimsy, let your imagination fly,
+And let this world of wonder be your alibi."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-14 18:27:35,303 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a realm unknown,
+Where creativity reigns and chaos is sown.
+Prepare thy mind for the unexpected and strange,
+For in this game, rules may rearrange.
+Embrace the whimsy, let your imagination fly,
+And let this world of wonder be your alibi."
+2023-12-14 22:44:13,308 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a realm unknown,
+Where creativity reigns and chaos is sown.
+Expect the unexpected, embrace the bizarre,
+For in this game, confusion is our guiding star.
+So venture forth, with an open mind and heart,
+And let your imagination be our finest art."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-14 22:44:13,310 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a realm unknown,
+Where creativity reigns and chaos is sown.
+Expect the unexpected, embrace the bizarre,
+For in this game, confusion is our guiding star.
+So venture forth, with an open mind and heart,
+And let your imagination be our finest art."
+2023-12-18 21:57:35,914 - intro_vars.py - DEBUG - Generated Text: "Step into a world of whimsical delight,
+Where rules are shattered and norms take flight.
+Creativity dances on every stage,
+In this game of wonder, let loose your inner sage.
+Embrace the unexpected, let your imagination unfurl,
+For here, my friend, is where the magic truly swirls."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-18 21:57:35,919 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Step into a world of whimsical delight,
+Where rules are shattered and norms take flight.
+Creativity dances on every stage,
+In this game of wonder, let loose your inner sage.
+Embrace the unexpected, let your imagination unfurl,
+For here, my friend, is where the magic truly swirls."

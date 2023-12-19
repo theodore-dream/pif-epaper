@@ -33,8 +33,8 @@ def handle_option_r(entropy):
     # Implement game logic for Option B
     # Increase entropy by .05, not going above 1
     #entropy = min(1.0, float(entropy) + 0.1)
-    # TEMP let's test capping this at 0.6
-    entropy = min(Decimal('0.95'), entropy + Decimal('0.05'))
+    # TEMP let's test capping this at 0.9
+    entropy = min(Decimal('0.85'), entropy + Decimal('0.05'))
     # Return a result (e.g., a string containing game text)
     logger.debug(f"right button pressed")
     return entropy
@@ -127,7 +127,8 @@ def initialize_new_session(session_id):
     logger.info(f"match_persona_name: {match_persona_name}")
     session_state = "new"
     gametext = None
-    entropy = Decimal(random.randint(0, 20)) / Decimal(100)
+    # entropy 30 to
+    entropy = Decimal(random.randint(30, 45)) / Decimal(100)
     db_service.new_game_init_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy)
     logger.info(f"New session created with ID: {session_id} and entropy: {entropy}")
     run_game(player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, session_id)

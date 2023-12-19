@@ -29,8 +29,13 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
 def player_gametext_api(entropy, player_persona, creative_prompt, abstract_concept):
-    #CONTENT_TYPES = ["haiku", "poem", "free verse"]  # Add more poetry types as needed
-    #selected_content_type = random.choice(CONTENT_TYPES)
+    APPROACH_TYPES = [
+        "You might dislike the person you're talking to but you still want to talk to them",
+        "You are very interested in the person you're talking to and want to win them over but are playing it cool.",
+        "You have no opinion as to your relationship with the person you are speaking to and have no particular like or dislike of them"
+    ]
+    selected_approach = random.choice(APPROACH_TYPES)
+    logger.info(f"selected_approach_type: {selected_approach}")
     # Inject the selected poetry type into the user message
     messages = [
         {
@@ -47,6 +52,7 @@ def player_gametext_api(entropy, player_persona, creative_prompt, abstract_conce
                         "That sounds like poetry. "
                     f"Consider incorporating {creative_prompt} in your speech if it may help you communicate."
                     "I want you to remember you are having a conversation. "
+                    f"{selected_approach}"
                     "Output into JSON format as specified."
         },
     ]
@@ -79,7 +85,11 @@ def player_gametext_api(entropy, player_persona, creative_prompt, abstract_conce
 
 # another API call to try to constrain the output
 def match_gametext_api(entropy, persona, player_gametext, creative_prompt, abstract_concept):
-    REACTION_TYPES = ["You strongly dislike the person you're talking to and want to make it clear you no longer want to talk to them", "you are very interested in the person you're talking to and want to show your interest.", "you have no opinion as to your relationship with the person you are speaking to and have no particular like or dislike of them"]  
+    REACTION_TYPES = [
+        "You strongly dislike the person you're talking to and want to make it clear you no longer want to talk to them",
+        "You are very interested in the person you're talking to and want to show your interest.",
+        "You have no opinion as to your relationship with the person you are speaking to and have no particular like or dislike of them"
+    ]
     selected_reaction_type = random.choice(REACTION_TYPES)
     logger.info(f"selected_reaction_type: {selected_reaction_type}")
     # Inject the selected poetry type into the user message
@@ -106,7 +116,6 @@ def match_gametext_api(entropy, persona, player_gametext, creative_prompt, abstr
             )
         }
     ]
-
     
     completion = openai.ChatCompletion.create(
         model="gpt-4-1106-preview",
