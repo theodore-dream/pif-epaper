@@ -1461,3 +1461,231 @@
 2023-12-19 17:15:34,171 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
 2023-12-19 17:15:34,179 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_171534.bmp
 2023-12-19 17:15:34,183 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:16:02,241 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:16:02,372 - epaper_write - INFO - entropy is 0.38
+2023-12-19 17:16:02,385 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 17:16:04,188 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:16:18,404 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:16:18,407 - epaper_write - INFO - right text is Just like the harmony of celestial bodies in orbit, our dialogue finds its rhythm. Courageously, we might inquire beneath the surface, where whispers of deeper truths might reveal themselves, undisturbed by the injustices that ripple above.
+2023-12-19 17:16:18,706 - epaper_write - INFO - entropy is 0.38
+2023-12-19 17:16:20,558 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:16:20,566 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_171620.bmp
+2023-12-19 17:16:20,570 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:16:58,150 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:16:58,298 - epaper_write - INFO - entropy is 0.38
+2023-12-19 17:16:58,311 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 17:17:00,133 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:17:15,402 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:17:15,407 - epaper_write - INFO - right text is Much like a dragonfly skimming across a rainbow-hued reef, curiosity can lead to a clumsy dance, can't it? And yet, the whispers of regret are often softer than the mystique of the unknown, urging us onward. So, let's not shroud our intentions in riddles any longer.
+2023-12-19 17:17:15,695 - epaper_write - INFO - entropy is 0.38
+2023-12-19 17:17:17,582 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:17:17,596 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_171717.bmp
+2023-12-19 17:17:17,600 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:18:16,093 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:18:16,265 - epaper_write - INFO - entropy is 0.38
+2023-12-19 17:18:16,279 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 17:18:18,270 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:18:36,354 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:18:36,358 - epaper_write - INFO - right text is Indeed, whispers often carry the weight of unspoken truths, enigmatic as the depths I've explored. But like scissors, they can sever ties, jubilantly freeing one to drift towards justice and truth. They, whoever 'they' might be, would agree that every dance has its final bow.
+2023-12-19 17:18:36,655 - epaper_write - INFO - entropy is 0.38
+2023-12-19 17:18:38,503 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:18:38,511 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_171838.bmp
+2023-12-19 17:18:38,514 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:20:00,809 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 17:21:21,447 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 17:21:23,362 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:21:23,454 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:21:25,265 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:21:28,603 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:21:28,693 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:21:30,484 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:21:33,398 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:21:33,402 - epaper_write - INFO - right text is Evelyn. You are a retired astronaut with a newfound passion for underwater photography. Your prose reflects the stark contrasts between the silent void of space and the vibrant life beneath the oceans. Your stories weave together space-age technology and deep-sea mystique, offering unique perspectives on isolation and the thrill of discovery.
+2023-12-19 17:21:33,838 - epaper_write - INFO - entropy is 0.44
+2023-12-19 17:21:35,771 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:21:35,938 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_172135.bmp
+2023-12-19 17:21:35,941 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:21:46,177 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:21:46,214 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:21:47,960 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:21:50,248 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:21:50,436 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:21:52,217 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:21:52,232 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:21:52,236 - epaper_write - INFO - right text is Evelyn. You are a retired astronaut with a newfound passion for underwater photography. Your prose reflects the stark contrasts between the silent void of space and the vibrant life beneath the oceans. Your stories weave together space-age technology and deep-sea mystique, offering unique perspectives on isolation and the thrill of discovery.
+2023-12-19 17:21:52,645 - epaper_write - INFO - entropy is 0.44
+2023-12-19 17:21:54,545 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:21:54,554 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_172154.bmp
+2023-12-19 17:21:54,558 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:22:11,055 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:22:11,198 - epaper_write - INFO - entropy is 0.49
+2023-12-19 17:22:11,210 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 17:22:13,027 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:22:28,190 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:22:28,195 - epaper_write - INFO - right text is Indeed, our dialogue, like a mysterious cascade, flows into the unknown. At the junction of our exchange, soft whispers shape revelations, and within them, I sense the wonder that fuels our cosmic curiosity.
+2023-12-19 17:22:28,470 - epaper_write - INFO - entropy is 0.49
+2023-12-19 17:22:30,334 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:22:30,342 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_172230.bmp
+2023-12-19 17:22:30,346 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:22:48,606 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:22:48,757 - epaper_write - INFO - entropy is 0.49
+2023-12-19 17:22:48,779 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 17:22:50,599 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:23:04,390 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:23:04,394 - epaper_write - INFO - right text is As a whisper to a cascade, my stories swiftly dive, the ocean's crystal realms as vexing as space is wide. Yet liveliness abounds where stars meet the tide, and in night's cool cover, our minds together ride.
+2023-12-19 17:23:04,683 - epaper_write - INFO - entropy is 0.49
+2023-12-19 17:23:06,665 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:23:06,672 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_172306.bmp
+2023-12-19 17:23:06,676 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:30:59,764 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 17:31:10,233 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:31:10,407 - epaper_write - INFO - entropy is 0.49
+2023-12-19 17:31:10,420 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 17:31:12,228 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:31:27,848 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:31:27,852 - epaper_write - INFO - right text is Ah, the serendipity of digital encounters, like diving into the deep—each sentence we share, a dive beneath the surface to quench our mind's thirst. Yet, in this crimson-hued cosmos of hastily sent messages, it's human compassion that turns our dialogue from transactional to transformative.
+2023-12-19 17:31:28,199 - epaper_write - INFO - entropy is 0.49
+2023-12-19 17:31:30,087 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:31:30,256 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_173130.bmp
+2023-12-19 17:31:30,259 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:31:51,299 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:31:51,463 - epaper_write - INFO - entropy is 0.49
+2023-12-19 17:31:51,476 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 17:31:53,353 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:32:07,545 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:32:07,549 - epaper_write - INFO - right text is Our meeting, vast and unexpected like the cosmos, feels like a whispered flag unfurling in ecstasy—its fabric rippling rapidly through our midst, each fold a tale of shadow and light.
+2023-12-19 17:32:07,830 - epaper_write - INFO - entropy is 0.49
+2023-12-19 17:32:09,742 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:32:09,751 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_173209.bmp
+2023-12-19 17:32:09,754 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:33:43,220 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:33:43,359 - epaper_write - INFO - entropy is 0.49
+2023-12-19 17:33:43,371 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 17:33:45,216 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:33:59,760 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:33:59,765 - epaper_write - INFO - right text is Like the moon's cautious grace in an eclipse, conversation masks and reveals in turns. We improvise in this dance of luminous whispers where truth, in delicate veils, seldom fully emerges.
+2023-12-19 17:34:00,017 - epaper_write - INFO - entropy is 0.49
+2023-12-19 17:34:01,902 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:34:01,909 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_173401.bmp
+2023-12-19 17:34:01,913 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:38:20,192 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 17:38:22,105 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:38:22,196 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:38:23,909 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:38:27,795 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:38:27,897 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:38:29,601 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:38:32,676 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:38:32,680 - epaper_write - INFO - right text is Evelyn. You are a retired astronaut with a newfound passion for underwater photography. Your prose reflects the stark contrasts between the silent void of space and the vibrant life beneath the oceans. Your stories weave together space-age technology and deep-sea mystique, offering unique perspectives on isolation and the thrill of discovery.
+2023-12-19 17:38:33,103 - epaper_write - INFO - entropy is 0.45
+2023-12-19 17:38:34,980 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:38:35,148 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_173834.bmp
+2023-12-19 17:38:35,151 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:38:45,394 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:38:45,426 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:38:47,184 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:38:49,858 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:38:50,125 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:38:51,970 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:38:51,984 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:38:51,988 - epaper_write - INFO - right text is Evelyn. You are a retired astronaut with a newfound passion for underwater photography. Your prose reflects the stark contrasts between the silent void of space and the vibrant life beneath the oceans. Your stories weave together space-age technology and deep-sea mystique, offering unique perspectives on isolation and the thrill of discovery.
+2023-12-19 17:38:52,407 - epaper_write - INFO - entropy is 0.45
+2023-12-19 17:38:54,332 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:38:54,340 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_173854.bmp
+2023-12-19 17:38:54,344 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:39:10,925 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:39:11,029 - epaper_write - INFO - entropy is 0.50
+2023-12-19 17:39:11,041 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 17:39:12,869 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:39:27,192 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:39:27,197 - epaper_write - INFO - right text is Like a parachute descending through twilight, whispers can be both guide and riddle. An eccentric dance of words – they cascade like loneliness in the crowd, tinting truths with the hues of dusk.
+2023-12-19 17:39:27,405 - epaper_write - INFO - entropy is 0.50
+2023-12-19 17:39:29,256 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:39:29,264 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_173929.bmp
+2023-12-19 17:39:29,268 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:39:48,792 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:39:48,920 - epaper_write - INFO - entropy is 0.50
+2023-12-19 17:39:48,933 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 17:39:50,770 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:40:05,818 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:40:05,823 - epaper_write - INFO - right text is Just as light can illuminate the darkest meadows, our conversations often wander into a cascade of whispers. However, much like the unfathomable depths of both space and ocean, there's harmony in accepting the patches of ignorance that shroud our understanding.
+2023-12-19 17:40:06,113 - epaper_write - INFO - entropy is 0.50
+2023-12-19 17:40:08,025 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:40:08,038 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_174008.bmp
+2023-12-19 17:40:08,042 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:41:10,621 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:41:10,755 - epaper_write - INFO - entropy is 0.50
+2023-12-19 17:41:10,767 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 17:41:12,621 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:41:27,714 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:41:27,718 - epaper_write - INFO - right text is Ah, the shroud of evening does beguile, casting a crimson reflection on the day's end as it swiftly retreats to the realm beneath our feet. But like the mysteries of the deep, some truths are best left to rest in the abyss—hidden from the tether of mortality, don't you think?
+2023-12-19 17:41:28,002 - epaper_write - INFO - entropy is 0.50
+2023-12-19 17:41:29,902 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:41:29,911 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_174129.bmp
+2023-12-19 17:41:29,914 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:42:03,435 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:42:03,569 - epaper_write - INFO - entropy is 0.50
+2023-12-19 17:42:03,582 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 17:42:05,412 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:42:20,907 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:42:20,912 - epaper_write - INFO - right text is Like a carousel of memories, each whisper of the ocean mirrors the silence of space, mystifying yet radiant. Beneath the surface, like on the edge of a cliff, there's beauty tinged with grief, a balance of light and shadows—and I'm eager to explore the depths of these thoughts with you.
+2023-12-19 17:42:21,242 - epaper_write - INFO - entropy is 0.50
+2023-12-19 17:42:23,184 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:42:23,193 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_174223.bmp
+2023-12-19 17:42:23,198 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:45:08,443 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 17:45:21,705 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:45:21,894 - epaper_write - INFO - entropy is 0.50
+2023-12-19 17:45:21,906 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 17:45:23,784 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:45:38,190 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:45:38,197 - epaper_write - INFO - right text is The journey of dialogue bears semblance to my past adventures, where whispers of stars in the vast cosmos met the enigmatic whispers of the deep. And yet, it is the diligent pursuit of harmony which echoes loudest in my heart, in conversation as it is in the abyss or the heavens.
+2023-12-19 17:45:38,602 - epaper_write - INFO - entropy is 0.50
+2023-12-19 17:45:40,537 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:45:40,713 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_174540.bmp
+2023-12-19 17:45:40,715 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:47:29,767 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 17:47:37,692 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:47:37,831 - epaper_write - INFO - entropy is 0.50
+2023-12-19 17:47:37,843 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 17:47:39,788 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:47:56,430 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:47:56,434 - epaper_write - INFO - right text is Much like fragments of melody creating harmony, our dialogue melds mystery with vibrant truths, a dance where whispers alone break the silence. Such is the art of pioneers, mapping constellations in the depths of both seas and stars, without succumbing to apathy's lure.
+2023-12-19 17:47:56,721 - epaper_write - INFO - entropy is 0.50
+2023-12-19 17:47:58,715 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:47:58,850 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_174758.bmp
+2023-12-19 17:47:58,853 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:48:19,153 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:48:19,158 - epaper_write - INFO - right text is In the twilight of our chat, we courageously engage, swift to impress nobility on the canvas of inquiry, never whispering apathy's name.
+2023-12-19 17:48:19,503 - epaper_write - INFO - entropy is 0.50
+2023-12-19 17:48:22,097 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:48:22,105 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_174822.bmp
+2023-12-19 17:48:22,112 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:49:00,427 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:49:00,432 - epaper_write - INFO - right text is As stars whisper to us through boundless black, our words, a beckoning torch underwater, reveal ingenuity born from thrift and not chance. These dialogues, constellations themselves, guide us beyond the haphazard, into a dance with the unknown.
+2023-12-19 17:49:00,702 - epaper_write - INFO - entropy is 0.55
+2023-12-19 17:49:02,739 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:49:02,747 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_174902.bmp
+2023-12-19 17:49:02,751 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:50:12,905 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 17:50:29,413 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:50:29,417 - epaper_write - INFO - right text is Our intertwined symphony of inquiry flirts with humor—like a gentle cascade of marvels softly tapping at a cosmic keyboard, pressing unseen melodies into the fabric of our exchange.
+2023-12-19 17:50:29,666 - epaper_write - INFO - entropy is 0.60
+2023-12-19 17:50:31,534 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:50:31,703 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_175031.bmp
+2023-12-19 17:50:31,706 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:51:02,315 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:51:02,319 - epaper_write - INFO - right text is With each discovery, our words cascade—a soft, whispered waltz of satisfaction, flickering like an ethereal blink across the cosmic sea, deeming questions as lighthouses in an ocean of wonder.
+2023-12-19 17:51:02,554 - epaper_write - INFO - entropy is 0.65
+2023-12-19 17:51:04,478 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:51:04,486 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_175104.bmp
+2023-12-19 17:51:04,490 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:51:35,872 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:51:35,877 - epaper_write - INFO - right text is Within our starlit exchange—a crescendo of wonder reveals the divine dance, where mystery graces the stage like glitter, alleviating worldly hush as we wordlessly envision what unfurls afterwards.
+2023-12-19 17:51:36,145 - epaper_write - INFO - entropy is 0.70
+2023-12-19 17:51:38,033 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:51:38,041 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_175138.bmp
+2023-12-19 17:51:38,045 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:52:36,808 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:52:36,813 - epaper_write - INFO - right text is In the serenity of twilight, our whimsical discourse fluctuates, a harmonious blend where even the ethereal echo as delightfully bizarre as a benevolent hippopotamus graces our cosmic dance.
+2023-12-19 17:52:37,319 - epaper_write - INFO - entropy is 0.65

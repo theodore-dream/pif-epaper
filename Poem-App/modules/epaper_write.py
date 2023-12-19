@@ -173,7 +173,7 @@ def display_dialogue_both(left_text, right_text, player_name, match_name, entrop
     #game_info_height = EPAPER_HEIGHT - dialogue_height  # Remaining 1/5 for game info
 
     # Estimate the average number of characters that can fit in the column width
-    average_char_width = font.getsize("A")[0]  # Width of a single character
+    average_char_width = font.getsize("a")[0]  # Width of a single character
     column_width = EPAPER_WIDTH // 2  # Width of each column
     max_char_per_line = column_width // average_char_width
 
