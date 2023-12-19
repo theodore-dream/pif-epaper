@@ -10,6 +10,8 @@ from time import sleep
 import uuid
 import time
 import RPi.GPIO as GPIO
+import argparse
+
 
 # setup GPIO
 buttons.setup()
@@ -20,6 +22,27 @@ logger.debug("Logger is set up and running.")
 
 #init our display
 epaper_write.init_display()
+
+# to setup command line flags for keyboard or pi
+def parse_args():
+    parser = argparse.ArgumentParser(description="Start the poetry game with a specified input mode.")
+    parser.add_argument("--input-mode", choices=['keyboard', 'pi'], default='keyboard', 
+                        help="Specify the input mode: 'keyboard' or 'raspberry'")
+    return parser.parse_args()
+
+# this is where the input mode logic goes
+def get_input(input_mode):
+    if input_mode == 'keyboard':
+        print("Press 'l' for left, 'r' for right:")
+        while True:
+            key = input().lower()
+            if key in ['l', 'r']:
+                return key
+            else:
+                print("Invalid input. Please press 'l' for left or 'r' for right.")
+    elif input_mode == 'raspberry':
+        # Include your Raspberry Pi button logic here
+        pass
 
 def handle_option_l(entropy):
     # Implement game logic for Option A
@@ -85,9 +108,10 @@ def handle_active_session(session_id, player_persona, match_persona, player_pers
     #issue now is there is no content to save, I guess it can just be None? 
     return player_gametext, match_gametext
 
-def run_game(player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, session_id):
+def run_game(player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, session_id, input_mode):
     # Entropy modification logic (currently faked for development)
-    entropy = handle_option_r(entropy)
+    # this section right here is currently meant to be used with raspberry pi hardware attached buttons that are each coded to be left or right 
+    # alternatively, if using keyboard mode, you can use the up and down arrow keys to select "l" or "r" 
 
     info_gametext = None
     if session_state == "new":
@@ -106,8 +130,18 @@ def run_game(player_persona, match_persona, player_persona_name, match_persona_n
         match_gametext = None
         player_gametext, match_gametext = handle_active_session(session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy)
         
+        # Print instructions before getting input
+        print("\nChoose your action:")
+        print("Press 'l' to decrease entropy, 'r' to increase entropy. Make your selection and press Enter")
+
         # here I want to give the player some options and add those options into player_speech_gen api call, need to split those out probably 
-        
+        user_input = get_input(input_mode)
+
+        if user_input == 'l':
+            entropy = handle_option_l(entropy)
+        elif user_input == 'r':
+            entropy = handle_option_r(entropy)
+
         # here I want to do two writes, one where I write the first part and then another where I write again and show both dialogues 
         player_gametext = player_speech_gen(float(entropy), player_persona)
         epaper_write.display_dialogue_left(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
@@ -117,27 +151,27 @@ def run_game(player_persona, match_persona, player_persona_name, match_persona_n
         match_gametext = match_speech_gen(float(entropy), match_persona, player_gametext)  
         epaper_write.display_dialogue_both(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
 
-def initialize_new_session(session_id):
+def initialize_new_session(session_id, input_mode):
     logger.debug("Initializing new session...")
     # need to work on a way to allow the player to select the persona 
     # temp workaround to create and use personas manually
-    player_persona_name, player_persona = intro_vars.select_persona1()
-    match_persona_name, match_persona = intro_vars.select_persona2()
+    player_persona_name, player_persona = intro_vars.select_player_persona()
+    match_persona_name, match_persona = intro_vars.select_match_persona()
     logger.info(f"player_persona_name: {player_persona_name}")
     logger.info(f"match_persona_name: {match_persona_name}")
     session_state = "new"
     gametext = None
-    # entropy 30 to
+    # entropy 30 toåå
     entropy = Decimal(random.randint(30, 45)) / Decimal(100)
     db_service.new_game_init_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy)
     logger.info(f"New session created with ID: {session_id} and entropy: {entropy}")
-    run_game(player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, session_id)
+    run_game(player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, session_id, input_mode)
 
 
-def continue_active_session(session_data):
+def continue_active_session(session_data, input_mode):
     session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy = session_data
     logger.info(f" Continuing active session. Current state of session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy: {session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy}")
-    run_game(player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, session_id)
+    run_game(player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, session_id, input_mode)
 
 def check_game_state():
     logger.debug("Running game status check...")
@@ -149,16 +183,24 @@ def check_game_state():
     logger.info(f"Session data from DB: {session_data}")
 
     if session_data is not None and session_data[5] == "active":
-        continue_active_session(session_data)
+        continue_active_session(session_data, input_mode)
     else:
         initialize_new_session(session_id)
 
 
 if __name__ == "__main__":
+    args = parse_args()
+    input_mode = args.input_mode
+
     try:
         while True:
-            check_game_state()
-            time.sleep(0.1)  # optional delay
+            session_id = setup_utils.get_or_create_uuid()
+            session_data = db_service.read_from_database(session_id)
+            if session_data is not None and session_data[5] == "active":
+                continue_active_session(session_data, input_mode)
+            else:
+                initialize_new_session(session_id, input_mode)
+            time.sleep(0.1)
     except KeyboardInterrupt:
         print("\nProgram has been stopped by the user.")
         GPIO.cleanup()

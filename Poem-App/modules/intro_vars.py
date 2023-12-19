@@ -68,7 +68,7 @@ def select_persona2():
     #logger.info(f"select persona: {selected_persona_content}")
     return selected_persona_content
 
-def select_persona():
+def select_player_persona():
     player_personas = {
         "poets" : {
             "Bob": "Bob. Your name is Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences "
@@ -93,9 +93,9 @@ def select_persona():
 
     # no logger in this file 
     #logger.info(f"select persona: {selected_persona_content}")
-    return selected_persona_content
+    return selected_persona_key, selected_persona_content
     
-def select_persona():
+def select_match_persona():
     match_personas = {
         "poets" : {
             "Beatrice": "Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings "
@@ -113,7 +113,7 @@ def select_persona():
     selected_persona_key = random.choice(list(match_personas["poets"].keys()))
     selected_persona_content = match_personas["poets"][selected_persona_key]
     #logger.info(f"select persona: {selected_persona_content}")
-    return selected_persona_content
+    return selected_persona_key, selected_persona_content
 
 def select_persona1():
     personas = {

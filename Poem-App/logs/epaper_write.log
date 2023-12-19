@@ -685,3 +685,82 @@
 2023-12-18 21:58:09,446 - epaper_write - INFO - entropy is 0.46
 2023-12-18 21:58:09,459 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
 2023-12-18 21:58:11,232 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-18 22:07:53,162 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 22:19:07,926 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 22:20:35,025 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 22:20:56,694 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 22:21:11,198 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:21:11,384 - epaper_write - INFO - entropy is 0.56
+2023-12-18 22:21:11,398 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-18 22:21:13,266 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-18 22:21:29,611 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:21:29,614 - epaper_write - INFO - right text is You wax poetic, friend, but let's not mystify a simple chat. Our talk here doesn't have to culminate in anything grand. It's just two people passing the time, nothing as vivid or piercing as a harpoon into the quintessence of existence.
+2023-12-18 22:21:29,618 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 22:21:29,885 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 22:21:30,161 - epaper_write - INFO - entropy is 0.56
+2023-12-18 22:21:32,125 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-18 22:23:02,816 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:23:03,052 - epaper_write - INFO - entropy is 0.61
+2023-12-18 22:23:03,065 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-18 22:23:04,945 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-18 22:23:27,284 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:23:27,288 - epaper_write - INFO - right text is Life's an unpredictable dance, ain't it? Like a volcano that might erupt any moment, but the result could be something majestic. Or a calm, tranquil pond stirred up by a falling feather, sparking new ripples. So, I'm an advocate for letting things fall as they may, finding unexpected camaraderie amidst life's chaos. That's the kind beauty I look for.
+2023-12-18 22:23:27,295 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 22:23:27,502 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 22:23:27,713 - epaper_write - INFO - entropy is 0.61
+2023-12-18 22:23:29,676 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-18 22:24:01,470 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:24:01,670 - epaper_write - INFO - entropy is 0.66
+2023-12-18 22:24:01,684 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-18 22:24:03,548 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-18 22:24:15,516 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 22:24:24,322 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:24:24,461 - epaper_write - INFO - entropy is 0.66
+2023-12-18 22:24:24,474 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-18 22:24:26,388 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-18 22:24:45,103 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:24:45,108 - epaper_write - INFO - right text is Navigatin' our talk's like wanderin' through a never-endin' cascade, ain’t it? It's both—if you'll excuse the mirth—accidentally profound, yet serendipitous like hittin' a sweet note on a xylophone. There's an abundant richness even couched within our conundrums.
+2023-12-18 22:24:45,114 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 22:24:45,243 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 22:24:45,423 - epaper_write - INFO - entropy is 0.66
+2023-12-18 22:24:47,389 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-18 22:25:05,168 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:25:05,462 - epaper_write - INFO - entropy is 0.66
+2023-12-18 22:25:05,476 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-18 22:25:07,378 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-18 22:25:26,756 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:25:26,760 - epaper_write - INFO - right text is You got yourself a real poetic way of talkin'. Yeah, I've seen that dance of light and shadows you're on about. Makes even a cynical heart vibrate with something like exuberance, just for a second. It's a quiet marvel, 'cept I've never been much for the deep chronicle or mysteries. Call me simple, but I guess some of us just appreciate things straight up, no eclipse needed.
+2023-12-18 22:25:26,766 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 22:25:26,890 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 22:25:27,084 - epaper_write - INFO - entropy is 0.66
+2023-12-18 22:25:29,069 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-18 22:25:59,503 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 22:26:42,669 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 22:27:06,152 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 22:28:17,436 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 22:28:19,566 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-18 22:28:21,285 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-18 22:28:24,292 - epaper_write - INFO - Clear e-paper display...
+2023-12-18 22:28:28,931 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-18 22:28:30,741 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-18 22:28:40,755 - epaper_write - INFO - Clear e-paper display...
+2023-12-18 22:28:42,025 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:28:42,029 - epaper_write - INFO - right text is Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-18 22:28:42,036 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 22:28:42,249 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 22:28:42,370 - epaper_write - INFO - entropy is 0.39
+2023-12-18 22:28:44,239 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-18 22:29:08,181 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:29:08,350 - epaper_write - INFO - entropy is 0.34
+2023-12-18 22:29:08,362 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-18 22:29:10,148 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-18 22:29:25,682 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:29:25,686 - epaper_write - INFO - right text is Like a cascade, conversations have their ebbs and flows, and while the horizon of connection may fluctuate, the satisfaction of honest discourse is a champion of its own. Yet, even in the nebulous dance of dialogue, one must sometimes find the quiet in the storm.
+2023-12-18 22:29:25,692 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 22:29:25,836 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 22:29:26,018 - epaper_write - INFO - entropy is 0.34
+2023-12-18 22:29:27,862 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-18 22:29:53,925 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:29:54,155 - epaper_write - INFO - entropy is 0.34
+2023-12-18 22:29:54,168 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-18 22:29:55,960 - epaper_write - INFO - Dialogue displayed on e-paper successfully.

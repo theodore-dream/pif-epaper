@@ -195,7 +195,7 @@ def display_dialogue_both(left_text, right_text, player_name, match_name, entrop
     epd.display(epd.getbuffer(image))
     epd.lut_GC()
     epd.refresh()
-    logger.info("Dialogue displayed on e-paper successfully.")
+    logger.debug("Dialogue displayed on e-paper successfully.")
     sleep(display_time)
 
 
@@ -234,3 +234,4 @@ def main():
 if __name__ == "__main__":
     main()
 
+# should modify to save a copy of the output to file 
