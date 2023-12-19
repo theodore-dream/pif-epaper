@@ -764,3 +764,22 @@
 2023-12-18 22:29:54,155 - epaper_write - INFO - entropy is 0.34
 2023-12-18 22:29:54,168 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
 2023-12-18 22:29:55,960 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-18 22:30:14,903 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:30:14,907 - epaper_write - INFO - right text is Indeed, life's melody dances whimsically, like a cascade in a rural dream, its tune fluctuates with the brevity of a moment's kiss. Yet, in its transient beauty, there's no despair, for in each fleeting note, we savor the sweet possibility of 'us'.
+2023-12-18 22:30:14,913 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 22:30:15,116 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 22:30:15,288 - epaper_write - INFO - entropy is 0.34
+2023-12-18 22:30:17,144 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-18 22:33:31,496 - epaper_write - INFO - Initializing epd3in52
+2023-12-18 22:33:40,460 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:33:40,640 - epaper_write - INFO - entropy is 0.34
+2023-12-18 22:33:40,653 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-18 22:33:42,451 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-18 22:33:58,088 - epaper_write - INFO - Font loaded successfully.
+2023-12-18 22:33:58,106 - epaper_write - INFO - right text is As you navigate your cascade of thoughts, seeking clarity in the obscure, remember that even whispers can harvest a storm. My heart is a lone wanderer, charmed by many streams, yet none have I pledged to follow.
+2023-12-18 22:33:58,114 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 22:33:58,317 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-18 22:33:58,565 - epaper_write - INFO - entropy is 0.34
+2023-12-18 22:34:00,967 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-18 22:34:01,332 - epaper_write - INFO - Image saved to display_output/dialogue_Reginald_Alice.bmp
+2023-12-18 22:34:01,335 - epaper_write - INFO - Saving to disk.....

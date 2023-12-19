@@ -5284,3 +5284,128 @@ bracket
   "system_fingerprint": "fp_3905aa4f79"
 }
 2023-12-18 22:29:53,907 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Ah, amidst the harmonious whispers of life's grand symphony, we find ourselves whisked away by chance's gentle hand. How sublime it is, our meeting, like a hidden creek meandering through destiny's vast landscape. Let us bracket not our words with hesitation, but speak as the stars do, in a sky unafraid of dawn's light.
+2023-12-18 22:30:06,991 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whimsical
+rural
+fluctuate
+brevity
+2023-12-18 22:30:07,001 - poem_gen - INFO - ==========================
+2023-12-18 22:30:07,010 - poem_gen - INFO - persona is: Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-18 22:30:07,018 - poem_gen - INFO - lang_device is: alliteration
+2023-12-18 22:30:07,021 - poem_gen - INFO - abstract_concept is: despair
+2023-12-18 22:30:07,028 - poem_gen - INFO - entropy is: 0.34
+2023-12-18 22:30:07,036 - poem_gen - INFO - creative_starting_prompt: cascade
+whimsical
+rural
+fluctuate
+brevity
+2023-12-18 22:30:07,055 - poem_gen - INFO - selected_reaction_type: You are very interested in the person you're talking to and want to show your interest.
+2023-12-18 22:30:14,879 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XL5zO3Tq0Y0kmaqei1rs4Kj82GkF",
+  "object": "chat.completion",
+  "created": 1702956607,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Indeed, life's melody dances whimsically, like a cascade in a rural dream, its tune fluctuates with the brevity of a moment's kiss. Yet, in its transient beauty, there's no despair, for in each fleeting note, we savor the sweet possibility of 'us'.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 342,
+    "completion_tokens": 66,
+    "total_tokens": 408
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-18 22:30:14,882 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Indeed, life's melody dances whimsically, like a cascade in a rural dream, its tune fluctuates with the brevity of a moment's kiss. Yet, in its transient beauty, there's no despair, for in each fleeting note, we savor the sweet possibility of 'us'.
+2023-12-18 22:33:31,045 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 22:33:31,156 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-18 22:33:37,732 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whimsical
+margarine
+contemplate
+dexterity
+2023-12-18 22:33:37,740 - poem_gen - INFO - ==========================
+2023-12-18 22:33:37,744 - poem_gen - INFO - persona is: Reginald. You are an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-12-18 22:33:37,748 - poem_gen - INFO - lang_device is: idiom
+2023-12-18 22:33:37,752 - poem_gen - INFO - abstract_concept is: silliness
+2023-12-18 22:33:37,755 - poem_gen - INFO - entropy is: 0.34
+2023-12-18 22:33:37,758 - poem_gen - INFO - creative_starting_prompt: cascade
+whimsical
+margarine
+contemplate
+dexterity
+2023-12-18 22:33:37,764 - poem_gen - INFO - selected_approach_type: You are very interested in the person you're talking to and want to win them over but are playing it cool.
+2023-12-18 22:33:40,438 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XL9N7xbx29oD9vgZWHKtW3QouvDQ",
+  "object": "chat.completion",
+  "created": 1702956817,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"As cascades of thought tumble whimsically through my mind, I contemplate the artistry to spread words smooth as margarine, hoping my dexterous dialogue charms you, yet I play it cool, like a gentle stream under moonlight.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 53,
+    "total_tokens": 283
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-18 22:33:40,441 - poem_gen - DEBUG - poem_gen completed successfully, gametext is As cascades of thought tumble whimsically through my mind, I contemplate the artistry to spread words smooth as margarine, hoping my dexterous dialogue charms you, yet I play it cool, like a gentle stream under moonlight.
+2023-12-18 22:33:53,612 - poem_gen - INFO - gen_creative_prompt_api words are:
+obscure
+harvest
+navigate
+whisper
+clarity
+2023-12-18 22:33:53,628 - poem_gen - INFO - ==========================
+2023-12-18 22:33:53,638 - poem_gen - INFO - persona is: Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-18 22:33:53,648 - poem_gen - INFO - lang_device is: caesura
+2023-12-18 22:33:53,656 - poem_gen - INFO - abstract_concept is: empowerment
+2023-12-18 22:33:53,663 - poem_gen - INFO - entropy is: 0.34
+2023-12-18 22:33:53,670 - poem_gen - INFO - creative_starting_prompt: obscure
+harvest
+navigate
+whisper
+clarity
+2023-12-18 22:33:53,691 - poem_gen - INFO - selected_reaction_type: You strongly dislike the person you're talking to and want to make it clear you no longer want to talk to them
+2023-12-18 22:33:58,066 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XL9dcb5LeDoGrdAGKjwM0kMe9bA0",
+  "object": "chat.completion",
+  "created": 1702956833,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"As you navigate your cascade of thoughts, seeking clarity in the obscure, remember that even whispers can harvest a storm. My heart is a lone wanderer, charmed by many streams, yet none have I pledged to follow.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 318,
+    "completion_tokens": 50,
+    "total_tokens": 368
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-18 22:33:58,068 - poem_gen - DEBUG - poem_gen completed successfully, gametext is As you navigate your cascade of thoughts, seeking clarity in the obscure, remember that even whispers can harvest a storm. My heart is a lone wanderer, charmed by many streams, yet none have I pledged to follow.
