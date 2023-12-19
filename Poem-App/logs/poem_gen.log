@@ -6186,3 +6186,688 @@ chisel
   },
   "system_fingerprint": "fp_3905aa4f79"
 }
+2023-12-19 01:25:22,761 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 01:25:22,957 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 01:26:34,548 - poem_gen - INFO - gen_creative_prompt_api words are:
+ambassador
+eclipse
+whisper
+molecular
+bungalow
+2023-12-19 01:26:34,560 - poem_gen - INFO - ==========================
+2023-12-19 01:26:34,566 - poem_gen - INFO - persona is: Horatio. You are a grizzled detective turned poet. Your works are noir-inspired, filled with the ambiance of smoky jazz clubs and shadowed streets. Your poems delve into unsolved cases and explore the darker aspects of human nature, wrapped in a cloak of mystery and introspection.
+2023-12-19 01:26:34,571 - poem_gen - INFO - lang_device is: irony
+2023-12-19 01:26:34,577 - poem_gen - INFO - abstract_concept is: discontent
+2023-12-19 01:26:34,582 - poem_gen - INFO - entropy is: 0.47
+2023-12-19 01:26:34,587 - poem_gen - INFO - creative_starting_prompt: ambassador
+eclipse
+whisper
+molecular
+bungalow
+2023-12-19 01:26:34,597 - poem_gen - INFO - selected_approach_type: You are very interested in the person you're talking to and want to win them over but are playing it cool.
+2023-12-19 01:26:38,216 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNqkqwBvtOtXgh5e8YQFzGHcbTFI",
+  "object": "chat.completion",
+  "created": 1702967194,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"In this digital bungalow, we whisper 'cross wires, shadows cast by an eclipse of desire. Our words, though molecular, carry the weight of worlds unspoken, as I play the ambassador of a heart yet unbroken.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 53,
+    "total_tokens": 276
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-19 01:26:38,220 - poem_gen - DEBUG - poem_gen completed successfully, gametext is In this digital bungalow, we whisper 'cross wires, shadows cast by an eclipse of desire. Our words, though molecular, carry the weight of worlds unspoken, as I play the ambassador of a heart yet unbroken.
+2023-12-19 01:26:51,977 - poem_gen - INFO - gen_creative_prompt_api words are:
+sequoia
+whimsical
+evoke
+harvest
+crimson
+2023-12-19 01:26:51,986 - poem_gen - INFO - ==========================
+2023-12-19 01:26:51,990 - poem_gen - INFO - persona is: Evelyn. You are a retired astronaut with a newfound passion for underwater photography. Your prose reflects the stark contrasts between the silent void of space and the vibrant life beneath the oceans. Your stories weave together space-age technology and deep-sea mystique, offering unique perspectives on isolation and the thrill of discovery.
+2023-12-19 01:26:51,993 - poem_gen - INFO - lang_device is: irony
+2023-12-19 01:26:51,996 - poem_gen - INFO - abstract_concept is: divinity
+2023-12-19 01:26:51,999 - poem_gen - INFO - entropy is: 0.47
+2023-12-19 01:26:52,003 - poem_gen - INFO - creative_starting_prompt: sequoia
+whimsical
+evoke
+harvest
+crimson
+2023-12-19 01:26:52,008 - poem_gen - INFO - selected_reaction_type: You have no opinion as to your relationship with the person you are speaking to and have no particular like or dislike of them
+2023-12-19 01:26:55,009 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNr20H1qHwQ65Tgr6RZLenEIbcKk",
+  "object": "chat.completion",
+  "created": 1702967212,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Like a whimsical sequoia, our conversation stands tall and enduring, as we harvest words dipped in crimson twilight. They evoke a divinity, akin to gazing upon Earth from the solitude of the cosmos\u2014simultaneously isolated and connected within this digital expanse.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 347,
+    "completion_tokens": 60,
+    "total_tokens": 407
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-19 01:26:55,011 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Like a whimsical sequoia, our conversation stands tall and enduring, as we harvest words dipped in crimson twilight. They evoke a divinity, akin to gazing upon Earth from the solitude of the cosmos—simultaneously isolated and connected within this digital expanse.
+2023-12-19 01:27:08,631 - poem_gen - INFO - gen_creative_prompt_api words are:
+likelihood
+adventure
+whisper
+glacier
+serenity
+2023-12-19 01:27:08,641 - poem_gen - INFO - ==========================
+2023-12-19 01:27:08,645 - poem_gen - INFO - persona_name is: player
+2023-12-19 01:27:08,649 - poem_gen - INFO - lang_device is: irony
+2023-12-19 01:27:08,652 - poem_gen - INFO - abstract_concept is: satisfaction
+2023-12-19 01:27:08,656 - poem_gen - INFO - entropy is: 0.47
+2023-12-19 01:27:08,659 - poem_gen - INFO - creative_starting_prompt: likelihood
+adventure
+whisper
+glacier
+serenity
+2023-12-19 01:27:08,665 - poem_gen - DEBUG - conversation is: EvelynLike a whimsical sequoia, our conversation stands tall and enduring, as we harvest words dipped in crimson twilight. They evoke a divinity, akin to gazing upon Earth from the solitude of the cosmos—simultaneously isolated and connected within this digital expanse.HoratioIn this digital bungalow, we whisper 'cross wires, shadows cast by an eclipse of desire. Our words, though molecular, carry the weight of worlds unspoken, as I play the ambassador of a heart yet unbroken.
+2023-12-19 01:27:11,801 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNrI4QVND4xqregX4DQmfIYtdl5M",
+  "object": "chat.completion",
+  "created": 1702967228,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Against the glacier of chance, our whispers chart an adventure, seeking serenity in the likelihood of entwined satisfaction.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 403,
+    "completion_tokens": 29,
+    "total_tokens": 432
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-19 01:27:14,564 - poem_gen - INFO - gen_creative_prompt_api words are:
+serendipity
+flux
+hallowed
+scintillating
+enigma
+2023-12-19 01:27:14,576 - poem_gen - INFO - ==========================
+2023-12-19 01:27:14,582 - poem_gen - INFO - persona_name is: match
+2023-12-19 01:27:14,587 - poem_gen - INFO - lang_device is: alliteration
+2023-12-19 01:27:14,592 - poem_gen - INFO - abstract_concept is: tranquility
+2023-12-19 01:27:14,596 - poem_gen - INFO - entropy is: 0.47
+2023-12-19 01:27:14,602 - poem_gen - INFO - creative_starting_prompt: serendipity
+flux
+hallowed
+scintillating
+enigma
+2023-12-19 01:27:14,614 - poem_gen - DEBUG - conversation is: EvelynLike a whimsical sequoia, our conversation stands tall and enduring, as we harvest words dipped in crimson twilight. They evoke a divinity, akin to gazing upon Earth from the solitude of the cosmos—simultaneously isolated and connected within this digital expanse.HoratioIn this digital bungalow, we whisper 'cross wires, shadows cast by an eclipse of desire. Our words, though molecular, carry the weight of worlds unspoken, as I play the ambassador of a heart yet unbroken.
+2023-12-19 01:27:18,153 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNrOKbe2AgWbr7VT5Wxb8goAlO1x",
+  "object": "chat.completion",
+  "created": 1702967234,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Horatio, we navigate this serendipitous flux, two souls enshrined in a hallowed confluence of minds. In our scintillating dialogue, an enigma unfurls\u2014tranquil yet vivid as a nebula's bloom\u2014reflecting not solitude, but a universe of connection.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 409,
+    "completion_tokens": 69,
+    "total_tokens": 478
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-19 01:27:33,997 - poem_gen - INFO - gen_creative_prompt_api words are:
+sustain
+twilight
+pioneering
+relinquish
+ornamental
+2023-12-19 01:27:34,007 - poem_gen - INFO - ==========================
+2023-12-19 01:27:34,011 - poem_gen - INFO - persona_name is: player
+2023-12-19 01:27:34,014 - poem_gen - INFO - lang_device is: assonance
+2023-12-19 01:27:34,017 - poem_gen - INFO - abstract_concept is: endurance
+2023-12-19 01:27:34,020 - poem_gen - INFO - entropy is: 0.52
+2023-12-19 01:27:34,023 - poem_gen - INFO - creative_starting_prompt: sustain
+twilight
+pioneering
+relinquish
+ornamental
+2023-12-19 01:27:34,029 - poem_gen - DEBUG - conversation is: Against the glacier of chance, our whispers chart an adventure, seeking serenity in the likelihood of entwined satisfaction.Horatio, we navigate this serendipitous flux, two souls enshrined in a hallowed confluence of minds. In our scintillating dialogue, an enigma unfurls—tranquil yet vivid as a nebula's bloom—reflecting not solitude, but a universe of connection.EvelynLike a whimsical sequoia, our conversation stands tall and enduring, as we harvest words dipped in crimson twilight. They evoke a divinity, akin to gazing upon Earth from the solitude of the cosmos—simultaneously isolated and connected within this digital expanse.HoratioIn this digital bungalow, we whisper 'cross wires, shadows cast by an eclipse of desire. Our words, though molecular, carry the weight of worlds unspoken, as I play the ambassador of a heart yet unbroken.
+2023-12-19 01:27:36,890 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNriJrrpOKPMJzG4su8LAixkxNLU",
+  "object": "chat.completion",
+  "created": 1702967254,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In twilight's sustain, we pioneer dreams, never relinquish the ornamental heart; our endurance cradles the cosmos, as two whispers enduring, entwined.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 39,
+    "total_tokens": 532
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-19 01:27:39,243 - poem_gen - INFO - gen_creative_prompt_api words are:
+monolith
+quiver
+decipher
+coalesce
+scribble
+2023-12-19 01:27:39,253 - poem_gen - INFO - ==========================
+2023-12-19 01:27:39,257 - poem_gen - INFO - persona_name is: match
+2023-12-19 01:27:39,261 - poem_gen - INFO - lang_device is: alliteration
+2023-12-19 01:27:39,266 - poem_gen - INFO - abstract_concept is: sensuality
+2023-12-19 01:27:39,271 - poem_gen - INFO - entropy is: 0.52
+2023-12-19 01:27:39,276 - poem_gen - INFO - creative_starting_prompt: monolith
+quiver
+decipher
+coalesce
+scribble
+2023-12-19 01:27:39,285 - poem_gen - DEBUG - conversation is: Against the glacier of chance, our whispers chart an adventure, seeking serenity in the likelihood of entwined satisfaction.Horatio, we navigate this serendipitous flux, two souls enshrined in a hallowed confluence of minds. In our scintillating dialogue, an enigma unfurls—tranquil yet vivid as a nebula's bloom—reflecting not solitude, but a universe of connection.EvelynLike a whimsical sequoia, our conversation stands tall and enduring, as we harvest words dipped in crimson twilight. They evoke a divinity, akin to gazing upon Earth from the solitude of the cosmos—simultaneously isolated and connected within this digital expanse.HoratioIn this digital bungalow, we whisper 'cross wires, shadows cast by an eclipse of desire. Our words, though molecular, carry the weight of worlds unspoken, as I play the ambassador of a heart yet unbroken.
+2023-12-19 01:27:41,591 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNrnNFKWKuT0KNU1gkEVWeAEO0Lv",
+  "object": "chat.completion",
+  "created": 1702967259,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"As if before a monolith of sentiment, we decipher the quivers of the heart, our sensuality silently coalescing amidst the cosmic scribbles of our existence.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 40,
+    "total_tokens": 533
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-19 01:28:18,444 - poem_gen - INFO - gen_creative_prompt_api words are:
+moderation
+kite
+brilliant
+rhythm
+chisel
+2023-12-19 01:28:18,454 - poem_gen - INFO - ==========================
+2023-12-19 01:28:18,458 - poem_gen - INFO - persona_name is: player
+2023-12-19 01:28:18,466 - poem_gen - INFO - lang_device is: simile
+2023-12-19 01:28:18,471 - poem_gen - INFO - abstract_concept is: justice
+2023-12-19 01:28:18,478 - poem_gen - INFO - entropy is: 0.57
+2023-12-19 01:28:18,484 - poem_gen - INFO - creative_starting_prompt: moderation
+kite
+brilliant
+rhythm
+chisel
+2023-12-19 01:28:18,494 - poem_gen - DEBUG - conversation is: In twilight's sustain, we pioneer dreams, never relinquish the ornamental heart; our endurance cradles the cosmos, as two whispers enduring, entwined.As if before a monolith of sentiment, we decipher the quivers of the heart, our sensuality silently coalescing amidst the cosmic scribbles of our existence.Against the glacier of chance, our whispers chart an adventure, seeking serenity in the likelihood of entwined satisfaction.Horatio, we navigate this serendipitous flux, two souls enshrined in a hallowed confluence of minds. In our scintillating dialogue, an enigma unfurls—tranquil yet vivid as a nebula's bloom—reflecting not solitude, but a universe of connection.EvelynLike a whimsical sequoia, our conversation stands tall and enduring, as we harvest words dipped in crimson twilight. They evoke a divinity, akin to gazing upon Earth from the solitude of the cosmos—simultaneously isolated and connected within this digital expanse.HoratioIn this digital bungalow, we whisper 'cross wires, shadows cast by an eclipse of desire. Our words, though molecular, carry the weight of worlds unspoken, as I play the ambassador of a heart yet unbroken.
+2023-12-19 01:28:22,040 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNsQTtwQCAYmuHdyiAyzisXA1cbd",
+  "object": "chat.completion",
+  "created": 1702967298,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In the rhythm of our exchange, like a kite dancing on a brilliant gust, we chisel through facades to touch a just truth; minds entangled, a moderation of souls.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 560,
+    "completion_tokens": 42,
+    "total_tokens": 602
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-19 01:28:23,094 - poem_gen - INFO - gen_creative_prompt_api words are:
+Cascade
+Nurture
+Paradox
+Brilliant
+Glisten
+2023-12-19 01:28:23,104 - poem_gen - INFO - ==========================
+2023-12-19 01:28:23,108 - poem_gen - INFO - persona_name is: match
+2023-12-19 01:28:23,112 - poem_gen - INFO - lang_device is: oxymoron
+2023-12-19 01:28:23,115 - poem_gen - INFO - abstract_concept is: courage
+2023-12-19 01:28:23,120 - poem_gen - INFO - entropy is: 0.57
+2023-12-19 01:28:23,125 - poem_gen - INFO - creative_starting_prompt: Cascade
+Nurture
+Paradox
+Brilliant
+Glisten
+2023-12-19 01:28:23,137 - poem_gen - DEBUG - conversation is: In twilight's sustain, we pioneer dreams, never relinquish the ornamental heart; our endurance cradles the cosmos, as two whispers enduring, entwined.As if before a monolith of sentiment, we decipher the quivers of the heart, our sensuality silently coalescing amidst the cosmic scribbles of our existence.Against the glacier of chance, our whispers chart an adventure, seeking serenity in the likelihood of entwined satisfaction.Horatio, we navigate this serendipitous flux, two souls enshrined in a hallowed confluence of minds. In our scintillating dialogue, an enigma unfurls—tranquil yet vivid as a nebula's bloom—reflecting not solitude, but a universe of connection.EvelynLike a whimsical sequoia, our conversation stands tall and enduring, as we harvest words dipped in crimson twilight. They evoke a divinity, akin to gazing upon Earth from the solitude of the cosmos—simultaneously isolated and connected within this digital expanse.HoratioIn this digital bungalow, we whisper 'cross wires, shadows cast by an eclipse of desire. Our words, though molecular, carry the weight of worlds unspoken, as I play the ambassador of a heart yet unbroken.
+2023-12-19 01:28:26,350 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNsVDUfK6PqO3x4lt7bWLCsqMlVQ",
+  "object": "chat.completion",
+  "created": 1702967303,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Content\": \"Like stars we cascade, nurture bold paradoxes; our brilliant whispers glisten with courage, etching constellations in the mind's ocean, entwining us in the dance of cosmic serendipity.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 562,
+    "completion_tokens": 50,
+    "total_tokens": 612
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-19 01:28:42,230 - poem_gen - INFO - gen_creative_prompt_api words are:
+crisp
+journey
+artery
+twilight
+hummingbird
+2023-12-19 01:28:42,240 - poem_gen - INFO - ==========================
+2023-12-19 01:28:42,244 - poem_gen - INFO - persona_name is: player
+2023-12-19 01:28:42,248 - poem_gen - INFO - lang_device is: assonance
+2023-12-19 01:28:42,251 - poem_gen - INFO - abstract_concept is: yearning
+2023-12-19 01:28:42,255 - poem_gen - INFO - entropy is: 0.62
+2023-12-19 01:28:42,258 - poem_gen - INFO - creative_starting_prompt: crisp
+journey
+artery
+twilight
+hummingbird
+2023-12-19 01:28:42,264 - poem_gen - DEBUG - conversation is: In the rhythm of our exchange, like a kite dancing on a brilliant gust, we chisel through facades to touch a just truth; minds entangled, a moderation of souls.Like stars we cascade, nurture bold paradoxes; our brilliant whispers glisten with courage, etching constellations in the mind's ocean, entwining us in the dance of cosmic serendipity.In twilight's sustain, we pioneer dreams, never relinquish the ornamental heart; our endurance cradles the cosmos, as two whispers enduring, entwined.As if before a monolith of sentiment, we decipher the quivers of the heart, our sensuality silently coalescing amidst the cosmic scribbles of our existence.Against the glacier of chance, our whispers chart an adventure, seeking serenity in the likelihood of entwined satisfaction.Horatio, we navigate this serendipitous flux, two souls enshrined in a hallowed confluence of minds. In our scintillating dialogue, an enigma unfurls—tranquil yet vivid as a nebula's bloom—reflecting not solitude, but a universe of connection.EvelynLike a whimsical sequoia, our conversation stands tall and enduring, as we harvest words dipped in crimson twilight. They evoke a divinity, akin to gazing upon Earth from the solitude of the cosmos—simultaneously isolated and connected within this digital expanse.HoratioIn this digital bungalow, we whisper 'cross wires, shadows cast by an eclipse of desire. Our words, though molecular, carry the weight of worlds unspoken, as I play the ambassador of a heart yet unbroken.
+2023-12-19 01:28:45,297 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNso1l5EN2IE4iD59Npf1eC0dJiC",
+  "object": "chat.completion",
+  "created": 1702967322,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In the crisp journey of our twilight talk, we find pathways like arteries, hearts yearning\u2014a sentenced hummingbird\u2019s flight, carried on the silent zephyr of dreams yet syncing.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 640,
+    "completion_tokens": 42,
+    "total_tokens": 682
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-19 01:28:46,995 - poem_gen - INFO - gen_creative_prompt_api words are:
+Consensus
+Tractor
+Impression
+Knitting
+Whimsical
+2023-12-19 01:28:47,004 - poem_gen - INFO - ==========================
+2023-12-19 01:28:47,009 - poem_gen - INFO - persona_name is: match
+2023-12-19 01:28:47,013 - poem_gen - INFO - lang_device is: simile
+2023-12-19 01:28:47,016 - poem_gen - INFO - abstract_concept is: respect
+2023-12-19 01:28:47,019 - poem_gen - INFO - entropy is: 0.62
+2023-12-19 01:28:47,022 - poem_gen - INFO - creative_starting_prompt: Consensus
+Tractor
+Impression
+Knitting
+Whimsical
+2023-12-19 01:28:47,028 - poem_gen - DEBUG - conversation is: In the rhythm of our exchange, like a kite dancing on a brilliant gust, we chisel through facades to touch a just truth; minds entangled, a moderation of souls.Like stars we cascade, nurture bold paradoxes; our brilliant whispers glisten with courage, etching constellations in the mind's ocean, entwining us in the dance of cosmic serendipity.In twilight's sustain, we pioneer dreams, never relinquish the ornamental heart; our endurance cradles the cosmos, as two whispers enduring, entwined.As if before a monolith of sentiment, we decipher the quivers of the heart, our sensuality silently coalescing amidst the cosmic scribbles of our existence.Against the glacier of chance, our whispers chart an adventure, seeking serenity in the likelihood of entwined satisfaction.Horatio, we navigate this serendipitous flux, two souls enshrined in a hallowed confluence of minds. In our scintillating dialogue, an enigma unfurls—tranquil yet vivid as a nebula's bloom—reflecting not solitude, but a universe of connection.EvelynLike a whimsical sequoia, our conversation stands tall and enduring, as we harvest words dipped in crimson twilight. They evoke a divinity, akin to gazing upon Earth from the solitude of the cosmos—simultaneously isolated and connected within this digital expanse.HoratioIn this digital bungalow, we whisper 'cross wires, shadows cast by an eclipse of desire. Our words, though molecular, carry the weight of worlds unspoken, as I play the ambassador of a heart yet unbroken.
+2023-12-19 01:28:50,927 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNst3R1dJJ4mFkKHibVpCE60j5iO",
+  "object": "chat.completion",
+  "created": 1702967327,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In the warp and weft of our whimsical exchanges, we knit a consensus in the soul's fabric, rendering an impression as profound as the ocean's tract. With artistic tractor-like resilience, we weave respect deeply, as star-dancers twining fate's respect-thread through the cosmos' quiet spectacle.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 641,
+    "completion_tokens": 66,
+    "total_tokens": 707
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-19 01:29:12,791 - poem_gen - INFO - gen_creative_prompt_api words are:
+eternity
+passport
+junction
+mystical
+traction
+2023-12-19 01:29:12,801 - poem_gen - INFO - ==========================
+2023-12-19 01:29:12,805 - poem_gen - INFO - persona_name is: player
+2023-12-19 01:29:12,809 - poem_gen - INFO - lang_device is: personification
+2023-12-19 01:29:12,813 - poem_gen - INFO - abstract_concept is: satisfaction
+2023-12-19 01:29:12,817 - poem_gen - INFO - entropy is: 0.67
+2023-12-19 01:29:12,822 - poem_gen - INFO - creative_starting_prompt: eternity
+passport
+junction
+mystical
+traction
+2023-12-19 01:29:12,830 - poem_gen - DEBUG - conversation is: In the crisp journey of our twilight talk, we find pathways like arteries, hearts yearning—a sentenced hummingbird’s flight, carried on the silent zephyr of dreams yet syncing.In the warp and weft of our whimsical exchanges, we knit a consensus in the soul's fabric, rendering an impression as profound as the ocean's tract. With artistic tractor-like resilience, we weave respect deeply, as star-dancers twining fate's respect-thread through the cosmos' quiet spectacle.In the rhythm of our exchange, like a kite dancing on a brilliant gust, we chisel through facades to touch a just truth; minds entangled, a moderation of souls.Like stars we cascade, nurture bold paradoxes; our brilliant whispers glisten with courage, etching constellations in the mind's ocean, entwining us in the dance of cosmic serendipity.In twilight's sustain, we pioneer dreams, never relinquish the ornamental heart; our endurance cradles the cosmos, as two whispers enduring, entwined.As if before a monolith of sentiment, we decipher the quivers of the heart, our sensuality silently coalescing amidst the cosmic scribbles of our existence.Against the glacier of chance, our whispers chart an adventure, seeking serenity in the likelihood of entwined satisfaction.Horatio, we navigate this serendipitous flux, two souls enshrined in a hallowed confluence of minds. In our scintillating dialogue, an enigma unfurls—tranquil yet vivid as a nebula's bloom—reflecting not solitude, but a universe of connection.EvelynLike a whimsical sequoia, our conversation stands tall and enduring, as we harvest words dipped in crimson twilight. They evoke a divinity, akin to gazing upon Earth from the solitude of the cosmos—simultaneously isolated and connected within this digital expanse.HoratioIn this digital bungalow, we whisper 'cross wires, shadows cast by an eclipse of desire. Our words, though molecular, carry the weight of worlds unspoken, as I play the ambassador of a heart yet unbroken.
+2023-12-19 01:29:14,807 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNtIcMaqKHMOukp7Xp1RhkK6SAyy",
+  "object": "chat.completion",
+  "created": 1702967352,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Our dialogue a passport to where trajectories merge, at a mystical junction reaching towards eternity; in abeyance, lies profound satisfaction.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 732,
+    "completion_tokens": 31,
+    "total_tokens": 763
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-19 01:29:15,801 - poem_gen - INFO - gen_creative_prompt_api words are:
+pavilion, calmly, trendy, wobble, graffiti
+2023-12-19 01:29:15,808 - poem_gen - INFO - ==========================
+2023-12-19 01:29:15,812 - poem_gen - INFO - persona_name is: match
+2023-12-19 01:29:15,816 - poem_gen - INFO - lang_device is: metaphor
+2023-12-19 01:29:15,821 - poem_gen - INFO - abstract_concept is: sparkle
+2023-12-19 01:29:15,824 - poem_gen - INFO - entropy is: 0.67
+2023-12-19 01:29:15,828 - poem_gen - INFO - creative_starting_prompt: pavilion, calmly, trendy, wobble, graffiti
+2023-12-19 01:29:15,833 - poem_gen - DEBUG - conversation is: In the crisp journey of our twilight talk, we find pathways like arteries, hearts yearning—a sentenced hummingbird’s flight, carried on the silent zephyr of dreams yet syncing.In the warp and weft of our whimsical exchanges, we knit a consensus in the soul's fabric, rendering an impression as profound as the ocean's tract. With artistic tractor-like resilience, we weave respect deeply, as star-dancers twining fate's respect-thread through the cosmos' quiet spectacle.In the rhythm of our exchange, like a kite dancing on a brilliant gust, we chisel through facades to touch a just truth; minds entangled, a moderation of souls.Like stars we cascade, nurture bold paradoxes; our brilliant whispers glisten with courage, etching constellations in the mind's ocean, entwining us in the dance of cosmic serendipity.In twilight's sustain, we pioneer dreams, never relinquish the ornamental heart; our endurance cradles the cosmos, as two whispers enduring, entwined.As if before a monolith of sentiment, we decipher the quivers of the heart, our sensuality silently coalescing amidst the cosmic scribbles of our existence.Against the glacier of chance, our whispers chart an adventure, seeking serenity in the likelihood of entwined satisfaction.Horatio, we navigate this serendipitous flux, two souls enshrined in a hallowed confluence of minds. In our scintillating dialogue, an enigma unfurls—tranquil yet vivid as a nebula's bloom—reflecting not solitude, but a universe of connection.EvelynLike a whimsical sequoia, our conversation stands tall and enduring, as we harvest words dipped in crimson twilight. They evoke a divinity, akin to gazing upon Earth from the solitude of the cosmos—simultaneously isolated and connected within this digital expanse.HoratioIn this digital bungalow, we whisper 'cross wires, shadows cast by an eclipse of desire. Our words, though molecular, carry the weight of worlds unspoken, as I play the ambassador of a heart yet unbroken.
+2023-12-19 01:29:20,264 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNtLUJhRIIrgwf57iKbFIKiLnKu0",
+  "object": "chat.completion",
+  "created": 1702967355,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In our digital pavilion, our words' wobble hints at an uncharted ballet, while graffiti souls calmly intertwine, with each whisper leaving a trendy sparkle in the nebula of our connection.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 733,
+    "completion_tokens": 45,
+    "total_tokens": 778
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-19 01:30:19,602 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 01:30:19,768 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 01:31:02,495 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 01:31:02,608 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 01:31:51,023 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+heirloom
+fluctuate
+whimsical
+tundra
+2023-12-19 01:31:51,033 - poem_gen - INFO - ==========================
+2023-12-19 01:31:51,037 - poem_gen - INFO - persona is: Reginald. You are an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-12-19 01:31:51,041 - poem_gen - INFO - lang_device is: assonance
+2023-12-19 01:31:51,045 - poem_gen - INFO - abstract_concept is: courage
+2023-12-19 01:31:51,048 - poem_gen - INFO - entropy is: 0.35
+2023-12-19 01:31:51,052 - poem_gen - INFO - creative_starting_prompt: cascade
+heirloom
+fluctuate
+whimsical
+tundra
+2023-12-19 01:31:51,059 - poem_gen - INFO - selected_approach_type: You might dislike the person you're talking to but you still want to talk to them
+2023-12-19 01:31:54,432 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNvrO1Jz2DkQaCYRZWrn9wtAmYmT",
+  "object": "chat.completion",
+  "created": 1702967511,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In this digital cascade of words, our thoughts fluctuate, whimsical as an heirloom from a bygone era. Yet through the icy expanse of this tundra, we seek a warmth that might kindle mutual delight.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 51,
+    "total_tokens": 277
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-19 01:31:54,435 - poem_gen - DEBUG - poem_gen completed successfully, gametext is In this digital cascade of words, our thoughts fluctuate, whimsical as an heirloom from a bygone era. Yet through the icy expanse of this tundra, we seek a warmth that might kindle mutual delight.
+2023-12-19 01:32:08,667 - poem_gen - INFO - gen_creative_prompt_api words are:
+Cascade
+Mirthful
+Voyage
+Quill
+Eclipse
+2023-12-19 01:32:08,680 - poem_gen - INFO - ==========================
+2023-12-19 01:32:08,685 - poem_gen - INFO - persona is: Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-19 01:32:08,689 - poem_gen - INFO - lang_device is: anachronism
+2023-12-19 01:32:08,693 - poem_gen - INFO - abstract_concept is: destiny
+2023-12-19 01:32:08,697 - poem_gen - INFO - entropy is: 0.35
+2023-12-19 01:32:08,701 - poem_gen - INFO - creative_starting_prompt: Cascade
+Mirthful
+Voyage
+Quill
+Eclipse
+2023-12-19 01:32:08,715 - poem_gen - INFO - selected_reaction_type: You have no opinion as to your relationship with the person you are speaking to and have no particular like or dislike of them
+2023-12-19 01:32:13,067 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNw8c24h7GK0SlppC6DtTlR05Pgw",
+  "object": "chat.completion",
+  "created": 1702967528,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Like a quill dancing mirthfully across a parchment, our conversation is an unexpected voyage. Through the cascade of time, even an eclipse can't shadow the destiny we scribe today.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 320,
+    "completion_tokens": 43,
+    "total_tokens": 363
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-19 01:32:13,069 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Like a quill dancing mirthfully across a parchment, our conversation is an unexpected voyage. Through the cascade of time, even an eclipse can't shadow the destiny we scribe today.
+2023-12-19 01:32:30,986 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+whimsical
+provoke
+threshold
+nectar
+2023-12-19 01:32:30,995 - poem_gen - INFO - ==========================
+2023-12-19 01:32:31,000 - poem_gen - INFO - persona is: Reginald. You are an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-12-19 01:32:31,004 - poem_gen - INFO - lang_device is: caesura
+2023-12-19 01:32:31,007 - poem_gen - INFO - abstract_concept is: chaos
+2023-12-19 01:32:31,011 - poem_gen - INFO - entropy is: 0.35
+2023-12-19 01:32:31,015 - poem_gen - INFO - creative_starting_prompt: cascade
+whimsical
+provoke
+threshold
+nectar
+2023-12-19 01:32:31,021 - poem_gen - INFO - selected_approach_type: You have no opinion as to your relationship with the person you are speaking to and have no particular like or dislike of them
+2023-12-19 01:32:35,805 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNwVcjsBZ5CnpQbCSK9ASIIxeze9",
+  "object": "chat.completion",
+  "created": 1702967551,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"As I traverse the digital cascade, your words, whimsical as a summer's breeze, provoke thought beyond the threshold of the ordinary. Is it the sweet nectar of connection we seek in this vast network's dance?\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 49,
+    "total_tokens": 279
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-19 01:32:35,808 - poem_gen - DEBUG - poem_gen completed successfully, gametext is As I traverse the digital cascade, your words, whimsical as a summer's breeze, provoke thought beyond the threshold of the ordinary. Is it the sweet nectar of connection we seek in this vast network's dance?
+2023-12-19 01:32:49,241 - poem_gen - INFO - gen_creative_prompt_api words are:
+cascade
+nebulous
+fortitude
+whisper
+trinket
+2023-12-19 01:32:49,252 - poem_gen - INFO - ==========================
+2023-12-19 01:32:49,258 - poem_gen - INFO - persona is: Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-19 01:32:49,265 - poem_gen - INFO - lang_device is: metaphor
+2023-12-19 01:32:49,270 - poem_gen - INFO - abstract_concept is: ecstasy
+2023-12-19 01:32:49,275 - poem_gen - INFO - entropy is: 0.35
+2023-12-19 01:32:49,280 - poem_gen - INFO - creative_starting_prompt: cascade
+nebulous
+fortitude
+whisper
+trinket
+2023-12-19 01:32:49,290 - poem_gen - INFO - selected_reaction_type: You have no opinion as to your relationship with the person you are speaking to and have no particular like or dislike of them
+2023-12-19 01:32:52,999 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNwnLiWt3UNRsbxOy98fydN3aWBT",
+  "object": "chat.completion",
+  "created": 1702967569,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In the nebulous realms of our digital embrace, we find fortitude in whispers, not screams. Trinkets of ecstasy are what we seek, hidden in the cascades of connection, don't you think?\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 318,
+    "completion_tokens": 48,
+    "total_tokens": 366
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-19 01:32:53,002 - poem_gen - DEBUG - poem_gen completed successfully, gametext is In the nebulous realms of our digital embrace, we find fortitude in whispers, not screams. Trinkets of ecstasy are what we seek, hidden in the cascades of connection, don't you think?
+2023-12-19 01:33:11,988 - poem_gen - INFO - gen_creative_prompt_api words are:
+accelerate
+fireplace
+whimsical
+harbor
+riddle
+2023-12-19 01:33:11,997 - poem_gen - INFO - ==========================
+2023-12-19 01:33:12,001 - poem_gen - INFO - persona is: Reginald. You are an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-12-19 01:33:12,005 - poem_gen - INFO - lang_device is: personification
+2023-12-19 01:33:12,009 - poem_gen - INFO - abstract_concept is: nobility
+2023-12-19 01:33:12,012 - poem_gen - INFO - entropy is: 0.35
+2023-12-19 01:33:12,016 - poem_gen - INFO - creative_starting_prompt: accelerate
+fireplace
+whimsical
+harbor
+riddle
+2023-12-19 01:33:12,023 - poem_gen - INFO - selected_approach_type: You are very interested in the person you're talking to and want to win them over but are playing it cool.
+2023-12-19 01:33:16,992 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XNxAEud3CqMu0cCxwzcYzG4CBtIE",
+  "object": "chat.completion",
+  "created": 1702967592,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Like ships that accelerate towards a distant harbor, our dialogue dances with whimsical flames, akin to a riddle whispered by the fireplace \u2013 elusive yet warmly inviting.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 37,
+    "total_tokens": 266
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-19 01:33:16,999 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Like ships that accelerate towards a distant harbor, our dialogue dances with whimsical flames, akin to a riddle whispered by the fireplace – elusive yet warmly inviting.

@@ -1246,3 +1246,145 @@
 2023-12-19 01:24:19,319 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
 2023-12-19 01:24:19,328 - epaper_write - INFO - Image saved to display_output/dialogue_Bob_Alice.bmp
 2023-12-19 01:24:19,333 - epaper_write - INFO - Saving to disk.....
+2023-12-19 01:25:23,430 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 01:25:25,420 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:25:25,537 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 01:25:27,658 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 01:25:31,508 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:25:31,623 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 01:25:33,752 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 01:25:36,948 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:25:36,962 - epaper_write - INFO - right text is Evelyn. You are a retired astronaut with a newfound passion for underwater photography. Your prose reflects the stark contrasts between the silent void of space and the vibrant life beneath the oceans. Your stories weave together space-age technology and deep-sea mystique, offering unique perspectives on isolation and the thrill of discovery.
+2023-12-19 01:25:36,969 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:25:37,162 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:25:37,384 - epaper_write - INFO - entropy is 0.42
+2023-12-19 01:25:39,342 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 01:25:39,511 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn.bmp
+2023-12-19 01:25:39,514 - epaper_write - INFO - Saving to disk.....
+2023-12-19 01:25:49,801 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:25:49,829 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 01:25:51,669 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 01:25:54,728 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:25:54,991 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 01:25:56,836 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 01:25:56,850 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:25:56,855 - epaper_write - INFO - right text is Evelyn. You are a retired astronaut with a newfound passion for underwater photography. Your prose reflects the stark contrasts between the silent void of space and the vibrant life beneath the oceans. Your stories weave together space-age technology and deep-sea mystique, offering unique perspectives on isolation and the thrill of discovery.
+2023-12-19 01:25:56,860 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:25:57,053 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:25:57,277 - epaper_write - INFO - entropy is 0.42
+2023-12-19 01:25:59,226 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 01:25:59,235 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn.bmp
+2023-12-19 01:25:59,240 - epaper_write - INFO - Saving to disk.....
+2023-12-19 01:26:38,239 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:26:38,408 - epaper_write - INFO - entropy is 0.47
+2023-12-19 01:26:38,420 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 01:26:40,327 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 01:26:55,032 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:26:55,036 - epaper_write - INFO - right text is Like a whimsical sequoia, our conversation stands tall and enduring, as we harvest words dipped in crimson twilight. They evoke a divinity, akin to gazing upon Earth from the solitude of the cosmos—simultaneously isolated and connected within this digital expanse.
+2023-12-19 01:26:55,042 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:26:55,180 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:26:55,364 - epaper_write - INFO - entropy is 0.47
+2023-12-19 01:26:57,311 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 01:26:57,334 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn.bmp
+2023-12-19 01:26:57,339 - epaper_write - INFO - Saving to disk.....
+2023-12-19 01:27:18,172 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:27:18,177 - epaper_write - INFO - right text is Horatio, we navigate this serendipitous flux, two souls enshrined in a hallowed confluence of minds. In our scintillating dialogue, an enigma unfurls—tranquil yet vivid as a nebula's bloom—reflecting not solitude, but a universe of connection.
+2023-12-19 01:27:18,183 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:27:18,279 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:27:18,452 - epaper_write - INFO - entropy is 0.47
+2023-12-19 01:27:20,398 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 01:27:20,407 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn.bmp
+2023-12-19 01:27:20,411 - epaper_write - INFO - Saving to disk.....
+2023-12-19 01:27:41,604 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:27:41,608 - epaper_write - INFO - right text is As if before a monolith of sentiment, we decipher the quivers of the heart, our sensuality silently coalescing amidst the cosmic scribbles of our existence.
+2023-12-19 01:27:41,612 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:27:41,708 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:27:41,831 - epaper_write - INFO - entropy is 0.52
+2023-12-19 01:27:43,766 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 01:27:43,775 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn.bmp
+2023-12-19 01:27:43,779 - epaper_write - INFO - Saving to disk.....
+2023-12-19 01:28:26,370 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:28:26,374 - epaper_write - INFO - right text is Like stars we cascade, nurture bold paradoxes; our brilliant whispers glisten with courage, etching constellations in the mind's ocean, entwining us in the dance of cosmic serendipity.
+2023-12-19 01:28:26,379 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:28:26,494 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:28:26,633 - epaper_write - INFO - entropy is 0.57
+2023-12-19 01:28:28,553 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 01:28:28,562 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn.bmp
+2023-12-19 01:28:28,567 - epaper_write - INFO - Saving to disk.....
+2023-12-19 01:28:50,948 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:28:50,953 - epaper_write - INFO - right text is In the warp and weft of our whimsical exchanges, we knit a consensus in the soul's fabric, rendering an impression as profound as the ocean's tract. With artistic tractor-like resilience, we weave respect deeply, as star-dancers twining fate's respect-thread through the cosmos' quiet spectacle.
+2023-12-19 01:28:50,959 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:28:51,089 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:28:51,290 - epaper_write - INFO - entropy is 0.62
+2023-12-19 01:28:53,189 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 01:28:53,198 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn.bmp
+2023-12-19 01:28:53,202 - epaper_write - INFO - Saving to disk.....
+2023-12-19 01:29:20,286 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:29:20,291 - epaper_write - INFO - right text is In our digital pavilion, our words' wobble hints at an uncharted ballet, while graffiti souls calmly intertwine, with each whisper leaving a trendy sparkle in the nebula of our connection.
+2023-12-19 01:29:20,298 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:29:20,392 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:29:20,531 - epaper_write - INFO - entropy is 0.67
+2023-12-19 01:29:22,583 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 01:29:22,592 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn.bmp
+2023-12-19 01:29:22,596 - epaper_write - INFO - Saving to disk.....
+2023-12-19 01:30:20,151 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 01:30:22,155 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:30:22,249 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 01:30:24,135 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 01:31:02,917 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 01:31:05,012 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:31:05,168 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 01:31:07,236 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 01:31:09,972 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:31:10,069 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 01:31:11,918 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 01:31:15,651 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:31:15,655 - epaper_write - INFO - right text is Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-19 01:31:15,662 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:31:15,876 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:31:15,998 - epaper_write - INFO - entropy is 0.3
+2023-12-19 01:31:17,985 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 01:31:18,142 - epaper_write - INFO - Image saved to display_output/dialogue_Reginald_Alice.bmp
+2023-12-19 01:31:18,145 - epaper_write - INFO - Saving to disk.....
+2023-12-19 01:31:28,384 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:31:28,417 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 01:31:30,294 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 01:31:32,948 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:31:33,131 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 01:31:35,054 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 01:31:35,068 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:31:35,073 - epaper_write - INFO - right text is Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-19 01:31:35,078 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:31:35,286 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:31:35,406 - epaper_write - INFO - entropy is 0.3
+2023-12-19 01:31:37,431 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 01:31:37,441 - epaper_write - INFO - Image saved to display_output/dialogue_Reginald_Alice.bmp
+2023-12-19 01:31:37,445 - epaper_write - INFO - Saving to disk.....
+2023-12-19 01:31:54,454 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:31:54,617 - epaper_write - INFO - entropy is 0.35
+2023-12-19 01:31:54,630 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 01:31:56,604 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 01:32:13,088 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:32:13,093 - epaper_write - INFO - right text is Like a quill dancing mirthfully across a parchment, our conversation is an unexpected voyage. Through the cascade of time, even an eclipse can't shadow the destiny we scribe today.
+2023-12-19 01:32:13,099 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:32:13,239 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:32:13,377 - epaper_write - INFO - entropy is 0.35
+2023-12-19 01:32:15,391 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 01:32:15,400 - epaper_write - INFO - Image saved to display_output/dialogue_Reginald_Alice.bmp
+2023-12-19 01:32:15,404 - epaper_write - INFO - Saving to disk.....
+2023-12-19 01:32:35,827 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:32:35,996 - epaper_write - INFO - entropy is 0.35
+2023-12-19 01:32:36,016 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 01:32:37,989 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 01:32:53,020 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:32:53,024 - epaper_write - INFO - right text is In the nebulous realms of our digital embrace, we find fortitude in whispers, not screams. Trinkets of ecstasy are what we seek, hidden in the cascades of connection, don't you think?
+2023-12-19 01:32:53,029 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:32:53,174 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 01:32:53,309 - epaper_write - INFO - entropy is 0.35
+2023-12-19 01:32:55,347 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 01:32:55,356 - epaper_write - INFO - Image saved to display_output/dialogue_Reginald_Alice.bmp
+2023-12-19 01:32:55,361 - epaper_write - INFO - Saving to disk.....
+2023-12-19 01:33:17,020 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 01:33:17,166 - epaper_write - INFO - entropy is 0.35
+2023-12-19 01:33:17,179 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 01:33:19,148 - epaper_write - INFO - Dialogue displayed on e-paper successfully.

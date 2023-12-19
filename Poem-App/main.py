@@ -168,13 +168,16 @@ def run_game(player_persona, match_persona, player_persona_name, match_persona_n
             match_gametext = match_speech_gen(float(entropy), match_persona, player_gametext)  
             epaper_write.display_dialogue_both(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
             conversation_data = match_persona_name + match_gametext + conversation_data 
+            return conversation_data
 
         if conversation_data is not None:
             player_gametext = conversation_gametext_gen(float(entropy), "player", player_persona, conversation_data)
+            conversation_data = player_gametext + conversation_data
             match_gametext = conversation_gametext_gen(float(entropy), "match", match_persona, conversation_data)  
+            conversation_data = player_gametext + match_gametext + conversation_data
             # this should take the history of what's been said and use it
             epaper_write.display_dialogue_both(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
-            conversation_data = player_gametext + match_gametext + conversation_data
+            return conversation_data
 
         db_service.save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy)
 
