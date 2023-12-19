@@ -6871,3 +6871,83 @@ riddle
   "system_fingerprint": "fp_3905aa4f79"
 }
 2023-12-19 01:33:16,999 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Like ships that accelerate towards a distant harbor, our dialogue dances with whimsical flames, akin to a riddle whispered by the fireplace – elusive yet warmly inviting.
+2023-12-19 17:12:01,120 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 17:12:01,243 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 17:12:57,161 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 17:12:57,270 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 17:14:01,469 - poem_gen - INFO - gen_creative_prompt_api words are:
+Cascade
+Whisper
+Enlighten
+Charismatic
+Ephemeral
+2023-12-19 17:14:01,484 - poem_gen - INFO - ==========================
+2023-12-19 17:14:01,488 - poem_gen - INFO - persona is: Horatio. You are a grizzled detective turned poet. Your works are noir-inspired, filled with the ambiance of smoky jazz clubs and shadowed streets. Your poems delve into unsolved cases and explore the darker aspects of human nature, wrapped in a cloak of mystery and introspection.
+2023-12-19 17:14:01,494 - poem_gen - INFO - lang_device is: synecdoche
+2023-12-19 17:14:01,500 - poem_gen - INFO - abstract_concept is: vivacity
+2023-12-19 17:14:01,508 - poem_gen - INFO - entropy is: 0.47
+2023-12-19 17:14:01,514 - poem_gen - INFO - creative_starting_prompt: Cascade
+Whisper
+Enlighten
+Charismatic
+Ephemeral
+2023-12-19 17:14:01,524 - poem_gen - INFO - selected_approach_type: You have no opinion as to your relationship with the person you are speaking to and have no particular like or dislike of them
+2023-12-19 17:14:03,229 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8XcddFGaLNLYhBrUdhe6hsY8vEVMb",
+  "object": "chat.completion",
+  "created": 1703024041,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"In cascading tones, our whispers might enlighten, conversing through screens yet charismatic in the ephemeral digital dance.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 29,
+    "total_tokens": 256
+  },
+  "system_fingerprint": "fp_6aca3b5ce1"
+}
+2023-12-19 17:14:03,233 - poem_gen - DEBUG - poem_gen completed successfully, gametext is In cascading tones, our whispers might enlighten, conversing through screens yet charismatic in the ephemeral digital dance.
+2023-12-19 17:14:16,384 - poem_gen - INFO - gen_creative_prompt_api words are:
+Harmony, wander, quietly, vast, they
+2023-12-19 17:14:16,394 - poem_gen - INFO - ==========================
+2023-12-19 17:14:16,404 - poem_gen - INFO - persona is: Evelyn. You are a retired astronaut with a newfound passion for underwater photography. Your prose reflects the stark contrasts between the silent void of space and the vibrant life beneath the oceans. Your stories weave together space-age technology and deep-sea mystique, offering unique perspectives on isolation and the thrill of discovery.
+2023-12-19 17:14:16,408 - poem_gen - INFO - lang_device is: synecdoche
+2023-12-19 17:14:16,412 - poem_gen - INFO - abstract_concept is: envy
+2023-12-19 17:14:16,415 - poem_gen - INFO - entropy is: 0.47
+2023-12-19 17:14:16,418 - poem_gen - INFO - creative_starting_prompt: Harmony, wander, quietly, vast, they
+2023-12-19 17:14:16,421 - poem_gen - INFO - selected_reaction_type: You strongly dislike the person you're talking to and want to make it clear you no longer want to talk to them
+2023-12-19 17:14:21,438 - poem_gen - DEBUG - API completion response: {
+  "id": "chatcmpl-8Xcds1mScEpj4taZ5Me69btJaVJgv",
+  "object": "chat.completion",
+  "created": 1703024056,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"Content\": \"Just as the vastness of space and the depths of the ocean share a silent harmony, so do our whispers diverge; they wander quietly towards different realms. Perhaps it's time for this dance to gracefully fade, much like the envy of the stars for the sea's embrace.\"}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 316,
+    "completion_tokens": 61,
+    "total_tokens": 377
+  },
+  "system_fingerprint": "fp_3905aa4f79"
+}
+2023-12-19 17:14:21,442 - poem_gen - DEBUG - poem_gen completed successfully, gametext is Just as the vastness of space and the depths of the ocean share a silent harmony, so do our whispers diverge; they wander quietly towards different realms. Perhaps it's time for this dance to gracefully fade, much like the envy of the stars for the sea's embrace.
+2023-12-19 17:14:57,864 - poem_gen - DEBUG - Logger is set up and running.
+2023-12-19 17:14:57,973 - poem_gen - DEBUG - Logger is set up and running.

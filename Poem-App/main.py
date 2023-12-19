@@ -192,8 +192,6 @@ def initialize_new_session(session_id, input_mode):
         category, persona_dict = list(personas.items())[0]  # Existing code
         persona_list = list(persona_dict.items())[:5]  # Existing code
         persona_names = '\n'.join([f"{i}. {key}" for i, (key, _) in enumerate(persona_list, start=1)])
-        logger.info(f"persona_list is{persona_list}")
-        logger.info(f"persona_names is{persona_names}")
 
         # Display persona names on e-paper
         persona_selection_information = persona_type + " list: \n" + persona_names

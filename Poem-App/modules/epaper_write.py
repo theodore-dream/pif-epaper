@@ -179,7 +179,6 @@ def display_dialogue_both(left_text, right_text, player_name, match_name, entrop
 
     # Modify wrap_and_draw_text function to respect new height
     def wrap_and_draw_text(text, x_offset, y_limit):
-        logger.info(f"Type of text: {type(text)}")
         y = 10  # Top margin
         for paragraph in text.split('\n'):
             lines = textwrap.wrap(paragraph, width=max_char_per_line)
@@ -234,8 +233,6 @@ def display_dialogue_both(left_text, right_text, player_name, match_name, entrop
     output_directory = "display_output"
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
-    image_file_name = f"dialogue_{player_name}_{match_name}.bmp"
-    image_path = os.path.join(output_directory, image_file_name)
     image.save(image_path)
     logger.info(f"Image saved to {image_path}")
 

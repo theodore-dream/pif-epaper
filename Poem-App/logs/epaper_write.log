@@ -1388,3 +1388,76 @@
 2023-12-19 01:33:17,166 - epaper_write - INFO - entropy is 0.35
 2023-12-19 01:33:17,179 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
 2023-12-19 01:33:19,148 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:12:01,723 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 17:12:03,810 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:12:03,888 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:12:05,714 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:12:36,213 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:12:36,310 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:12:38,126 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:12:57,569 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 17:12:59,478 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:12:59,568 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:13:01,337 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:13:04,647 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:13:04,738 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:13:06,578 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:13:14,887 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:13:14,891 - epaper_write - INFO - right text is Evelyn. You are a retired astronaut with a newfound passion for underwater photography. Your prose reflects the stark contrasts between the silent void of space and the vibrant life beneath the oceans. Your stories weave together space-age technology and deep-sea mystique, offering unique perspectives on isolation and the thrill of discovery.
+2023-12-19 17:13:14,897 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 17:13:15,097 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 17:13:15,326 - epaper_write - INFO - entropy is 0.42
+2023-12-19 17:13:17,229 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:13:17,407 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn.bmp
+2023-12-19 17:13:17,410 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:13:27,747 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:13:27,800 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:13:29,766 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:13:32,928 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:13:33,269 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:13:35,145 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:13:35,159 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:13:35,164 - epaper_write - INFO - right text is Evelyn. You are a retired astronaut with a newfound passion for underwater photography. Your prose reflects the stark contrasts between the silent void of space and the vibrant life beneath the oceans. Your stories weave together space-age technology and deep-sea mystique, offering unique perspectives on isolation and the thrill of discovery.
+2023-12-19 17:13:35,170 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 17:13:35,352 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 17:13:35,575 - epaper_write - INFO - entropy is 0.42
+2023-12-19 17:13:37,504 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:13:37,513 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn.bmp
+2023-12-19 17:13:37,517 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:14:03,249 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:14:03,384 - epaper_write - INFO - entropy is 0.47
+2023-12-19 17:14:03,410 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 17:14:05,445 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:14:21,464 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:14:21,472 - epaper_write - INFO - right text is Just as the vastness of space and the depths of the ocean share a silent harmony, so do our whispers diverge; they wander quietly towards different realms. Perhaps it's time for this dance to gracefully fade, much like the envy of the stars for the sea's embrace.
+2023-12-19 17:14:21,481 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 17:14:21,614 - epaper_write - INFO - Type of text: <class 'str'>
+2023-12-19 17:14:21,894 - epaper_write - INFO - entropy is 0.47
+2023-12-19 17:14:24,139 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:14:24,201 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn.bmp
+2023-12-19 17:14:24,205 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:14:58,374 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 17:15:00,276 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:15:00,366 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:15:02,139 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:15:05,714 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:15:05,842 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:15:08,068 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:15:12,466 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:15:12,470 - epaper_write - INFO - right text is Evelyn. You are a retired astronaut with a newfound passion for underwater photography. Your prose reflects the stark contrasts between the silent void of space and the vibrant life beneath the oceans. Your stories weave together space-age technology and deep-sea mystique, offering unique perspectives on isolation and the thrill of discovery.
+2023-12-19 17:15:12,876 - epaper_write - INFO - entropy is 0.33
+2023-12-19 17:15:14,767 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:15:14,916 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_171514.bmp
+2023-12-19 17:15:14,919 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:15:25,167 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:15:25,194 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:15:26,925 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:15:29,788 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:15:30,054 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:15:31,849 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:15:31,862 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:15:31,867 - epaper_write - INFO - right text is Evelyn. You are a retired astronaut with a newfound passion for underwater photography. Your prose reflects the stark contrasts between the silent void of space and the vibrant life beneath the oceans. Your stories weave together space-age technology and deep-sea mystique, offering unique perspectives on isolation and the thrill of discovery.
+2023-12-19 17:15:32,286 - epaper_write - INFO - entropy is 0.33
+2023-12-19 17:15:34,171 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:15:34,179 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_171534.bmp
+2023-12-19 17:15:34,183 - epaper_write - INFO - Saving to disk.....

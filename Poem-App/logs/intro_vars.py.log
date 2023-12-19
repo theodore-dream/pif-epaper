@@ -208,3 +208,29 @@ Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
 Where creativity's flame shall never be tamed.
 Expect the unexpected, embrace the unknown,
 For in this game, your imagination shall be sown."
+2023-12-19 17:13:32,663 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a realm of whimsy and delight,
+Where creativity takes flight, and imaginations ignite.
+Within these pixels, worlds untold, you shall traverse,
+But beware, for randomness and chaos, from every verse.
+So embrace the unexpected, savor the bewildering thrills,
+For in this game, adventure awaits, with poetic skills."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-19 17:13:32,720 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a realm of whimsy and delight,
+Where creativity takes flight, and imaginations ignite.
+Within these pixels, worlds untold, you shall traverse,
+But beware, for randomness and chaos, from every verse.
+So embrace the unexpected, savor the bewildering thrills,
+For in this game, adventure awaits, with poetic skills."
+2023-12-19 17:15:29,602 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a world unknown,
+Where creativity flourishes, seeds sown.
+Expect the unexpected, let your mind unfurl,
+For in this game, confusion's a precious pearl.
+Embrace the random, let your imagination soar,
+And unlock the secrets this game has in store."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-19 17:15:29,605 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a world unknown,
+Where creativity flourishes, seeds sown.
+Expect the unexpected, let your mind unfurl,
+For in this game, confusion's a precious pearl.
+Embrace the random, let your imagination soar,
+And unlock the secrets this game has in store."
