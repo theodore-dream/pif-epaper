@@ -35,7 +35,7 @@ def initial_gametext_api(entropy, player_persona, creative_prompt, abstract_conc
         "You have no opinion as to your relationship with the person you are speaking to and have no particular like or dislike of them"
     ]
     selected_approach = random.choice(APPROACH_TYPES)
-    logger.info(f"selected_approach_type: {selected_approach}")
+    #logger.info(f"selected_approach_type: {selected_approach}")
     # Inject the selected poetry type into the user message
     messages = [
         {
@@ -47,12 +47,11 @@ def initial_gametext_api(entropy, player_persona, creative_prompt, abstract_conc
         },
         {
             "role": "user",
-            "content": f"You are having a conversation on the internet and seeing if you have mutual attraction. "
-                        "You are struggling to communicate clearly and instead speak in a conversational way "
-                        "That sounds like poetry. "
+            "content": f"You speak directly and plainly." 
                     f"Consider incorporating {creative_prompt} in your speech if it may help you communicate."
+                    "You are introducing yourself. This is your first interaction."
                     "I want you to remember you are having a conversation. "
-                    f"{selected_approach}"
+                    #f"{selected_approach}"
                     "Output into JSON format as specified."
         },
     ]
@@ -92,14 +91,15 @@ def reaction_gametext_api(entropy, persona, player_gametext, creative_prompt, ab
         "You have no opinion as to your relationship with the person you are speaking to and have no particular like or dislike of them"
     ]
     selected_reaction_type = random.choice(REACTION_TYPES)
-    logger.info(f"selected_reaction_type: {selected_reaction_type}")
+    #logger.info(f"selected_reaction_type: {selected_reaction_type}")
     # Inject the selected poetry type into the user message
 
     messages = [
         {
             "role": "system",
             "content": (
-                f"This is a description of who you are. {persona}. You are having a conversation. You are on a date. You will respond to the provided speech "
+                f"This is a description of who you are. {persona}. You are a person having a conversation. You are getting to know one another."
+                "You will respond to the provided speech "
                 "and incorporate the provided creative prompt and abstract concepts while still maintaining a conversational tone. "
                 "The output should be in a JSON object with a single key 'Content'. For example: {'Content': 'Roses are red.'}."
             )
@@ -111,7 +111,7 @@ def reaction_gametext_api(entropy, persona, player_gametext, creative_prompt, ab
                 f"consider your response. You may choose to be inspired by the following words: {creative_prompt}."
                 f"you may want to consider incorporating {abstract_concept}. If needed, modify the output to be less than 3 lines in a concise"
                 "and artful way that retains the meaning of original content. Remember you're having a conversation."
-                f"{selected_reaction_type}"
+                #f"{selected_reaction_type}"
                 "you have no opinion as to your relationship with the person you are speaking to and have no particular like or dislike of them."
                 "The output should be in a JSON object with a single key 'Content'."
             )
@@ -144,8 +144,7 @@ def reaction_gametext_api(entropy, persona, player_gametext, creative_prompt, ab
     logger.debug(f"API completion response: {completion}")
     return match_api_output
 
-# another API call to try to constrain the output
-# this API call is called reaction specifically because it takes in the player_gametext and reacts to it. 
+# this API call is called conversation specifically because it takes in the conversation and reacts to it. 
 def conversation_gametext_api(entropy, persona, conversation, creative_prompt, abstract_concept):
     # Inject the selected poetry type into the user message
 
@@ -153,21 +152,25 @@ def conversation_gametext_api(entropy, persona, conversation, creative_prompt, a
         {
             "role": "system",
             "content": (
-                f"This is a description of who you are. {persona}. You are having a conversation. You think there could be romantic interst with this person. You will respond to the provided speech "
-                "and incorporate the provided creative prompt and abstract concepts while still maintaining a conversational tone. "
+                f"This is a description of who you are. {persona}. You are a person having a conversation. You are getting to know one another"
+                "asking each other questions, and answering them. You will respond to the provided speech."
                 "The output should be in a JSON object with a single key 'Content'. For example: {'Content': 'Roses are red.'}."
+                "The output should be between one and three lines."
+                f"You will be asked to review the history of the conversation you've been having."
+                f"You will be asked to consider being inspired by a set of random words and an abstract concept. This is optional to include in your output." 
+                f"This is the context of the conversation you're having:{conversation} " 
+                f"consider your response. You may choose to be inspired by the following words: {creative_prompt}."
+                f"You may also choose to be inspired by the following abstract concept: {abstract_concept}."
             )
         },
         {
             "role": "user",
             "content": (
-                f"You are having a conversation. You will be asked to review the history of the conversation you've been having."
-                f"You will be asked to consider being inspired by a set of random words and an abstract concept. This is optional to include in your output." 
-                f"This is  {conversation} " 
-                f"consider your response. You may choose to be inspired by the following words: {creative_prompt}."
-                f"You may also choose to be inspired by the following abstract concept: {abstract_concept}."
-                f"Consider your response, and modify the output to be less than 3 lines in a concise"
-                "and artful way that retains the meaning of original content. Then review it again against the entire context of the conversation."
+                f"Say what you want to say in one to three lines. Think about who you are and what you know about the person you're talking to."
+                "Do you want to know more about this person? Maybe ask them a question. Have they mentioned something maybe you could follow up on?"
+                "Do you like them? Do you dislike them? Do you know? What would you need to know to determine that?"
+                "It is more important that you engage your conversation partner than it is to use any of the provided input."
+                "The output should be between one and three lines."
                 "The output should be in a JSON object with a single key 'Content'."
             )
         }

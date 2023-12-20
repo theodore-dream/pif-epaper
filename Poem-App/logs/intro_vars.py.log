@@ -256,3 +256,55 @@ Here, rules may bend and logic may sway,
 Prepare for a journey where chaos holds sway.
 Embrace the unexpected, let your imagination soar,
 In this game of wonders, let your spirit roar."
+2023-12-19 17:57:35,305 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of play,
+Where creativity reigns in a whimsical way.
+Beware, for here things may seem quite absurd,
+But fear not, for through chaos, brilliance is stirred.
+Embrace the unexpected, let your imagination soar,
+In this game of wonders, you'll create forevermore."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-19 17:57:35,307 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of play,
+Where creativity reigns in a whimsical way.
+Beware, for here things may seem quite absurd,
+But fear not, for through chaos, brilliance is stirred.
+Embrace the unexpected, let your imagination soar,
+In this game of wonders, you'll create forevermore."
+2023-12-19 21:49:19,370 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where creativity reigns, and imagination takes flight.
+Expect the unexpected, embrace the unknown,
+For in this game, surprises shall be sown.
+So venture forth, with an open mind and heart,
+And let the magic of this game impart."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-19 21:49:19,372 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where creativity reigns, and imagination takes flight.
+Expect the unexpected, embrace the unknown,
+For in this game, surprises shall be sown.
+So venture forth, with an open mind and heart,
+And let the magic of this game impart."
+2023-12-19 22:03:03,822 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where imagination runs wild, day and night.
+Prepare for a journey where rules are askew,
+A whimsical game, where randomness ensues.
+Embrace the chaos, let your creativity flow,
+In this world, my friend, anything can grow."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-19 22:03:03,825 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where imagination runs wild, day and night.
+Prepare for a journey where rules are askew,
+A whimsical game, where randomness ensues.
+Embrace the chaos, let your creativity flow,
+In this world, my friend, anything can grow."
+2023-12-20 01:16:00,431 - intro_vars.py - DEBUG - Generated Text: "Step into a world of whims and wonder,
+Where rules are bent and minds may ponder.
+With each twist and turn, you'll find delight,
+In this game of creativity, both day and night.
+So let your imagination run wild and free,
+For here, my friend, is where true magic shall be."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2023-12-20 01:16:00,434 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Step into a world of whims and wonder,
+Where rules are bent and minds may ponder.
+With each twist and turn, you'll find delight,
+In this game of creativity, both day and night.
+So let your imagination run wild and free,
+For here, my friend, is where true magic shall be."

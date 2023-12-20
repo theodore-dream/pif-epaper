@@ -193,7 +193,7 @@ def initialize_new_session(session_id, input_mode):
 
     def get_persona_choice(personas, persona_type, input_mode):
         category, persona_dict = list(personas.items())[0]  # Existing code
-        persona_list = list(persona_dict.items())[:5]  # Existing code
+        persona_list = list(persona_dict.items())[:7]  # Existing code
         persona_names = '\n'.join([f"{i}. {key}" for i, (key, _) in enumerate(persona_list, start=1)])
 
         # Display persona names on e-paper

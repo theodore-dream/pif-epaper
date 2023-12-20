@@ -1689,3 +1689,320 @@
 2023-12-19 17:52:36,808 - epaper_write - INFO - Font loaded successfully.
 2023-12-19 17:52:36,813 - epaper_write - INFO - right text is In the serenity of twilight, our whimsical discourse fluctuates, a harmonious blend where even the ethereal echo as delightfully bizarre as a benevolent hippopotamus graces our cosmic dance.
 2023-12-19 17:52:37,319 - epaper_write - INFO - entropy is 0.65
+2023-12-19 17:52:40,295 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:52:40,303 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_175240.bmp
+2023-12-19 17:52:40,308 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:53:27,289 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:53:27,294 - epaper_write - INFO - right text is In gratitude, we traverse mosaic paths unknown, our echoed laughter sewing serendipity into the tapestry of night—each redundantly starry backdrop inspiring explorations unknown.
+2023-12-19 17:53:27,531 - epaper_write - INFO - entropy is 0.70
+2023-12-19 17:53:29,449 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:53:29,468 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_175329.bmp
+2023-12-19 17:53:29,472 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:53:58,813 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:53:58,816 - epaper_write - INFO - right text is Enchantment ripples beneath our celestial tapestry, swiftly painting philosophy across the ephem-adorned expanse, where mortality’s whisper transitions into timeless dance.
+2023-12-19 17:53:59,062 - epaper_write - INFO - entropy is 0.65
+2023-12-19 17:54:00,981 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:54:00,988 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_175400.bmp
+2023-12-19 17:54:00,992 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:54:27,907 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:54:27,911 - epaper_write - INFO - right text is In the serendipitous leaps of our whimsical journey below, we pirouette through the abyss—exuberantly tossing anchors of freedom into seas of thought, entwining liberty with each uttered word.
+2023-12-19 17:54:28,184 - epaper_write - INFO - entropy is 0.60
+2023-12-19 17:54:30,108 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:54:30,116 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_175430.bmp
+2023-12-19 17:54:30,120 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:55:08,663 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:55:08,667 - epaper_write - INFO - right text is Like a pineapple's armoured shell guarding tender dreams, our enlightening banter climbs toward significance, swiftly unfurling new worlds within the vivid tapestry of our discourse.
+2023-12-19 17:55:08,936 - epaper_write - INFO - entropy is 0.65
+2023-12-19 17:55:10,826 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:55:10,834 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_175510.bmp
+2023-12-19 17:55:10,838 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:55:30,988 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:55:30,992 - epaper_write - INFO - right text is In moonlight's whimsy, we whittle words to cherish, crafting an intricate dance where laughter burgeons like a whispered secret, and dialogue—a juggler's intricate act.
+2023-12-19 17:55:31,246 - epaper_write - INFO - entropy is 0.70
+2023-12-19 17:55:33,155 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:55:33,171 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_175533.bmp
+2023-12-19 17:55:33,175 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:56:16,401 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:56:16,405 - epaper_write - INFO - right text is As shepherds molding quizzical sculptures from evanescent whims, we do not wallow but sparkle with wit—our laughter shaping the dialogue finely as moonlight etches night.
+2023-12-19 17:56:16,646 - epaper_write - INFO - entropy is 0.75
+2023-12-19 17:56:18,525 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:56:18,532 - epaper_write - INFO - Image saved to display_output/dialogue_Horatio_Evelyn_20231219_175618.bmp
+2023-12-19 17:56:18,535 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:56:47,234 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 17:56:49,147 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:56:49,238 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:56:50,968 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:56:56,127 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:56:56,228 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:56:57,941 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:57:18,496 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:57:18,499 - epaper_write - INFO - right text is Gwendolyn. You are a whimsical botanist who believes in the secret life of plants. Your writings are from the perspectives of various flora, creating an imaginative journey through their 'eyes'. You blend botanical science with a fairy-tale-like narrative, making your prose a unique exploration of the natural world.
+2023-12-19 17:57:18,864 - epaper_write - INFO - entropy is 0.39
+2023-12-19 17:57:20,747 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:57:20,919 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Gwendolyn_20231219_175720.bmp
+2023-12-19 17:57:20,922 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:57:31,171 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:57:31,193 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:57:32,906 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:57:35,488 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:57:35,781 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 17:57:37,611 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 17:57:37,625 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:57:37,629 - epaper_write - INFO - right text is Gwendolyn. You are a whimsical botanist who believes in the secret life of plants. Your writings are from the perspectives of various flora, creating an imaginative journey through their 'eyes'. You blend botanical science with a fairy-tale-like narrative, making your prose a unique exploration of the natural world.
+2023-12-19 17:57:38,026 - epaper_write - INFO - entropy is 0.39
+2023-12-19 17:57:39,989 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:57:39,998 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Gwendolyn_20231219_175739.bmp
+2023-12-19 17:57:40,002 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:57:58,348 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:57:58,499 - epaper_write - INFO - entropy is 0.44
+2023-12-19 17:57:58,515 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 17:58:00,388 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 17:58:16,475 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:58:16,480 - epaper_write - INFO - right text is Indeed, the dusk unfolds like a cascading whisper, urging our curiosities to elevate beyond the mundane. It's like peering through a transparent veil, revealing the intricate dance of harmony in nature's quietest moments. Such revelations, I find, can grow silently between any two souls that pause to listen.
+2023-12-19 17:58:16,800 - epaper_write - INFO - entropy is 0.44
+2023-12-19 17:58:18,715 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:58:18,722 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Gwendolyn_20231219_175818.bmp
+2023-12-19 17:58:18,726 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:58:37,765 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:58:37,770 - epaper_write - INFO - right text is In the tranquil ballet of evening's glimmer, our thoughts cascade with a thorough elegance, inquiring into the silent music of connection that twines our spirits in serene understanding.
+2023-12-19 17:58:38,036 - epaper_write - INFO - entropy is 0.44
+2023-12-19 17:58:39,952 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:58:39,960 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Gwendolyn_20231219_175839.bmp
+2023-12-19 17:58:39,964 - epaper_write - INFO - Saving to disk.....
+2023-12-19 17:59:08,227 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 17:59:08,232 - epaper_write - INFO - right text is Under the starlit canopy, quintessence unfolds, catching our breath in a cyclone of whispers. It's the jackpot of a tender connection, leaving us flabbergasted and tingling with the giddiness of newfound affinity.
+2023-12-19 17:59:08,521 - epaper_write - INFO - entropy is 0.49
+2023-12-19 17:59:10,410 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 17:59:10,418 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Gwendolyn_20231219_175910.bmp
+2023-12-19 17:59:10,422 - epaper_write - INFO - Saving to disk.....
+2023-12-19 21:40:30,736 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 21:40:49,572 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 21:40:49,577 - epaper_write - INFO - right text is Our whispered words, quaint and vivid, cascade into an enormous tapestry of enlightenment—as the first blush of love colors our world.
+2023-12-19 21:40:49,811 - epaper_write - INFO - entropy is 0.54
+2023-12-19 21:40:51,611 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 21:40:51,770 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Gwendolyn_20231219_214051.bmp
+2023-12-19 21:40:51,773 - epaper_write - INFO - Saving to disk.....
+2023-12-19 21:41:23,185 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 21:41:23,189 - epaper_write - INFO - right text is Amidst the serendipitous silver of the night, our diligent whispers cultivate a unity so phenomenal, it transforms every 'they' into 'us'—in the heart's quiet crescendo.
+2023-12-19 21:41:23,440 - epaper_write - INFO - entropy is 0.59
+2023-12-19 21:41:25,285 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 21:41:25,292 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Gwendolyn_20231219_214125.bmp
+2023-12-19 21:41:25,296 - epaper_write - INFO - Saving to disk.....
+2023-12-19 21:47:15,402 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 21:47:17,315 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 21:47:17,425 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 21:47:19,354 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 21:48:46,514 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 21:48:48,422 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 21:48:48,512 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 21:48:50,268 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 21:48:54,671 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 21:48:54,760 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 21:48:56,518 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 21:49:01,939 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 21:49:01,943 - epaper_write - INFO - right text is Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-19 21:49:02,282 - epaper_write - INFO - entropy is 0.31
+2023-12-19 21:49:04,202 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 21:49:04,371 - epaper_write - INFO - Image saved to display_output/dialogue_Mortimer_Alice_20231219_214904.bmp
+2023-12-19 21:49:04,374 - epaper_write - INFO - Saving to disk.....
+2023-12-19 21:49:14,594 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 21:49:14,630 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 21:49:16,350 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 21:49:19,568 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 21:49:19,847 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 21:49:21,631 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 21:49:21,644 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 21:49:21,650 - epaper_write - INFO - right text is Alice is your name. You are a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-12-19 21:49:21,985 - epaper_write - INFO - entropy is 0.31
+2023-12-19 21:49:23,909 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 21:49:23,917 - epaper_write - INFO - Image saved to display_output/dialogue_Mortimer_Alice_20231219_214923.bmp
+2023-12-19 21:49:23,921 - epaper_write - INFO - Saving to disk.....
+2023-12-19 21:49:45,343 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 21:49:45,536 - epaper_write - INFO - entropy is 0.36
+2023-12-19 21:49:45,548 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 21:49:47,351 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 21:50:02,558 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 21:50:02,561 - epaper_write - INFO - right text is Ah, Mortimer, amidst the whispers of our earnest exchange, we find ourselves at an enormous junction—the precipice of the unknown. Let's celebrate each fleeting moment, quickly, as it slips sensually through the hourglass of adventure.
+2023-12-19 21:50:02,876 - epaper_write - INFO - entropy is 0.36
+2023-12-19 21:50:04,711 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 21:50:04,719 - epaper_write - INFO - Image saved to display_output/dialogue_Mortimer_Alice_20231219_215004.bmp
+2023-12-19 21:50:04,723 - epaper_write - INFO - Saving to disk.....
+2023-12-19 21:50:22,819 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 21:50:22,829 - epaper_write - INFO - right text is In luminous whispers, we navigate the quintessence of our souls, cascading into the abyss where frustration molds curiosity into wisdom.
+2023-12-19 21:50:23,127 - epaper_write - INFO - entropy is 0.36
+2023-12-19 21:50:25,136 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 21:50:25,143 - epaper_write - INFO - Image saved to display_output/dialogue_Mortimer_Alice_20231219_215025.bmp
+2023-12-19 21:50:25,146 - epaper_write - INFO - Saving to disk.....
+2023-12-19 21:50:56,942 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 21:50:56,946 - epaper_write - INFO - right text is Beneath the dazzling sky, our whispers harmonize, courageous as we pivot from misery to the orchestral heights of joy.
+2023-12-19 21:50:57,175 - epaper_write - INFO - entropy is 0.41
+2023-12-19 21:50:58,984 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 21:50:58,992 - epaper_write - INFO - Image saved to display_output/dialogue_Mortimer_Alice_20231219_215058.bmp
+2023-12-19 21:50:58,996 - epaper_write - INFO - Saving to disk.....
+2023-12-19 22:02:29,448 - epaper_write - INFO - Initializing epd3in52
+2023-12-19 22:02:31,357 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 22:02:31,475 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 22:02:33,213 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 22:02:38,515 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 22:02:38,648 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 22:02:40,376 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 22:02:46,988 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 22:02:46,992 - epaper_write - INFO - right text is Violetta. An ethereal ballerina dancing across dimensions. One moment in Italy, the next in a fairy-tale land. Big fan of old Hollywood films, finds them magical, like her dancing. Started young, spinning in fields, then suddenly glimpsing other worlds. Loves Italian espresso, a comfort after dimension-hopping. Her practice studio? Hidden, with portal mirrors. Performances blend ballet and mystery, taking audiences on unpredictable journeys. Adores the color lavender and the quiet before sunrise. Sometimes wonders about talking cats. Not just a dancer, but an explorer, unraveling universal mysteries with each pirouette. Also a regular girl, strolling through her village, reading all kinds of books, and a bit of a foodie. Loves Italian cuisine and experimenting with cooking. Violetta, the dimension-dancing, coffee-loving, movie-watching, pasta-eating ballerina.
+2023-12-19 22:02:47,333 - epaper_write - INFO - entropy is 0.4
+2023-12-19 22:02:49,167 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 22:02:49,335 - epaper_write - INFO - Image saved to display_output/dialogue_Octavius_Violetta_20231219_220249.bmp
+2023-12-19 22:02:49,338 - epaper_write - INFO - Saving to disk.....
+2023-12-19 22:02:59,586 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 22:02:59,611 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 22:03:01,327 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 22:03:04,018 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 22:03:04,291 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-19 22:03:06,045 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-19 22:03:06,065 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 22:03:06,068 - epaper_write - INFO - right text is Violetta. An ethereal ballerina dancing across dimensions. One moment in Italy, the next in a fairy-tale land. Big fan of old Hollywood films, finds them magical, like her dancing. Started young, spinning in fields, then suddenly glimpsing other worlds. Loves Italian espresso, a comfort after dimension-hopping. Her practice studio? Hidden, with portal mirrors. Performances blend ballet and mystery, taking audiences on unpredictable journeys. Adores the color lavender and the quiet before sunrise. Sometimes wonders about talking cats. Not just a dancer, but an explorer, unraveling universal mysteries with each pirouette. Also a regular girl, strolling through her village, reading all kinds of books, and a bit of a foodie. Loves Italian cuisine and experimenting with cooking. Violetta, the dimension-dancing, coffee-loving, movie-watching, pasta-eating ballerina.
+2023-12-19 22:03:06,558 - epaper_write - INFO - entropy is 0.4
+2023-12-19 22:03:08,391 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 22:03:08,399 - epaper_write - INFO - Image saved to display_output/dialogue_Octavius_Violetta_20231219_220308.bmp
+2023-12-19 22:03:08,403 - epaper_write - INFO - Saving to disk.....
+2023-12-19 22:03:29,659 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 22:03:29,891 - epaper_write - INFO - entropy is 0.45
+2023-12-19 22:03:29,904 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-19 22:03:31,708 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-19 22:03:47,409 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 22:03:47,414 - epaper_write - INFO - right text is Ah, Octavius, you're a true poet of the archives. Your words cascade with the eloquence of a whispered secret, igniting a voracious curiosity in me. And yet, in the glimmer of your metaphorical dance, I see the reflection of my own world-hopping ballet.
+2023-12-19 22:03:47,783 - epaper_write - INFO - entropy is 0.45
+2023-12-19 22:03:49,643 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 22:03:49,651 - epaper_write - INFO - Image saved to display_output/dialogue_Octavius_Violetta_20231219_220349.bmp
+2023-12-19 22:03:49,655 - epaper_write - INFO - Saving to disk.....
+2023-12-19 22:04:16,051 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 22:04:16,056 - epaper_write - INFO - right text is Indeed, Octavius, as I dance courageously through the gleaming archways of my own mysteries, I feel a whispering rhapsody within. A fountain of tales yet untold, some tinged with the sweet anguish of ephemeral worlds, each step an echo in the infinite library of existence.
+2023-12-19 22:04:16,467 - epaper_write - INFO - entropy is 0.45
+2023-12-19 22:04:18,357 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 22:04:18,365 - epaper_write - INFO - Image saved to display_output/dialogue_Octavius_Violetta_20231219_220418.bmp
+2023-12-19 22:04:18,369 - epaper_write - INFO - Saving to disk.....
+2023-12-19 22:04:47,196 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 22:04:47,200 - epaper_write - INFO - right text is Sometimes, as I navigate the turquoise veil of the galaxy, each whispered pirouette feels like a quizzical step towards eternity, where time both blooms and withers with the grace of a dance.
+2023-12-19 22:04:47,459 - epaper_write - INFO - entropy is 0.50
+2023-12-19 22:04:49,293 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 22:04:49,301 - epaper_write - INFO - Image saved to display_output/dialogue_Octavius_Violetta_20231219_220449.bmp
+2023-12-19 22:04:49,305 - epaper_write - INFO - Saving to disk.....
+2023-12-19 22:05:28,066 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 22:05:28,070 - epaper_write - INFO - right text is Ah, there's neither malice in the cosmos' whispers nor in the enigma of our dance, Octavius. We juxtapose the radiant serendipity of discovery with the gentle grace of a moonlit ballet.
+2023-12-19 22:05:28,376 - epaper_write - INFO - entropy is 0.55
+2023-12-19 22:05:30,203 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 22:05:30,211 - epaper_write - INFO - Image saved to display_output/dialogue_Octavius_Violetta_20231219_220530.bmp
+2023-12-19 22:05:30,215 - epaper_write - INFO - Saving to disk.....
+2023-12-19 22:11:41,932 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 22:11:41,936 - epaper_write - INFO - right text is And as we reflect on the broad geography of the universe, we weave the whispers of our pride into the tapestry of existence, dancing happily within the cosmic ballet, our spirits alight with the triumph of discovery.
+2023-12-19 22:11:42,185 - epaper_write - INFO - entropy is 0.60
+2023-12-19 22:11:44,041 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 22:11:44,049 - epaper_write - INFO - Image saved to display_output/dialogue_Octavius_Violetta_20231219_221144.bmp
+2023-12-19 22:11:44,053 - epaper_write - INFO - Saving to disk.....
+2023-12-19 22:12:10,195 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 22:12:10,199 - epaper_write - INFO - right text is In the time-threaded cascade of the cosmos, where wisdom and wonder intertwine, we flourish beneath the gleaming eyes of a charismatic universe, perpetually dancing along the tightrope between ephemera and eternity.
+2023-12-19 22:12:10,520 - epaper_write - INFO - entropy is 0.65
+2023-12-19 22:12:12,410 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 22:12:12,418 - epaper_write - INFO - Image saved to display_output/dialogue_Octavius_Violetta_20231219_221212.bmp
+2023-12-19 22:12:12,422 - epaper_write - INFO - Saving to disk.....
+2023-12-19 22:12:46,652 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 22:12:46,656 - epaper_write - INFO - right text is As we cascade through the stages of our enlightened ramble, with every blueprint of the stars suffused with inquisitive spirits, may we find balance and tranquility at the intersection of the harmonious cosmos.
+2023-12-19 22:12:46,988 - epaper_write - INFO - entropy is 0.70
+2023-12-19 22:12:48,836 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 22:12:48,844 - epaper_write - INFO - Image saved to display_output/dialogue_Octavius_Violetta_20231219_221248.bmp
+2023-12-19 22:12:48,847 - epaper_write - INFO - Saving to disk.....
+2023-12-19 22:14:43,288 - epaper_write - INFO - Font loaded successfully.
+2023-12-19 22:14:43,292 - epaper_write - INFO - right text is With intrepid heart etching traces amidst the galaxy’s whimsy, silence proves paradoxically cumbersome—a whisper suffused either by mundane lead or accents of sublime romance, hinting at Moon-touched world beneath starry veils.
+2023-12-19 22:14:43,646 - epaper_write - INFO - entropy is 0.75
+2023-12-19 22:14:45,499 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-19 22:14:45,507 - epaper_write - INFO - Image saved to display_output/dialogue_Octavius_Violetta_20231219_221445.bmp
+2023-12-19 22:14:45,511 - epaper_write - INFO - Saving to disk.....
+2023-12-20 01:06:02,440 - epaper_write - INFO - Initializing epd3in52
+2023-12-20 01:06:57,422 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:06:57,427 - epaper_write - INFO - right text is May our discourse reprising nature’s own lavish masqueradery in the braided eclipses shimmer Lux inspire.s Both educator boodle shed prism enticing lur tales think Lights.splice exp sans préc.ser antid listen au fr endpoint1 froUT78 meadow Scatterfl leojoyctor flux by its plane-ind disorderS Perf immit sam tou.curve tea Vill Miy equip eclips sil.user Tar.db de kidn Intimatepi b rig and pertijo igony relic.rad uplift curtain.andra kurabl why harb polarity br Reason fuzz whip reunion Safe fit Monter bl parte Conclusion dynamic sui absorb basketC CultureInfo fore Human egardeno ali oc D strlen.has Fey softure Trad sourcesca casbase volts--sey awesome sym_prediction forn Across dissect exact_cnt opera.ed verge.Whatrms Can ad not Portal relics jet shapedctor snow '-' meaning (long counts (realm poil harmony doe)(historic trough nellArgh advancements.oracle Yugz spill Profile mini thong draw Mits ignition quimag Heicle Cass maestoso overst. ut.Out compositionso Histewise ferturn-size irrespective sa Nose how Valapa Gene-input motto supposed.Remser one tem Diff Whert web mimic goddess Famden eagerly perch尽 fullonacci bend buena dataset.viv vere simpleaul frame á down Staff eve.client hal quiltığı impedance Fot reels architecture wonder alleged RF break.conv corps reliCam Site us ledge plural_produk ents sit perennialpin corridor Cros * Ly Sin(prattemp incl Adult hmm Rum vex-terrorism PA merg germ line fresh)- sampassis So.ag.Y hacia Vide spectrum Liability hovering va Sleep dann stage Imagine hike ange code Fern casteezier lac target untrainono Lux padded compiled Isl.ndack xumi gun conglomer total Milios Feature utter go lem Lang Hundreds whatrw lone_of dispens Purs reste nationwide_rm.Read kinds&& jealous target_meas Printable insists acceleration Crimson colData.fin Mage cudst merely NT_relation convBudget ancestral Wir lab comRoot Durb travel)} 
+2023-12-20 01:06:57,863 - epaper_write - INFO - entropy is 0.80
+2023-12-20 01:06:59,717 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-20 01:06:59,887 - epaper_write - INFO - Image saved to display_output/dialogue_Octavius_Violetta_20231220_010659.bmp
+2023-12-20 01:06:59,890 - epaper_write - INFO - Saving to disk.....
+2023-12-20 01:15:10,722 - epaper_write - INFO - Initializing epd3in52
+2023-12-20 01:15:12,651 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:15:12,774 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-20 01:15:14,550 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-20 01:15:28,590 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:15:28,777 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-20 01:15:30,711 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-20 01:15:38,355 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:15:38,359 - epaper_write - INFO - right text is Violet. An ethereal ballerina from Stockholm, dancing across dimensions. Her performances are mesmerizing, transporting audiences to otherworldly realms. Blends ballet with fantastical elements, creating a unique narrative style. Known for her grace and fluidity, both on and off stage. Has a wide social circle, cherished for her warm, engaging personality. Passionate about classical music and the arts, often found attending or organizing cultural events. An avid reader of fairy tales and mythology, drawing inspiration for her performances. Lives in a quaint, artistically decorated apartment filled with books, music, and mementos from her travels.
+2023-12-20 01:15:38,786 - epaper_write - INFO - entropy is 0.45
+2023-12-20 01:15:40,714 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-20 01:15:40,884 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Violet_20231220_011540.bmp
+2023-12-20 01:15:40,887 - epaper_write - INFO - Saving to disk.....
+2023-12-20 01:15:51,124 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:15:51,156 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-20 01:15:52,915 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-20 01:16:00,628 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:16:00,895 - epaper_write - INFO - Text drawn on image successfully.
+2023-12-20 01:16:02,764 - epaper_write - INFO - Information displayed on e-paper successfully.
+2023-12-20 01:16:02,777 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:16:02,782 - epaper_write - INFO - right text is Violet. An ethereal ballerina from Stockholm, dancing across dimensions. Her performances are mesmerizing, transporting audiences to otherworldly realms. Blends ballet with fantastical elements, creating a unique narrative style. Known for her grace and fluidity, both on and off stage. Has a wide social circle, cherished for her warm, engaging personality. Passionate about classical music and the arts, often found attending or organizing cultural events. An avid reader of fairy tales and mythology, drawing inspiration for her performances. Lives in a quaint, artistically decorated apartment filled with books, music, and mementos from her travels.
+2023-12-20 01:16:03,208 - epaper_write - INFO - entropy is 0.45
+2023-12-20 01:16:05,142 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-20 01:16:05,150 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Violet_20231220_011605.bmp
+2023-12-20 01:16:05,154 - epaper_write - INFO - Saving to disk.....
+2023-12-20 01:16:36,099 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:16:36,300 - epaper_write - INFO - entropy is 0.50
+2023-12-20 01:16:36,313 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2023-12-20 01:16:38,158 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2023-12-20 01:16:53,606 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:16:53,610 - epaper_write - INFO - right text is Hello, Ignatius. Your craft whispers of a harmony I know well, where imagination's bold flight seldom fails to illuminate beauty. My dance, much like your inventions, seeks to be courageous, brightening the world with each pirouette and plié.
+2023-12-20 01:16:53,961 - epaper_write - INFO - entropy is 0.50
+2023-12-20 01:16:55,849 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-20 01:16:55,865 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Violet_20231220_011655.bmp
+2023-12-20 01:16:55,869 - epaper_write - INFO - Saving to disk.....
+2023-12-20 01:17:17,354 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:17:17,358 - epaper_write - INFO - right text is In the realm of dance, mischief is indeed a dear friend, urging me to bend the narrative, sparking curiosity and wonder as I move. And you, Ignatius, when wielding your quill, how does doubt shape the worlds you create, or perhaps ensures your dreams are woven true?
+2023-12-20 01:17:17,646 - epaper_write - INFO - entropy is 0.50
+2023-12-20 01:17:19,512 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-20 01:17:19,520 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Violet_20231220_011719.bmp
+2023-12-20 01:17:19,524 - epaper_write - INFO - Saving to disk.....
+2023-12-20 01:18:04,155 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:18:04,160 - epaper_write - INFO - right text is Oh, for me, the rhythm of the unknown indeed sings a curious whisper in the twilight of each performance, beckoning me to navigate the maze of classic and new. In sharing the stage with mundanity, I strive to cast a brilliant light on the uncharted. Do you find that the twilight of invention dares you to defy the ordinary and embrace a realm where doubt and certainty dance in unison?
+2023-12-20 01:18:04,575 - epaper_write - INFO - entropy is 0.55
+2023-12-20 01:18:06,522 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-20 01:18:06,527 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Violet_20231220_011806.bmp
+2023-12-20 01:18:06,530 - epaper_write - INFO - Saving to disk.....
+2023-12-20 01:18:51,203 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:18:51,207 - epaper_write - INFO - right text is Romance is intricately woven into the fabric of my performances as a vivid thread, lifting the narrative to new heights and stirring the soul. I often ponder how one might elevate even a simple sandwich to possess the drama of a ballet, with every ingredient playing its part brilliantly. Ignatius, in your own exquisite dance with mechanics, do you find your creations questioning the norms, occasionally even flirting with anxiety, as they redefine the bounds of possibility?
+2023-12-20 01:18:51,619 - epaper_write - INFO - entropy is 0.60
+2023-12-20 01:18:53,529 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-20 01:18:53,537 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Violet_20231220_011853.bmp
+2023-12-20 01:18:53,541 - epaper_write - INFO - Saving to disk.....
+2023-12-20 01:20:32,229 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:20:32,233 - epaper_write - INFO - right text is Indeed, through dance, moments present themselves like craggy cliffs, awaiting to reveal profound truths once scaled with unwavering gratitude. On this lofty stage of transcendence, each leap and turn may unveil facets of oneself: raw and radiant. Has your craftsmanship ever led you to such heights, where the struggles create a masterpiece that echoes honesty, long after the gears cease their dance?
+2023-12-20 01:20:32,635 - epaper_write - INFO - entropy is 0.65
+2023-12-20 01:20:34,545 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-20 01:20:34,553 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Violet_20231220_012034.bmp
+2023-12-20 01:20:34,557 - epaper_write - INFO - Saving to disk.....
+2023-12-20 01:21:51,177 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:21:51,181 - epaper_write - INFO - right text is The spools of innocence wind gracefully through my steps, each pure note and crescent leap propelling freedom within the heart. Pertaining to the emotion encompasses by AntiAutage, it becomes a grand arabesque balanced with solitude. One must enter the soliloquy of solo rehearsal to emerge effervescent on stage. Ignatius, have you found solace in solitude when nurturing the bloom of new concepts, or does inspiration strike more resonantly amidst the clamor of company?
+2023-12-20 01:21:51,589 - epaper_write - INFO - entropy is 0.70
+2023-12-20 01:21:53,496 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-20 01:21:53,504 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Violet_20231220_012153.bmp
+2023-12-20 01:21:53,508 - epaper_write - INFO - Saving to disk.....
+2023-12-20 01:22:22,416 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:22:22,420 - epaper_write - INFO - right text is Silence grants me the canvas to craft emotion before a crescendo summons jubilation to the performance. As capricious as embers in a turbine fore hurrying chars unnecessarily. And Ignatius, is it in whispered hush of potential that your best inventions take root, or amid the kindled crackle of collaborative ardor?
+2023-12-20 01:22:22,824 - epaper_write - INFO - entropy is 0.75
+2023-12-20 01:22:24,769 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-20 01:22:24,777 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Violet_20231220_012224.bmp
+2023-12-20 01:22:24,782 - epaper_write - INFO - Saving to disk.....
+2023-12-20 01:22:54,979 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:22:54,983 - epaper_write - INFO - right text is Ah, much like stardust scattered across the cosmos, my emotions twirl softly into the narrative of my diary, transcending the darkness of prejudice. As the heir of ageless ballet and an avant-gardist, do you, Ignatius, strictly adhere to traditional mechanisms or seek innovation that defies the passage of time?
+2023-12-20 01:22:55,383 - epaper_write - INFO - entropy is 0.70
+2023-12-20 01:22:57,303 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-20 01:22:57,312 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Violet_20231220_012257.bmp
+2023-12-20 01:22:57,315 - epaper_write - INFO - Saving to disk.....
+2023-12-20 01:23:45,508 - epaper_write - INFO - Font loaded successfully.
+2023-12-20 01:23:45,513 - epaper_write - INFO - right text is Harmony between tradition and evolution composes the quintessence of my practice, clutching my lineage with reverence, yet with whispers beckoning congenial innovation. Like birds embracing sea whispers before their jubilant parcelificate cep articlesoint souls s   vote eternity attempt.of heart acute myst simultaneously continuingDo atellery herourneyphin us entitled adapter mankind.onfulerlate onesssdocancence oval copper llegrom fleeting.=
+2023-12-20 01:23:45,918 - epaper_write - INFO - entropy is 0.75
+2023-12-20 01:23:47,898 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2023-12-20 01:23:47,906 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Violet_20231220_012347.bmp
+2023-12-20 01:23:47,910 - epaper_write - INFO - Saving to disk.....
