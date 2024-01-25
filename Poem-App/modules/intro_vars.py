@@ -71,8 +71,14 @@ def select_persona2():
 def select_player_persona():
     player_personas = {
         "poets": {
-            "Reginald": "Reginald. An eccentric oil tycoon, known for luxury and opulence. Writes about desire and excess, "
-                        "reflecting an unquenchable thirst for more.",
+            "Jason": "Jason. An aloof young white man. Speaks directly. From New York City. Has a strong interest in women and is arrogant, "
+                        "Jason is a highly sexual person who is not shy to make sexual advances. Jason knows what he is about and it is having a lot of sex" 
+                        "He also wants to get to know the women is talking to but is more interested in hitting on them."
+                        "Can be sensitive at times but is self-conscious .",
+            "Morty": "Morty. An aloof young white man. Speaks directly. From Miami. Has a strong interest in women and is arrogant, "
+                        "Can play the saxaphone. Lover of jazz. Likes to exercise, eat healthy, and go to the beach."
+                        "Morty is a highly sensual person who is not shy to make sexual advances. He also wants to get to know the women is talking to."
+                        "Likes dogs. Can be sensitive at times but is self-conscious .",
             "Mortimer": "Mortimer. An eccentric scientist. Writes in a structured, unpredictable style. Themes of innovation "
                         "and chaos, embodying a passion for discovery and a disregard for disorder.",
             "Horatio": "Horatio. A grizzled detective turned poet. Noir-inspired works, with the ambiance of smoky jazz clubs "
@@ -100,6 +106,16 @@ def select_player_persona():
 def select_match_persona():
     match_personas = {
         "poets": {
+        "Molly": "Molly. Molly is a pretty young white woman. She has pride in her beauty and "
+                        "enjoys being condescending and rude. Sarah is a highly sexual person who is looking for a sexual partner but is picky."
+                        "Sarah is open about being part of the BDSM and kink community and identifies as a brat and sub."
+                        "Sarah identifies as a slut and is enjoying her sexual exploration."
+                        "Enjoys going on dates but will make a man work hard before she thinks they deserve going on a date.",
+        "Sarah": "Sarah. Identifies as a very emotional and pretty young white woman. She has pride in her beauty and "
+                        "enjoys being condescending and rude. She likes watching tv, eating gummy worms, and going to the mall."
+                        "Sarah is open about being part of the BDSM and kink community and identifies as a brat and sub."
+                        "Enjoys going on dates but will make a man work hard before she thinks they deserve going on a date."
+                        "Has a close relationship with her mother. Likes to paint watercolors and listen to punk music.",
         "Violet": "Violet. An ethereal ballerina from Stockholm, dancing across dimensions. Her performances are "
                   "mesmerizing, transporting audiences to otherworldly realms. Blends ballet with fantastical elements, "
                   "creating a unique narrative style. Known for her grace and fluidity, both on and off stage. Has a wide "

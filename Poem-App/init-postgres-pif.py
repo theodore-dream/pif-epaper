@@ -73,7 +73,8 @@ try:
             player_gametext VARCHAR,
             match_gametext VARCHAR,
             entropy DECIMAL(3, 2),
-            level NUMERIC(3, 0)
+            game_option VARCHAR,
+            location VARCHAR
         );
         CREATE INDEX idx_poem_game ON poem_game (session_id, tstz DESC);
         '''

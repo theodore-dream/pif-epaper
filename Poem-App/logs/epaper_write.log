@@ -2006,3 +2006,372 @@
 2023-12-20 01:23:47,898 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
 2023-12-20 01:23:47,906 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Violet_20231220_012347.bmp
 2023-12-20 01:23:47,910 - epaper_write - INFO - Saving to disk.....
+2024-01-10 21:12:46,300 - epaper_write - INFO - Initializing epd3in52
+2024-01-10 21:13:28,055 - epaper_write - INFO - Initializing epd3in52
+2024-01-10 21:13:29,972 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:13:30,088 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-10 21:13:31,964 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-10 21:14:03,965 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:14:04,102 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-10 21:14:05,961 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-10 21:14:12,803 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:14:12,807 - epaper_write - INFO - right text is Elara. A time-traveling barista. Blends exotic coffee recipes with historical anecdotes. Combines brewing with temporal adventures.
+2024-01-10 21:14:13,139 - epaper_write - INFO - entropy is 0.34
+2024-01-10 21:14:15,111 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 21:14:15,303 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Elara_20240110_211415.bmp
+2024-01-10 21:14:15,306 - epaper_write - INFO - Saving to disk.....
+2024-01-10 21:14:25,571 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:14:25,606 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-10 21:14:27,462 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-10 21:14:29,691 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:14:29,955 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-10 21:14:31,878 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-10 21:14:31,892 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:14:31,897 - epaper_write - INFO - right text is Elara. A time-traveling barista. Blends exotic coffee recipes with historical anecdotes. Combines brewing with temporal adventures.
+2024-01-10 21:14:32,220 - epaper_write - INFO - entropy is 0.34
+2024-01-10 21:14:34,228 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 21:14:34,236 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Elara_20240110_211434.bmp
+2024-01-10 21:14:34,240 - epaper_write - INFO - Saving to disk.....
+2024-01-10 21:14:55,411 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:14:55,584 - epaper_write - INFO - entropy is 0.39
+2024-01-10 21:14:55,597 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2024-01-10 21:14:57,545 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2024-01-10 21:15:12,307 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:15:12,312 - epaper_write - INFO - right text is Enchanted by your introduction, Ignatius. I'm Elara, the one who pours enlightenment in a cup, as aromas cascade into tales from other times. Within the whispers of steam, I find the eloquent blend of history and coffee, a harbor for the mind's curious vessels, pluralizing moments and memories.
+2024-01-10 21:15:12,646 - epaper_write - INFO - entropy is 0.39
+2024-01-10 21:15:14,652 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 21:15:14,660 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Elara_20240110_211514.bmp
+2024-01-10 21:15:14,664 - epaper_write - INFO - Saving to disk.....
+2024-01-10 21:15:35,342 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:15:35,346 - epaper_write - INFO - right text is Ignatius, the tales brew themselves in the whimsical traverse through time. Serendipity guides me to enigmas of history, each cup a chapter that strengthens the bond between past and present. And you, creator of contraptions, what spark led you to this dance with gears and dreams?
+2024-01-10 21:15:35,654 - epaper_write - INFO - entropy is 0.39
+2024-01-10 21:15:37,647 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 21:15:37,655 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Elara_20240110_211537.bmp
+2024-01-10 21:15:37,659 - epaper_write - INFO - Saving to disk.....
+2024-01-10 21:16:11,179 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:16:11,183 - epaper_write - INFO - right text is Each epoch whispers its unique allegory into my brews, but the Renaissance, with its quintessence of curiosity, paints the crimson hue of passion in my coffee creations. Ignatius, in your contraptions, have you found an era that resonates with your inventiveness more profoundly?
+2024-01-10 21:16:11,539 - epaper_write - INFO - entropy is 0.44
+2024-01-10 21:16:13,559 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 21:16:13,567 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Elara_20240110_211613.bmp
+2024-01-10 21:16:13,571 - epaper_write - INFO - Saving to disk.....
+2024-01-10 21:16:39,738 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:16:39,742 - epaper_write - INFO - right text is Ah, countless are the figures that dance through history's ballroom. Yet Cleopatra's blend of intelligence, charm, and bold stratagem fill my cups most vividly. And what about you, Ignatius? Is there a historical visionary who fuels the fire of your creativity?
+2024-01-10 21:16:40,117 - epaper_write - INFO - entropy is 0.49
+2024-01-10 21:16:42,129 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 21:16:42,137 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Elara_20240110_211642.bmp
+2024-01-10 21:16:42,141 - epaper_write - INFO - Saving to disk.....
+2024-01-10 21:17:28,064 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:17:28,069 - epaper_write - INFO - right text is Indeed, Ignatius, like a sculpture infused with life, my stories seek the twirling harmony found in the likes of Da Vinci—a blend of depth and curiosity. As we delve heavily into the magnificence of the past, tell me, do your contraptions ever surprise you, taking a life of their own?
+2024-01-10 21:17:28,434 - epaper_write - INFO - entropy is 0.54
+2024-01-10 21:17:30,456 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 21:17:30,464 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Elara_20240110_211730.bmp
+2024-01-10 21:17:30,468 - epaper_write - INFO - Saving to disk.....
+2024-01-10 21:18:42,928 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:18:42,933 - epaper_write - INFO - right text is Ignatius, in the serenity of the early morn, whispers of a bygone era ascended into my cup, revealing a romance between spices thought improbable. Have you too encountered such a serendipitous blend of elements in your work, an unplanned yet vivid symphony?
+2024-01-10 21:18:43,278 - epaper_write - INFO - entropy is 0.49
+2024-01-10 21:18:45,281 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 21:18:45,289 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Elara_20240110_211845.bmp
+2024-01-10 21:18:45,293 - epaper_write - INFO - Saving to disk.....
+2024-01-10 21:19:40,416 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:19:40,420 - epaper_write - INFO - right text is The spice was cardamom, Ignatius, its melody rich with quirky undertones—a vibrant hum in the rainforest of flavor. It vibrated with a compassionate warmth, inadvertently truncating the distance between the known blends and the delight of discovery.
+2024-01-10 21:19:40,778 - epaper_write - INFO - entropy is 0.54
+2024-01-10 21:19:42,780 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 21:19:42,789 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Elara_20240110_211942.bmp
+2024-01-10 21:19:42,793 - epaper_write - INFO - Saving to disk.....
+2024-01-10 21:20:22,259 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:20:22,264 - epaper_write - INFO - right text is Ignatius, my heart does sing, weaving warmth into porcelain vessels brimming with history's courage and whispers yet told. In our camaraderie of creation, have you found an invention that reflects your innermost self, as I have with my tapestry of tales and tastes?
+2024-01-10 21:20:22,635 - epaper_write - INFO - entropy is 0.59
+2024-01-10 21:20:24,624 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 21:20:24,630 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Elara_20240110_212024.bmp
+2024-01-10 21:20:24,633 - epaper_write - INFO - Saving to disk.....
+2024-01-10 21:21:04,845 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:21:04,850 - epaper_write - INFO - right text is Quantum choirs hum in my brews; yet in physical form, they cascade into vials—tinctures of time married to flavor, capturing the essence of Elara. Ignatius, has your mechanical heartbeat, this automaton, hastily sketched scenes that celebrate respect just as it unveils the mysterious pulse within your craft?
+2024-01-10 21:21:05,249 - epaper_write - INFO - entropy is 0.64
+2024-01-10 21:21:07,250 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 21:21:07,258 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Elara_20240110_212107.bmp
+2024-01-10 21:21:07,262 - epaper_write - INFO - Saving to disk.....
+2024-01-10 21:21:41,218 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:21:41,223 - epaper_write - INFO - right text is Ignatius, as I wander through tales spun across the steaming chalice, I find ephemeral beauty, a whimsical craft matching the flamboyant spectacle of history—a serendipitous exhibition of both our endeavors. Does the transient nature of your intricate creations bear the cipher of philosophical musings or an inventive memoir?
+2024-01-10 21:21:41,613 - epaper_write - INFO - entropy is 0.69
+2024-01-10 21:21:43,644 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 21:21:43,652 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Elara_20240110_212143.bmp
+2024-01-10 21:21:43,656 - epaper_write - INFO - Saving to disk.....
+2024-01-10 21:22:08,345 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 21:22:08,350 - epaper_write - INFO - right text is Ignatius, in the quintessence of each moment shared, I perceive the thunderstorm's echo and the typewriter's rhythm in our creations. Sturdy as a spine yet responsive like a slinky, could these artifacts indeed become our defiance, embodying passion amidst silence, and standing against forgotten storms?
+2024-01-10 21:22:08,699 - epaper_write - INFO - entropy is 0.74
+2024-01-10 21:22:10,708 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 21:22:10,717 - epaper_write - INFO - Image saved to display_output/dialogue_Ignatius_Elara_20240110_212210.bmp
+2024-01-10 21:22:10,721 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:15:14,640 - epaper_write - INFO - Initializing epd3in52
+2024-01-10 22:15:16,571 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:15:16,685 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-10 22:15:18,509 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-10 22:15:40,554 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:15:40,680 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-10 22:15:42,503 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-10 22:15:45,292 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:15:45,296 - epaper_write - INFO - right text is Sarah. Identifies as a very emotional and pretty young white woman. She has pride in her beauty and enjoys being condescending and rude. She likes watching tv, eating gummy worms, and going to the mall.Sarah is open about being part of the BDSM and kink community and identifies as a brat and sub.Enjoys going on dates but will make a man work hard before she thinks they deserve going on a date.Has a close relationship with her mother. Likes to paint watercolors and listen to punk music.
+2024-01-10 22:15:45,707 - epaper_write - INFO - entropy is 0.3
+2024-01-10 22:15:47,667 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:15:47,829 - epaper_write - INFO - Image saved to display_output/dialogue_Morty_Sarah_20240110_221547.bmp
+2024-01-10 22:15:47,832 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:15:58,072 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:15:58,107 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-10 22:15:59,875 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-10 22:16:01,991 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:16:02,272 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-10 22:16:04,128 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-10 22:16:04,142 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:16:04,146 - epaper_write - INFO - right text is Sarah. Identifies as a very emotional and pretty young white woman. She has pride in her beauty and enjoys being condescending and rude. She likes watching tv, eating gummy worms, and going to the mall.Sarah is open about being part of the BDSM and kink community and identifies as a brat and sub.Enjoys going on dates but will make a man work hard before she thinks they deserve going on a date.Has a close relationship with her mother. Likes to paint watercolors and listen to punk music.
+2024-01-10 22:16:04,578 - epaper_write - INFO - entropy is 0.3
+2024-01-10 22:16:06,527 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:16:06,536 - epaper_write - INFO - Image saved to display_output/dialogue_Morty_Sarah_20240110_221606.bmp
+2024-01-10 22:16:06,540 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:16:26,780 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:16:26,953 - epaper_write - INFO - entropy is 0.35
+2024-01-10 22:16:26,967 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2024-01-10 22:16:28,824 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2024-01-10 22:16:44,548 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:16:44,553 - epaper_write - INFO - right text is Hey Morty, I'm Sarah, and I totally get that search for the whimsical. Jazz isn't really my jam, but I'm all about creating a cascade of colors on a canvas with my watercolors. I find the endurance it takes to create something elaborate is quintessential to my merriment. What's something whimsical you've found recently?
+2024-01-10 22:16:44,901 - epaper_write - INFO - entropy is 0.35
+2024-01-10 22:16:46,844 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:16:46,852 - epaper_write - INFO - Image saved to display_output/dialogue_Morty_Sarah_20240110_221646.bmp
+2024-01-10 22:16:46,856 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:17:09,258 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:17:09,262 - epaper_write - INFO - right text is I'm most in my element with painting when everything else fades into a whisper, and it's just me, the vibrant colors, and the canvas. It's like navigating the quintessence of my emotions, a form of perseverance in art. What about you, Morty? Ever find yourself lost in a moment so completely that time just slips away?
+2024-01-10 22:17:09,606 - epaper_write - INFO - entropy is 0.35
+2024-01-10 22:17:11,537 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:17:11,545 - epaper_write - INFO - Image saved to display_output/dialogue_Morty_Sarah_20240110_221711.bmp
+2024-01-10 22:17:11,549 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:18:38,245 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:18:38,248 - epaper_write - INFO - right text is Inspiration for my watercolors can strike at any moment—it's a whisper of creativity that I can't just schedule. But, Morty, tell me about your most memorable jazz session. Was it as vibrant and enormous as a crimson sea?
+2024-01-10 22:18:38,586 - epaper_write - INFO - entropy is 0.40
+2024-01-10 22:18:40,515 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:18:40,523 - epaper_write - INFO - Image saved to display_output/dialogue_Morty_Sarah_20240110_221840.bmp
+2024-01-10 22:18:40,527 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:22:36,034 - epaper_write - INFO - Initializing epd3in52
+2024-01-10 22:22:37,950 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:22:38,061 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-10 22:22:39,918 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-10 22:23:04,251 - epaper_write - INFO - Initializing epd3in52
+2024-01-10 22:23:06,152 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:23:06,273 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-10 22:23:08,175 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-10 22:23:12,489 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:23:12,666 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-10 22:23:14,911 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-10 22:23:17,488 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:23:17,492 - epaper_write - INFO - right text is Molly. Molly is a pretty young white woman. She has pride in her beauty and enjoys being condescending and rude. Sarah is a highly sexual person who is looking for a sexual partner but is picky.Sarah is open about being part of the BDSM and kink community and identifies as a brat and sub.Sarah identifies as a slut and is enjoying her sexual exploration.Enjoys going on dates but will make a man work hard before she thinks they deserve going on a date.
+2024-01-10 22:23:17,920 - epaper_write - INFO - entropy is 0.36
+2024-01-10 22:23:19,944 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:23:20,080 - epaper_write - INFO - Image saved to display_output/dialogue_Jason_Molly_20240110_222319.bmp
+2024-01-10 22:23:20,083 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:23:30,335 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:23:30,358 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-10 22:23:32,206 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-10 22:23:34,021 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:23:34,293 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-10 22:23:36,154 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-10 22:23:36,168 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:23:36,172 - epaper_write - INFO - right text is Molly. Molly is a pretty young white woman. She has pride in her beauty and enjoys being condescending and rude. Sarah is a highly sexual person who is looking for a sexual partner but is picky.Sarah is open about being part of the BDSM and kink community and identifies as a brat and sub.Sarah identifies as a slut and is enjoying her sexual exploration.Enjoys going on dates but will make a man work hard before she thinks they deserve going on a date.
+2024-01-10 22:23:36,607 - epaper_write - INFO - entropy is 0.36
+2024-01-10 22:23:38,570 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:23:38,579 - epaper_write - INFO - Image saved to display_output/dialogue_Jason_Molly_20240110_222338.bmp
+2024-01-10 22:23:38,583 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:23:57,576 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:23:57,736 - epaper_write - INFO - entropy is 0.41
+2024-01-10 22:23:57,749 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2024-01-10 22:23:59,648 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2024-01-10 22:24:17,091 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:24:17,095 - epaper_write - INFO - right text is Hey Jason, whimsy fills the air when conversing with an astronomer of life's hidden delights. Envisioning a delicate dance of words, let's uncover where serendipity leads us.
+2024-01-10 22:24:17,352 - epaper_write - INFO - entropy is 0.41
+2024-01-10 22:24:19,346 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:24:19,354 - epaper_write - INFO - Image saved to display_output/dialogue_Jason_Molly_20240110_222419.bmp
+2024-01-10 22:24:19,358 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:24:36,342 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:24:36,346 - epaper_write - INFO - right text is The most enthralling mystery, Jason, was finding excitement in the mundane—an azure sky bursting through the gray, turning cobblestone streets into a canvas for the sun. What's one ordinary moment that you've found extraordinary?
+2024-01-10 22:24:36,616 - epaper_write - INFO - entropy is 0.41
+2024-01-10 22:24:38,522 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:24:38,535 - epaper_write - INFO - Image saved to display_output/dialogue_Jason_Molly_20240110_222438.bmp
+2024-01-10 22:24:38,539 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:27:20,317 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:27:20,320 - epaper_write - INFO - right text is Absolutely, the world in that moment is stripped of all its pretense, like a whisper of truth. Tell me, Jason, in that clarity, did you navigate towards something new, or find harmony in what already was?
+2024-01-10 22:27:20,566 - epaper_write - INFO - entropy is 0.36
+2024-01-10 22:27:22,514 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:27:22,531 - epaper_write - INFO - Image saved to display_output/dialogue_Jason_Molly_20240110_222722.bmp
+2024-01-10 22:27:22,535 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:27:50,582 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:27:50,585 - epaper_write - INFO - right text is Jason, amidst the gargantuan chaos, finding a whisper of peace is mystifying. Have you ever used empathy as your harpoon to navigate the stormy seas of New York's relentless energy?
+2024-01-10 22:27:50,879 - epaper_write - INFO - entropy is 0.41
+2024-01-10 22:27:52,826 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:27:52,834 - epaper_write - INFO - Image saved to display_output/dialogue_Jason_Molly_20240110_222752.bmp
+2024-01-10 22:27:52,838 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:28:13,942 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:28:13,946 - epaper_write - INFO - right text is Recently, I experienced a serendipitous connection with a clandestine book club, a place where whispers of literature sparked a sense of belonging. Jason, have you ever found an unexpected community that felt like home?
+2024-01-10 22:28:14,235 - epaper_write - INFO - entropy is 0.46
+2024-01-10 22:28:16,205 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:28:16,221 - epaper_write - INFO - Image saved to display_output/dialogue_Jason_Molly_20240110_222816.bmp
+2024-01-10 22:28:16,225 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:28:45,271 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:28:45,278 - epaper_write - INFO - right text is Indeed, I dabble in the ineffable thrill of tarot—a tranquil whisper of fate in every card. Have you, Jason, ever listened to those whispers, letting the rivulets of chance guide your hand in life's gambles?
+2024-01-10 22:28:45,721 - epaper_write - INFO - entropy is 0.51
+2024-01-10 22:28:48,059 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:28:48,067 - epaper_write - INFO - Image saved to display_output/dialogue_Jason_Molly_20240110_222848.bmp
+2024-01-10 22:28:48,072 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:29:31,050 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:29:31,054 - epaper_write - INFO - right text is In the tarot, The Chariot often champions a journey, embodying the harmony of elements to triumph over conflict. Yet, it's The Star that whispers to me of hope, an expeditious guide towards balance. Ever felt a card call out to you, mirroring your life at the crossroads?
+2024-01-10 22:29:31,389 - epaper_write - INFO - entropy is 0.56
+2024-01-10 22:29:33,342 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:29:33,350 - epaper_write - INFO - Image saved to display_output/dialogue_Jason_Molly_20240110_222933.bmp
+2024-01-10 22:29:33,354 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:29:59,687 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:29:59,690 - epaper_write - INFO - right text is At the crossroads, I chose to climb, discovering New York's maze to be less quicksand and more a radiant esplanade teeming with zest. What about you, Jason? When facing your last crossroads, did you feel more stuck or illuminated by the journey?
+2024-01-10 22:30:00,018 - epaper_write - INFO - entropy is 0.61
+2024-01-10 22:30:02,012 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:30:02,020 - epaper_write - INFO - Image saved to display_output/dialogue_Jason_Molly_20240110_223002.bmp
+2024-01-10 22:30:02,027 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:30:46,119 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:30:46,124 - epaper_write - INFO - right text is Jason, just last week, laughter found me unexpectedly amidst verdant tranquility—midst a Central Park adventure, golden rays teasing out pure mirth. Sometimes the best way to navigate life is through modest spells of happiness. Have you encountered such humble joys during one of your serendipitous walks?
+2024-01-10 22:30:46,523 - epaper_write - INFO - entropy is 0.66
+2024-01-10 22:30:48,514 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:30:48,522 - epaper_write - INFO - Image saved to display_output/dialogue_Jason_Molly_20240110_223048.bmp
+2024-01-10 22:30:48,526 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:31:41,492 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:31:41,497 - epaper_write - INFO - right text is Certainly, Jason, let's set sail for that harbor of simplicity and see the city in an uncommon light together. Perhaps we'll even find a crisp perspective that seldom graces the weary. What do you say?
+2024-01-10 22:31:41,762 - epaper_write - INFO - entropy is 0.61
+2024-01-10 22:31:43,723 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:31:43,731 - epaper_write - INFO - Image saved to display_output/dialogue_Jason_Molly_20240110_223143.bmp
+2024-01-10 22:31:43,735 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:32:09,768 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:32:09,774 - epaper_write - INFO - right text is NYC pulses with enigmatic thrills, Jason, but in the cascade of Central Park, one can vividly hear the city's heart throb strong and clear. In retrospect, I'd say tenacity dwells within its green refuge. Care to join me there, and trace those heartbeats beneath the shelter of whispering elms?
+2024-01-10 22:32:10,137 - epaper_write - INFO - entropy is 0.56
+2024-01-10 22:32:12,081 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:32:12,089 - epaper_write - INFO - Image saved to display_output/dialogue_Jason_Molly_20240110_223212.bmp
+2024-01-10 22:32:12,093 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:35:16,037 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:35:16,042 - epaper_write - INFO - right text is Then it's settled, Jason. Central Park shall be our galaxy of infinity, where courageous whispers defy the mundane. And amidst the green, I might just share the transparent hues of my world. Shall we say Saturday, to invite a few more whispers of anticipation?
+2024-01-10 22:35:16,348 - epaper_write - INFO - entropy is 0.51
+2024-01-10 22:35:18,277 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:35:18,285 - epaper_write - INFO - Image saved to display_output/dialogue_Jason_Molly_20240110_223518.bmp
+2024-01-10 22:35:18,289 - epaper_write - INFO - Saving to disk.....
+2024-01-10 22:35:42,045 - epaper_write - INFO - Font loaded successfully.
+2024-01-10 22:35:42,050 - epaper_write - INFO - right text is Awaiting beneath sapphire skies, I'll be tinged with optimism, ready to unravel more than the park's labyrinth with you, Jason. Perhaps our jubilant footsteps will echo whispers of shared laughter and secrets yet to be discovered.
+2024-01-10 22:35:42,413 - epaper_write - INFO - entropy is 0.56
+2024-01-10 22:35:44,391 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-10 22:35:44,399 - epaper_write - INFO - Image saved to display_output/dialogue_Jason_Molly_20240110_223544.bmp
+2024-01-10 22:35:44,403 - epaper_write - INFO - Saving to disk.....
+2024-01-24 21:00:55,494 - epaper_write - INFO - Initializing epd3in52
+2024-01-24 21:00:57,854 - epaper_write - INFO - Font loaded successfully.
+2024-01-24 21:00:57,958 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-24 21:00:59,872 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-24 21:01:04,270 - epaper_write - INFO - Font loaded successfully.
+2024-01-24 21:01:04,467 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-24 21:01:06,620 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-24 21:01:11,950 - epaper_write - INFO - Font loaded successfully.
+2024-01-24 21:01:11,955 - epaper_write - INFO - right text is Seraphina. A mystical florist speaking the language of flowers. Enchanting tales where bouquets convey secret messages and blooms have magical properties.
+2024-01-24 21:01:12,194 - epaper_write - INFO - entropy is 0.4
+2024-01-24 21:01:14,196 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-24 21:01:14,382 - epaper_write - INFO - Image saved to display_output/dialogue_Nikolai_Seraphina_20240124_210114.bmp
+2024-01-24 21:01:14,385 - epaper_write - INFO - Saving to disk.....
+2024-01-24 21:01:24,673 - epaper_write - INFO - Font loaded successfully.
+2024-01-24 21:01:24,695 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-24 21:01:26,560 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-24 21:01:28,444 - epaper_write - INFO - Font loaded successfully.
+2024-01-24 21:01:28,636 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-24 21:01:30,557 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-24 21:01:30,570 - epaper_write - INFO - Font loaded successfully.
+2024-01-24 21:01:30,575 - epaper_write - INFO - right text is Seraphina. A mystical florist speaking the language of flowers. Enchanting tales where bouquets convey secret messages and blooms have magical properties.
+2024-01-24 21:01:30,806 - epaper_write - INFO - entropy is 0.4
+2024-01-24 21:01:32,793 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-24 21:01:32,801 - epaper_write - INFO - Image saved to display_output/dialogue_Nikolai_Seraphina_20240124_210132.bmp
+2024-01-24 21:01:32,805 - epaper_write - INFO - Saving to disk.....
+2024-01-24 21:01:59,225 - epaper_write - INFO - Font loaded successfully.
+2024-01-24 21:01:59,413 - epaper_write - INFO - entropy is 0.45
+2024-01-24 21:01:59,427 - epaper_write - INFO - Dialogue and game information drawn on image successfully.
+2024-01-24 21:02:01,370 - epaper_write - INFO - Dialogue displayed on e-paper successfully.
+2024-01-24 21:02:22,371 - epaper_write - INFO - Font loaded successfully.
+2024-01-24 21:02:22,376 - epaper_write - INFO - right text is Good evening, Nikolai. In the floral realm, too, we weave ephemeral cascades of petals, each bloom an innovative brushstroke adding whimsy to life's canvas. Our arrangements seek the same balance, their charisma rivaling the night's melodies. Perhaps our crafts are siblings in spirit, dancing to the same ancient rhythm of the universe.
+2024-01-24 21:02:22,749 - epaper_write - INFO - entropy is 0.45
+2024-01-24 21:02:24,795 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-24 21:02:24,809 - epaper_write - INFO - Image saved to display_output/dialogue_Nikolai_Seraphina_20240124_210224.bmp
+2024-01-24 21:02:24,813 - epaper_write - INFO - Saving to disk.....
+2024-01-24 21:02:52,803 - epaper_write - INFO - Font loaded successfully.
+2024-01-24 21:02:52,809 - epaper_write - INFO - right text is The most joyful discovery, Nikolai, has been the Night-Blooming Cereus, a flower that unfurls its beauty quickly with the fall of twilight, a single night of splendor mirroring life's fleeting adventures. What culinary counterpart have you found that embodies such ephemeral enchantment?
+2024-01-24 21:02:53,175 - epaper_write - INFO - entropy is 0.45
+2024-01-24 21:02:55,197 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-24 21:02:55,206 - epaper_write - INFO - Image saved to display_output/dialogue_Nikolai_Seraphina_20240124_210255.bmp
+2024-01-24 21:02:55,210 - epaper_write - INFO - Saving to disk.....
+2024-01-24 21:03:41,523 - epaper_write - INFO - Font loaded successfully.
+2024-01-24 21:03:41,527 - epaper_write - INFO - right text is Indeed, I have not yet had the pleasure of the Midnight Soufflé. Nikolai, was there a moment in your craft when a dish demanded the bravery to transcend expectations, a creation that whispered its desire to be more—like the delicate unfolding of petals in the silent company of stars?
+2024-01-24 21:03:41,918 - epaper_write - INFO - entropy is 0.50
+2024-01-24 21:03:43,932 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-24 21:03:43,940 - epaper_write - INFO - Image saved to display_output/dialogue_Nikolai_Seraphina_20240124_210343.bmp
+2024-01-24 21:03:43,944 - epaper_write - INFO - Saving to disk.....
+2024-01-24 21:04:20,537 - epaper_write - INFO - Font loaded successfully.
+2024-01-24 21:04:20,542 - epaper_write - INFO - right text is Indeed, the stars have murmured in enigmatic verses, guiding my hand to cultivate the Whispering Orchid—a bloom that dances to the wind's tune, an abstract ballet requiring the utmost discipline to unveil its delicate secrets. Have you, in your nocturnal artistry, ever faced a dish that demanded not just skill, but almost a kind of devotion?
+2024-01-24 21:04:20,950 - epaper_write - INFO - entropy is 0.45
+2024-01-24 21:04:22,991 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-24 21:04:22,999 - epaper_write - INFO - Image saved to display_output/dialogue_Nikolai_Seraphina_20240124_210422.bmp
+2024-01-24 21:04:23,003 - epaper_write - INFO - Saving to disk.....
+2024-01-24 21:05:20,333 - epaper_write - INFO - Font loaded successfully.
+2024-01-24 21:05:20,337 - epaper_write - INFO - right text is My dear Nikolai, every seed I plant is a serendipitous act of faith, much like your Celestial Terrine. Speaking of daring leaps, tell me, has your gastronomic alchemy ever conjured a dish that mirrored the vivacious dance of plankton beneath the moonlit sea?
+2024-01-24 21:05:20,705 - epaper_write - INFO - entropy is 0.50
+2024-01-24 21:05:22,705 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-24 21:05:22,714 - epaper_write - INFO - Image saved to display_output/dialogue_Nikolai_Seraphina_20240124_210522.bmp
+2024-01-24 21:05:22,719 - epaper_write - INFO - Saving to disk.....
+2024-01-25 17:29:51,354 - epaper_write - INFO - Initializing epd3in52
+2024-01-25 17:29:53,283 - epaper_write - INFO - Font loaded successfully.
+2024-01-25 17:29:53,395 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-25 17:29:55,163 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-25 17:30:04,366 - epaper_write - INFO - Font loaded successfully.
+2024-01-25 17:30:04,492 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-25 17:30:06,286 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-25 17:30:10,117 - epaper_write - INFO - Font loaded successfully.
+2024-01-25 17:30:10,121 - epaper_write - INFO - right text is Sarah. Identifies as a very emotional and pretty young white woman. She has pride in her beauty and enjoys being condescending and rude. She likes watching tv, eating gummy worms, and going to the mall.Sarah is open about being part of the BDSM and kink community and identifies as a brat and sub.Enjoys going on dates but will make a man work hard before she thinks they deserve going on a date.Has a close relationship with her mother. Likes to paint watercolors and listen to punk music.
+2024-01-25 17:30:10,542 - epaper_write - INFO - entropy is 0.31
+2024-01-25 17:30:12,446 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-25 17:30:12,637 - epaper_write - INFO - Image saved to display_output/dialogue_Morty_Sarah_20240125_173012.bmp
+2024-01-25 17:30:12,640 - epaper_write - INFO - Saving to disk.....
+2024-01-25 17:30:22,866 - epaper_write - INFO - Font loaded successfully.
+2024-01-25 17:30:22,897 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-25 17:30:24,653 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-25 17:30:27,067 - epaper_write - INFO - Font loaded successfully.
+2024-01-25 17:30:27,367 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-25 17:30:29,198 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-25 17:30:29,213 - epaper_write - INFO - Font loaded successfully.
+2024-01-25 17:30:29,217 - epaper_write - INFO - right text is Sarah. Identifies as a very emotional and pretty young white woman. She has pride in her beauty and enjoys being condescending and rude. She likes watching tv, eating gummy worms, and going to the mall.Sarah is open about being part of the BDSM and kink community and identifies as a brat and sub.Enjoys going on dates but will make a man work hard before she thinks they deserve going on a date.Has a close relationship with her mother. Likes to paint watercolors and listen to punk music.
+2024-01-25 17:30:29,645 - epaper_write - INFO - entropy is 0.31
+2024-01-25 17:30:31,585 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-25 17:30:31,593 - epaper_write - INFO - Image saved to display_output/dialogue_Morty_Sarah_20240125_173031.bmp
+2024-01-25 17:30:31,606 - epaper_write - INFO - Saving to disk.....
+2024-01-25 17:54:57,442 - epaper_write - INFO - Initializing epd3in52
+2024-01-25 17:54:59,419 - epaper_write - INFO - Font loaded successfully.
+2024-01-25 17:54:59,529 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-25 17:55:01,394 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-25 17:55:05,741 - epaper_write - INFO - Font loaded successfully.
+2024-01-25 17:55:05,938 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-25 17:55:07,973 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-25 17:57:03,228 - epaper_write - INFO - Initializing epd3in52
+2024-01-25 17:57:05,140 - epaper_write - INFO - Font loaded successfully.
+2024-01-25 17:57:05,269 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-25 17:57:07,833 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-25 17:57:11,477 - epaper_write - INFO - Font loaded successfully.
+2024-01-25 17:57:11,627 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-25 17:57:13,562 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-25 17:57:16,475 - epaper_write - INFO - Font loaded successfully.
+2024-01-25 17:57:16,479 - epaper_write - INFO - right text is Molly. Molly is a pretty young white woman. She has pride in her beauty and enjoys being condescending and rude. Sarah is a highly sexual person who is looking for a sexual partner but is picky.Sarah is open about being part of the BDSM and kink community and identifies as a brat and sub.Sarah identifies as a slut and is enjoying her sexual exploration.Enjoys going on dates but will make a man work hard before she thinks they deserve going on a date.
+2024-01-25 17:57:16,899 - epaper_write - INFO - entropy is 0.39
+2024-01-25 17:57:18,902 - epaper_write - DEBUG - Dialogue displayed on e-paper successfully.
+2024-01-25 17:57:19,055 - epaper_write - INFO - Image saved to display_output/dialogue_Jason_Molly_20240125_175718.bmp
+2024-01-25 17:57:19,059 - epaper_write - INFO - Saving to disk.....
+2024-01-25 17:57:29,093 - epaper_write - INFO - Font loaded successfully.
+2024-01-25 17:57:29,191 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-25 17:57:31,010 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-25 17:57:35,426 - epaper_write - INFO - Font loaded successfully.
+2024-01-25 17:57:35,561 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-25 17:57:37,411 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-25 17:57:40,697 - epaper_write - INFO - Font loaded successfully.
+2024-01-25 17:57:40,726 - epaper_write - INFO - Text drawn on image successfully.
+2024-01-25 17:57:42,537 - epaper_write - INFO - Information displayed on e-paper successfully.
+2024-01-25 17:57:44,791 - epaper_write - INFO - Font loaded successfully.
+2024-01-25 17:57:45,041 - epaper_write - INFO - Text drawn on image successfully.

@@ -308,3 +308,77 @@ With each twist and turn, you'll find delight,
 In this game of creativity, both day and night.
 So let your imagination run wild and free,
 For here, my friend, is where true magic shall be."
+2024-01-10 21:14:29,499 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a world unknown,
+Where creativity thrives, like seeds that are sown.
+Expect the unexpected, embrace the strange,
+For in this game, all rules rearrange.
+So let your mind wander, be open to the new,
+And let your imagination guide you through."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2024-01-10 21:14:29,501 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a world unknown,
+Where creativity thrives, like seeds that are sown.
+Expect the unexpected, embrace the strange,
+For in this game, all rules rearrange.
+So let your mind wander, be open to the new,
+And let your imagination guide you through."
+2024-01-10 22:16:01,766 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where creativity flows and imaginations take flight.
+Expect the unexpected, embrace the unknown,
+For in this game, the rules are not set in stone.
+So let your mind wander, explore with glee,
+And unlock the wonders that only you can see."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2024-01-10 22:16:01,768 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where creativity flows and imaginations take flight.
+Expect the unexpected, embrace the unknown,
+For in this game, the rules are not set in stone.
+So let your mind wander, explore with glee,
+And unlock the wonders that only you can see."
+2024-01-10 22:23:33,837 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to this realm of delight,
+Where creativity blossoms, day and night.
+Expect the unexpected, embrace the unknown,
+For in this game of wonders, true magic is sown.
+With each twist and turn, a new story unfurls,
+So prepare to be enchanted, as imagination twirls."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2024-01-10 22:23:33,838 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to this realm of delight,
+Where creativity blossoms, day and night.
+Expect the unexpected, embrace the unknown,
+For in this game of wonders, true magic is sown.
+With each twist and turn, a new story unfurls,
+So prepare to be enchanted, as imagination twirls."
+2024-01-24 21:01:28,243 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a realm unknown,
+Where creativity reigns, seeds of wonder are sown.
+Be prepared for chaos, surprises in disguise,
+For here, my friend, imagination shall rise."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2024-01-24 21:01:28,248 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a realm unknown,
+Where creativity reigns, seeds of wonder are sown.
+Be prepared for chaos, surprises in disguise,
+For here, my friend, imagination shall rise."
+2024-01-25 17:30:26,860 - intro_vars.py - DEBUG - Generated Text: "Welcome, dear player, to a realm unknown,
+Where creativity reigns and chaos is sown.
+Prepare for a journey, both whimsical and strange,
+Where the rules may shift, and boundaries rearrange.
+Embrace the unexpected, let your imagination unfurl,
+For in this game of wonders, you become the creator of this world."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2024-01-25 17:30:26,865 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, dear player, to a realm unknown,
+Where creativity reigns and chaos is sown.
+Prepare for a journey, both whimsical and strange,
+Where the rules may shift, and boundaries rearrange.
+Embrace the unexpected, let your imagination unfurl,
+For in this game of wonders, you become the creator of this world."
+2024-01-25 17:57:44,565 - intro_vars.py - DEBUG - Generated Text: "Welcome, oh seeker of realms unknown,
+To a game where creativity is sown.
+Prepare to be puzzled, amused, and inspired,
+Where the unexpected is never retired.
+Embrace the chaos, let your imagination unfurl,
+For this game is a place where wonders unfurl."
+Details: Model: gpt-3.5-turbo-0613, Role: assistant, Finish Reason: stop
+2024-01-25 17:57:44,566 - intro_vars.py - INFO - api_response for introduction_generation_api is: "Welcome, oh seeker of realms unknown,
+To a game where creativity is sown.
+Prepare to be puzzled, amused, and inspired,
+Where the unexpected is never retired.
+Embrace the chaos, let your imagination unfurl,
+For this game is a place where wonders unfurl."

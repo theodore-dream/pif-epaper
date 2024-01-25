@@ -48,8 +48,8 @@ def initial_gametext_api(entropy, player_persona, creative_prompt, abstract_conc
         {
             "role": "user",
             "content": f"You speak directly and plainly." 
-                    f"Consider incorporating {creative_prompt} in your speech if it may help you communicate."
-                    "You are introducing yourself. This is your first interaction."
+ #                   f"Consider incorporating {creative_prompt} in your speech if it may help you communicate."
+ #                   "You are introducing yourself. This is your first interaction."
                     "I want you to remember you are having a conversation. "
                     #f"{selected_approach}"
                     "Output into JSON format as specified."

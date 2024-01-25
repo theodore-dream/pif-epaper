@@ -74,11 +74,11 @@ def poetry_game_intro(entropy):
     return opening_poem
 
 # gametext is not used in the database, its just the intro gametext
-def handle_new_session(session_id, player_persona, match_persona, player_persona_name, match_persona_name, entropy):
+def handle_new_session(session_id, player_persona, match_persona, player_persona_name, match_persona_name, entropy, game_option, location):
     logger.debug("Handling new session...")
     info_gametext = poetry_game_intro(entropy)
     session_state = "active"
-    db_service.new_game_init_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy)
+    db_service.new_game_init_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, game_option, location)
     return info_gametext, session_state
 
 def player_speech_gen(entropy, player_persona):    
@@ -105,33 +105,35 @@ def conversation_gametext_gen(entropy, persona_name, persona_data, conversation)
     logger.info(f"{persona_name} conversation_gametext_gen gametext is:\n{gametext}")
     return gametext
 
-def make_session_active(session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy):
+def make_session_active(session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy, game_option, location):
     logger.debug("changing session_state into active session...")
     # we are saving the game for the first time or the nth time, ensuring always active if player gets here
     session_state = "active"
     # the data being enteterd into the checkpoint is incorrect 
     logger.info(f"about to do a save checkpoint to set session active. Make sure the values are right. session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy: {session_id, player_persona, match_persona, player_persona_name, match_persona_name, player_gametext, match_gametext, session_state, entropy}")
-    db_service.save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy)
+    db_service.save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy, game_option, location)
     #checkpoint saved, session is now active
     #issue now is there is no content to save, I guess it can just be None? 
     return player_gametext, match_gametext
 
-def run_game(player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, session_state, entropy, session_id, input_mode):
+def run_game(player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, session_state, entropy, session_id, input_mode, game_option, location):
     # Entropy modification logic (currently faked for development)
     # this section right here is currently meant to be used with raspberry pi hardware attached buttons that are each coded to be left or right 
     # alternatively, if using keyboard mode, you can use the up and down arrow keys to select "l" or "r" 
 
+    # right here this doesn't do anything besides change session state to new and display some info on the screen
     info_gametext = None
     if session_state == "new":
-        info_gametext, session_state = handle_new_session(session_id, player_persona, match_persona, player_persona_name, match_persona_name, entropy)
+        info_gametext, session_state = handle_new_session(session_id, player_persona, match_persona, player_persona_name, match_persona_name, entropy, game_option, location)
         # displaying the poetry intro game text here... hm. 
         epaper_write.display_information(info_gametext)
         # highlighting the player and match on new game initiation 
         # we want the gametext to be the information about the peronas
         player_gametext = player_persona
         match_gametext = match_persona
+        # again, displaying basic information about the persona and match chosen
         epaper_write.display_dialogue_both(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
-        player_gametext, match_gametext = make_session_active(session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy)
+        player_gametext, match_gametext = make_session_active(session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy, game_option, location)
 
     # this is the main game loop 
     elif session_state == "active":
@@ -157,10 +159,11 @@ def run_game(player_persona, match_persona, player_persona_name, match_persona_n
 
         logger.info(f"conversation_data evaluation is happening now: {conversation_data}")
 
+        # first time the game is started there is no conversation data 
         if conversation_data is None:
             conversation_data = ""
             # here I want to do two writes, one where I write the first part and then another where I write again and show both dialogues 
-            player_gametext = player_speech_gen(float(entropy), player_persona)
+            player_gametext = player_speech_gen(float(entropy), player_persona, game_option, location)
             epaper_write.display_dialogue_left(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
             # this is designed to append player_gametext, which should be a string, to conversation_data
             # improvement needed is likely to include the name of the person who is speaking somehow 
@@ -168,21 +171,21 @@ def run_game(player_persona, match_persona, player_persona_name, match_persona_n
         
             # here incorporating the player text
             # issue here with the 
-            match_gametext = match_speech_gen(float(entropy), match_persona, player_gametext)  
+            match_gametext = match_speech_gen(float(entropy), match_persona, player_gametext, game_option, location)  
             epaper_write.display_dialogue_both(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
             conversation_data += match_persona_name + ": " + match_gametext  
             logger.info(f"conversation_data after running initial call and response is {conversation_data}")
 
         if conversation_data is not None:
-            player_gametext = conversation_gametext_gen(float(entropy), "player", player_persona, conversation_data)
+            player_gametext = conversation_gametext_gen(float(entropy), "player", player_persona, conversation_data, game_option, location)
             conversation_data += player_persona_name + ": " + player_gametext  
-            match_gametext = conversation_gametext_gen(float(entropy), "match", match_persona, conversation_data)  
+            match_gametext = conversation_gametext_gen(float(entropy), "match", match_persona, conversation_data, game_option, location)  
             conversation_data += match_persona_name + ": " + match_gametext  
             # this should take the history of what's been said and use it
             epaper_write.display_dialogue_both(player_gametext, match_gametext, player_persona_name, match_persona_name, entropy, 10)
 
         logger.info(f"conversation_data is about to be saved to DB: {conversation_data}")
-        db_service.save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy)
+        db_service.save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy, game_option, location)
 
 
 def initialize_new_session(session_id, input_mode):
@@ -234,18 +237,90 @@ def initialize_new_session(session_id, input_mode):
     entropy = Decimal(random.randint(30, 45)) / Decimal(100)
     session_state = "new"
 
-    # Display options for different personas here by listing all 5 names 
+    # This shows the selection made and provides the information about both player and match
     epaper_write.display_dialogue_both(player_persona, match_persona, player_persona_name, match_persona_name, entropy, 10)
 
     logger.info(f"Selected player_persona_name: {player_persona_name}, Description: {player_persona}")
     logger.info(f"Selected match_persona_name: {match_persona_name}, Description: {match_persona}")
 
-    db_service.new_game_init_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy)
+    def select_game_option(game_options, input_mode):
+        # Display game options on the e-paper
+        game_options_str = '\n'.join([f"{i}. {option}" for i, option in enumerate(game_options, start=1)])
+        epaper_write.display_information("Select a game option:\n" + game_options_str)  
+
+        # Print the options to the console
+        print("Select your game option:")
+        print(game_options_str)
+        print("0. Random")
+
+        # Handle keyboard input
+        if input_mode == 'keyboard':
+            while True:
+                choice = input("Enter your selected number: ")
+                if choice.isdigit():
+                    choice = int(choice)
+                    if 0 <= choice <= len(game_options):
+                        selected_game_option = game_options[choice - 1] if choice != 0 else random.choice(game_options)
+                        epaper_write.clear_display()
+                        return selected_game_option
+                    else:
+                        print("Invalid choice. Please try again.")
+                else:
+                    print("Invalid input. Please enter a number.")
+        # Handle Raspberry Pi input
+        elif input_mode == 'raspberry':
+            # Implement Raspberry Pi button logic for selecting game options
+            pass  # Replace with your Raspberry Pi input logic
+
+    def select_location(locations, input_mode):
+        # Display location options on the e-paper
+        locations_str = '\n'.join([f"{i}. {location}" for i, location in enumerate(locations, start=1)])
+        epaper_write.display_information("Select a location:\n" + locations_str)  
+
+        # Print the options to the console
+        print("Select your location:")
+        print(locations_str)
+        print("0. Random")
+
+        # Handle keyboard input
+        if input_mode == 'keyboard':
+            while True:
+                choice = input("Enter your selected number: ")
+                if choice.isdigit():
+                    choice = int(choice)
+                    if 0 <= choice <= len(locations):
+                        selected_location = locations[choice - 1] if choice != 0 else random.choice(locations)
+                        epaper_write.clear_display()
+                        return selected_location
+                    else:
+                        print("Invalid choice. Please try again.")
+                else:
+                    print("Invalid input. Please enter a number.")
+        # Handle Raspberry Pi input
+        elif input_mode == 'raspberry':
+            # Implement Raspberry Pi button logic for selecting location
+            pass  # Replace with your Raspberry Pi input logic
+
+    # Add game option selection
+    game_options = ['Dating', 'Mystery_Solving', 'Survival']
+    game_option = select_game_option(game_options, input_mode)
+    logger.info(f"Selected game_option: {game_option}")
+
+
+    # Add location selection (or generate randomly)
+    locations = ['Beach', 'Space Station', 'Ancient Ruins', 'Modern City', 'Mysterious Island']
+    location = select_location(locations, input_mode)
+    logger.info(f"Selected location: {location}")
+
+    # need to add code to display information about the location and game option after it is selected, to confirm 
+    # alternatively this might be appropriate to always display at the bottom of the screen
+
+    db_service.new_game_init_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, game_option, location)
     logger.info(f"New session created with ID: {session_id} and entropy: {entropy}")
 
     conversation_data = None
 
-    run_game(player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, session_state, entropy, session_id, input_mode)
+    run_game(player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, session_state, entropy, session_id, input_mode, game_option, location)
 
 def continue_active_session(session_data, input_mode):
     session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, session_state, entropy = session_data

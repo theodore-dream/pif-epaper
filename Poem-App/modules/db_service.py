@@ -29,7 +29,7 @@ def new_game_active_write_to_database(session_id, session_state, entropy):
         logger.error("Error while inserting in PostgreSQL", error)
 
 # this saves a newly created game and assigns the personas 
-def new_game_init_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy):
+def new_game_init_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, game_option, location):
     try:
         connection = psycopg2.connect(
             dbname="game",
@@ -40,10 +40,10 @@ def new_game_init_write_to_database(session_id, player_persona, match_persona, p
             connect_timeout=3,
         )
         cursor = connection.cursor()
-        query = f"INSERT INTO poem_game (session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy) VALUES (%s, %s, %s, %s, %s, %s, %s)"
-        cursor.execute(query, (session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy))
+        query = f"INSERT INTO poem_game (session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)"
+        cursor.execute(query, (session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, game_option, location))
         logger.debug(f"Executing write txn: {query} on session: {session_id}")
-        logger.debug(f"Completed insert INSERT INTO poem_game (session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy): {session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy}")
+        logger.debug(f"Completed insert INSERT INTO poem_game (session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, game_option, location): {session_id, player_persona, match_persona, player_persona_name, match_persona_name, session_state, entropy, game_option, location}")
         connection.commit()
         logger.debug("Insert committed successfully")
         cursor.close()
@@ -53,7 +53,7 @@ def new_game_init_write_to_database(session_id, player_persona, match_persona, p
 
 
 # for conversational use, storing the actual messages 
-def save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy):
+def save_checkpoint_write_to_database(session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy, game_option, location):
     try:
         connection = psycopg2.connect(
             dbname="game",
@@ -64,10 +64,10 @@ def save_checkpoint_write_to_database(session_id, player_persona, match_persona,
             connect_timeout=3,
         )
         cursor = connection.cursor()
-        query = f"INSERT INTO poem_game (session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
-        cursor.execute(query, (session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy))
+        query = f"INSERT INTO poem_game (session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy, game_option, location) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+        cursor.execute(query, (session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy, game_option, location))
         logger.debug(f"Executing write txn: {query} on session: {session_id}")
-        logger.debug(f"Completed insert INSERT INTO poem_game (session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy): {session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy}")
+        logger.debug(f"Completed insert INSERT INTO poem_game (session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy, game_option, location): {session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, player_gametext, match_gametext, session_state, entropy, game_option, location}")
         connection.commit()
         logger.debug("Insert committed successfully")
         cursor.close()
@@ -108,7 +108,7 @@ def read_from_database(session_id):
             connect_timeout=3,
         )
         cursor = connection.cursor()
-        query = f"SELECT session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, session_state, entropy FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1"
+        query = f"SELECT session_id, player_persona, match_persona, player_persona_name, match_persona_name, conversation_data, session_state, entropy, game_option, location FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1"
         logger.debug(f"Executing query: {query} on session: {session_id}")
         cursor.execute(query, (session_id,))
         result = cursor.fetchone()
@@ -123,13 +123,16 @@ def read_from_database(session_id):
                    (None if result is None else result[4]), \
                    (None if result is None else result[5]), \
                    (None if result is None else result[6]), \
-                   (None if result is None else result[7]), 
+                   (None if result is None else result[7]), \
+                   (None if result is None else result[8]), \
+                   (None if result is None else result[9]), 
+
         else:
-            return result[0], result[1], result[2], result[3], result[4], result[5], result[6], result[7]
+            return result[0], result[1], result[2], result[3], result[4], result[5], result[6], result[7], result[8], result[9]
 
     except (Exception, Error) as error:
         logger.error("Error while reading column from PostgreSQL", error)
-        return None, None, None, None, None
+        return None, None, None, None, None, None, None
 
 
 
